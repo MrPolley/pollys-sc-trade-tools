@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-07-28T12:00:00Z",
+  "source": "UEX API 2.0 (commodities_prices_all) — BEISPIEL, noch nicht live erzeugt",
+  "stations": {
+    "Everus Harbor": {
+      "buy": [
+        {"name": "Carbon", "price": 269, "stock": 24000},
+        {"name": "Iron", "price": 2760, "stock": 520},
+        {"name": "Steel", "price": 1376, "stock": 699}
+      ],
+      "sell": [
+        {"name": "Corundum", "price": 4100},
+        {"name": "Aluminum", "price": 3500}
+      ]
+    }
+  }
+}
