@@ -2,7 +2,8 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>Polly's Trade Tools v2.2 — Patch 4.9</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polly's Trade Tools — Übersicht</title>
 <style>
 
   :root{
@@ -14,2396 +15,264 @@
     --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   }
   *{box-sizing:border-box;}
-  body{margin:0; padding:24px; background: radial-gradient(ellipse at top left, #101a1c 0%, var(--bg) 55%), var(--bg); color:var(--text); font-family:var(--sans); min-height:100vh;}
-  .wrap{max-width:1260px;margin:0 auto;}
-
-  .hdr{display:flex; justify-content:space-between; align-items:flex-end; border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:18px; gap:20px; flex-wrap:wrap;}
-  .hdr-title{display:flex; flex-direction:column; gap:4px;}
-  .eyebrow{font-family:var(--mono); font-size:11px; letter-spacing:.18em; color:var(--cyan); text-transform:uppercase;}
-  h1{margin:0; font-size:27px; font-weight:700;}
-  .sub{color:var(--muted); font-size:13px; font-family:var(--mono);}
-
-  .ship-row{display:flex; gap:16px; margin-bottom:16px; flex-wrap:wrap; align-items:flex-end; justify-content:space-between;}
-  .ship-fields{display:flex; gap:16px; flex-wrap:wrap;}
-  .ship-field{display:flex; flex-direction:column; gap:4px;}
-  .ship-field label{font-family:var(--mono); font-size:10.5px; color:var(--muted); letter-spacing:.06em; text-transform:uppercase;}
-  .ship-field input{width:150px; background:var(--panel-alt); border:1px solid var(--line-soft); color:var(--text); font-family:var(--mono); font-size:13px; padding:6px 8px; border-radius:3px;}
-
-  .metric-toggle{display:flex; gap:0; border:1px solid var(--line-soft); border-radius:5px; overflow:hidden;}
-  .metric-toggle button{font-family:var(--mono); font-size:11.5px; padding:8px 14px; background:var(--panel-alt); color:var(--muted); border:none; cursor:pointer;}
-  .metric-toggle button.active{background:var(--amber); color:#1a1204;}
-  .metric-label{font-family:var(--mono); font-size:10.5px; color:var(--muted); letter-spacing:.06em; text-transform:uppercase; margin-bottom:4px;}
-
-  .compare{display:grid; grid-template-columns: 1fr 1fr; gap:14px; margin:18px 0 22px;}
-  @media (max-width:760px){ .compare{grid-template-columns:1fr;} }
-  .compare-card{background:var(--panel); border:1px solid var(--line-soft); border-radius:6px; padding:16px 18px; position:relative; overflow:hidden;}
-  .compare-card.winner{border-color:var(--green);}
-  .compare-card .tag{font-family:var(--mono); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted);}
-  .compare-card h3{margin:2px 0 10px; font-size:16px;}
-  .compare-grid{display:grid; grid-template-columns: 1fr 1fr; gap:8px 16px;}
-  .compare-stat{font-size:12px; color:var(--muted);}
-  .compare-num{font-family:var(--mono); font-size:15px; font-weight:600; color:var(--text);}
-  .compare-num.profit{color:var(--green);}
-  .win-badge{position:absolute; top:14px; right:14px; font-family:var(--mono); font-size:10px; background:var(--green); color:#0c1a10; padding:3px 8px; border-radius:3px; letter-spacing:.06em;}
-  .compare-note{grid-column: 1 / -1; margin-top:0; font-size:12px; color:var(--muted); line-height:1.6; background:var(--panel); border:1px solid var(--line-soft); border-radius:6px; padding:14px 16px;}
-  .compare-note b{color:var(--amber);}
-
-  .tabs{display:flex; gap:8px; margin-bottom:16px;}
-  .tab-btn{font-family:var(--mono); font-size:12.5px; letter-spacing:.04em; padding:9px 16px; background:var(--panel-alt); border:1px solid var(--line-soft); color:var(--muted); border-radius:5px 5px 0 0; cursor:pointer; border-bottom:none;}
-  .tab-btn.active{color:var(--amber); border-color:var(--amber); background:var(--panel);}
-  .tab-panel{display:none;}
-  .tab-panel.active{display:block;}
-
-  .grid{display:grid; grid-template-columns: 1.7fr 1fr; gap:20px;}
-  @media (max-width: 980px){ .grid{grid-template-columns:1fr;} }
-  .panel{background:var(--panel); border:1px solid var(--line-soft); border-radius:6px; padding:18px 18px 20px;}
-  .panel h2{margin:0 0 4px; font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-family:var(--mono); font-weight:600;}
-  .panel-note{font-size:12px; color:var(--muted); margin-bottom:14px; line-height:1.5;}
-
-  /* Commodity cards */
-  .commodity{background:var(--panel-alt); border:1px solid var(--line-soft); border-radius:6px; padding:12px 14px; margin-bottom:12px;}
-  .commodity-head{display:flex; gap:10px; align-items:center; margin-bottom:10px;}
-  .commodity-head input[type=text].name{font-family:var(--sans); font-weight:600; font-size:13.5px; flex:1.4;}
-  .commodity-head label{font-family:var(--mono); font-size:9.5px; color:var(--muted); text-transform:uppercase; display:block; margin-bottom:2px;}
-  .field-group{display:flex; flex-direction:column; flex:1;}
-  input[type=text], input[type=number]{width:100%; background:var(--panel-alt2); border:1px solid var(--line-soft); color:var(--text); font-family:var(--mono); font-size:12.5px; padding:5px 6px; border-radius:3px;}
-  input:focus{outline:1px solid var(--cyan); border-color:var(--cyan);}
-  input[type=number]{text-align:right;}
-  .rm-btn{background:none; border:1px solid var(--line-soft); color:var(--muted); border-radius:3px; width:26px; height:26px; cursor:pointer; font-size:14px; line-height:1; flex:none;}
-  .rm-btn:hover{color:var(--red); border-color:var(--red);}
-
-  table.dest{width:100%; border-collapse:collapse; font-size:12px;}
-  table.dest th{text-align:left; font-family:var(--mono); font-size:9.5px; letter-spacing:.05em; color:var(--muted); text-transform:uppercase; padding:4px 5px; font-weight:500;}
-  table.dest td{padding:3px 5px;}
-  .dest-row{transition:background .15s;}
-  .dest-row.best{background:#1c2e22;}
-  .dest-row.best td:first-child{color:var(--green); font-weight:600;}
-  .dest-star{color:var(--green); margin-right:4px;}
-  .dest-profit{font-family:var(--mono); font-size:11.5px; color:var(--muted); text-align:right; white-space:nowrap;}
-  .dest-profit.best{color:var(--green); font-weight:600;}
-
-  .commodity-add-dest{font-family:var(--mono); font-size:11px; color:var(--cyan); background:none; border:1px dashed var(--line-soft); border-radius:4px; padding:5px 10px; cursor:pointer; margin-top:6px;}
-  .commodity-add-dest:hover{border-color:var(--cyan);}
-
-  .row-actions{display:flex; gap:10px; margin-top:12px;}
-  button.action{font-family:var(--mono); font-size:12px; letter-spacing:.04em; background:var(--panel-alt); color:var(--text); border:1px solid var(--line-soft); padding:8px 14px; border-radius:4px; cursor:pointer;}
-  button.action:hover{border-color:var(--cyan); color:var(--cyan);}
-
-  .stat-line{display:flex; justify-content:space-between; align-items:baseline; padding:9px 0; border-bottom:1px solid #1c2429;}
-  .stat-line:last-of-type{border-bottom:none;}
-  .stat-label{font-size:12.5px; color:var(--muted);}
-  .stat-value{font-family:var(--mono); font-size:15px; font-weight:600;}
-  .stat-value.profit{color:var(--green);}
-  .stat-value.accent{color:var(--cyan);}
-  .manifest-item{display:flex; justify-content:space-between; font-family:var(--mono); font-size:12px; padding:6px 0; border-bottom:1px dashed #1c2429; color:var(--text);}
-  .manifest-item span.dim{color:var(--muted);}
-  .manifest-empty{color:var(--muted); font-size:12.5px; font-style:italic;}
-  .divider{height:1px; background:var(--line-soft); margin:14px 0;}
-  .footer-note{margin-top:18px; font-size:11.5px; color:var(--muted); line-height:1.6; font-family:var(--mono);}
-  .save-status{font-size:11px; color:var(--cyan); font-family:var(--mono); min-height:16px; margin-top:8px;}
-
-  @keyframes flashPulse{
-    0%{ background:#2a3f2c; }
-    100%{ background:transparent; }
+  body{
+    margin:0; padding:24px; min-height:100vh; color:var(--text); font-family:var(--sans);
+    background:
+      repeating-linear-gradient(180deg, rgba(79,216,255,0.025) 0px, rgba(79,216,255,0.025) 1px, transparent 1px, transparent 3px),
+      radial-gradient(ellipse 900px 500px at 12% -5%, rgba(79,216,255,0.14) 0%, transparent 60%),
+      radial-gradient(ellipse 700px 500px at 100% 0%, rgba(79,216,255,0.08) 0%, transparent 55%),
+      radial-gradient(ellipse at top left, #101a1c 0%, var(--bg) 55%), var(--bg);
   }
-  .just-updated{ animation: flashPulse 900ms ease-out; }
-  .panel-refresh-row{display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;}
-  .refresh-btn-small{font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; background:var(--panel-alt); color:var(--amber); border:1px solid var(--amber); padding:6px 12px; border-radius:4px; cursor:pointer;}
-  .refresh-btn-small:hover{background:var(--amber); color:#1a1204;}
-  .updated-stamp{font-family:var(--mono); font-size:11px; color:var(--muted);}
-  .buy-headline{
-    background:var(--panel-alt2); border:1px solid var(--green); border-radius:5px;
-    padding:10px 12px; margin-bottom:12px;
-  }
-  .buy-headline .label{font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted);}
-  .buy-headline .value{font-size:16px; font-weight:700; color:var(--green); margin-top:2px;}
+  .wrap{max-width:1100px; margin:0 auto;}
 
-
-  :root{
-    --bg:#050b18; --panel:#0d1a30; --panel-alt:#112342; --panel-alt2:#173056;
-    --line:#4fd8ffB0; --line-soft:#4fd8ff4a;
-    --text:#dceeff; --muted:#7ea0c4;
-    --amber:#ffb454; --cyan:#4fd8ff; --green:#5be8a8; --red:#ff6b6b;
-    --mono: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace;
-    --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  }
-  *{box-sizing:border-box;}
-  body{margin:0; padding:24px; background: radial-gradient(ellipse at top left, #101a1c 0%, var(--bg) 55%), var(--bg); color:var(--text); font-family:var(--sans); min-height:100vh;}
-  .wrap{max-width:1180px;margin:0 auto;}
-
-  .hdr{display:flex; justify-content:space-between; align-items:flex-end; border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:20px; gap:20px; flex-wrap:wrap;}
-  .eyebrow{font-family:var(--mono); font-size:11px; letter-spacing:.18em; color:var(--cyan); text-transform:uppercase;}
-  h1{margin:0; font-size:27px; font-weight:700;}
-  .sub{color:var(--muted); font-size:13px; font-family:var(--mono);}
-
-  .grid{display:grid; grid-template-columns: 1fr 1.4fr; gap:20px;}
-  @media (max-width: 980px){ .grid{grid-template-columns:1fr;} }
-  .panel{background:var(--panel); border:1px solid var(--line-soft); border-radius:6px; padding:18px 18px 20px;}
-  .panel h2{margin:0 0 4px; font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-family:var(--mono); font-weight:600;}
-  .panel-note{font-size:12px; color:var(--muted); margin-bottom:14px; line-height:1.5;}
-
-  .cargo-row{display:flex; align-items:center; gap:8px; margin-bottom:8px;}
-  .cargo-row select{
-    flex:1.6; background:var(--panel-alt2); border:1px solid var(--line-soft); color:var(--text);
-    font-family:var(--sans); font-size:13px; padding:8px 8px; border-radius:3px;
-  }
-  .cargo-row select:focus{outline:1px solid var(--cyan); border-color:var(--cyan);}
-  .cargo-row .qty-input{
-    width:90px; background:var(--panel-alt2); border:1px solid var(--line-soft); color:var(--text);
-    font-family:var(--mono); font-size:13px; padding:8px 8px; border-radius:3px; text-align:right;
-  }
-  .cargo-row .qty-input:focus{outline:1px solid var(--cyan); border-color:var(--cyan);}
-  .cargo-row .unit{font-family:var(--mono); font-size:11px; color:var(--muted); width:26px;}
-  .cargo-row .rm-row-btn{
-    background:none; border:1px solid var(--line-soft); color:var(--muted);
-    border-radius:3px; width:30px; height:32px; cursor:pointer; font-size:15px; line-height:1; flex:none;
-  }
-  .cargo-row .rm-row-btn:hover{color:var(--red); border-color:var(--red);}
-  .price-hint{font-family:var(--mono); font-size:10.5px; color:var(--muted); margin-top:-4px; margin-bottom:10px; padding-left:2px;}
-
-  .row-actions{display:flex; gap:10px; margin-top:6px;}
-  button.action{font-family:var(--mono); font-size:12px; letter-spacing:.04em; background:var(--panel-alt); color:var(--text); border:1px solid var(--line-soft); padding:8px 14px; border-radius:4px; cursor:pointer;}
-  button.action:hover{border-color:var(--cyan); color:var(--cyan);}
-  button.action.primary{border-color:var(--amber); color:var(--amber);}
-  button.action.primary:hover{background:var(--amber); color:#1a1204;}
-
-  table{width:100%; border-collapse:collapse; font-size:13px;}
-  th{text-align:left; font-family:var(--mono); font-size:10.5px; letter-spacing:.06em; color:var(--muted); text-transform:uppercase; padding:6px 6px; border-bottom:1px solid var(--line-soft); font-weight:500;}
-  td{padding:6px 6px; border-bottom:1px solid #1c2429;}
-  tr:last-child td{border-bottom:none;}
-  td.num{text-align:right; font-family:var(--mono);}
-
-  .strategy-card{background:var(--panel-alt); border:1px solid var(--line-soft); border-radius:6px; padding:14px 16px; margin-bottom:14px;}
-  .strategy-card.best{border-color:var(--green);}
-  .strategy-head{display:flex; justify-content:space-between; align-items:baseline; margin-bottom:8px;}
-  .strategy-title{font-family:var(--mono); font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--text); font-weight:600;}
-  .strategy-title.best{color:var(--green);}
-  .strategy-total{font-family:var(--mono); font-size:17px; font-weight:700; color:var(--green);}
-  .strategy-sub{font-size:12.5px; color:var(--muted); margin-bottom:8px; line-height:1.5;}
-  .chip-row{display:flex; gap:6px; flex-wrap:wrap; margin-bottom:8px;}
-  .chip{font-family:var(--mono); font-size:11px; background:var(--panel-alt2); border:1px solid var(--line-soft); border-radius:3px; padding:3px 8px;}
-  .chip.uncovered{color:var(--red); border-color:#5a2f29;}
-  .chip.covered{color:var(--green); border-color:#2a4a30;}
-
-  .discrepancy{background:var(--panel-alt); border:1px solid var(--amber); border-radius:6px; padding:16px 18px; margin-top:6px;}
-  .discrepancy h3{margin:0 0 10px; font-size:13px; color:var(--amber); font-family:var(--mono); letter-spacing:.06em; text-transform:uppercase;}
-  .diff-line{display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px dashed #1c2429; font-size:13px;}
-  .diff-line:last-child{border-bottom:none;}
-  .diff-value{font-family:var(--mono); font-weight:600;}
-  .diff-value.loss{color:var(--red);}
-  .diff-value.gain{color:var(--green);}
-
-  .manifest-empty{color:var(--muted); font-size:12.5px; font-style:italic;}
-  .footer-note{margin-top:18px; font-size:11.5px; color:var(--muted); line-height:1.6; font-family:var(--mono);}
-
-
-  :root{
-    --bg:#050b18; --panel:#0d1a30; --panel-alt:#112342; --panel-alt2:#173056;
-    --line:#4fd8ffB0; --line-soft:#4fd8ff4a;
-    --text:#dceeff; --muted:#7ea0c4;
-    --amber:#ffb454; --cyan:#4fd8ff; --green:#5be8a8; --red:#ff6b6b;
-    --mono: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace;
-    --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  }
-  *{box-sizing:border-box;}
-  body{margin:0; padding:24px; background: radial-gradient(ellipse at top left, #101a1c 0%, var(--bg) 55%), var(--bg); color:var(--text); font-family:var(--sans); min-height:100vh;}
-  .wrap{max-width:1260px;margin:0 auto;}
-
-  .hdr{display:flex; justify-content:space-between; align-items:flex-end; border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:18px; gap:20px; flex-wrap:wrap;}
-  .eyebrow{font-family:var(--mono); font-size:11px; letter-spacing:.18em; color:var(--cyan); text-transform:uppercase;}
-  h1{margin:0; font-size:27px; font-weight:700;}
-  .sub{color:var(--muted); font-size:13px; font-family:var(--mono);}
-
-  .controls{display:flex; gap:16px; flex-wrap:wrap; align-items:flex-end; margin-bottom:16px;}
-  .field{display:flex; flex-direction:column; gap:4px;}
-  .field label{font-family:var(--mono); font-size:10.5px; color:var(--muted); letter-spacing:.06em; text-transform:uppercase;}
-  .field select{
-    background:var(--panel-alt); border:1px solid var(--line-soft); color:var(--text);
-    font-family:var(--sans); font-size:13.5px; padding:9px 10px; border-radius:4px; min-width:220px;
-  }
-  button.primary-btn{
-    font-family:var(--mono); font-size:13px; letter-spacing:.05em; background:var(--amber); color:#1a1204;
-    border:none; padding:11px 20px; border-radius:4px; cursor:pointer; font-weight:600;
-  }
-  button.primary-btn:hover{ filter:brightness(1.08); }
-
-  .panel{background:var(--panel); border:1px solid var(--line-soft); border-radius:6px; padding:18px 18px 20px; margin-bottom:18px;}
-  .panel h2{margin:0 0 4px; font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-family:var(--mono); font-weight:600;}
-  .panel-note{font-size:12.5px; color:var(--muted); margin-bottom:12px; line-height:1.6;}
-  .panel-note b{color:var(--amber);}
-
-  .route-card{background:var(--panel-alt); border:1px solid var(--line-soft); border-radius:6px; padding:16px 18px; margin-bottom:16px;}
-  .route-card.best{border-color:var(--green);}
-  .route-head{display:flex; justify-content:space-between; align-items:baseline; margin-bottom:10px; flex-wrap:wrap; gap:8px;}
-  .route-title{font-family:var(--mono); font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--text); font-weight:600;}
-  .route-title.best{color:var(--green);}
-  .route-total{font-family:var(--mono); font-size:19px; font-weight:700; color:var(--green);}
-  .route-stats{display:flex; gap:18px; flex-wrap:wrap; font-size:12px; color:var(--muted); margin-bottom:12px; font-family:var(--mono);}
-  .route-stats b{color:var(--text);}
-
-  .leg{display:flex; align-items:flex-start; gap:10px; padding:8px 0; border-bottom:1px dashed #1c2429;}
-  .leg:last-child{border-bottom:none;}
-  .leg-num{font-family:var(--mono); font-size:10.5px; color:var(--muted); width:18px; padding-top:2px;}
-  .leg-body{flex:1;}
-  .leg-route{font-size:13px; margin-bottom:2px;}
-  .leg-route b{color:var(--cyan);}
-  .leg-meta{font-family:var(--mono); font-size:11px; color:var(--muted);}
-  .leg-cargo{font-size:12px; margin-top:3px;}
-  .leg-cargo span.item{display:inline-block; background:var(--panel-alt2); border:1px solid var(--line-soft); border-radius:3px; padding:2px 7px; margin:2px 4px 0 0;}
-  .leg-profit{font-family:var(--mono); font-size:12.5px; color:var(--green); font-weight:600; white-space:nowrap; padding-top:2px;}
-  .leg-fallback{color:var(--amber); font-size:11px; margin-top:2px;}
-
-  .compare-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px;}
-  @media (max-width:760px){ .compare-grid{grid-template-columns:1fr;} }
-  .compare-card{background:var(--panel-alt); border:1px solid var(--line-soft); border-radius:6px; padding:16px 18px;}
-  .compare-card.winner{border-color:var(--green);}
-  .compare-card .tag{font-family:var(--mono); font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted);}
-  .compare-card h3{margin:2px 0 10px; font-size:16px;}
-  .compare-stat-line{display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid #1c2429; font-size:13px;}
-  .compare-stat-line:last-child{border-bottom:none;}
-  .compare-val{font-family:var(--mono); font-weight:600;}
-  .compare-val.profit{color:var(--green);}
-  .win-badge{display:inline-block; font-family:var(--mono); font-size:9.5px; background:var(--green); color:#0c1a10; padding:2px 7px; border-radius:3px; margin-left:8px; letter-spacing:.05em; vertical-align:middle;}
-
-  .manifest-empty{color:var(--muted); font-size:12.5px; font-style:italic;}
-  .footer-note{margin-top:8px; font-size:11.5px; color:var(--muted); line-height:1.6; font-family:var(--mono);}
-  .excluded-chip{font-family:var(--mono); font-size:11px; background:var(--panel-alt2); border:1px solid #5a2f29; color:var(--red); border-radius:3px; padding:3px 8px; margin:2px 4px 0 0; display:inline-block;}
-
-
-  .site-nav{
-    display:flex; gap:4px; margin-bottom:22px; border-bottom:1px solid var(--line);
-    padding-bottom:0;
-  }
-  .site-nav button{
-    font-family:var(--mono); font-size:13px; letter-spacing:.05em; padding:12px 20px;
-    background:transparent; border:none; border-bottom:2px solid transparent;
-    color:var(--muted); cursor:pointer; text-transform:uppercase;
-  }
-  .site-nav button.active{ color:var(--amber); border-bottom-color:var(--amber); }
-  .site-nav button:hover:not(.active){ color:var(--text); }
-  .page{ display:none; }
-  .page.active{ display:block; }
-  .site-hdr{ max-width:1260px; margin:0 auto; padding:0 0 4px; display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:10px; }
+  .site-hdr{ display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:10px; margin-bottom:26px; }
   .site-eyebrow{font-family:var(--mono); font-size:11px; letter-spacing:.2em; color:var(--cyan); text-transform:uppercase; margin-bottom:4px;}
-  .site-title{font-size:22px; font-weight:700; margin:0 0 18px;}
-  .patch-badge{font-family:var(--mono); font-size:11px; color:var(--amber); border:1px solid var(--amber); border-radius:4px; padding:4px 10px; letter-spacing:.05em; margin-bottom:18px;}
+  .site-title{font-size:26px; font-weight:700; margin:0;}
+  .site-title span{font-size:14px; color:var(--muted); font-weight:400;}
+  .patch-badge{font-family:var(--mono); font-size:11px; color:var(--amber); border:1px solid var(--amber); border-radius:4px; padding:4px 10px; letter-spacing:.05em;}
 
+  .status-row{display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; margin-bottom:16px;}
+  @media (max-width:760px){ .status-row{grid-template-columns:1fr;} }
+  .stat-tile{background:var(--panel); border:1px solid var(--line-soft); border-radius:6px; padding:14px 16px;}
+  .stat-tile .label{font-family:var(--mono); font-size:10.5px; color:var(--muted); letter-spacing:.08em; text-transform:uppercase; margin-bottom:6px;}
+  .stat-tile .value{font-family:var(--mono); font-size:15px; font-weight:600;}
+  .stat-tile .sub{font-family:var(--mono); font-size:11px; color:var(--muted); margin-top:2px;}
 
-/* ===== Polly's Trade Tools — MobiGlas HUD skin ===== */
-body{
-  background:
-    repeating-linear-gradient(180deg, rgba(79,216,255,0.025) 0px, rgba(79,216,255,0.025) 1px, transparent 1px, transparent 3px),
-    radial-gradient(ellipse 900px 500px at 12% -5%, rgba(79,216,255,0.14) 0%, transparent 60%),
-    radial-gradient(ellipse 700px 500px at 100% 0%, rgba(79,216,255,0.08) 0%, transparent 55%),
-    var(--bg) !important;
-}
-h1, .site-title{
-  text-shadow: 0 0 14px rgba(79,216,255,0.45);
-  letter-spacing:.02em;
-}
-.panel h2, .site-eyebrow, .eyebrow{
-  text-shadow: 0 0 8px rgba(79,216,255,0.35);
-}
-.panel{
-  clip-path: polygon(0 12px, 12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%);
-  border-radius:0 !important;
-  border-color: var(--line-soft) !important;
-  box-shadow: 0 0 0 1px rgba(79,216,255,0.04), inset 0 0 40px rgba(79,216,255,0.02);
-  position:relative;
-}
-.panel::before{
-  content:'';
-  position:absolute; top:0; left:0; width:26px; height:2px; background:var(--cyan);
-  box-shadow:0 0 8px var(--cyan);
-}
-.route-card, .compare-card, .strategy-card, .commodity, .buy-headline, .discrepancy{
-  clip-path: polygon(0 8px, 8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%);
-  border-radius:0 !important;
-}
-.route-card.best, .compare-card.winner{
-  box-shadow: 0 0 16px rgba(91,232,168,0.15);
-}
-.route-total, .strategy-total, .compare-val.profit, .buy-headline .value{
-  text-shadow: 0 0 10px rgba(91,232,168,0.4);
-}
-.site-nav button.active{
-  text-shadow: 0 0 10px rgba(255,180,84,0.5);
-}
-.tab-btn.active{
-  text-shadow: 0 0 10px rgba(255,180,84,0.5);
-}
-button.primary-btn, button.action.primary{
-  box-shadow: 0 0 12px rgba(255,180,84,0.25);
-}
-input[type=text], input[type=number], select, .mat-qty, .qty-input, .cargo-row select{
-  clip-path: polygon(0 4px, 4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%);
-}
+  .update-panel{background:var(--panel); border:1px solid var(--line-soft); border-radius:6px; padding:16px 18px; margin-bottom:30px; display:flex; flex-wrap:wrap; align-items:center; gap:14px; justify-content:space-between;}
+  .update-panel .desc{font-size:12.5px; color:var(--muted); max-width:520px; line-height:1.5;}
+  .btn{font-family:var(--mono); font-size:12.5px; letter-spacing:.04em; padding:10px 18px; background:var(--panel-alt); border:1px solid var(--amber); color:var(--amber); border-radius:5px; cursor:pointer; white-space:nowrap;}
+  .btn:hover{background:var(--amber); color:#1a1204;}
+  .btn.secondary{border-color:var(--line-soft); color:var(--muted);}
+  .btn.secondary:hover{background:var(--panel-alt2); color:var(--text);}
+  .btn:disabled{opacity:.5; cursor:wait;}
+  .update-actions{display:flex; flex-direction:column; align-items:flex-end; gap:6px;}
+  .update-status{font-family:var(--mono); font-size:11px; color:var(--muted); text-align:right; max-width:320px;}
+  .update-status.err{color:var(--red);}
+  .update-status.ok{color:var(--green);}
+  .token-form{display:none; flex-direction:column; gap:8px; margin-top:10px; padding-top:10px; border-top:1px solid var(--line-soft); width:100%;}
+  .token-form.open{display:flex;}
+  .token-form input{background:var(--panel-alt); border:1px solid var(--line-soft); color:var(--text); font-family:var(--mono); font-size:12.5px; padding:8px 10px; border-radius:4px; width:100%; max-width:420px;}
+  .token-form .hint{font-size:11px; color:var(--muted); line-height:1.5; max-width:480px;}
+  .token-form .row{display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
+  .token-link{font-family:var(--mono); font-size:10.5px; color:var(--muted); text-decoration:underline; cursor:pointer; background:none; border:none; padding:0;}
+
+  .cards{display:grid; grid-template-columns:repeat(3, 1fr); gap:16px;}
+  @media (max-width:900px){ .cards{grid-template-columns:1fr;} }
+  .card{background:var(--panel); border:1px solid var(--line-soft); border-radius:6px; padding:18px 20px; display:flex; flex-direction:column; gap:10px;}
+  .card .eyebrow{font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; color:var(--cyan); text-transform:uppercase;}
+  .card h2{margin:0; font-size:18px;}
+  .card p{margin:0; color:var(--muted); font-size:13px; line-height:1.6; flex:1;}
+  .card a.btn{text-align:center; text-decoration:none; margin-top:4px;}
+
+  .footer-note{margin-top:28px; font-size:11.5px; color:var(--muted); line-height:1.6; font-family:var(--mono);}
 ::selection{ background: rgba(79,216,255,0.35); }
-
 </style>
 </head>
 <body>
+<div class="wrap">
 
   <div class="site-hdr">
     <div>
       <div class="site-eyebrow">Star Citizen · Handelswerkzeuge</div>
-      <h1 class="site-title">Polly's Trade Tools <span style="font-size:14px; color:var(--muted); font-weight:400;">v2.2</span></h1>
+      <h1 class="site-title">Polly's Trade Tools <span>Übersicht</span></h1>
     </div>
     <div class="patch-badge">Patch 4.9 LIVE</div>
   </div>
-  <div class="site-nav" style="max-width:1260px; margin:0 auto 22px;">
-    <button class="active" data-page="buy">Single-Transport</button>
-    <button data-page="sell">Recycle</button>
-    <button data-page="route">Routen-Rechner</button>
+
+  <div class="status-row">
+    <div class="stat-tile">
+      <div class="label">Letzter Datenabruf</div>
+      <div class="value" id="lastPull">wird geladen …</div>
+      <div class="sub" id="lastPullRel"></div>
+    </div>
+    <div class="stat-tile">
+      <div class="label">Nächster Datenabruf</div>
+      <div class="value" id="nextPull">—</div>
+      <div class="sub" id="nextPullRel"></div>
+    </div>
+    <div class="stat-tile">
+      <div class="label">Letzter Build</div>
+      <div class="value" id="lastBuild">wird geladen …</div>
+      <div class="sub" id="lastBuildSha"></div>
+    </div>
   </div>
 
-<div id="page-buy" class="page active">
-<div class="wrap">
+  <div class="update-panel">
+    <div class="desc">Löst den GitHub-Actions-Workflow „Update UEX Prices“ manuell aus, statt auf den nächsten 6-Stunden-Takt zu warten. Der neue Preisstand ist danach nach ca. 1–2 Minuten hier verfügbar.</div>
+    <div class="update-actions">
+      <div style="display:flex; gap:8px;">
+        <button class="btn" id="triggerBtn">↻ API-Update jetzt auslösen</button>
+        <a class="btn secondary" href="https://github.com/MrPolley/pollys-sc-trade-tools/actions/workflows/update-prices.yml" target="_blank" rel="noopener">Actions öffnen</a>
+      </div>
+      <div class="update-status" id="triggerStatus"></div>
+    </div>
+    <div class="token-form" id="tokenForm">
+      <div class="hint">
+        Zum Auslösen braucht es ein GitHub-Token mit Schreibrechten für Actions in diesem Repo — am sichersten ein
+        <b>Fine-grained Personal Access Token</b>, beschränkt auf <code>MrPolley/pollys-sc-trade-tools</code>, Berechtigung „Actions: Read and write“.
+        Das Token wird ausschließlich lokal in diesem Browser (localStorage) gespeichert und nur an <code>api.github.com</code> gesendet — nie sonst wohin.
+      </div>
+      <div class="row">
+        <input type="password" id="tokenInput" placeholder="github_pat_… oder ghp_…" autocomplete="off">
+        <button class="btn" id="tokenSaveBtn">Speichern &amp; auslösen</button>
+      </div>
+    </div>
+    <button class="token-link" id="tokenClearBtn" style="display:none; margin-top:8px;">Gespeichertes Token entfernen</button>
+  </div>
 
-  <div class="hdr">
-    <div class="hdr-title">
+  <div class="cards">
+    <div class="card">
       <div class="eyebrow">Zwei Routenprofile · ein Schiff</div>
-      <h1>Single-Transport</h1>
-      <div class="sub">Levski/Nyx vs. Stanton-intern — automatische Bestpreis-Zielwahl je Ware</div>
+      <h2>Single-Transport</h2>
+      <p>Levski/Nyx vs. Stanton-intern — trägt Schiff, Kapazität und Standort ein und wählt automatisch das bessere Ziel je Ware, nach Gewinn oder Gewinn/Minute.</p>
+      <a class="btn" href="./tools.html#buy">Öffnen →</a>
     </div>
-  </div>
-
-  <div class="ship-row">
-    <div class="ship-fields">
-      <div class="ship-field"><label>Schiff</label><input type="text" id="shipName" value="C2 Hercules Starlifter"></div>
-      <div class="ship-field"><label>Laderaum (SCU)</label><input type="number" id="shipCapacity" value="696"></div>
-      <div class="ship-field"><label>Aktueller Standort</label><input type="text" id="currentLocation" list="knownLocations" placeholder="Wählen oder tippen ..." value=""><datalist id="knownLocations"></datalist></div>
-    </div>
-    <div style="display:flex; gap:18px; align-items:flex-end;">
-      <div>
-        <div class="metric-label">Bestes Ziel wählen nach</div>
-        <div class="metric-toggle">
-          <button data-metric="profit" class="active">Gewinn</button>
-          <button data-metric="perMin">Gewinn/Minute</button>
-        </div>
-      </div>
-      <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
-        <button class="action" id="refreshBtn" style="border-color:var(--amber); color:var(--amber);">↻ Aktualisieren</button>
-        <div class="save-status" id="refreshStamp"></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="panel" id="locationSuggestion" style="border-color:var(--amber); margin-bottom:20px;"></div>
-
-  <div class="compare" id="compareOut"></div>
-
-  <div class="tabs">
-    <button class="tab-btn active" data-tab="nyx">Levski · Nyx</button>
-    <button class="tab-btn" data-tab="stanton">Stanton · Intern</button>
-  </div>
-
-  <div class="tab-panel active" id="panel-nyx">
-    <div class="grid">
-      <div class="panel">
-        <h2>Warenmanifest — Kauf in Levski</h2>
-        <div class="panel-note">Jede Ware kann mehrere Verkaufsziele haben — die Konsole markiert automatisch das beste (★, grün) nach dem Kriterium oben. Erfordert Wurmloch-Transit (nicht im Anflug-Feld enthalten).</div>
-        <div class="ship-fields" style="margin-bottom:12px;">
-          <div class="ship-field"><label>Einkaufsort</label><input type="text" id="buyHub-nyx" value="Levski"></div>
-          <div class="ship-field"><label>Anflug ab Standort (min)</label><input type="number" step="0.1" id="approachEta-nyx" value="0"></div>
-        </div>
-        <div id="commodities-nyx"></div>
-        <div class="row-actions">
-          <button class="action" data-add="nyx">+ Ware hinzufügen</button>
-          <button class="action" data-reset="nyx">Standardwerte laden</button>
-        </div>
-        <div class="save-status" id="saveStatus-nyx"></div>
-      </div>
-      <div class="panel" id="resultPanel-nyx">
-        <div class="panel-refresh-row">
-          <h2 style="margin:0;">Optimale Ladung</h2>
-          <div style="display:flex; align-items:center; gap:10px;">
-            <span class="updated-stamp" id="updatedStamp-nyx">—</span>
-            <button class="refresh-btn-small" data-refresh-group="nyx">↻ Aktualisieren</button>
-          </div>
-        </div>
-        <div class="commodity" id="routeOut-nyx" style="margin-bottom:14px;"></div>
-        <div id="manifestOut-nyx"></div>
-        <div class="divider"></div>
-        <div class="stat-line"><span class="stat-label">Investition</span><span class="stat-value" id="statInvest-nyx">—</span></div>
-        <div class="stat-line"><span class="stat-label">Erlös</span><span class="stat-value" id="statRevenue-nyx">—</span></div>
-        <div class="stat-line"><span class="stat-label">Gewinn</span><span class="stat-value profit" id="statProfit-nyx">—</span></div>
-        <div class="stat-line"><span class="stat-label">ROI</span><span class="stat-value accent" id="statRoi-nyx">—</span></div>
-        <div class="stat-line"><span class="stat-label">Ø Profit / Minute</span><span class="stat-value profit" id="statPerMin-nyx">—</span></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="tab-panel" id="panel-stanton">
-    <div class="grid">
-      <div class="panel">
-        <h2>Warenmanifest — Kauf innerhalb Stanton</h2>
-        <div class="panel-note">Nur Stanton-interne Ziele eintragen (ArcCorp, Hurston, Crusader, microTech) — keine Gateways nach Pyro/Nyx.</div>
-        <div class="ship-fields" style="margin-bottom:12px;">
-          <div class="ship-field"><label>Einkaufsort</label><input type="text" id="buyHub-stanton" value="ArcCorp 045"></div>
-          <div class="ship-field"><label>Anflug ab Standort (min)</label><input type="number" step="0.1" id="approachEta-stanton" value="0"></div>
-        </div>
-        <div id="commodities-stanton"></div>
-        <div class="row-actions">
-          <button class="action" data-add="stanton">+ Ware hinzufügen</button>
-          <button class="action" data-reset="stanton">Standardwerte laden</button>
-        </div>
-        <div class="save-status" id="saveStatus-stanton"></div>
-      </div>
-      <div class="panel" id="resultPanel-stanton">
-        <div class="panel-refresh-row">
-          <h2 style="margin:0;">Optimale Ladung</h2>
-          <div style="display:flex; align-items:center; gap:10px;">
-            <span class="updated-stamp" id="updatedStamp-stanton">—</span>
-            <button class="refresh-btn-small" data-refresh-group="stanton">↻ Aktualisieren</button>
-          </div>
-        </div>
-        <div class="commodity" id="routeOut-stanton" style="margin-bottom:14px;"></div>
-        <div id="manifestOut-stanton"></div>
-        <div class="divider"></div>
-        <div class="stat-line"><span class="stat-label">Investition</span><span class="stat-value" id="statInvest-stanton">—</span></div>
-        <div class="stat-line"><span class="stat-label">Erlös</span><span class="stat-value" id="statRevenue-stanton">—</span></div>
-        <div class="stat-line"><span class="stat-label">Gewinn</span><span class="stat-value profit" id="statProfit-stanton">—</span></div>
-        <div class="stat-line"><span class="stat-label">ROI</span><span class="stat-value accent" id="statRoi-stanton">—</span></div>
-        <div class="stat-line"><span class="stat-label">Ø Profit / Minute</span><span class="stat-value profit" id="statPerMin-stanton">—</span></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer-note" id="footerNote"></div>
-</div>
-</div>
-
-<div id="page-sell" class="page">
-<div class="wrap">
-
-  <div class="hdr">
-    <div>
+    <div class="card">
       <div class="eyebrow">Fracht bereits an Bord</div>
-      <h1>Recycle</h1>
-      <div class="sub">Bestpreis-Finder &amp; Konsolidierungs-Vergleich für deine aktuelle Ladung</div>
+      <h2>Recycle</h2>
+      <p>Bestpreis-Finder und Konsolidierungs-Vergleich für eine bereits geladene Fracht — einzeln verkaufen an mehreren Orten vs. alles an einem oder zwei Orten loswerden.</p>
+      <a class="btn" href="./tools.html#sell">Öffnen →</a>
     </div>
-  </div>
-
-  <div class="grid">
-    <div class="panel">
-      <h2>Deine Ladung</h2>
-      <div class="panel-note">Pro Zeile eine Ware auswählen und Menge eintragen. Beliebig viele Zeilen hinzufügen — du musst nie die komplette Liste auf einmal sehen.</div>
-      <div id="cargoRows"></div>
-      <div class="row-actions">
-        <button class="action primary" id="addRowBtn">+ Zeile hinzufügen</button>
-        <button class="action" id="clearBtn">Alles leeren</button>
-      </div>
-    </div>
-
-    <div class="panel">
-      <h2>Bestpreis pro Ware</h2>
-      <div class="panel-note">Höchster bekannter Verkaufspreis je Ware, unabhängig vom Zielort.</div>
-      <table id="bestPriceTable">
-        <thead><tr><th>Ware</th><th>Bester Ort</th><th style="text-align:right;">Preis</th><th style="text-align:right;">Menge</th><th style="text-align:right;">Erlös</th></tr></thead>
-        <tbody id="bestPriceBody"></tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="panel" style="margin-top:20px;">
-    <h2>Verkaufsstrategien im Vergleich</h2>
-    <div class="panel-note">Drei Varianten: jede Ware einzeln beim besten Preis verkaufen (viele Stopps) vs. alles an einem oder zwei Orten loswerden (weniger Stopps, meist weniger Geld).</div>
-    <div id="strategiesOut"></div>
-    <div id="discrepancyOut"></div>
-  </div>
-
-  <div class="panel" style="margin-top:20px;">
-    <h2>Berücksichtigte Verkaufsstationen</h2>
-    <div class="panel-note">Diese Stationen fließen in den Vergleich ein (aus den hinterlegten Verkaufszielen aller 53 Waren). Andere Stationen wurden nicht geprüft und fehlen entsprechend in der Analyse.</div>
-    <div id="allStationsOut" class="chip-row"></div>
-  </div>
-
-  <div class="footer-note" id="footerNote-sell"></div>
-</div>
-</div>
-
-<div id="page-route" class="page">
-<div class="wrap">
-
-  <div class="hdr">
-    <div>
+    <div class="card">
       <div class="eyebrow">Stanton · Patch 4.9</div>
-      <h1>Routen-Rechner</h1>
-      <div class="sub">Geschlossene Rundreise über verifizierte Lift-Stationen, Fracht bei jedem Stopp getauscht</div>
+      <h2>Routen-Rechner</h2>
+      <p>Geschlossene Rundreise über verifizierte Lift-Stationen, bei der die Fracht bei jedem Stopp getauscht wird — inklusive Alternativroute zum Vergleich.</p>
+      <a class="btn" href="./tools.html#route">Öffnen →</a>
     </div>
   </div>
 
-  <div class="panel">
-    <h2>Nur Stationen mit Frachtaufzug</h2>
-    <div class="panel-note">
-      Berücksichtigt werden ausschließlich Stationen mit großem Landeteller <b>und</b> Frachtaufzug (kein Boden-Outpost, kein Shuttle-only-Pad). Von 10 geprüften Kandidaten bilden <b>9</b> ein zusammenhängendes Handelsnetz: Everus Harbor, ARC-L1, ARC-L2, ARC-L3, CRU-L1, CRU-L4, MIC-L1, Seraphim und Baijini Point. <b>Port Tressler</b> und <b>CRU-L5</b> bleiben ausgeschlossen — Sackgassen, an denen du leer weiterfliegen müsstest.
-      <div style="margin-top:8px;">
-        <span class="excluded-chip">Port Tressler — Sackgasse</span>
-        <span class="excluded-chip">CRU-L5 — Sackgasse</span>
-      </div>
-      <div style="margin-top:8px;">Hinweis: <b>Baijini Point</b> hat nach aktueller Datenlage nur einen einzigen validen Zugang — von Seraphim aus. Der Rechner berücksichtigt das automatisch bei der Routensuche.</div>
-      <div style="margin-top:8px;">Beladezeit: Es gibt <b>keine offizielle Kennzahl</b> für SCU/Minute — Auto-Load, Traktorstrahl-Crew-Größe und Serverlast schwanken stark. Die Schätzung unten ist editierbar, passe sie an deine echte Erfahrung an.</div>
-    </div>
+  <div class="footer-note">
+    Preisdaten stammen aus der UEX API 2.0 und werden per GitHub Actions alle 6 Stunden aktualisiert (00:00 / 06:00 / 12:00 / 18:00 UTC).
+    Die Werkzeuge selbst laufen vollständig im Browser — es werden keine Eingaben an einen Server übertragen.
   </div>
-
-  <div class="controls">
-    <div class="field">
-      <label>Startpunkt</label>
-      <select id="startSelect"></select>
-    </div>
-    <div class="field">
-      <label>Schiff</label>
-      <select id="shipSelect">
-        <option value="c2">C2 Hercules Starlifter — 696 SCU</option>
-        <option value="ironclad">Ironclad — 2.204 SCU</option>
-      </select>
-    </div>
-    <div class="field">
-      <label>Ladegeschwindigkeit (SCU/Min, geschätzt)</label>
-      <select id="loadRateSelect">
-        <option value="20">20 — solo, manueller Traktorstrahl</option>
-        <option value="40" selected>40 — solo, Auto-Load (Richtwert)</option>
-        <option value="70">70 — mit 1-2 Crewmitgliedern</option>
-        <option value="120">120 — volle Crew / sehr geübt</option>
-      </select>
-    </div>
-    <button class="primary-btn" id="calcBtn">Route berechnen</button>
-  </div>
-
-  <div class="panel" style="border-color:var(--amber);">
-    <div class="panel-note" style="margin-bottom:0;">
-      <b>Wichtig:</b> Diese Konsole hat keine Live-Verbindung zu UEX oder einer anderen Datenquelle. Preise sind ein Snapshot vom <b>23. Juli 2026</b> und veralten mit der Zeit. Statt vorab zehn Werte pro Station einzutragen, nutz den <b>Reise-Modus</b> unten: er fragt dich immer nur die eine Zahl, die wirklich zählt — wie viel tatsächlich verfügbar ist —, während du die Route abfliegst.
-    </div>
-  </div>
-
-  <div id="resultsOut"></div>
-  <div id="journeyOut"></div>
 
 </div>
-</div>
-
 
 <script>
-(function(){
+const REPO = 'MrPolley/pollys-sc-trade-tools';
+const TOKEN_KEY = 'ptt_gh_pat';
 
-const GROUPS = ['nyx','stanton'];
-const STORAGE_KEY_ROWS = { nyx:'cargo_console_rows_nyx_v12', stanton:'cargo_console_rows_stanton_v11' };
-const STORAGE_KEY_SHIP = 'cargo_console_ship_v3';
-const STORAGE_KEY_METRIC = 'cargo_console_metric_v3';
-const STORAGE_KEY_LOCATION = 'cargo_console_location_v4';
-const STORAGE_KEY_META = { nyx:'cargo_console_meta_nyx_v4', stanton:'cargo_console_meta_stanton_v4' };
-const STORAGE_KEY_REFRESH = 'cargo_console_refresh_v4';
+function fmt(d){
+  return d.toLocaleString('de-DE', {day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit'});
+}
+function relative(d){
+  const mins = Math.round((d - new Date())/60000);
+  const abs = Math.abs(mins);
+  const h = Math.floor(abs/60), m = abs%60;
+  const span = h>0 ? `${h}h ${m}m` : `${m}m`;
+  if(mins === 0) return 'gerade eben';
+  return mins > 0 ? `in ${span}` : `vor ${span}`;
+}
+function nextRun(){
+  const now = new Date();
+  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), Math.floor(now.getUTCHours()/6)*6+6, 0, 0));
+}
 
-function d(name, sell, dist, eta){ return {id:uid(), name, sell, dist, eta}; }
+(async function loadPullStatus(){
+  const nextEl = document.getElementById('nextPull');
+  const nextRelEl = document.getElementById('nextPullRel');
+  function renderNext(){
+    const next = nextRun();
+    nextEl.textContent = fmt(next);
+    nextRelEl.textContent = relative(next);
+  }
+  renderNext();
+  setInterval(renderNext, 60000);
 
-const DEFAULTS = {
-  nyx: [
-    {name:'Agricium', buy:8379, stock:257, origin:'Levski', destinations:[
-      d('ARC-L4', 12000, 107, 7.62),
-      d('ARC-L3', 11000, 56, 3.98),
-      d("Rod's Fuel", 11000, 113, 8.05),
-      d('Stanton Gateway (Nyx)', 10000, 13, 0.8),
-      d('TDD New Babbage', 10000, 101, 7.35),
-    ]},
-    {name:'Konstruktionsmaterial', buy:8640, stock:87, origin:'Levski', destinations:[
-      d('ARC-L3', 13000, 56, 3.98),
-      d('Port Tressler', 13000, 101, 7.2),
-      d('Everus Harbor', 13000, 94, 6.7),
-      d('HUR-L3', 13000, 71, 5.05),
-      d('TDD New Babbage', 12000, 101, 7.35),
-    ]},
-    {name:'Beryl', buy:15390, stock:0, origin:'Levski', destinations:[
-      d('HUR-L4', 22000, 85, 6.18),
-      d('HUR-L1', 22000, 93, 6.77),
-      d('Endgame', 21000, 120, 8.73),
-      d("Rod's Fuel", 21000, 113, 8.22),
-      d('TDD New Babbage', 20000, 101, 7.35),
-    ]},
-    {name:'Eisen', buy:2349, stock:934, origin:'Levski', destinations:[
-      d('Gaslight', 3800, 65, 4.73),
-      d('Nyx Gateway (Stanton)', 3500, 13, 0.5),
-      d('Dudley & Daughters', 3600, 60, 4.37),
-      d('Megumi', 3600, 121, 8.8),
-      d('TDD New Babbage', 3400, 101, 7.35),
-    ]},
-    {name:'Corundum', buy:2822, stock:1, origin:'Levski', destinations:[
-      d('Everus Harbor', 4100, 94, 6.83),
-      d('TDD New Babbage', 3700, 101, 7.35),
-    ]}
-  ],
-  stanton: [
-    {name:'Laranite', buy:7400, stock:1050, origin:'ArcCorp 045', destinations:[
-      d('Ruin Station', 8700, 99, 7.2),
-      d('Endgame (Distanz prüfen)', 8700, 116, 8.27),
-    ]},
-    {name:'Waste', buy:196, stock:74000, origin:"Rod's Fuel 'N Supplies", destinations:[
-      d('Everus Harbor', 450, 82, 5.97),
-    ]},
-    {name:'Waste', buy:198, stock:98000, origin:'Seraphim', destinations:[
-      d('Everus Harbor', 450, 32, 2.33),
-    ]},
-    {name:'Carbon', buy:269, stock:24000, origin:'Everus Harbor', destinations:[
-      d('Terra Gateway (Stanton)', 430, 39, 2.83),
-      d('TDD Area 18', 350, 23, 1.67),
-      d('Stanton Gateway (Pyro)', 350, 30, 2.18),
-      d('Port Tressler', 380, 38, 2.77),
-    ]},
-    {name:'Waste', buy:200, stock:90000, origin:'Port Tressler', destinations:[
-      d('Everus Harbor', 450, 38, 2.77),
-    ]},
-    {name:'Ammonia', buy:783, stock:10500, origin:'Port Tressler', destinations:[
-      d('Everus Harbor', 1000, 38, 2.77),
-    ]},
-    {name:'Agricultural Supplies', buy:1122, stock:2000, origin:'Port Tressler', destinations:[]},
-    {name:'Copper', buy:3198, stock:461, origin:'Port Tressler', destinations:[]},
-    {name:'DynaFlex', buy:1716, stock:2400, origin:'Port Tressler', destinations:[]},
-    {name:'Pressurized Ice', buy:4536, stock:213, origin:'Port Tressler', destinations:[]},
-    {name:'Quartz', buy:3563, stock:31, origin:'Port Tressler', destinations:[]},
-    {name:'RMC (Port Tressler)', buy:7587, stock:12000, origin:'Port Tressler', destinations:[]},
-    {name:'Scrap (Port Tressler)', buy:3109, stock:1500, origin:'Port Tressler', destinations:[]},
-    {name:'Steel', buy:1376, stock:699, origin:'Everus Harbor', destinations:[
-      d('Endgame', 2300, 116, 8.45),
-    ]},
-    {name:'Iron', buy:2760, stock:520, origin:'Everus Harbor', destinations:[
-      d('Gaslight', 3800, 125, 9.1),
-      d('Megumi', 3600, 51, 3.72),
-      d('Nyx Gateway (Stanton)', 3500, 81, 5.9),
-    ]},
-    {name:'Scrap', buy:2954, stock:360, origin:'Everus Harbor', destinations:[
-      d("Rod's Fuel 'N Supplies", 4200, 82, 5.97),
-      d('Checkmate', 3700, 77, 5.6),
-      d('Starlight Service', 3700, 89, 6.48),
-    ]},
-    {name:'Titanium', buy:7315, stock:1340, origin:'Everus Harbor', destinations:[]},
-    {name:'Hydrogen', buy:700, stock:6249, origin:'Gaslight', destinations:[
-      d('Everus Harbor', 1100, 125, 9.1),
-    ]},
-    {name:'Stims', buy:3886, stock:572, origin:'Gaslight', destinations:[
-      d('Everus Harbor', 5700, 125, 9.1),
-    ]},
-    {name:'Argon', buy:316, stock:24000, origin:'Stanton Gateway (Pyro)', destinations:[
-      d('Everus Harbor', 490, 30, 2.18),
-    ]},
-    {name:'Aluminum', buy:3128, stock:1050, origin:'Stanton Gateway (Pyro)', destinations:[
-      d('Everus Harbor', 3500, 30, 2.18),
-    ]},
-    {name:'Hephaestanite', buy:4167, stock:387, origin:'Stanton Gateway (Pyro)', destinations:[
-      d('Everus Harbor', 4600, 30, 2.18),
-    ]},
-    {name:'Ammonia', buy:783, stock:12000, origin:'Seraphim', destinations:[
-      d('Everus Harbor', 1000, 32, 2.33),
-    ]},
-    {name:'Konstruktionsmaterial', buy:10023, stock:1100, origin:'Rustville', destinations:[
-      d('Everus Harbor', 13000, 90, 6.55),
-    ]},
-    {name:'RMC', buy:7587, stock:12000, origin:'Everus Harbor', destinations:[
-      d("Seer's Canyon", 8500, 121, 8.8),
-    ]},
-    {name:'Neue Ware', buy:0, stock:0, origin:'', destinations:[]}
-  ]
-};
-const DEFAULT_SHIP = {name:'C2 Hercules Starlifter', capacity:696};
-const DEFAULT_META = { nyx:{buyHub:'Levski', approachEta:0}, stanton:{buyHub:'ArcCorp 045', approachEta:0} };
-
-let rows = { nyx:[], stanton:[] };
-let ship = {...DEFAULT_SHIP};
-let metric = 'profit';
-let meta = { nyx:{...DEFAULT_META.nyx}, stanton:{...DEFAULT_META.stanton} };
-let currentLocation = '';
-let lastRefreshed = null;
-let results = { nyx:null, stanton:null };
-
-function uid(){ return Math.random().toString(36).slice(2,9); }
-function fmt(n){ if(n===null||n===undefined||isNaN(n)) return '—'; return Math.round(n).toLocaleString('de-DE'); }
-
-let livePricesLoaded = false;
-let livePricesGeneratedAt = null;
-
-async function tryLoadLivePrices(){
   try{
     const resp = await fetch('./data/prices.json', {cache:'no-store'});
-    if(!resp.ok) return null;
-    return await resp.json();
+    if(!resp.ok) throw new Error('no data file');
+    const data = await resp.json();
+    const last = new Date(data.generated_at);
+    document.getElementById('lastPull').textContent = fmt(last);
+    document.getElementById('lastPullRel').textContent = relative(last);
   }catch(e){
-    return null;
+    document.getElementById('lastPull').textContent = 'nicht verfügbar';
+    document.getElementById('lastPullRel').textContent = 'lokal geöffnet oder offline?';
   }
-}
-
-async function applyLivePricesIfAvailable(){
-  const live = await tryLoadLivePrices();
-  if(!live || !live.stations) return;
-  let applied = 0;
-  GROUPS.forEach(g=>{
-    rows[g].forEach(c=>{
-      const originData = live.stations[c.origin];
-      if(originData && originData.buy){
-        const match = originData.buy.find(x=>x.name===c.name);
-        if(match){ c.buy = match.price; c.stock = match.stock; applied++; }
-      }
-      c.destinations.forEach(dd=>{
-        const destData = live.stations[dd.name];
-        if(destData && destData.sell){
-          const match = destData.sell.find(x=>x.name===c.name);
-          if(match){ dd.sell = match.price; applied++; }
-        }
-      });
-    });
-  });
-  if(applied>0){ livePricesLoaded = true; livePricesGeneratedAt = live.generated_at; }
-}
-
-async function loadState(){
-  for(const g of GROUPS){
-    try{
-      const r = await window.storage.get(STORAGE_KEY_ROWS[g]);
-      rows[g] = r ? JSON.parse(r.value) : structuredCloneDefault(g);
-    }catch(e){ rows[g] = structuredCloneDefault(g); }
-  }
-  await applyLivePricesIfAvailable();
-  try{
-    const s = await window.storage.get(STORAGE_KEY_SHIP);
-    ship = s ? JSON.parse(s.value) : {...DEFAULT_SHIP};
-  }catch(e){ ship = {...DEFAULT_SHIP}; }
-  try{
-    const m = await window.storage.get(STORAGE_KEY_METRIC);
-    metric = m ? JSON.parse(m.value) : 'profit';
-  }catch(e){ metric = 'profit'; }
-  try{
-    const l = await window.storage.get(STORAGE_KEY_LOCATION);
-    currentLocation = l ? JSON.parse(l.value) : '';
-  }catch(e){ currentLocation = ''; }
-  for(const g of GROUPS){
-    try{
-      const mm = await window.storage.get(STORAGE_KEY_META[g]);
-      meta[g] = mm ? JSON.parse(mm.value) : {...DEFAULT_META[g]};
-    }catch(e){ meta[g] = {...DEFAULT_META[g]}; }
-  }
-  try{
-    const rf = await window.storage.get(STORAGE_KEY_REFRESH);
-    lastRefreshed = rf ? JSON.parse(rf.value) : null;
-  }catch(e){ lastRefreshed = null; }
-
-  document.getElementById('currentLocation').value = currentLocation;
-  GROUPS.forEach(g=>{
-    document.getElementById('buyHub-'+g).value = meta[g].buyHub;
-    document.getElementById('approachEta-'+g).value = meta[g].approachEta;
-  });
-  renderRefreshStamp();
-
-  document.getElementById('shipName').value = ship.name;
-  document.getElementById('shipCapacity').value = ship.capacity;
-  document.querySelectorAll('.metric-toggle button').forEach(b=>{
-    b.classList.toggle('active', b.dataset.metric===metric);
-  });
-  GROUPS.forEach(renderGroup);
-  computeAll();
-}
-
-function structuredCloneDefault(g){
-  return DEFAULTS[g].map(c=>({
-    id:uid(), name:c.name, buy:c.buy, stock:c.stock, origin:c.origin||'',
-    destinations: c.destinations.map(dd=>({...dd, id:uid()}))
-  }));
-}
-
-async function saveRows(g){
-  try{ await window.storage.set(STORAGE_KEY_ROWS[g], JSON.stringify(rows[g])); flashSaved(g); }
-  catch(e){ console.error('Storage error', e); }
-}
-async function saveShip(){ try{ await window.storage.set(STORAGE_KEY_SHIP, JSON.stringify(ship)); }catch(e){} }
-async function saveMetric(){ try{ await window.storage.set(STORAGE_KEY_METRIC, JSON.stringify(metric)); }catch(e){} }
-async function saveLocation(){ try{ await window.storage.set(STORAGE_KEY_LOCATION, JSON.stringify(currentLocation)); }catch(e){} }
-async function saveMeta(g){ try{ await window.storage.set(STORAGE_KEY_META[g], JSON.stringify(meta[g])); }catch(e){} }
-async function saveRefresh(){ try{ await window.storage.set(STORAGE_KEY_REFRESH, JSON.stringify(lastRefreshed)); }catch(e){} }
-
-
-function renderRefreshStamp(){
-  const el = document.getElementById('refreshStamp');
-  el.textContent = lastRefreshed ? 'Preise bestätigt · ' + lastRefreshed : 'Preise noch nicht bestätigt';
-}
-
-let flashTimers = {};
-function flashSaved(g){
-  const el = document.getElementById('saveStatus-'+g);
-  if(!el) return;
-  el.textContent = 'gespeichert · ' + new Date().toLocaleTimeString('de-DE');
-  clearTimeout(flashTimers[g]);
-  flashTimers[g] = setTimeout(()=>{ el.textContent=''; }, 2500);
-}
-
-function bestDestination(commodity){
-  const valid = commodity.destinations.filter(dd=>dd.sell>0);
-  if(valid.length===0) return null;
-  const scored = valid.map(dd=>{
-    const profit = dd.sell - commodity.buy;
-    const perMin = dd.eta>0 ? profit/dd.eta : (profit>0 ? Infinity : -Infinity);
-    return {...dd, profit, perMin};
-  });
-  scored.sort((a,b)=> metric==='profit' ? b.profit - a.profit : b.perMin - a.perMin);
-  return scored[0].profit>0 ? scored[0] : null;
-}
-
-function renderGroup(g){
-  const container = document.getElementById('commodities-'+g);
-  container.innerHTML = '';
-  rows[g].forEach(c=>{
-    const best = bestDestination(c);
-    const card = document.createElement('div');
-    card.className = 'commodity';
-    card.innerHTML = `
-      <div class="commodity-head">
-        <div class="field-group" style="flex:1.4"><label>Ware</label><input type="text" class="name" data-field="name" value="${c.name}"></div>
-        <div class="field-group"><label>Einkaufsort</label><input type="text" data-field="origin" value="${c.origin||''}"></div>
-        <div class="field-group"><label>Kauf UEC</label><input type="number" data-field="buy" value="${c.buy}"></div>
-        <div class="field-group"><label>Lager SCU</label><input type="number" data-field="stock" value="${c.stock}"></div>
-        <button class="rm-btn rm-commodity" title="Ware entfernen">×</button>
-      </div>
-      <table class="dest">
-        <thead><tr><th style="width:26%">Ziel</th><th style="width:16%">Verkauf UEC</th><th style="width:14%">Distanz Gm</th><th style="width:14%">ETA min</th><th style="width:16%">Gewinn/SCU</th><th style="width:4%"></th></tr></thead>
-        <tbody data-dest-body></tbody>
-      </table>
-      <button class="commodity-add-dest" data-add-dest>+ Ziel hinzufügen</button>
-    `;
-    const tbody = card.querySelector('[data-dest-body]');
-    c.destinations.forEach(dd=>{
-      const profit = dd.sell - c.buy;
-      const perMinVal = dd.eta>0 ? profit/dd.eta : null;
-      const isBest = best && dd.id===best.id;
-      const tr = document.createElement('tr');
-      tr.className = 'dest-row' + (isBest ? ' best' : '');
-      tr.innerHTML = `
-        <td>${isBest ? '<span class="dest-star">★</span>' : ''}<input type="text" data-dfield="name" value="${dd.name}"></td>
-        <td><input type="number" data-dfield="sell" value="${dd.sell}"></td>
-        <td><input type="number" data-dfield="dist" value="${dd.dist}"></td>
-        <td><input type="number" step="0.1" data-dfield="eta" value="${dd.eta}"></td>
-        <td class="dest-profit${isBest ? ' best' : ''}">${fmt(profit)}${perMinVal!==null ? ' <span style="opacity:.6">('+fmt(perMinVal)+'/min)</span>' : ''}</td>
-        <td><button class="rm-btn rm-dest" title="Ziel entfernen">×</button></td>
-      `;
-      tr.querySelectorAll('input').forEach(inp=>{
-        inp.addEventListener('input', ()=>{
-          const field = inp.dataset.dfield;
-          let val = inp.value;
-          if(field!=='name') val = parseFloat(val)||0;
-          dd[field] = val;
-          renderGroup(g); computeAll(); saveRows(g);
-        });
-      });
-      tr.querySelector('.rm-dest').addEventListener('click', ()=>{
-        c.destinations = c.destinations.filter(x=>x.id!==dd.id);
-        renderGroup(g); computeAll(); saveRows(g);
-      });
-      tbody.appendChild(tr);
-    });
-
-    card.querySelectorAll('.commodity-head input').forEach(inp=>{
-      inp.addEventListener('input', ()=>{
-        const field = inp.dataset.field;
-        let val = inp.value;
-        if(field!=='name' && field!=='origin') val = parseFloat(val)||0;
-        c[field] = val;
-        renderGroup(g); computeAll(); saveRows(g);
-      });
-    });
-    card.querySelector('.rm-commodity').addEventListener('click', ()=>{
-      rows[g] = rows[g].filter(x=>x.id!==c.id);
-      renderGroup(g); computeAll(); saveRows(g);
-    });
-    card.querySelector('[data-add-dest]').addEventListener('click', ()=>{
-      c.destinations.push({id:uid(), name:'Neues Ziel', sell:0, dist:0, eta:0});
-      renderGroup(g); computeAll(); saveRows(g);
-    });
-
-    container.appendChild(card);
-  });
-}
-
-function normLoc(s){ return (s||'').trim().toLowerCase(); }
-
-function allKnownOrigins(){
-  const set = new Set();
-  GROUPS.forEach(g=> rows[g].forEach(c=>{ if(c.origin && c.origin.trim()) set.add(c.origin.trim()); }));
-  return [...set];
-}
-
-function allKnownLocations(){
-  const set = new Set();
-  GROUPS.forEach(g=> rows[g].forEach(c=>{
-    if(c.origin && c.origin.trim()) set.add(c.origin.trim());
-    c.destinations.forEach(dd=>{ if(dd.name && dd.name.trim()) set.add(dd.name.trim().replace(/\s*\(.*?\)\s*$/,'')); });
-  }));
-  return [...set].sort((a,b)=>a.localeCompare(b));
-}
-
-function populateLocationDatalist(){
-  const dl = document.getElementById('knownLocations');
-  if(!dl) return;
-  dl.innerHTML = allKnownLocations().map(loc=>`<option value="${loc}">`).join('');
-}
-
-function computeLocationSuggestion(){
-  const loc = normLoc(currentLocation);
-  if(!loc) return {noLocation:true, matched:false};
-
-  const matches = [];
-  GROUPS.forEach(g=> rows[g].forEach(c=>{
-    if(normLoc(c.origin) === loc){
-      const best = bestDestination(c);
-      const destOptions = c.destinations
-        .filter(dd=>dd.sell>0)
-        .map(dd=>({...dd, profit: dd.sell - c.buy, perMin: dd.eta>0 ? (dd.sell-c.buy)/dd.eta : null}))
-        .sort((a,b)=> metric==='perMin' ? (b.perMin||-Infinity)-(a.perMin||-Infinity) : b.profit-a.profit);
-      matches.push({group:g, name:c.name, buy:c.buy, stock:c.stock, best, destOptions});
-    }
-  }));
-
-  if(matches.length===0) return {noLocation:false, matched:false};
-
-  const profitable = matches.filter(m=>m.best && m.stock>0);
-  const candidates = profitable.map(m=>({
-    group:m.group, name:m.name, dest:m.best.name, profitPerSCU:m.best.profit,
-    eta:m.best.eta, stock:m.stock, buy:m.buy, sell:m.best.sell
-  })).sort((a,b)=>b.profitPerSCU-a.profitPerSCU);
-
-  let remaining = ship.capacity;
-  const picked = [];
-  for(const c of candidates){
-    if(remaining<=0) break;
-    const qty = Math.min(c.stock, remaining);
-    if(qty<=0) continue;
-    picked.push({...c, qty});
-    remaining -= qty;
-  }
-  const usedSCU = ship.capacity - remaining;
-  let invest=0, revenue=0;
-  picked.forEach(p=>{ invest += p.qty*p.buy; revenue += p.qty*p.sell; });
-  const profit = revenue - invest;
-  const roi = invest>0 ? (profit/invest*100) : 0;
-  const maxEta = picked.reduce((m,p)=>Math.max(m,p.eta||0),0);
-  const perMin = maxEta>0 ? profit/maxEta : 0;
-  return {noLocation:false, matched:true, matches, picked, usedSCU, invest, revenue, profit, roi, maxEta, perMin};
-}
-
-function renderLocationSuggestion(){
-  const box = document.getElementById('locationSuggestion');
-  const res = computeLocationSuggestion();
-
-  if(!currentLocation.trim()){
-    box.innerHTML = `
-      <h2 style="color:var(--amber)">Standort-Vorschlag</h2>
-      <div class="panel-note" style="margin-bottom:10px;">Wähl oben deinen aktuellen Standort aus der Liste (oder tipp ihn ein) — die Konsole zeigt dir dann alle Waren dort, jedes mögliche Ziel mit Konditionen &amp; Zeit, und eine Empfehlung.</div>
-      ${originChips()}
-    `;
-    return;
-  }
-
-  if(!res.matched){
-    box.innerHTML = `
-      <h2 style="color:var(--amber)">Standort-Vorschlag</h2>
-      <div class="panel-note" style="margin-bottom:10px;">Für "<b>${currentLocation}</b>" ist noch keine Ware mit passendem Einkaufsort hinterlegt.</div>
-      ${originChips()}
-    `;
-    return;
-  }
-
-  const materialBlocks = res.matches.map(m=>{
-    if(m.destOptions.length===0){
-      return `<div class="commodity"><div class="commodity-head" style="margin-bottom:0;"><b>${m.name}</b><span class="dim" style="margin-left:8px; font-size:12px;">Kauf ${fmt(m.buy)} UEC · ${fmt(m.stock)} SCU Lager</span></div><div class="manifest-empty" style="margin-top:6px;">Kein Verkaufsziel hinterlegt.</div></div>`;
-    }
-    const bestId = m.destOptions[0].id;
-    const rows2 = m.destOptions.map(dd=>`
-      <tr class="dest-row ${dd.id===bestId?'best':''}">
-        <td>${dd.id===bestId?'<span class="dest-star">★</span>':''}${dd.name}</td>
-        <td style="text-align:right;">${fmt(dd.sell)} UEC</td>
-        <td style="text-align:right;">${dd.dist} Gm</td>
-        <td style="text-align:right;">${dd.eta.toFixed(1)} min</td>
-        <td class="dest-profit ${dd.id===bestId?'best':''}">${fmt(dd.profit)}${dd.perMin!==null?' <span style="opacity:.6">('+fmt(dd.perMin)+'/min)</span>':''}</td>
-      </tr>
-    `).join('');
-    return `
-      <div class="commodity">
-        <div class="commodity-head" style="margin-bottom:8px;">
-          <b>${m.name}</b><span class="dim" style="margin-left:8px; font-size:12px;">Kauf ${fmt(m.buy)} UEC · ${fmt(m.stock)} SCU Lager ${m.group==='nyx' ? '· Nyx (Wurmloch nötig)' : ''}</span>
-        </div>
-        <table class="dest">
-          <thead><tr><th>Ziel</th><th style="text-align:right;">Verkauf</th><th style="text-align:right;">Distanz</th><th style="text-align:right;">ETA</th><th style="text-align:right;">Gewinn/SCU</th></tr></thead>
-          <tbody>${rows2}</tbody>
-        </table>
-      </div>
-    `;
-  }).join('');
-
-  const recommendation = res.picked.length===0
-    ? '<div class="manifest-empty">Kein profitables Ziel mit aktuellen Werten.</div>'
-    : `
-      <div class="buy-headline">
-        <div class="label">Empfehlung — beste Nutzung deiner ${fmt(ship.capacity)} SCU hier</div>
-        <div class="value">${res.picked.map(p=>`${fmt(p.qty)} SCU ${p.name} → ${p.dest}`).join(' + ')}</div>
-      </div>
-      <div class="stat-line"><span class="stat-label">Investition</span><span class="stat-value">${fmt(res.invest)} UEC</span></div>
-      <div class="stat-line"><span class="stat-label">Gewinn</span><span class="stat-value profit">${fmt(res.profit)} UEC</span></div>
-      <div class="stat-line"><span class="stat-label">ROI</span><span class="stat-value accent">${res.roi.toFixed(1)} %</span></div>
-      <div class="stat-line"><span class="stat-label">Flugzeit zum Verkauf</span><span class="stat-value">${res.maxEta.toFixed(1)} min</span></div>
-      <div class="stat-line"><span class="stat-label">Profit / Minute</span><span class="stat-value profit">${fmt(res.perMin)} UEC/min</span></div>
-    `;
-
-  box.innerHTML = `
-    <h2 style="color:var(--amber)">Standort-Vorschlag — du bist in ${currentLocation}</h2>
-    <div class="panel-note" style="margin-bottom:10px;">Alle Waren hier, jedes Ziel mit Konditionen &amp; Zeit (★ = nach "${metric==='profit'?'Gewinn':'Gewinn/Minute'}" beste Wahl):</div>
-    ${materialBlocks}
-    <div class="divider"></div>
-    ${recommendation}
-  `;
-}
-
-function originChips(){
-  const origins = allKnownOrigins();
-  if(origins.length===0) return '';
-  return `<div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:8px;">
-    ${origins.map(o=>`<button class="action origin-chip" data-loc="${o}" style="font-size:11px; padding:6px 10px;">${o}</button>`).join('')}
-  </div>`;
-}
-
-function optimizeGroup(g, capacity){
-  const candidates = rows[g].map(c=>{
-    const best = bestDestination(c);
-    if(!best || c.stock<=0) return null;
-    return {name:c.name, origin:c.origin, dest:best.name, profitPerSCU: best.profit, eta:best.eta, stock:c.stock, buy:c.buy, sell:best.sell};
-  }).filter(Boolean).sort((a,b)=>b.profitPerSCU-a.profitPerSCU);
-
-  let remaining = capacity;
-  const picked = [];
-  for(const c of candidates){
-    if(remaining<=0) break;
-    const qty = Math.min(c.stock, remaining);
-    if(qty<=0) continue;
-    picked.push({...c, qty});
-    remaining -= qty;
-  }
-  const usedSCU = capacity - remaining;
-  let invest=0, revenue=0;
-  picked.forEach(p=>{ invest += p.qty*p.buy; revenue += p.qty*p.sell; });
-  const profit = revenue - invest;
-  const roi = invest>0 ? (profit/invest*100) : 0;
-  const destinations = [...new Set(picked.map(p=>p.dest).filter(Boolean))];
-  const legEta = picked.reduce((m,p)=>Math.max(m, p.eta||0), 0);
-  const approachEta = parseFloat(meta[g].approachEta)||0;
-  const totalEta = approachEta + legEta;
-  const perMin = (totalEta>0 && picked.length) ? profit/totalEta : 0;
-  return {picked, usedSCU, invest, revenue, profit, roi, destinations, legEta, approachEta, totalEta, perMin};
-}
-
-function renderRouteBox(g, res){
-  const box = document.getElementById('routeOut-'+g);
-  const loc = currentLocation || '(Standort nicht gesetzt)';
-  if(res.picked.length===0){
-    box.innerHTML = `<div class="manifest-empty">Route: keine profitable Ladung — Route kann nicht berechnet werden.</div>`;
-    return;
-  }
-  const origins = [...new Set(res.picked.map(p=>p.origin).filter(Boolean))];
-  const singleOrigin = origins.length<=1;
-
-  if(singleOrigin){
-    const hub = origins[0] || meta[g].buyHub || '?';
-    const items = res.picked.map(p=>`${fmt(p.qty)} SCU ${p.name}`).join(', ');
-    const destText = res.destinations.join(' / ');
-    box.innerHTML = `
-      <div style="font-family:var(--mono); font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:8px;">Route ab deinem Standort</div>
-      <div style="font-size:13px; line-height:1.7;">
-        <b style="color:var(--cyan)">${loc}</b> → <b>${hub}</b> <span style="color:var(--muted)">(${res.approachEta.toFixed(1)} min Anflug)</span><br>
-        Kaufen: <b>${items}</b><br>
-        → <b>${destText}</b> <span style="color:var(--muted)">(${res.legEta.toFixed(1)} min Flugzeit)</span> · verkaufen<br>
-        <span style="color:var(--green); font-weight:600;">Gesamt: ${res.totalEta.toFixed(1)} min · ${fmt(res.profit)} UEC · ${fmt(res.perMin)} UEC/min</span>
-      </div>
-    `;
-  } else {
-    const lines = res.picked.map(p=>`${fmt(p.qty)} SCU ${p.name} <span class="dim">bei ${p.origin} → ${p.dest}</span>`).join('<br>');
-    box.innerHTML = `
-      <div style="font-family:var(--mono); font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:8px;">Ladung — mehrere Einkaufsorte</div>
-      <div style="font-size:13px; line-height:1.7;">${lines}</div>
-      <div class="panel-note" style="margin-top:8px; margin-bottom:0;">Diese Waren stammen von unterschiedlichen Orten — für eine Route mit echten Anflugzeiten je Standort nutze den Tab "Stanton · Autopilot".</div>
-    `;
-  }
-}
-
-function renderGroupPanel(g, res){
-  const manifestOut = document.getElementById('manifestOut-'+g);
-  if(res.picked.length===0){
-    manifestOut.innerHTML = '<div class="manifest-empty">Keine profitable Ladung mit aktuellen Angaben.</div>';
-  } else {
-    const headline = `
-      <div class="buy-headline">
-        <div class="label">Kaufen</div>
-        <div class="value">${res.picked.map(p=>`${fmt(p.qty)} SCU ${p.name}`).join(' + ')}</div>
-      </div>
-    `;
-    const list = res.picked.map(p=>`<div class="manifest-item"><span>${p.name} <span class="dim">→ ${p.dest||'?'}</span></span><span>${fmt(p.qty)} SCU</span></div>`).join('');
-    manifestOut.innerHTML = headline + list;
-  }
-  document.getElementById('statInvest-'+g).textContent = res.invest ? fmt(res.invest)+' UEC' : '—';
-  document.getElementById('statRevenue-'+g).textContent = res.revenue ? fmt(res.revenue)+' UEC' : '—';
-  document.getElementById('statProfit-'+g).textContent = res.picked.length ? fmt(res.profit)+' UEC' : '—';
-  document.getElementById('statRoi-'+g).textContent = res.picked.length ? res.roi.toFixed(1)+' %' : '—';
-  document.getElementById('statPerMin-'+g).textContent = res.perMin ? fmt(res.perMin)+' UEC/min' : '—';
-  const stamp = document.getElementById('updatedStamp-'+g);
-  if(stamp) stamp.textContent = 'aktualisiert ' + new Date().toLocaleTimeString('de-DE');
-}
-
-function renderCompare(){
-  const capacity = ship.capacity;
-  const nyx = results.nyx, st = results.stanton;
-  const nyxWinsProfit = nyx.profit >= st.profit;
-
-  const card = (label, sub, res, isWinner) => `
-    <div class="compare-card ${isWinner ? 'winner' : ''}">
-      ${isWinner ? '<div class="win-badge">Höherer Gewinn</div>' : ''}
-      <div class="tag">${sub}</div>
-      <h3>${label}</h3>
-      <div class="compare-grid">
-        <div><div class="compare-stat">Gewinn</div><div class="compare-num profit">${res.picked.length ? fmt(res.profit)+' UEC' : '—'}</div></div>
-        <div><div class="compare-stat">ROI</div><div class="compare-num">${res.picked.length ? res.roi.toFixed(1)+' %' : '—'}</div></div>
-        <div><div class="compare-stat">Gesamtflugzeit (inkl. Anflug)</div><div class="compare-num">${res.totalEta ? res.totalEta.toFixed(1)+' min' : '—'}</div></div>
-        <div><div class="compare-stat">Profit / Minute</div><div class="compare-num profit">${res.perMin ? fmt(res.perMin)+' UEC' : '—'}</div></div>
-        <div><div class="compare-stat">Laderaum genutzt</div><div class="compare-num">${fmt(res.usedSCU)} / ${fmt(capacity)} SCU</div></div>
-        <div><div class="compare-stat">Ziel(e)</div><div class="compare-num" style="font-size:12.5px;">${res.destinations.join(', ')||'—'}</div></div>
-      </div>
-    </div>
-  `;
-
-  document.getElementById('compareOut').innerHTML =
-    card('Levski · Nyx', 'Erfordert Wurmloch-Transit', nyx, nyxWinsProfit) +
-    card('Stanton · Intern', 'Kein Wurmloch nötig', st, !nyxWinsProfit) +
-    `<div class="compare-note">
-      <b>Wichtig beim Vergleich:</b> Die Nyx-Route rechnet nur die reine Flugzeit <i>innerhalb</i> Nyx ab Levski — Anflug zum Wurmloch, Transit und Ankunft in Nyx sind darin <b>nicht</b> enthalten. Die Stanton-Route braucht dafür keinerlei Wurmloch-Zeit.
-      Zielauswahl-Kriterium aktuell: <b>${metric==='profit' ? 'höchster Gewinn' : 'höchster Gewinn pro Minute'}</b> — oben umschaltbar.
-    </div>`;
-}
-
-function computeAll(){
-  ship.capacity = parseFloat(document.getElementById('shipCapacity').value)||0;
-  ship.name = document.getElementById('shipName').value;
-  populateLocationDatalist();
-  GROUPS.forEach(g=>{
-    results[g] = optimizeGroup(g, ship.capacity);
-    renderGroupPanel(g, results[g]);
-    renderRouteBox(g, results[g]);
-  });
-  renderLocationSuggestion();
-  renderCompare();
-  const dataStatus = livePricesLoaded
-    ? `Live-Preise geladen (Stand: ${new Date(livePricesGeneratedAt).toLocaleString('de-DE')})`
-    : `Werte sind manuelle Eingaben (kein Live-Marktzugriff aktiv)`;
-  document.getElementById('footerNote').textContent =
-    `Letzte Neuberechnung: ${new Date().toLocaleString('de-DE')} · ${dataStatus} · ★ markiert automatisch das nach dem gewählten Kriterium beste Ziel pro Ware.`;
-}
-
-GROUPS.forEach(g=>{
-  document.querySelector(`[data-add="${g}"]`).addEventListener('click', ()=>{
-    rows[g].push({id:uid(), name:'Neue Ware', buy:0, stock:0, origin:'', destinations:[{id:uid(), name:'Neues Ziel', sell:0, dist:0, eta:0}]});
-    renderGroup(g); computeAll(); saveRows(g);
-  });
-  document.querySelector(`[data-reset="${g}"]`).addEventListener('click', ()=>{
-    rows[g] = structuredCloneDefault(g);
-    renderGroup(g); computeAll(); saveRows(g);
-  });
-});
-
-document.querySelectorAll('.tab-btn').forEach(btn=>{
-  btn.addEventListener('click', ()=>{
-    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
-    document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
-    btn.classList.add('active');
-    document.getElementById('panel-'+btn.dataset.tab).classList.add('active');
-  });
-});
-
-document.querySelectorAll('.metric-toggle button').forEach(btn=>{
-  btn.addEventListener('click', ()=>{
-    metric = btn.dataset.metric;
-    document.querySelectorAll('.metric-toggle button').forEach(b=>b.classList.toggle('active', b===btn));
-    GROUPS.forEach(renderGroup);
-    computeAll();
-    saveMetric();
-  });
-});
-
-document.getElementById('shipCapacity').addEventListener('input', ()=>{ computeAll(); saveShip(); });
-document.getElementById('shipName').addEventListener('input', ()=>{ computeAll(); saveShip(); });
-document.getElementById('currentLocation').addEventListener('input', (e)=>{
-  currentLocation = e.target.value;
-  computeAll();
-  saveLocation();
-});
-GROUPS.forEach(g=>{
-  document.getElementById('buyHub-'+g).addEventListener('input', (e)=>{
-    meta[g].buyHub = e.target.value;
-    computeAll();
-    saveMeta(g);
-  });
-  document.getElementById('approachEta-'+g).addEventListener('input', (e)=>{
-    meta[g].approachEta = parseFloat(e.target.value)||0;
-    computeAll();
-    saveMeta(g);
-  });
-});
-document.getElementById('refreshBtn').addEventListener('click', ()=>{
-  computeAll();
-  lastRefreshed = new Date().toLocaleString('de-DE');
-  renderRefreshStamp();
-  saveRefresh();
-  ['nyx','stanton'].forEach(flashPanel);
-});
-
-document.querySelectorAll('[data-refresh-group]').forEach(btn=>{
-  btn.addEventListener('click', ()=>{
-    const g = btn.dataset.refreshGroup;
-    computeAll();
-    flashPanel(g);
-  });
-});
-
-function flashPanel(g){
-  const el = document.getElementById('resultPanel-'+g);
-  if(!el) return;
-  el.classList.remove('just-updated');
-  void el.offsetWidth;
-  el.classList.add('just-updated');
-}
-
-document.body.addEventListener('click', (e)=>{
-  const chip = e.target.closest('.origin-chip');
-  if(!chip) return;
-  currentLocation = chip.dataset.loc;
-  document.getElementById('currentLocation').value = currentLocation;
-  computeAll();
-  saveLocation();
-});
-
-loadState();
-
 })();
-</script>
 
-<script>
-(function(){
-
-const STORAGE_KEY_ROWS = 'sell_console_cargo_rows_v2';
-
-function d(station, price){ return {station, price}; }
-function uid(){ return Math.random().toString(36).slice(2,9); }
-
-// Curated real sell destinations per material (UEX snapshot, Stanton system).
-const MATERIALS = [
-  {name:'Agricium', destinations:[d('ARC-L4',12000), d('ARC-L3',11000), d("Rod's Fuel",11000), d('Stanton Gateway (Nyx)',10000), d('TDD New Babbage',10000), d('CRU-L1',10000), d('CRU-L4',10000), d('CRU-L5',10000)]},
-  {name:'Agricultural Supplies', destinations:[d('TDD New Babbage',1300)]},
-  {name:'Aluminum', destinations:[d('TDD New Babbage',3800), d('Everus Harbor',3500)]},
-  {name:'Ammonia', destinations:[d('Everus Harbor',1000), d('TDD New Babbage',1000)]},
-  {name:'Argon', destinations:[d('Everus Harbor',490), d('TDD New Babbage',440)]},
-  {name:'Astatine', destinations:[d('ARC-L2',3900), d('TDD New Babbage',3500), d('ARC-L1',3400), d('CRU-L1',3300)]},
-  {name:'Compboard', destinations:[d('TDD New Babbage',28000), d('ARC-L1',27000), d('ARC-L2',27000), d('CRU-L1',27000), d('CRU-L4',27000), d('CRU-L5',27000)]},
-  {name:'Distilled Spirits', destinations:[d('TDD New Babbage',1900), d('ARC-L1',1900), d('ARC-L2',1900), d('CRU-L1',1900), d('CRU-L4',1900), d('CRU-L5',1900)]},
-  {name:'Methane', destinations:[d('ARC-L1',4100), d('ARC-L2',4100), d('TDD New Babbage',3700)]},
-  {name:'Nitrogen', destinations:[d('CRU-L4',3100), d('TDD New Babbage',3000), d('ARC-L2',3000), d('ARC-L1',2900)]},
-  {name:'Beryl', destinations:[d('HUR-L4',22000), d('HUR-L1',22000), d('Endgame',21000), d("Rod's Fuel",21000), d('TDD New Babbage',20000), d('CRU-L5',20000)]},
-  {name:'Bexalite', destinations:[d('TDD New Babbage',27000)]},
-  {name:'Bioplastic', destinations:[d('TDD New Babbage',7300)]},
-  {name:'Carbon', destinations:[d('Terra Gateway (Stanton)',430), d('Port Tressler',380), d('TDD Area 18',350), d('Stanton Gateway (Pyro)',350)]},
-  {name:'Carbon-Silk', destinations:[d('TDD New Babbage',20000)]},
-  {name:'Chlorine', destinations:[d('TDD New Babbage',1500)]},
-  {name:'Cobalt', destinations:[d('TDD New Babbage',20000)]},
-  {name:'Construction Materials', destinations:[d('ARC-L3',13000), d('Port Tressler',13000), d('Everus Harbor',13000), d('HUR-L3',13000), d('MIC-L1',13000), d('MIC-L2',13000), d('TDD New Babbage',12000), d('ARC-L1',12000), d('CRU-L4',12000)]},
-  {name:'Copper', destinations:[d('TDD New Babbage',3700)]},
-  {name:'Corundum', destinations:[d('Everus Harbor',4100), d('TDD New Babbage',3700)]},
-  {name:'Diamond', destinations:[d('TDD New Babbage',7700)]},
-  {name:'Diamond Laminate', destinations:[d('TDD New Babbage',80000)]},
-  {name:'Dymantium', destinations:[d('TDD New Babbage',23000)]},
-  {name:'DynaFlex', destinations:[d('TDD New Babbage',1900)]},
-  {name:'Fluorine', destinations:[d('TDD New Babbage',1200)]},
-  {name:'Fresh Food', destinations:[d('TDD New Babbage',24000)]},
-  {name:'Gold', destinations:[d('ARC-L1',33000), d('TDD New Babbage',30000)]},
-  {name:'Golden Medmon', destinations:[d('TDD New Babbage',54000)]},
-  {name:'Helium', destinations:[d('TDD New Babbage',1100)]},
-  {name:'Hephaestanite', destinations:[d('TDD New Babbage',5100), d('CRU-L1',4800), d('CRU-L5',4800), d('Everus Harbor',4600), d('CRU-L4',4500)]},
-  {name:'Hydrogen', destinations:[d('Everus Harbor',1100), d('TDD New Babbage',1000), d('CRU-L1',1000), d('CRU-L4',1000), d('CRU-L5',1000)]},
-  {name:'Iodine', destinations:[d('TDD New Babbage',11000)]},
-  {name:'Iron', destinations:[d('Gaslight',3800), d('Nyx Gateway (Stanton)',3500), d('Dudley & Daughters',3600), d('Megumi',3600), d('TDD New Babbage',3400)]},
-  {name:'Laranite', destinations:[d('Ruin Station',8700), d('Endgame',8700), d('TDD New Babbage',8500), d('CRU-L1',8500)]},
-  {name:'Medical Supplies', destinations:[d('CRU-L4',5500), d('TDD New Babbage',4600), d('CRU-L1',4700), d('ARC-L2',4401), d('ARC-L1',4400)]},
-  {name:'Mercury', destinations:[d('TDD New Babbage',1000)]},
-  {name:'Omnapoxy', destinations:[d('ARC-L1',5000), d('TDD New Babbage',4500), d('CRU-L4',3600)]},
-  {name:'Potassium', destinations:[d('TDD New Babbage',560)]},
-  {name:'Pressurized Ice', destinations:[d('TDD New Babbage',5100)]},
-  {name:'Processed Food', destinations:[d('TDD New Babbage',1500), d('ARC-L1',1500), d('CRU-L4',1500), d('CRU-L5',1500), d('ARC-L2',1400), d('CRU-L1',1400)]},
-  {name:'Quartz', destinations:[d('TDD New Babbage',4400)]},
-  {name:'RMC', destinations:[d("Seer's Canyon",8500)]},
-  {name:'Scrap', destinations:[d("Rod's Fuel 'N Supplies",4200), d('Checkmate',3700), d('Starlight Service',3700), d('TDD New Babbage',3500)]},
-  {name:'Silicon', destinations:[d('TDD New Babbage',2400)]},
-  {name:'Steel', destinations:[d('Endgame',2300), d('TDD New Babbage',1900)]},
-  {name:'Stims', destinations:[d('CRU-L4',5900), d('Everus Harbor',5700), d('TDD New Babbage',5300), d('ARC-L1',5300)]},
-  {name:'Sunset Berries', destinations:[d('TDD New Babbage',79000)]},
-  {name:'Taranite', destinations:[d('TDD New Babbage',28000)]},
-  {name:'Thermalfoam', destinations:[d('CRU-L4',7000), d('TDD New Babbage',6100), d('CRU-L1',6000)]},
-  {name:'Tin', destinations:[d('TDD New Babbage',4000)]},
-  {name:'Titanium', destinations:[d('TDD New Babbage',8300)]},
-  {name:'Tungsten', destinations:[d('TDD New Babbage',10000)]},
-  {name:'Waste', destinations:[d('Everus Harbor',450), d('TDD New Babbage',240)]},
-].sort((a,b)=>a.name.localeCompare(b.name));
-
-function matBest(name){
-  const m = MATERIALS.find(x=>x.name===name);
-  if(!m) return null;
-  return [...m.destinations].sort((a,b)=>b.price-a.price)[0];
-}
-
-function allConsideredStations(){
-  const set = new Set();
-  MATERIALS.forEach(m=>m.destinations.forEach(dd=>set.add(dd.station)));
-  return [...set].sort((a,b)=>a.localeCompare(b));
-}
-
-function renderAllStations(){
-  const box = document.getElementById('allStationsOut');
-  const stations = allConsideredStations();
-  box.innerHTML = stations.map(s=>`<span class="chip">${s}</span>`).join('') +
-    `<span class="chip" style="opacity:.7;">${stations.length} Stationen gesamt</span>`;
-}
-
-let cargoRows = [];
-
-function fmt(n){ if(n===null||n===undefined||isNaN(n)) return '—'; return Math.round(n).toLocaleString('de-DE'); }
-
-let livePricesLoaded = false;
-let livePricesGeneratedAt = null;
-
-async function tryLoadLivePrices(){
+(async function loadBuildStatus(){
   try{
-    const resp = await fetch('./data/prices.json', {cache:'no-store'});
-    if(!resp.ok) return null;
-    return await resp.json();
+    const resp = await fetch(`https://api.github.com/repos/${REPO}/commits/main`, {headers:{Accept:'application/vnd.github+json'}});
+    if(!resp.ok) throw new Error('api error');
+    const data = await resp.json();
+    const date = new Date(data.commit.committer.date);
+    document.getElementById('lastBuild').textContent = fmt(date);
+    document.getElementById('lastBuildSha').textContent = data.sha.slice(0,7);
   }catch(e){
-    return null;
+    document.getElementById('lastBuild').textContent = 'nicht verfügbar';
   }
-}
-
-async function applyLivePricesIfAvailable(){
-  const live = await tryLoadLivePrices();
-  if(!live || !live.stations) return;
-  const byCommodity = {};
-  Object.entries(live.stations).forEach(([stationLabel, data])=>{
-    (data.sell||[]).forEach(item=>{
-      if(!byCommodity[item.name]) byCommodity[item.name] = [];
-      byCommodity[item.name].push({station:stationLabel, price:item.price});
-    });
-  });
-  let applied = 0;
-  MATERIALS.forEach(m=>{
-    if(byCommodity[m.name] && byCommodity[m.name].length){
-      m.destinations = byCommodity[m.name];
-      applied++;
-    }
-  });
-  Object.keys(byCommodity).forEach(name=>{
-    if(!MATERIALS.find(m=>m.name===name)){
-      MATERIALS.push({name, destinations: byCommodity[name]});
-      applied++;
-    }
-  });
-  MATERIALS.sort((a,b)=>a.name.localeCompare(b.name));
-  if(applied>0){ livePricesLoaded = true; livePricesGeneratedAt = live.generated_at; }
-}
-
-async function loadState(){
-  await applyLivePricesIfAvailable();
-  try{
-    const r = await window.storage.get(STORAGE_KEY_ROWS);
-    cargoRows = r ? JSON.parse(r.value) : [{id:uid(), material:'', qty:0}];
-  }catch(e){ cargoRows = [{id:uid(), material:'', qty:0}]; }
-  if(cargoRows.length===0) cargoRows = [{id:uid(), material:'', qty:0}];
-  renderCargoRows();
-  renderAllStations();
-  compute();
-}
-
-async function saveState(){
-  try{ await window.storage.set(STORAGE_KEY_ROWS, JSON.stringify(cargoRows)); }catch(e){}
-}
-
-function renderCargoRows(){
-  const box = document.getElementById('cargoRows');
-  box.innerHTML = cargoRows.map(row=>{
-    const options = ['<option value="">— Ware wählen —</option>']
-      .concat(MATERIALS.map(m=>`<option value="${m.name}" ${row.material===m.name?'selected':''}>${m.name}</option>`))
-      .join('');
-    const best = row.material ? matBest(row.material) : null;
-    return `
-      <div class="cargo-row" data-row="${row.id}">
-        <select data-field="material">${options}</select>
-        <input type="number" min="0" class="qty-input" data-field="qty" value="${row.qty||0}">
-        <div class="unit">SCU</div>
-        <button class="rm-row-btn" title="Zeile entfernen">×</button>
-      </div>
-      ${best ? `<div class="price-hint">bis ${fmt(best.price)} UEC bei ${best.station}</div>` : '<div class="price-hint">&nbsp;</div>'}
-    `;
-  }).join('');
-
-  box.querySelectorAll('.cargo-row').forEach(rowEl=>{
-    const id = rowEl.dataset.row;
-    const row = cargoRows.find(r=>r.id===id);
-    rowEl.querySelector('select').addEventListener('change', (e)=>{
-      row.material = e.target.value;
-      renderCargoRows();
-      compute();
-      saveState();
-    });
-    rowEl.querySelector('.qty-input').addEventListener('input', (e)=>{
-      row.qty = parseFloat(e.target.value)||0;
-      compute();
-      saveState();
-    });
-    rowEl.querySelector('.rm-row-btn').addEventListener('click', ()=>{
-      cargoRows = cargoRows.filter(r=>r.id!==id);
-      if(cargoRows.length===0) cargoRows = [{id:uid(), material:'', qty:0}];
-      renderCargoRows();
-      compute();
-      saveState();
-    });
-  });
-}
-
-function activeMaterials(){
-  const sums = {};
-  cargoRows.forEach(row=>{
-    if(!row.material || !(row.qty>0)) return;
-    sums[row.material] = (sums[row.material]||0) + row.qty;
-  });
-  return Object.entries(sums).map(([name, qty])=>{
-    const m = MATERIALS.find(x=>x.name===name);
-    return {name, qty, destinations: m.destinations};
-  });
-}
-
-function compute(){
-  const active = activeMaterials();
-
-  const bestBody = document.getElementById('bestPriceBody');
-  if(active.length===0){
-    bestBody.innerHTML = `<tr><td colspan="5" class="manifest-empty">Wähl links Waren und Mengen aus, um Ergebnisse zu sehen.</td></tr>`;
-  } else {
-    bestBody.innerHTML = active.map(m=>{
-      const best = [...m.destinations].sort((a,b)=>b.price-a.price)[0];
-      return `<tr><td>${m.name}</td><td>${best.station}</td><td class="num">${fmt(best.price)}</td><td class="num">${fmt(m.qty)}</td><td class="num">${fmt(m.qty*best.price)}</td></tr>`;
-    }).join('');
-  }
-
-  const strategiesOut = document.getElementById('strategiesOut');
-  const discrepancyOut = document.getElementById('discrepancyOut');
-
-  if(active.length===0){
-    strategiesOut.innerHTML = '';
-    discrepancyOut.innerHTML = '';
-    document.getElementById('footerNote-sell').textContent = 'Werte sind ein manueller Marktschnappschuss, keine Live-Anbindung.';
-    return;
-  }
-
-  const separateDetails = active.map(m=>{
-    const best = [...m.destinations].sort((a,b)=>b.price-a.price)[0];
-    return {name:m.name, station:best.station, price:best.price, revenue:m.qty*best.price};
-  });
-  const separateTotal = separateDetails.reduce((s,x)=>s+x.revenue,0);
-  const separateStops = new Set(separateDetails.map(x=>x.station)).size;
-
-  const stationSet = new Set();
-  active.forEach(m=>m.destinations.forEach(dd=>stationSet.add(dd.station)));
-  const stations = [...stationSet];
-
-  function revenueAt(station){
-    let revenue=0, covered=[], uncovered=[];
-    active.forEach(m=>{
-      const dest = m.destinations.find(dd=>dd.station===station);
-      if(dest){ revenue += m.qty*dest.price; covered.push({name:m.name, price:dest.price, revenue:m.qty*dest.price}); }
-      else { uncovered.push(m); }
-    });
-    return {station, revenue, covered, uncovered};
-  }
-
-  const singleResults = stations.map(s=>revenueAt(s)).sort((a,b)=>b.revenue-a.revenue);
-  const bestSingle = singleResults[0];
-
-  const topN = singleResults.slice(0, Math.min(6, singleResults.length)).map(x=>x.station);
-  let bestPair = null;
-  for(let i=0;i<topN.length;i++){
-    for(let j=i+1;j<topN.length;j++){
-      const s1=topN[i], s2=topN[j];
-      let revenue=0, coveredBy={}, uncovered=[];
-      active.forEach(m=>{
-        const d1 = m.destinations.find(dd=>dd.station===s1);
-        const d2 = m.destinations.find(dd=>dd.station===s2);
-        if(d1 && d2){
-          if(d1.price>=d2.price){ revenue+=m.qty*d1.price; coveredBy[s1]=(coveredBy[s1]||[]).concat([{name:m.name,price:d1.price,revenue:m.qty*d1.price}]); }
-          else { revenue+=m.qty*d2.price; coveredBy[s2]=(coveredBy[s2]||[]).concat([{name:m.name,price:d2.price,revenue:m.qty*d2.price}]); }
-        } else if(d1){ revenue+=m.qty*d1.price; coveredBy[s1]=(coveredBy[s1]||[]).concat([{name:m.name,price:d1.price,revenue:m.qty*d1.price}]); }
-        else if(d2){ revenue+=m.qty*d2.price; coveredBy[s2]=(coveredBy[s2]||[]).concat([{name:m.name,price:d2.price,revenue:m.qty*d2.price}]); }
-        else { uncovered.push(m); }
-      });
-      if(!bestPair || revenue>bestPair.revenue){
-        bestPair = {stations:[s1,s2], revenue, coveredBy, uncovered};
-      }
-    }
-  }
-  if(!bestPair && stations.length===1){
-    bestPair = {stations:[stations[0]], revenue: bestSingle.revenue, coveredBy:{[stations[0]]: bestSingle.covered}, uncovered: bestSingle.uncovered};
-  }
-
-  const chipList = (items, cls) => items.map(x=>`<span class="chip ${cls}">${x.name||x}</span>`).join('');
-
-  strategiesOut.innerHTML = `
-    <div class="strategy-card">
-      <div class="strategy-head">
-        <span class="strategy-title">Einzelverkauf — jede Ware zum Bestpreis</span>
-        <span class="strategy-total">${fmt(separateTotal)} UEC</span>
-      </div>
-      <div class="strategy-sub">${separateStops} verschiedene Anflugpunkte nötig, dafür für jede Ware der jeweils höchste bekannte Preis.</div>
-      <div class="chip-row">${chipList(separateDetails.map(x=>`${x.name} → ${x.station} (${fmt(x.price)})`), 'covered')}</div>
-    </div>
-
-    <div class="strategy-card best">
-      <div class="strategy-head">
-        <span class="strategy-title best">★ Ein Zielort — ${bestSingle.station}</span>
-        <span class="strategy-total">${fmt(bestSingle.revenue)} UEC</span>
-      </div>
-      <div class="strategy-sub">Ein einziger Anflugpunkt. Deckt ${bestSingle.covered.length} von ${active.length} Waren ab.</div>
-      <div class="chip-row">
-        ${chipList(bestSingle.covered.map(x=>`${x.name} (${fmt(x.price)})`), 'covered')}
-        ${chipList(bestSingle.uncovered.map(x=>x.name+' — hier nicht verkaufbar'), 'uncovered')}
-      </div>
-    </div>
-
-    ${bestPair && bestPair.stations.length>1 ? `
-    <div class="strategy-card">
-      <div class="strategy-head">
-        <span class="strategy-title">Zwei Zielorte — ${bestPair.stations.join(' + ')}</span>
-        <span class="strategy-total">${fmt(bestPair.revenue)} UEC</span>
-      </div>
-      <div class="strategy-sub">Zwei Anflugpunkte. ${bestPair.uncovered.length===0 ? 'Deckt alle Waren ab.' : bestPair.uncovered.length+' Ware(n) bleiben unverkauft.'}</div>
-      <div class="chip-row">
-        ${bestPair.stations.map(s=>chipList((bestPair.coveredBy[s]||[]).map(x=>`${x.name} @ ${s} (${fmt(x.price)})`), 'covered')).join('')}
-        ${chipList(bestPair.uncovered.map(x=>x.name+' — bei keinem der beiden Ziele verkaufbar'), 'uncovered')}
-      </div>
-    </div>` : ''}
-  `;
-
-  const lossSingle = separateTotal - bestSingle.revenue;
-  const lossSinglePct = separateTotal>0 ? (lossSingle/separateTotal*100) : 0;
-  const lossPair = bestPair ? separateTotal - bestPair.revenue : null;
-  const lossPairPct = (bestPair && separateTotal>0) ? (lossPair/separateTotal*100) : 0;
-
-  discrepancyOut.innerHTML = `
-    <div class="discrepancy">
-      <h3>Diskrepanz: Einzelverkauf vs. Konsolidiert</h3>
-      <div class="diff-line"><span>Einzelverkauf (${separateStops} Stopps)</span><span class="diff-value">${fmt(separateTotal)} UEC</span></div>
-      <div class="diff-line"><span>Ein Zielort (${bestSingle.station})</span><span class="diff-value">${fmt(bestSingle.revenue)} UEC</span></div>
-      <div class="diff-line"><span>Differenz</span><span class="diff-value loss">− ${fmt(lossSingle)} UEC (${lossSinglePct.toFixed(1)} %)</span></div>
-      ${bestPair && bestPair.stations.length>1 ? `
-      <div class="diff-line" style="margin-top:8px;"><span>Zwei Zielorte (${bestPair.stations.join(' + ')})</span><span class="diff-value">${fmt(bestPair.revenue)} UEC</span></div>
-      <div class="diff-line"><span>Differenz zu Einzelverkauf</span><span class="diff-value loss">− ${fmt(lossPair)} UEC (${lossPairPct.toFixed(1)} %)</span></div>
-      <div class="diff-line"><span>Gewinn durch 2. Ziel ggü. nur 1 Ziel</span><span class="diff-value gain">+ ${fmt(bestPair.revenue - bestSingle.revenue)} UEC</span></div>
-      ` : ''}
-    </div>
-  `;
-
-  const dataStatus = livePricesLoaded
-    ? `Live-Preise geladen (Stand: ${new Date(livePricesGeneratedAt).toLocaleString('de-DE')})`
-    : `Werte sind ein manueller Marktschnappschuss, keine Live-Anbindung aktiv`;
-  document.getElementById('footerNote-sell').textContent =
-    `Letzte Neuberechnung: ${new Date().toLocaleString('de-DE')} · ${dataStatus} · Reine Preisanalyse, ohne Flugzeiten zwischen den Zielen.`;
-}
-
-document.getElementById('addRowBtn').addEventListener('click', ()=>{
-  cargoRows.push({id:uid(), material:'', qty:0});
-  renderCargoRows();
-  saveState();
-});
-
-document.getElementById('clearBtn').addEventListener('click', ()=>{
-  cargoRows = [{id:uid(), material:'', qty:0}];
-  renderCargoRows();
-  compute();
-  saveState();
-});
-
-loadState();
-
 })();
-</script>
 
-<script>
-(function(){
+// ---- manual workflow trigger ----
+const triggerBtn = document.getElementById('triggerBtn');
+const triggerStatus = document.getElementById('triggerStatus');
+const tokenForm = document.getElementById('tokenForm');
+const tokenInput = document.getElementById('tokenInput');
+const tokenSaveBtn = document.getElementById('tokenSaveBtn');
+const tokenClearBtn = document.getElementById('tokenClearBtn');
 
-function b(name, price, stock){ return {name, price, stock}; }
-function s(name, price){ return {name, price}; }
-
-const STATIONS = {
-  EH: { label:'Everus Harbor',
-    buyHere:[ b('Carbon',269,24000), b('Iron',2760,520), b('RMC',7587,12000), b('Scrap',2954,360), b('Steel',1376,699), b('Titanium',7315,1340) ],
-    sellHere:[ s('Construction Materials',13000), s('Corundum',4100), s('Aluminum',3500), s('Hephaestanite',4600), s('Hydrogen',1100), s('Stims',5700), s('Argon',490), s('Ammonia',1000), s('Waste',450) ]
-  },
-  A3: { label:'ARC-L3',
-    buyHere:[ b('Astatine',2649,3), b('Gold',28928,1), b('Scrap',2990,469), b('Waste',229,75) ],
-    sellHere:[ s('Agricium',9600), s('Compboard',27000), s('Construction Materials',13000), s('Distilled Spirits',1900), s('Dolivine',150000), s('Party Favors',4900), s('Processed Food',1500), s('Stims',5300), s('Thermalfoam',6300), s('Titanium',7700) ]
-  },
-  A1: { label:'ARC-L1',
-    buyHere:[ b('Laranite',7400,175), b('Waste',229,11) ],
-    sellHere:[ s('Astatine',3400), s('Compboard',27000), s('Construction Materials',12000), s('Distilled Spirits',1900), s('Gold',33000), s('Medical Supplies',4400), s('Methane',4100), s('Nitrogen',2900), s('Omnapoxy',5000), s('Processed Food',1500), s('Stims',5300) ]
-  },
-  A2: { label:'ARC-L2',
-    buyHere:[ b('Medical Supplies',4401,327), b('Scrap',2990,2100), b('Waste',229,75) ],
-    sellHere:[ s('Astatine',3900), s('Compboard',27000), s('Distilled Spirits',1900), s('Methane',4100), s('Nitrogen',3000), s('Processed Food',1400) ]
-  },
-  C1: { label:'CRU-L1',
-    buyHere:[ b('Methane',3033,205), b('Nitrogen',2561,133), b('Scrap',2990,2100), b('Waste',229,75) ],
-    sellHere:[ s('Agricium',10000), s('Astatine',3300), s('Compboard',27000), s('Distilled Spirits',1900), s('Hephaestanite',4800), s('Hydrogen',1000), s('Laranite',8500), s('Medical Supplies',4700), s('Processed Food',1400), s('Thermalfoam',6000) ]
-  },
-  C4: { label:'CRU-L4',
-    buyHere:[ b('Laranite',7400,3800), b('Waste',229,75) ],
-    sellHere:[ s('Agricium',10000), s('Compboard',27000), s('Construction Materials',12000), s('Distilled Spirits',1900), s('Hephaestanite',4500), s('Hydrogen',1000), s('Medical Supplies',5500), s('Nitrogen',3100), s('Omnapoxy',3600), s('Processed Food',1500), s('Stims',5900), s('Thermalfoam',7000) ]
-  },
-  M1: { label:'MIC-L1',
-    buyHere:[ b('Astatine',2881,150), b('Medical Supplies',3607,56), b('Scrap',2749,408), b('Waste',115,1) ],
-    sellHere:[ s('Compboard',27000), s('Construction Materials',12000), s('Distilled Spirits',1900), s('Hydrogen',1000), s('Methane',3900), s('Nitrogen',2900), s('Processed Food',1500), s('Borase',31000), s('Degnous Root',58000), s('Dolivine',150000), s('Marok Gem',60000), s('Party Favors',5100) ]
-  },
-  SR: { label:'Seraphim',
-    buyHere:[ b('Aluminum',3285,1676), b('Ammonia',783,12000), b('Chlorine',1162,2163), b('Copper',3198,4298), b('Fluorine',1090,3836), b('Helium',772,9976), b('Hydrogen',800,3013), b('RMC',7587,12000), b('Scrap',3109,2100), b('Waste',198,98000) ],
-    sellHere:[ s('Argon',550), s('Astatine',3400), s('Carbon',380), s('Omnapoxy',4900), s('Processed Food',1500), s('Steel',2000), s('Stims',5400) ]
-  },
-  BJ: { label:'Baijini Point',
-    buyHere:[ b('Carbon',297,12008), b('Corundum',3171,375), b('Hephaestanite',4453,140), b('RMC',7587,6690), b('Scrap',3109,1580), b('Silicon',1964,2980), b('Titanium',7681,514), b('Waste',189,100000) ],
-    sellHere:[ s('Ammonia',1100), s('Copper',3900), s('Distilled Spirits',1900), s('DynaFlex',2000), s('Hydrogen',1100), s('Party Favors',5400), s('Pressurized Ice',6400), s('Stims',5000), s('Tin',4500) ]
-  }
-};
-
-const CODES = Object.keys(STATIONS);
-const DEFAULT_STATIONS = JSON.parse(JSON.stringify(STATIONS));
-
-// Approximate Gm distances (estimated from system geography, not live-fetched per pair).
-const DIST = {
-  'A3-A1':12, 'A3-A2':14, 'A1-A2':12,
-  'C1-C4':15,
-  'A3-EH':48, 'A1-EH':50, 'A2-EH':52,
-  'A3-C1':58, 'A3-C4':62, 'A1-C1':58, 'A1-C4':62, 'A2-C1':60, 'A2-C4':64,
-  'A3-M1':95, 'A1-M1':95, 'A2-M1':97,
-  'EH-C1':42, 'EH-C4':45,
-  'EH-M1':85,
-  'C1-M1':90, 'C4-M1':93,
-  'A3-BJ':12, 'A1-BJ':14, 'A2-BJ':13,
-  'BJ-EH':50, 'BJ-C1':60, 'BJ-C4':62, 'BJ-M1':95, 'BJ-SR':60,
-  'SR-EH':40, 'SR-A3':60, 'SR-A1':62, 'SR-A2':64, 'SR-C1':20, 'SR-C4':22, 'SR-M1':88
-};
-function distGm(x,y){
-  if(x===y) return 0;
-  const key1 = x+'-'+y, key2 = y+'-'+x;
-  return DIST[key1] !== undefined ? DIST[key1] : DIST[key2];
+function getToken(){ return localStorage.getItem(TOKEN_KEY); }
+function setStatus(msg, cls){
+  triggerStatus.textContent = msg;
+  triggerStatus.className = 'update-status' + (cls ? ' '+cls : '');
 }
-function etaMin(gm){ return gm/14; }
-
-const SHIPS = {
-  c2: { label:'C2 Hercules Starlifter', capacity:696 },
-  ironclad: { label:'Ironclad', capacity:2204 }
-};
-
-function fmt(n){ if(n===null||n===undefined||isNaN(n)) return '—'; return Math.round(n).toLocaleString('de-DE'); }
-
-function populateSelects(){
-  const startSel = document.getElementById('startSelect');
-  startSel.innerHTML = CODES.map(c=>`<option value="${c}">${STATIONS[c].label}</option>`).join('');
+function refreshTokenUi(){
+  tokenClearBtn.style.display = getToken() ? 'inline' : 'none';
 }
+refreshTokenUi();
 
-// Compute cargo for a single leg A->B given ship capacity, via knapsack over profitable overlap.
-function legCargo(fromCode, toCode, capacity, loadRate){
-  const A = STATIONS[fromCode], B = STATIONS[toCode];
-  const candidates = [];
-  A.buyHere.forEach(buy=>{
-    const sell = B.sellHere.find(x=>x.name===buy.name);
-    if(sell && sell.price > buy.price){
-      candidates.push({ name:buy.name, buyPrice:buy.price, sellPrice:sell.price, stock:buy.stock, profitPerSCU: sell.price-buy.price });
-    }
-  });
-  candidates.sort((x,y)=>y.profitPerSCU-x.profitPerSCU);
-
-  let remaining = capacity;
-  const items = [];
-  for(const c of candidates){
-    if(remaining<=0) break;
-    const qty = Math.min(c.stock, remaining);
-    if(qty<=0) continue;
-    items.push({...c, qty});
-    remaining -= qty;
-  }
-  const usedSCU = capacity - remaining;
-  const profit = items.reduce((s,i)=>s + i.qty*i.profitPerSCU, 0);
-  const gm = distGm(fromCode, toCode);
-  const flightEta = etaMin(gm);
-  // Loading time covers unloading the arriving cargo and loading the outgoing cargo at this stop.
-  const loadEta = loadRate>0 ? (usedSCU*2)/loadRate : 0;
-  const eta = flightEta + loadEta;
-  return { from:fromCode, to:toCode, items, candidates, usedSCU, profit, gm, flightEta, loadEta, eta, feasible: items.length>0, filledFully: usedSCU>=capacity, capacity };
-}
-
-function computeRoute(order, capacity, loadRate){
-  const legs = [];
-  let totalProfit = 0, totalEta = 0, totalFlightEta = 0, totalLoadEta = 0, feasible = true;
-  for(let i=0;i<order.length;i++){
-    const from = order[i];
-    const to = order[(i+1)%order.length];
-    const leg = legCargo(from, to, capacity, loadRate);
-    if(!leg.feasible){ feasible = false; }
-    legs.push(leg);
-    totalProfit += leg.profit;
-    totalEta += leg.eta;
-    totalFlightEta += leg.flightEta;
-    totalLoadEta += leg.loadEta;
-  }
-  const perMin = totalEta>0 ? totalProfit/totalEta : 0;
-  const perHour = perMin*60;
-  return { order, legs, totalProfit, totalEta, totalFlightEta, totalLoadEta, perMin, perHour, feasible };
-}
-
-function permutations(arr){
-  if(arr.length<=1) return [arr];
-  const result = [];
-  for(let i=0;i<arr.length;i++){
-    const rest = arr.slice(0,i).concat(arr.slice(i+1));
-    for(const p of permutations(rest)){
-      result.push([arr[i], ...p]);
-    }
-  }
-  return result;
-}
-
-function searchRoutes(startCode, capacity, loadRate){
-  const others = CODES.filter(c=>c!==startCode);
-  const perms = permutations(others);
-  const results = [];
-  for(const perm of perms){
-    const order = [startCode, ...perm];
-    const route = computeRoute(order, capacity, loadRate);
-    if(route.feasible) results.push(route);
-  }
-  results.sort((a,b)=>b.perMin-a.perMin);
-  return results;
-}
-
-function routeSignature(route){
-  return route.order.join('>');
-}
-
-function renderLeg(leg, i){
-  const fromLabel = STATIONS[leg.from].label;
-  const toLabel = STATIONS[leg.to].label;
-  const cargoHtml = leg.items.map(it=>`<span class="item">${fmt(it.qty)} SCU ${it.name} (+${fmt(it.profitPerSCU)}/SCU)</span>`).join('');
-  const actualBadge = leg.actual ? `<span style="color:var(--green); font-family:var(--mono); font-size:10px; margin-left:8px; letter-spacing:.05em;">✓ TATSÄCHLICH GELIEFERT</span>` : '';
-  const fallbackNote = leg.items.length>1
-    ? `<div class="leg-fallback">Hauptware reichte nicht für volle Ladung — mit ${leg.items.length-1}. Ware aufgefüllt, damit nichts leer bleibt.</div>`
-    : (!leg.filledFully && !leg.actual ? `<div class="leg-fallback">Nur ${fmt(leg.usedSCU)} von ${fmt(leg.capacity)} SCU verfügbar — Rest bleibt leer (keine weitere Ware hier verfügbar).</div>` : '');
-  return `
-    <div class="leg">
-      <div class="leg-num">${i+1}.</div>
-      <div class="leg-body">
-        <div class="leg-route"><b>${fromLabel}</b> → <b>${toLabel}</b>${actualBadge}</div>
-        <div class="leg-meta">${leg.gm} Gm · ${leg.flightEta.toFixed(1)} min Flug + ${leg.loadEta.toFixed(1)} min Be-/Entladen = ${leg.eta.toFixed(1)} min</div>
-        <div class="leg-cargo">${cargoHtml}</div>
-        ${fallbackNote}
-      </div>
-      <div class="leg-profit">${fmt(leg.profit)} UEC</div>
-    </div>
-  `;
-}
-
-function renderRouteCard(route, title, isBest){
-  const legsHtml = route.legs.map((leg,i)=>renderLeg(leg,i)).join('');
-  return `
-    <div class="route-card ${isBest?'best':''}">
-      <div class="route-head">
-        <span class="route-title ${isBest?'best':''}">${isBest?'★ ':''}${title}</span>
-        <span class="route-total">${fmt(route.totalProfit)} UEC</span>
-      </div>
-      <div class="route-stats">
-        <span>Flugzeit: <b>${route.totalFlightEta.toFixed(1)} min</b></span>
-        <span>Be-/Entladezeit: <b>${route.totalLoadEta.toFixed(1)} min</b></span>
-        <span>Gesamtzeit: <b>${route.totalEta.toFixed(1)} min</b></span>
-        <span>Profit/Stunde: <b>${fmt(route.perHour)} UEC</b></span>
-        <span>Stopps: <b>${route.order.length}</b> (+ Rückkehr)</span>
-      </div>
-      <div class="row-actions" style="margin-bottom:14px;"><button class="primary-btn" id="startJourneyBtn">▶ Reise starten</button></div>
-      ${legsHtml}
-    </div>
-  `;
-}
-
-function renderComparison(routeMain, mainShipKey, otherRoute, otherShipKey){
-  const mainShip = SHIPS[mainShipKey], otherShip = SHIPS[otherShipKey];
-  const mainWins = routeMain.perHour >= otherRoute.perHour;
-  const card = (ship, route, isWinner) => `
-    <div class="compare-card ${isWinner?'winner':''}">
-      <div class="tag">${ship.label} · ${fmt(ship.capacity)} SCU</div>
-      <h3>Identische Route${isWinner?'<span class="win-badge">Mehr aUEC/h</span>':''}</h3>
-      <div class="compare-stat-line"><span>Profit / Stunde</span><span class="compare-val profit">${fmt(route.perHour)} UEC</span></div>
-      <div class="compare-stat-line"><span>Gesamtgewinn</span><span class="compare-val profit">${fmt(route.totalProfit)} UEC</span></div>
-      <div class="compare-stat-line"><span>Flugzeit</span><span class="compare-val">${route.totalFlightEta.toFixed(1)} min</span></div>
-      <div class="compare-stat-line"><span>Be-/Entladezeit</span><span class="compare-val">${route.totalLoadEta.toFixed(1)} min</span></div>
-      <div class="compare-stat-line"><span>Gesamtzeit</span><span class="compare-val">${route.totalEta.toFixed(1)} min</span></div>
-    </div>
-  `;
-  return `
-    <div class="panel">
-      <h2>Schiffsvergleich — gleiche Route, anderes Schiff</h2>
-      <div class="panel-note">Dieselbe Stationsfolge, einmal mit ${mainShip.label} (deine Auswahl) und einmal mit ${otherShip.label} durchgerechnet. Hauptvergleichsgröße: aUEC pro Stunde (inkl. Be-/Entladezeit) — das größere Schiff braucht länger zum Beladen, verdient dafür pro Umlauf mehr.</div>
-      <div class="compare-grid">
-        ${card(mainShip, routeMain, mainWins)}
-        ${card(otherShip, otherRoute, !mainWins)}
-      </div>
-    </div>
-  `;
-}
-
-function factorial(n){ let r=1; for(let i=2;i<=n;i++) r*=i; return r; }
-
-let currentBestRoute = null;
-let currentAlternativeRoute = null;
-let currentSelectedRoute = null;
-let currentShipCapacity = 696;
-let currentResultsCount = 0;
-let routeViewMode = 'best';
-
-function runCalculation(){
-  const startCode = document.getElementById('startSelect').value;
-  const shipKey = document.getElementById('shipSelect').value;
-  const otherShipKey = shipKey==='c2' ? 'ironclad' : 'c2';
-  const capacity = SHIPS[shipKey].capacity;
-  const loadRate = parseFloat(document.getElementById('loadRateSelect').value);
-
-  const results = searchRoutes(startCode, capacity, loadRate);
-  const out = document.getElementById('resultsOut');
-
-  if(results.length===0){
-    out.innerHTML = `<div class="panel"><div class="manifest-empty">Keine geschlossene, durchgehend profitable Route ab ${STATIONS[startCode].label} gefunden.</div></div>`;
-    currentBestRoute = null; currentAlternativeRoute = null; currentSelectedRoute = null;
-    return;
-  }
-
-  const best = results[0];
-  currentBestRoute = best;
-  currentShipCapacity = capacity;
-  const bestSig = routeSignature(best);
-  const alt = results.find(r=>routeSignature(r)!==bestSig && routeSignature(r)!==routeSignature({order:[...best.order].reverse()}));
-  currentAlternativeRoute = alt || (results.length>1 ? results[1] : null);
-  currentResultsCount = results.length;
-
-  routeViewMode = 'best';
-  renderResultsPanel(startCode, shipKey, otherShipKey, loadRate, results.length);
-}
-
-function applyJourneyOverlay(route){
-  if(!journeyState || !journeyState.deliveredLog || journeyState.deliveredLog.length===0) return route;
-  if(journeyState.order.join('>') !== route.order.join('>')) return route;
-
-  const legs = route.legs.map((leg, i) => {
-    const delivered = journeyState.deliveredLog.find(d => d.legIndex === i);
-    if(delivered){
-      return {...leg, items: delivered.items, profit: delivered.profit, actual: true};
-    }
-    return leg;
-  });
-  const totalProfit = legs.reduce((s,l)=>s+l.profit, 0);
-  return {...route, legs, totalProfit};
-}
-
-function renderResultsPanel(startCode, shipKey, otherShipKey, loadRate, resultsCount){
-  const out = document.getElementById('resultsOut');
-  const selectedRaw = routeViewMode==='best' ? currentBestRoute : currentAlternativeRoute;
-  currentSelectedRoute = selectedRaw;
-  const selected = applyJourneyOverlay(selectedRaw);
-  const otherRouteForSelected = computeRoute(selectedRaw.order, SHIPS[otherShipKey].capacity, loadRate);
-
-  const tabsHtml = currentAlternativeRoute ? `
-    <div class="tabs" style="margin-bottom:14px;">
-      <button class="tab-btn ${routeViewMode==='best'?'active':''}" data-routeview="best">Beste Route</button>
-      <button class="tab-btn ${routeViewMode==='alt'?'active':''}" data-routeview="alt">Alternativroute</button>
-    </div>
-  ` : '';
-
-  let html = tabsHtml;
-  html += `<div class="panel"><h2>${routeViewMode==='best' ? 'Beste Route' : 'Alternativroute'}</h2><div class="panel-note">${routeViewMode==='best' ? 'Ranking nach Profit pro Minute (inkl. Be-/Entladezeit) — balanciert Zeitaufwand und Ertrag.' : 'Andere Stationsreihenfolge — z.B. falls eine Ware auf deiner Haupt-Route gerade knapp ist.'}</div>${renderRouteCard(selected, (routeViewMode==='best'?'Optimale':'Alternative')+' Rundreise ab '+STATIONS[startCode].label, routeViewMode==='best')}</div>`;
-
-  html += renderComparison(selected, shipKey, otherRouteForSelected, otherShipKey);
-
-  const dataStatus = livePricesLoaded
-    ? `Live-Preise geladen (Stand: ${new Date(livePricesGeneratedAt).toLocaleString('de-DE')})`
-    : `Preise = UEX-Schnappschuss Patch 4.9, keine Live-Anbindung aktiv`;
-  html += `<div class="footer-note">Berechnet: ${new Date().toLocaleString('de-DE')} · ${dataStatus} · Distanzen zwischen Stationen sind Schätzwerte (Systemgeographie) · Ladegeschwindigkeit ${loadRate} SCU/Min ist eine editierbare Annahme, keine offizielle Kennzahl · ${resultsCount} durchgehend profitable Rundrouten von ${factorial(CODES.length-1)} geprüften Kombinationen gefunden.</div>`;
-
-  out.innerHTML = html;
-}
-
-document.getElementById('resultsOut').addEventListener('click', (e)=>{
-  const tabBtn = e.target.closest('[data-routeview]');
-  if(tabBtn){
-    routeViewMode = tabBtn.dataset.routeview;
-    refreshResultsPanel();
-  }
-});
-
-function refreshResultsPanel(){
-  const startCode = document.getElementById('startSelect').value;
-  const shipKey = document.getElementById('shipSelect').value;
-  const otherShipKey = shipKey==='c2' ? 'ironclad' : 'c2';
-  const loadRate = parseFloat(document.getElementById('loadRateSelect').value);
-  renderResultsPanel(startCode, shipKey, otherShipKey, loadRate, currentResultsCount);
-}
-
-const STORAGE_KEY_STOCK_OVERRIDE = 'route_calc_stock_override_v1';
-let stockOverrides = {};
-
-function stockKey(code, name){ return code+'|'+name; }
-
-function updateStationStock(code, name, newStock){
-  const item = STATIONS[code].buyHere.find(x=>x.name===name);
-  if(item) item.stock = newStock;
-  stockOverrides[stockKey(code,name)] = newStock;
-  saveStockOverrides();
-}
-
-async function saveStockOverrides(){
-  try{ await window.storage.set(STORAGE_KEY_STOCK_OVERRIDE, JSON.stringify(stockOverrides)); }
-  catch(e){ console.error('Storage error', e); }
-}
-
-async function loadStockOverrides(){
+async function dispatchWorkflow(token){
+  triggerBtn.disabled = true;
+  setStatus('Wird ausgelöst …');
   try{
-    const r = await window.storage.get(STORAGE_KEY_STOCK_OVERRIDE);
-    if(r){
-      stockOverrides = JSON.parse(r.value);
-      Object.keys(stockOverrides).forEach(key=>{
-        const sep = key.indexOf('|');
-        const code = key.slice(0,sep), name = key.slice(sep+1);
-        if(STATIONS[code]){
-          const item = STATIONS[code].buyHere.find(x=>x.name===name);
-          if(item) item.stock = stockOverrides[key];
-        }
-      });
-    }
-  }catch(e){ /* no saved overrides yet */ }
-}
-
-let journeyState = null;
-
-function bestDestinationAnywhere(fromCode, commodityName, buyPrice){
-  let best = null;
-  CODES.forEach(code=>{
-    if(code===fromCode) return;
-    const sell = STATIONS[code].sellHere.find(x=>x.name===commodityName);
-    if(sell && sell.price>buyPrice){
-      if(!best || sell.price>best.price) best = {code, price:sell.price};
-    }
-  });
-  return best;
-}
-
-function currentStationFullOffer(){
-  const from = journeyState.order[journeyState.legIndex];
-  return STATIONS[from].buyHere.map(buy=>{
-    const dest = bestDestinationAnywhere(from, buy.name, buy.price);
-    if(!dest) return null;
-    return { name:buy.name, buyPrice:buy.price, destCode:dest.code, destLabel:STATIONS[dest.code].label, sellPrice:dest.price, profitPerSCU: dest.price-buy.price };
-  }).filter(Boolean).sort((a,b)=>b.profitPerSCU-a.profitPerSCU);
-}
-
-// Find the best non-cyclic path visiting every station in middleStations exactly once,
-// starting at startCode and ending at endCode. Used to replan the remaining journey
-// after an on-the-spot reroute.
-function searchPathFixedEnd(startCode, endCode, middleStations, capacity, loadRate){
-  const perms = permutations(middleStations);
-  const results = [];
-  for(const perm of perms){
-    const order = [startCode, ...perm, endCode];
-    let totalProfit=0, totalEta=0, feasible=true;
-    for(let i=0;i<order.length-1;i++){
-      const leg = legCargo(order[i], order[i+1], capacity, loadRate);
-      if(!leg.feasible){ feasible=false; break; }
-      totalProfit += leg.profit; totalEta += leg.eta;
-    }
-    if(feasible) results.push({order, totalProfit, totalEta, perMin: totalEta>0?totalProfit/totalEta:0});
-  }
-  results.sort((a,b)=>b.perMin-a.perMin);
-  return results;
-}
-
-function currentJourneyLegCandidates(){
-  const from = journeyState.order[journeyState.legIndex];
-  const to = journeyState.order[(journeyState.legIndex+1) % journeyState.order.length];
-  const A = STATIONS[from], B = STATIONS[to];
-  const candidates = [];
-  A.buyHere.forEach(buy=>{
-    const sell = B.sellHere.find(x=>x.name===buy.name);
-    if(sell && sell.price > buy.price){
-      candidates.push({ name:buy.name, buyPrice:buy.price, sellPrice:sell.price, profitPerSCU: sell.price-buy.price });
-    }
-  });
-  candidates.sort((x,y)=>y.profitPerSCU-x.profitPerSCU);
-  return {from, to, candidates};
-}
-
-function startJourney(){
-  if(!currentSelectedRoute) return;
-  journeyState = {
-    order: currentSelectedRoute.order,
-    estimatedProfit: currentSelectedRoute.totalProfit,
-    legIndex: 0,
-    candIndex: 0,
-    remainingCapacity: currentShipCapacity,
-    legProfit: 0,
-    currentLegItems: [],
-    deliveredLog: [],
-    totalActualProfit: 0,
-    capacity: currentShipCapacity,
-    phase: 'filling'
-  };
-  renderJourney();
-  refreshResultsPanel();
-  document.getElementById('journeyOut').scrollIntoView({behavior:'smooth', block:'start'});
-}
-
-function renderDeliveredSummary(){
-  if(!journeyState || journeyState.deliveredLog.length===0) return '';
-  const totals = {};
-  let totalProfit = 0;
-  journeyState.deliveredLog.forEach(entry=>{
-    totalProfit += entry.profit;
-    entry.items.forEach(it=>{
-      totals[it.name] = (totals[it.name]||0) + it.qty;
+    const resp = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/update-prices.yml/dispatches`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: 'application/vnd.github+json'
+      },
+      body: JSON.stringify({ref: 'main'})
     });
-  });
-  const itemsHtml = Object.entries(totals).map(([name,qty])=>`<span class="item">${fmt(qty)} SCU ${name}</span>`).join('');
-  const legsHtml = journeyState.deliveredLog.map(entry=>`<span class="chip covered">${STATIONS[entry.from].label} → ${STATIONS[entry.to].label}</span>`).join('');
-  return `
-    <div class="panel" style="border-color:var(--green); margin-top:16px;">
-      <h2>Bisher gelieferte Fracht</h2>
-      <div class="panel-note">Aktualisiert sich bei jedem Abflug zur nächsten Station.</div>
-      <div class="leg-cargo" style="margin-bottom:12px;">${itemsHtml}</div>
-      <div class="chip-row" style="margin-bottom:12px;">${legsHtml}</div>
-      <div class="route-stats">
-        <span>Etappen abgeschlossen: <b>${journeyState.deliveredLog.length}/${journeyState.order.length}</b></span>
-        <span>Gesamtgewinn bisher: <b style="color:var(--green)">${fmt(totalProfit)} UEC</b></span>
-      </div>
-    </div>
-  `;
-}
-
-function renderJourney(){
-  const out = document.getElementById('journeyOut');
-  if(!journeyState){ out.innerHTML=''; return; }
-
-  const total = journeyState.order.length;
-
-  if(journeyState.phase === 'done' || journeyState.legIndex >= total){
-    out.innerHTML = `
-      <div class="panel" style="border-color:var(--green);">
-        <h2>Reise abgeschlossen</h2>
-        <div class="route-stats">
-          <span>Tatsächlicher Gewinn: <b style="color:var(--green)">${fmt(journeyState.totalActualProfit)} UEC</b></span>
-          <span>Geschätzt war: <b>${fmt(journeyState.estimatedProfit)} UEC</b></span>
-        </div>
-        <div class="row-actions"><button class="action" id="journeyResetBtn">Schließen</button></div>
-      </div>
-      ${renderDeliveredSummary()}
-    `;
-    return;
-  }
-
-  const from = journeyState.order[journeyState.legIndex];
-  const to = journeyState.order[(journeyState.legIndex+1) % journeyState.order.length];
-
-  if(journeyState.phase === 'confirmDeparture'){
-    const fallbackNote = journeyState.lastReplanWasFallback
-      ? `<div class="leg-fallback" style="margin-top:8px;">Hinweis: Für den Rest der Route ab hier wurde keine durchgehend geprüfte Verbindung gefunden — falls an einer späteren Station ebenfalls nichts verfügbar ist, kannst du dort erneut umleiten.</div>`
-      : '';
-    out.innerHTML = `
-      <div class="panel" style="border-color:var(--green);">
-        <h2>Reise-Modus — Schritt ${journeyState.legIndex+1}/${total} · geladen</h2>
-        <div class="panel-note">
-          <b style="color:var(--cyan)">${STATIONS[from].label}</b> ist beladen — <b style="color:var(--green)">${fmt(journeyState.legProfit)} UEC</b> Gewinn für diese Etappe eingeplant${journeyState.remainingCapacity>0 ? ` (${fmt(journeyState.remainingCapacity)} SCU bleiben leer — keine weitere profitable Ware hier gefunden)` : ' (voll beladen)'}.
-          ${fallbackNote}
-        </div>
-        <div class="row-actions">
-          <button class="primary-btn" id="journeyDepartBtn">✈ Jetzt zu ${STATIONS[to].label} fliegen</button>
-        </div>
-      </div>
-      ${renderDeliveredSummary()}
-    `;
-    return;
-  }
-
-  if(journeyState.phase === 'noCandidates'){
-    const offers = currentStationFullOffer();
-    journeyState.currentOffers = offers;
-    const rows = offers.map((o,idx)=>`
-      <div class="leg" style="cursor:pointer;" data-offer-idx="${idx}">
-        <div class="leg-body">
-          <div class="leg-route"><b>${o.name}</b> → ${o.destLabel}</div>
-          <div class="leg-meta">kaufen ${fmt(o.buyPrice)} UEC, verkaufen ${fmt(o.sellPrice)} UEC (+${fmt(o.profitPerSCU)}/SCU)</div>
-        </div>
-        <div class="leg-profit" style="color:var(--cyan);">auswählen ▸</div>
-      </div>
-    `).join('');
-    out.innerHTML = `
-      <div class="panel" style="border-color:var(--amber);">
-        <h2>Reise-Modus — Schritt ${journeyState.legIndex+1}/${total} · keine geplante Ware verfügbar</h2>
-        <div class="panel-note">
-          Keine der ursprünglich vorgeschlagenen Waren (für die Strecke nach <b>${STATIONS[to].label}</b>) war hier verfügbar. Hier ist alles, was <b style="color:var(--cyan)">${STATIONS[from].label}</b> tatsächlich verkauft, sortiert nach Gewinn — wähl eine Ware, ich berechne die restliche Route danach neu.
-        </div>
-        ${offers.length===0 ? '<div class="manifest-empty">Keine profitable Ware an dieser Station gefunden.</div>' : rows}
-        <div class="row-actions" style="margin-top:12px;">
-          <button class="action" id="journeyAbortBtn">Reise abbrechen</button>
-        </div>
-      </div>
-      ${renderDeliveredSummary()}
-    `;
-    return;
-  }
-
-  if(journeyState.phase === 'rerouteQty'){
-    const offer = journeyState.rerouteOffer;
-    out.innerHTML = `
-      <div class="panel" style="border-color:var(--amber);">
-        <h2>Reise-Modus — Schritt ${journeyState.legIndex+1}/${total} · Ziel angepasst</h2>
-        <div class="panel-note">
-          Neue Fracht: <b>${offer.name}</b> von <b style="color:var(--cyan)">${STATIONS[from].label}</b> nach <b>${offer.destLabel}</b> — statt der ursprünglich geplanten Station <b>${STATIONS[to].label}</b>. Die restliche Route wird nach der Bestätigung neu berechnet.
-        </div>
-        <div class="commodity">
-          <div style="font-size:15px; margin-bottom:8px;"><b>${offer.name}</b> <span class="dim" style="font-family:var(--mono); font-size:12px; color:var(--muted)">— kaufen ${fmt(offer.buyPrice)} UEC, verkaufen ${fmt(offer.sellPrice)} UEC (+${fmt(offer.profitPerSCU)}/SCU)</span></div>
-          <div class="field">
-            <label>Wie viel SCU ${offer.name} ist bei ${STATIONS[from].label} tatsächlich verfügbar?</label>
-            <input type="number" id="journeyQtyInput" min="0" value="${journeyState.remainingCapacity}" style="max-width:160px;">
-          </div>
-          <div class="row-actions" style="margin-top:10px;">
-            <button class="primary-btn" id="journeyRerouteConfirmBtn">Bestätigen &amp; Route neu berechnen</button>
-            <button class="action" id="journeyRerouteBackBtn">Zurück zur Liste</button>
-          </div>
-        </div>
-      </div>
-      ${renderDeliveredSummary()}
-    `;
-    return;
-  }
-
-  const {candidates} = currentJourneyLegCandidates();
-  const cand = candidates[journeyState.candIndex];
-
-  if(!cand){
-    journeyState.phase = journeyState.remainingCapacity>0 ? 'noCandidates' : 'confirmDeparture';
-    renderJourney();
-    return;
-  }
-
-  const isFollowUp = journeyState.candIndex > 0;
-  const headline = isFollowUp
-    ? `<div class="buy-headline" style="border-color:var(--amber);"><div class="label" style="color:var(--amber);">Noch ${fmt(journeyState.remainingCapacity)} SCU frei — zweite Ware für dieselbe Strecke</div><div class="value">${cand.name} nach ${STATIONS[to].label}</div></div>`
-    : '';
-
-  out.innerHTML = `
-    <div class="panel" style="border-color:var(--cyan);">
-      <h2>Reise-Modus — Schritt ${journeyState.legIndex+1}/${total}${isFollowUp ? ' · Zusatzware' : ''}</h2>
-      <div class="panel-note">
-        <b style="color:var(--cyan)">${STATIONS[from].label}</b> → <b>${STATIONS[to].label}</b><br>
-        Bisheriger Gewinn dieser Etappe: <b style="color:var(--green)">${fmt(journeyState.legProfit)} UEC</b> · Noch zu füllen: <b>${fmt(journeyState.remainingCapacity)} SCU</b>
-      </div>
-      ${headline}
-      <div class="commodity">
-        <div style="font-size:15px; margin-bottom:8px;"><b>${cand.name}</b> <span class="dim" style="font-family:var(--mono); font-size:12px; color:var(--muted)">— kaufen ${fmt(cand.buyPrice)} UEC, verkaufen ${fmt(cand.sellPrice)} UEC (+${fmt(cand.profitPerSCU)}/SCU)</span></div>
-        <div class="field">
-          <label>Wie viel SCU ${cand.name} ist bei ${STATIONS[from].label} tatsächlich verfügbar?</label>
-          <input type="number" id="journeyQtyInput" min="0" value="${journeyState.remainingCapacity}" style="max-width:160px;">
-        </div>
-        <div class="row-actions" style="margin-top:10px;">
-          <button class="primary-btn" id="journeyConfirmBtn">Bestätigen</button>
-          <button class="action" id="journeySkipBtn">Diese Ware überspringen</button>
-          <button class="action" id="journeyAbortBtn">Reise abbrechen</button>
-        </div>
-      </div>
-    </div>
-    ${renderDeliveredSummary()}
-  `;
-}
-
-function journeyConfirm(){
-  const input = document.getElementById('journeyQtyInput');
-  const available = Math.max(0, parseFloat(input.value)||0);
-  const from = journeyState.order[journeyState.legIndex];
-  const {candidates} = currentJourneyLegCandidates();
-  const cand = candidates[journeyState.candIndex];
-  const qty = Math.min(available, journeyState.remainingCapacity);
-  journeyState.legProfit += qty * cand.profitPerSCU;
-  journeyState.remainingCapacity -= qty;
-  if(qty>0){
-    journeyState.currentLegItems.push({name:cand.name, qty, profitPerSCU:cand.profitPerSCU});
-  }
-
-  // The reported "actually available" amount becomes the new known stock for this
-  // commodity at this station — real usage progressively corrects the stale snapshot.
-  updateStationStock(from, cand.name, available);
-
-  if(journeyState.remainingCapacity<=0){
-    journeyState.phase = 'confirmDeparture';
-  } else {
-    journeyState.candIndex++;
-  }
-  renderJourney();
-}
-
-function journeySelectOffer(idx){
-  journeyState.rerouteOffer = journeyState.currentOffers[idx];
-  journeyState.phase = 'rerouteQty';
-  renderJourney();
-}
-
-function journeyRerouteBack(){
-  journeyState.phase = 'noCandidates';
-  renderJourney();
-}
-
-function journeyRerouteConfirm(){
-  const input = document.getElementById('journeyQtyInput');
-  const available = Math.max(0, parseFloat(input.value)||0);
-  const offer = journeyState.rerouteOffer;
-  const from = journeyState.order[journeyState.legIndex];
-  const qty = Math.min(available, journeyState.remainingCapacity);
-
-  journeyState.legProfit += qty * offer.profitPerSCU;
-  journeyState.remainingCapacity -= qty;
-  if(qty>0) journeyState.currentLegItems.push({name:offer.name, qty, profitPerSCU:offer.profitPerSCU});
-  updateStationStock(from, offer.name, available);
-
-  // Replan the remaining journey: from the new destination, visit whatever
-  // stations haven't been reached yet, and still finish back at the origin.
-  const capacity = journeyState.capacity;
-  const loadRate = parseFloat(document.getElementById('loadRateSelect').value);
-  const origin = journeyState.order[0];
-  const visitedSoFar = journeyState.order.slice(0, journeyState.legIndex+1); // ends at 'from'
-  let newOrder;
-  let usedFallback = false;
-  if(offer.destCode === origin){
-    newOrder = [...visitedSoFar, origin];
-  } else {
-    const remainingPool = CODES.filter(c => !visitedSoFar.includes(c) && c!==offer.destCode && c!==origin);
-    const continuations = searchPathFixedEnd(offer.destCode, origin, remainingPool, capacity, loadRate);
-    if(continuations.length>0){
-      newOrder = [...visitedSoFar, ...continuations[0].order];
+    if(resp.status === 204){
+      setStatus('✓ Ausgelöst um ' + fmt(new Date()) + ' — Ergebnis in ca. 1–2 Minuten sichtbar.', 'ok');
+      tokenForm.classList.remove('open');
+    } else if(resp.status === 401 || resp.status === 403){
+      localStorage.removeItem(TOKEN_KEY);
+      refreshTokenUi();
+      setStatus('Token ungültig oder ohne Rechte — bitte neu eingeben.', 'err');
+      tokenForm.classList.add('open');
     } else {
-      usedFallback = true;
-      const oldRemaining = journeyState.order.slice(journeyState.legIndex+2).filter(c=>c!==offer.destCode);
-      newOrder = [...visitedSoFar, offer.destCode, ...oldRemaining];
+      setStatus(`Fehler (${resp.status}) beim Auslösen.`, 'err');
     }
-  }
-  journeyState.order = newOrder;
-  journeyState.lastReplanWasFallback = usedFallback;
-  journeyState.rerouteOffer = null;
-  journeyState.currentOffers = null;
-
-  journeyState.phase = journeyState.remainingCapacity<=0 ? 'confirmDeparture' : 'filling';
-  journeyState.candIndex = 0;
-  renderJourney();
-}
-
-function journeyDepart(){
-  const from = journeyState.order[journeyState.legIndex];
-  const to = journeyState.order[(journeyState.legIndex+1) % journeyState.order.length];
-  journeyState.deliveredLog.push({
-    legIndex: journeyState.legIndex,
-    from, to,
-    items: journeyState.currentLegItems,
-    profit: journeyState.legProfit
-  });
-  journeyState.totalActualProfit += journeyState.legProfit;
-  journeyState.legIndex++;
-  journeyState.candIndex = 0;
-  journeyState.remainingCapacity = journeyState.capacity;
-  journeyState.legProfit = 0;
-  journeyState.currentLegItems = [];
-  journeyState.phase = journeyState.legIndex >= journeyState.order.length ? 'done' : 'filling';
-  renderJourney();
-  refreshResultsPanel();
-}
-
-document.getElementById('resultsOut').addEventListener('click', (e)=>{
-  if(e.target.closest('#startJourneyBtn')) startJourney();
-});
-document.getElementById('journeyOut').addEventListener('click', (e)=>{
-  if(e.target.closest('#journeyConfirmBtn')) journeyConfirm();
-  if(e.target.closest('#journeySkipBtn')){ journeyState.candIndex++; renderJourney(); }
-  if(e.target.closest('#journeyDepartBtn')) journeyDepart();
-  if(e.target.closest('#journeyAbortBtn')){ journeyState=null; renderJourney(); }
-  if(e.target.closest('#journeyResetBtn')){ journeyState=null; renderJourney(); }
-  if(e.target.closest('#journeyRerouteConfirmBtn')) journeyRerouteConfirm();
-  if(e.target.closest('#journeyRerouteBackBtn')) journeyRerouteBack();
-  const offerRow = e.target.closest('[data-offer-idx]');
-  if(offerRow) journeySelectOffer(parseInt(offerRow.dataset.offerIdx));
-});
-
-let livePricesLoaded = false;
-let livePricesGeneratedAt = null;
-
-async function tryLoadLivePrices(){
-  try{
-    const resp = await fetch('./data/prices.json', {cache:'no-store'});
-    if(!resp.ok) return null;
-    return await resp.json();
   }catch(e){
-    return null; // blocked by sandbox, offline, or file not published yet -- silent fallback
+    setStatus('Netzwerkfehler beim Auslösen.', 'err');
+  }finally{
+    triggerBtn.disabled = false;
   }
 }
 
-async function applyLivePricesIfAvailable(){
-  const live = await tryLoadLivePrices();
-  if(!live || !live.stations) return;
-  let appliedCount = 0;
-  CODES.forEach(code=>{
-    const liveStation = live.stations[STATIONS[code].label];
-    if(liveStation){
-      if(liveStation.buy && liveStation.buy.length){ STATIONS[code].buyHere = liveStation.buy; appliedCount++; }
-      if(liveStation.sell && liveStation.sell.length){ STATIONS[code].sellHere = liveStation.sell; }
-    }
-  });
-  if(appliedCount>0){
-    livePricesLoaded = true;
-    livePricesGeneratedAt = live.generated_at;
-  }
-}
-
-async function init(){
-  await applyLivePricesIfAvailable();
-  await loadStockOverrides();
-  populateSelects();
-  runCalculation();
-}
-
-document.getElementById('calcBtn').addEventListener('click', runCalculation);
-document.getElementById('loadRateSelect').addEventListener('change', runCalculation);
-document.getElementById('startSelect').addEventListener('change', runCalculation);
-document.getElementById('shipSelect').addEventListener('change', runCalculation);
-init();
-
-})();
-</script>
-
-<script>
-
-document.querySelectorAll('.site-nav button').forEach(btn=>{
-  btn.addEventListener('click', ()=>{
-    document.querySelectorAll('.site-nav button').forEach(b=>b.classList.toggle('active', b===btn));
-    document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
-    document.getElementById('page-'+btn.dataset.page).classList.add('active');
-  });
+triggerBtn.addEventListener('click', ()=>{
+  const token = getToken();
+  if(token){ dispatchWorkflow(token); }
+  else{ tokenForm.classList.add('open'); setStatus(''); }
 });
 
+tokenSaveBtn.addEventListener('click', ()=>{
+  const v = tokenInput.value.trim();
+  if(!v) return;
+  localStorage.setItem(TOKEN_KEY, v);
+  tokenInput.value = '';
+  refreshTokenUi();
+  dispatchWorkflow(v);
+});
+
+tokenClearBtn.addEventListener('click', ()=>{
+  localStorage.removeItem(TOKEN_KEY);
+  refreshTokenUi();
+  setStatus('Token entfernt.');
+});
 </script>
 </body>
 </html>
