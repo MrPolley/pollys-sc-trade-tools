@@ -8,6 +8,8 @@ Requires the environment variable UEX_API_TOKEN to be set (a Bearer token from
 https://uexcorp.space/api/apps). NEVER hardcode the token in this file or any
 committed file -- pass it via an environment variable / GitHub Actions secret.
 
+Requires the `requests` package (pip install requests).
+
 Usage:
     export UEX_API_TOKEN="your-token-here"
     python3 fetch_uex_prices.py
@@ -19,17 +21,29 @@ Output:
 import json
 import os
 import sys
-import urllib.request
-import urllib.error
+import time
+import requests
 from datetime import datetime, timezone
 
 API_BASE = "https://api.uexcorp.uk/2.0"
 OUTPUT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "prices.json")
 
-# Every station referenced anywhere in the three tools (Single-Transport, Recycle,
-# Routen-Rechner). Each entry maps our internal label to one or more
-# case-insensitive substrings that should match the API's `terminal_name` field.
-# If a station stops matching after a UEX naming change, add another substring here.
+# Realistic browser headers -- Cloudflare's bot protection (error 1010) blocks
+# requests that don't look like they came from an actual browser: a plain
+# User-Agent isn't enough by itself, it also checks for the accompanying
+# headers a real browser always sends alongside it.
+BROWSER_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://uexcorp.space/",
+    "Origin": "https://uexcorp.space",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-site",
+}
+
 STATIONS_OF_INTEREST = {
     "Everus Harbor": ["everus harbor"],
     "Port Tressler": ["port tressler"],
@@ -67,23 +81,35 @@ STATIONS_OF_INTEREST = {
 }
 
 
-def api_get(path, token=None):
+def api_get(session, path, token=None, retries=3):
     url = f"{API_BASE}/{path}"
-    req = urllib.request.Request(url)
+    headers = dict(BROWSER_HEADERS)
     if token:
-        req.add_header("Authorization", f"Bearer {token}")
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        print(f"HTTP error {e.code} for {url}: {e.read().decode('utf-8', errors='replace')}", file=sys.stderr)
-        raise
-    except urllib.error.URLError as e:
-        print(f"Network error reaching {url}: {e}", file=sys.stderr)
-        raise
+        headers["Authorization"] = f"Bearer {token}"
+
+    last_exc = None
+    for attempt in range(1, retries + 1):
+        try:
+            resp = session.get(url, headers=headers, timeout=30)
+            if resp.status_code == 200:
+                return resp.json()
+            print(f"Attempt {attempt}: HTTP {resp.status_code} for {url}: {resp.text[:500]}",
+                  file=sys.stderr)
+            if resp.status_code in (403, 429) and attempt < retries:
+                time.sleep(3 * attempt)
+                continue
+            resp.raise_for_status()
+        except requests.RequestException as e:
+            last_exc = e
+            print(f"Attempt {attempt}: request error for {url}: {e}", file=sys.stderr)
+            if attempt < retries:
+                time.sleep(3 * attempt)
+    if last_exc:
+        raise last_exc
+    raise RuntimeError(f"Failed to fetch {url} after {retries} attempts")
 
 
-def match_station(terminal_name, terminal_name_lower):
+def match_station(terminal_name_lower):
     for our_label, substrings in STATIONS_OF_INTEREST.items():
         for s in substrings:
             if s in terminal_name_lower:
@@ -98,8 +124,10 @@ def main():
               "require auth, so continuing without it -- but other endpoints may fail.",
               file=sys.stderr)
 
+    session = requests.Session()
+
     print("Fetching commodities_prices_all ...", file=sys.stderr)
-    prices_resp = api_get("commodities_prices_all", token)
+    prices_resp = api_get(session, "commodities_prices_all", token)
     if prices_resp.get("status") != "ok":
         print(f"Unexpected API status: {prices_resp.get('status')}", file=sys.stderr)
         sys.exit(1)
@@ -111,7 +139,7 @@ def main():
 
     for row in rows:
         terminal_name = row.get("terminal_name") or ""
-        our_label = match_station(terminal_name, terminal_name.lower())
+        our_label = match_station(terminal_name.lower())
         if not our_label:
             continue
         matched_labels_seen.add(our_label)
@@ -120,8 +148,6 @@ def main():
         price_buy = row.get("price_buy") or 0
         price_sell = row.get("price_sell") or 0
         scu_buy_stock = row.get("scu_buy") or 0
-        # commodities_prices_all uses "scu_buy" as the currently reported buyable
-        # stock (what WE can purchase there) per the API docs' "last" annotation.
 
         if price_buy and price_buy > 0:
             stations[our_label]["buy"].append({
@@ -157,3 +183,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
