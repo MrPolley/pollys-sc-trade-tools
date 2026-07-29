@@ -76,7 +76,7 @@
       <div class="label">Nächster Datenabruf</div>
       <div class="value" id="nextPull">—</div>
       <div class="sub" id="nextPullRel"></div>
-      <div class="sub">Aktualisiert alle 6 Stunden</div>
+      <div class="sub">Aktualisiert stündlich</div>
     </div>
     <div class="stat-tile">
       <div class="label">Letzter Build</div>
@@ -132,7 +132,7 @@
   </div>
 
   <div class="footer-note">
-    Preisdaten stammen aus der UEX API 2.0 und werden per GitHub Actions alle 6 Stunden aktualisiert (00:00 / 06:00 / 12:00 / 18:00 UTC).
+    Preisdaten stammen aus der UEX API 2.0 und werden per GitHub Actions stündlich aktualisiert.
     Die Werkzeuge selbst laufen vollständig im Browser — es werden keine Eingaben an einen Server übertragen.
   </div>
   <div class="footer-note" id="versionNote">Version wird geladen …</div>
@@ -155,7 +155,7 @@ function relative(d){
 }
 function nextRun(){
   const now = new Date();
-  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), Math.floor(now.getUTCHours()/6)*6+6, 0, 0));
+  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours()+1, 0, 0));
 }
 
 (async function loadPullStatus(){

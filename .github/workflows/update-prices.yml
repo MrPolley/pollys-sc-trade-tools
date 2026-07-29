@@ -2,9 +2,9 @@ name: Update UEX Prices
 
 on:
   schedule:
-    # Every 6 hours. commodities_prices_all itself only refreshes every ~30-60 min
+    # Hourly. commodities_prices_all itself only refreshes every ~30-60 min
     # on UEX's side, so there's no benefit to running much more often than this.
-    - cron: '0 */6 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
 
 permissions:

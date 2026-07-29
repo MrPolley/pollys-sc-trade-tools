@@ -8,7 +8,7 @@ instead of the hardcoded snapshot, using a small script + GitHub Actions.
 1. `fetch_uex_prices.py` calls the UEX API 2.0 (`commodities_prices_all`) and
    writes `data/prices.json`.
 2. A GitHub Actions workflow (`.github/workflows/update-prices.yml`) runs this
-   script every 6 hours and commits the updated `data/prices.json`.
+   script every hour and commits the updated `data/prices.json`.
 3. GitHub Pages serves the whole repo (HTML tools + `data/prices.json`) from
    the same domain, so the tools can `fetch('./data/prices.json')` with no
    CORS issues.
@@ -53,7 +53,7 @@ instead of the hardcoded snapshot, using a small script + GitHub Actions.
 
 ## Maintenance
 
-- The workflow runs unattended every 6 hours. No further action needed unless
+- The workflow runs unattended every hour. No further action needed unless
   UEX renames a terminal (the Action log will warn you).
 - To add a new station, add it to `STATIONS_OF_INTEREST` in
   `fetch_uex_prices.py` and to the tool's own station/material list.

@@ -2424,13 +2424,12 @@ document.querySelectorAll('.site-nav button').forEach(btn=>{
 const initialPage = location.hash.replace('#','');
 if(['buy','sell','route'].includes(initialPage)) activatePage(initialPage);
 
-// ---- shared "last/next price check" readout (cron runs every 6h: 00/06/12/18 UTC) ----
+// ---- shared "last/next price check" readout (cron runs hourly, on the hour UTC) ----
 (async function syncStatus(){
   const el = document.getElementById('syncStatus');
   function nextRun(){
     const now = new Date();
-    const next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), Math.floor(now.getUTCHours()/6)*6+6, 0, 0));
-    return next;
+    return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours()+1, 0, 0));
   }
   function fmt(d){
     return d.toLocaleString('de-DE', {day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit'});
