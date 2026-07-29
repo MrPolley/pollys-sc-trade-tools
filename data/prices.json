@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T20:59:21.692241+00:00",
+  "generated_at": "2026-07-29T22:07:58.983917+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1608,7 +1608,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 1988
+          "stock": 1088
         },
         {
           "name": "Waste",
@@ -1623,17 +1623,17 @@
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 343
+          "stock": 1254
         },
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 219
+          "stock": 1486
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 905
+          "stock": 1150
         },
         {
           "name": "Carbon",
@@ -1720,7 +1720,7 @@
         },
         {
           "name": "Distilled Spirits",
-          "price": 1900
+          "price": 1800
         },
         {
           "name": "Aphorite",
@@ -1728,7 +1728,7 @@
         },
         {
           "name": "Copper",
-          "price": 3900
+          "price": 3800
         },
         {
           "name": "Dolivine",
@@ -1744,7 +1744,7 @@
         },
         {
           "name": "Tin",
-          "price": 4400
+          "price": 4500
         },
         {
           "name": "Pressurized Ice",
@@ -1752,11 +1752,11 @@
         },
         {
           "name": "Ammonia",
-          "price": 1100
+          "price": 1000
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 2000
         },
         {
           "name": "Mercury",
@@ -4912,32 +4912,32 @@
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 155
+          "stock": 127
         },
         {
           "name": "Hydrogen",
-          "price": 782,
-          "stock": 9335
+          "price": 762,
+          "stock": 6580
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 407
+          "stock": 435
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 1787
+          "stock": 643
         },
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 396
+          "stock": 643
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 2577
+          "stock": 2077
         },
         {
           "name": "Quantum Fuel",
