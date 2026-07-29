@@ -135,6 +135,7 @@
     Preisdaten stammen aus der UEX API 2.0 und werden per GitHub Actions alle 6 Stunden aktualisiert (00:00 / 06:00 / 12:00 / 18:00 UTC).
     Die Werkzeuge selbst laufen vollständig im Browser — es werden keine Eingaben an einen Server übertragen.
   </div>
+  <div class="footer-note" id="versionNote">Version wird geladen …</div>
 
 </div>
 
@@ -191,6 +192,19 @@ function nextRun(){
     document.getElementById('lastBuildSha').textContent = data.sha.slice(0,7);
   }catch(e){
     document.getElementById('lastBuild').textContent = 'nicht verfügbar';
+  }
+})();
+
+(async function loadVersion(){
+  const el = document.getElementById('versionNote');
+  try{
+    const resp = await fetch(`https://api.github.com/repos/${REPO}/releases/latest`, {headers:{Accept:'application/vnd.github+json'}});
+    if(!resp.ok) throw new Error('no releases');
+    const data = await resp.json();
+    const date = new Date(data.published_at).toLocaleDateString('de-DE', {day:'2-digit', month:'2-digit', year:'numeric'});
+    el.innerHTML = `Version <a href="${data.html_url}" target="_blank" rel="noopener" style="color:var(--cyan);">${data.tag_name}</a> · veröffentlicht ${date} · <a href="https://github.com/${REPO}/releases" target="_blank" rel="noopener" style="color:var(--cyan);">alle Releases</a>`;
+  }catch(e){
+    el.textContent = 'Noch keine Releases veröffentlicht.';
   }
 })();
 </script>
