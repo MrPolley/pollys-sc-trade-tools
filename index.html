@@ -38,27 +38,14 @@
   .stat-tile .value{font-family:var(--mono); font-size:15px; font-weight:600;}
   .stat-tile .sub{font-family:var(--mono); font-size:11px; color:var(--muted); margin-top:2px;}
 
-  .update-panel{background:var(--panel); border:1px solid var(--line-soft); border-radius:6px; padding:16px 18px; margin-bottom:30px; display:flex; flex-wrap:wrap; align-items:center; gap:14px; justify-content:space-between;}
-  .update-panel .desc{font-size:12.5px; color:var(--muted); max-width:520px; line-height:1.5;}
   .btn{font-family:var(--mono); font-size:12.5px; letter-spacing:.04em; padding:10px 18px; background:var(--panel-alt); border:1px solid var(--amber); color:var(--amber); border-radius:5px; cursor:pointer; white-space:nowrap;}
   .btn:hover{background:var(--amber); color:#1a1204;}
-  .btn.secondary{border-color:var(--line-soft); color:var(--muted);}
-  .btn.secondary:hover{background:var(--panel-alt2); color:var(--text);}
-  .btn:disabled{opacity:.5; cursor:wait;}
-  .update-actions{display:flex; flex-direction:column; align-items:flex-end; gap:6px;}
-  .update-status{font-family:var(--mono); font-size:11px; color:var(--muted); text-align:right; max-width:320px;}
-  .update-status.err{color:var(--red);}
-  .update-status.ok{color:var(--green);}
-  .token-form{display:none; flex-direction:column; gap:8px; margin-top:10px; padding-top:10px; border-top:1px solid var(--line-soft); width:100%;}
-  .token-form.open{display:flex;}
-  .token-form input{background:var(--panel-alt); border:1px solid var(--line-soft); color:var(--text); font-family:var(--mono); font-size:12.5px; padding:8px 10px; border-radius:4px; width:100%; max-width:420px;}
-  .token-form .hint{font-size:11px; color:var(--muted); line-height:1.5; max-width:480px;}
-  .token-form .row{display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
-  .token-link{font-family:var(--mono); font-size:10.5px; color:var(--muted); text-decoration:underline; cursor:pointer; background:none; border:none; padding:0;}
 
   .cards{display:grid; grid-template-columns:repeat(3, 1fr); gap:16px;}
   @media (max-width:900px){ .cards{grid-template-columns:1fr;} }
   .card{background:var(--panel); border:1px solid var(--line-soft); border-radius:6px; padding:18px 20px; display:flex; flex-direction:column; gap:10px;}
+  .card-icon{width:42px; height:42px; display:flex; align-items:center; justify-content:center; background:var(--panel-alt); border:1px solid var(--line-soft); border-radius:8px;}
+  .card-icon svg{width:24px; height:24px;}
   .card .eyebrow{font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; color:var(--cyan); text-transform:uppercase;}
   .card h2{margin:0; font-size:18px;}
   .card p{margin:0; color:var(--muted); font-size:13px; line-height:1.6; flex:1;}
@@ -89,6 +76,7 @@
       <div class="label">Nächster Datenabruf</div>
       <div class="value" id="nextPull">—</div>
       <div class="sub" id="nextPullRel"></div>
+      <div class="sub">Aktualisiert alle 6 Stunden</div>
     </div>
     <div class="stat-tile">
       <div class="label">Letzter Build</div>
@@ -97,43 +85,45 @@
     </div>
   </div>
 
-  <div class="update-panel">
-    <div class="desc">Löst den GitHub-Actions-Workflow „Update UEX Prices“ manuell aus, statt auf den nächsten 6-Stunden-Takt zu warten. Der neue Preisstand ist danach nach ca. 1–2 Minuten hier verfügbar.</div>
-    <div class="update-actions">
-      <div style="display:flex; gap:8px;">
-        <button class="btn" id="triggerBtn">↻ API-Update jetzt auslösen</button>
-        <a class="btn secondary" href="https://github.com/MrPolley/pollys-sc-trade-tools/actions/workflows/update-prices.yml" target="_blank" rel="noopener">Actions öffnen</a>
-      </div>
-      <div class="update-status" id="triggerStatus"></div>
-    </div>
-    <div class="token-form" id="tokenForm">
-      <div class="hint">
-        Zum Auslösen braucht es ein GitHub-Token mit Schreibrechten für Actions in diesem Repo — am sichersten ein
-        <b>Fine-grained Personal Access Token</b>, beschränkt auf <code>MrPolley/pollys-sc-trade-tools</code>, Berechtigung „Actions: Read and write“.
-        Das Token wird ausschließlich lokal in diesem Browser (localStorage) gespeichert und nur an <code>api.github.com</code> gesendet — nie sonst wohin.
-      </div>
-      <div class="row">
-        <input type="password" id="tokenInput" placeholder="github_pat_… oder ghp_…" autocomplete="off">
-        <button class="btn" id="tokenSaveBtn">Speichern &amp; auslösen</button>
-      </div>
-    </div>
-    <button class="token-link" id="tokenClearBtn" style="display:none; margin-top:8px;">Gespeichertes Token entfernen</button>
-  </div>
-
   <div class="cards">
     <div class="card">
+      <div class="card-icon">
+        <svg viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="11" width="16" height="11"/>
+          <path d="M19 15h5l4 4v3h-9z"/>
+          <circle cx="9" cy="25" r="2.2"/>
+          <circle cx="22" cy="25" r="2.2"/>
+        </svg>
+      </div>
       <div class="eyebrow">Zwei Routenprofile · ein Schiff</div>
       <h2>Single-Transport</h2>
       <p>Levski/Nyx vs. Stanton-intern — trägt Schiff, Kapazität und Standort ein und wählt automatisch das bessere Ziel je Ware, nach Gewinn oder Gewinn/Minute.</p>
       <a class="btn" href="./tools.html#buy">Öffnen →</a>
     </div>
     <div class="card">
+      <div class="card-icon">
+        <svg viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 6 L22 6 L19 11"/>
+          <path d="M16 6 C10 6 6 10 6 16"/>
+          <g transform="rotate(120 16 16)"><path d="M16 6 L22 6 L19 11"/><path d="M16 6 C10 6 6 10 6 16"/></g>
+          <g transform="rotate(240 16 16)"><path d="M16 6 L22 6 L19 11"/><path d="M16 6 C10 6 6 10 6 16"/></g>
+        </svg>
+      </div>
       <div class="eyebrow">Fracht bereits an Bord</div>
       <h2>Recycle</h2>
       <p>Bestpreis-Finder und Konsolidierungs-Vergleich für eine bereits geladene Fracht — einzeln verkaufen an mehreren Orten vs. alles an einem oder zwei Orten loswerden.</p>
       <a class="btn" href="./tools.html#sell">Öffnen →</a>
     </div>
     <div class="card">
+      <div class="card-icon">
+        <svg viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 10 L23 10 L23 22 L9 22 Z" stroke-dasharray="3 3"/>
+          <circle cx="9" cy="10" r="2.4" fill="#fff" stroke="none"/>
+          <circle cx="23" cy="10" r="2.4" fill="#fff" stroke="none"/>
+          <circle cx="23" cy="22" r="2.4" fill="#fff" stroke="none"/>
+          <circle cx="9" cy="22" r="2.4" fill="#fff" stroke="none"/>
+        </svg>
+      </div>
       <div class="eyebrow">Stanton · Patch 4.9</div>
       <h2>Routen-Rechner</h2>
       <p>Geschlossene Rundreise über verifizierte Lift-Stationen, bei der die Fracht bei jedem Stopp getauscht wird — inklusive Alternativroute zum Vergleich.</p>
@@ -150,7 +140,6 @@
 
 <script>
 const REPO = 'MrPolley/pollys-sc-trade-tools';
-const TOKEN_KEY = 'ptt_gh_pat';
 
 function fmt(d){
   return d.toLocaleString('de-DE', {day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit'});
@@ -204,75 +193,6 @@ function nextRun(){
     document.getElementById('lastBuild').textContent = 'nicht verfügbar';
   }
 })();
-
-// ---- manual workflow trigger ----
-const triggerBtn = document.getElementById('triggerBtn');
-const triggerStatus = document.getElementById('triggerStatus');
-const tokenForm = document.getElementById('tokenForm');
-const tokenInput = document.getElementById('tokenInput');
-const tokenSaveBtn = document.getElementById('tokenSaveBtn');
-const tokenClearBtn = document.getElementById('tokenClearBtn');
-
-function getToken(){ return localStorage.getItem(TOKEN_KEY); }
-function setStatus(msg, cls){
-  triggerStatus.textContent = msg;
-  triggerStatus.className = 'update-status' + (cls ? ' '+cls : '');
-}
-function refreshTokenUi(){
-  tokenClearBtn.style.display = getToken() ? 'inline' : 'none';
-}
-refreshTokenUi();
-
-async function dispatchWorkflow(token){
-  triggerBtn.disabled = true;
-  setStatus('Wird ausgelöst …');
-  try{
-    const resp = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/update-prices.yml/dispatches`, {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${token}`,
-        Accept: 'application/vnd.github+json'
-      },
-      body: JSON.stringify({ref: 'main'})
-    });
-    if(resp.status === 204){
-      setStatus('✓ Ausgelöst um ' + fmt(new Date()) + ' — Ergebnis in ca. 1–2 Minuten sichtbar.', 'ok');
-      tokenForm.classList.remove('open');
-    } else if(resp.status === 401 || resp.status === 403){
-      localStorage.removeItem(TOKEN_KEY);
-      refreshTokenUi();
-      setStatus('Token ungültig oder ohne Rechte — bitte neu eingeben.', 'err');
-      tokenForm.classList.add('open');
-    } else {
-      setStatus(`Fehler (${resp.status}) beim Auslösen.`, 'err');
-    }
-  }catch(e){
-    setStatus('Netzwerkfehler beim Auslösen.', 'err');
-  }finally{
-    triggerBtn.disabled = false;
-  }
-}
-
-triggerBtn.addEventListener('click', ()=>{
-  const token = getToken();
-  if(token){ dispatchWorkflow(token); }
-  else{ tokenForm.classList.add('open'); setStatus(''); }
-});
-
-tokenSaveBtn.addEventListener('click', ()=>{
-  const v = tokenInput.value.trim();
-  if(!v) return;
-  localStorage.setItem(TOKEN_KEY, v);
-  tokenInput.value = '';
-  refreshTokenUi();
-  dispatchWorkflow(v);
-});
-
-tokenClearBtn.addEventListener('click', ()=>{
-  localStorage.removeItem(TOKEN_KEY);
-  refreshTokenUi();
-  setStatus('Token entfernt.');
-});
 </script>
 </body>
 </html>
