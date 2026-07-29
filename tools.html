@@ -581,7 +581,7 @@ input[type=text], input[type=number], select, .mat-qty, .qty-input, .cargo-row s
 
   <div class="panel" style="border-color:var(--amber);">
     <div class="panel-note" style="margin-bottom:0;">
-      <b>Wichtig:</b> Diese Konsole hat keine Live-Verbindung zu UEX oder einer anderen Datenquelle. Preise sind ein Snapshot vom <b>23. Juli 2026</b> und veralten mit der Zeit. Statt vorab zehn Werte pro Station einzutragen, nutz den <b>Reise-Modus</b> unten: er fragt dich immer nur die eine Zahl, die wirklich zählt — wie viel tatsächlich verfügbar ist —, während du die Route abfliegst.
+      Statt vorab zehn Werte pro Station einzutragen, nutz den <b>Reise-Modus</b> unten: er fragt dich immer nur die eine Zahl, die wirklich zählt — wie viel tatsächlich verfügbar ist —, während du die Route abfliegst.
     </div>
   </div>
 
@@ -1509,7 +1509,9 @@ function compute(){
   if(active.length===0){
     strategiesOut.innerHTML = '';
     discrepancyOut.innerHTML = '';
-    document.getElementById('footerNote-sell').textContent = 'Werte sind ein manueller Marktschnappschuss, keine Live-Anbindung.';
+    document.getElementById('footerNote-sell').textContent = livePricesLoaded
+      ? `Live-Preise geladen (Stand: ${new Date(livePricesGeneratedAt).toLocaleString('de-DE')})`
+      : 'Werte sind ein manueller Marktschnappschuss, keine Live-Anbindung aktiv.';
     return;
   }
 
