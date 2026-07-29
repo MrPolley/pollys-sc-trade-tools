@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T09:41:57.672646+00:00",
+  "generated_at": "2026-07-29T15:10:07.794201+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -205,7 +205,7 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 1050
+          "stock": 240
         },
         {
           "name": "Quartz",
@@ -215,12 +215,12 @@
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 2532
+          "stock": 2245
         },
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 682
+          "stock": 776
         },
         {
           "name": "Ammonia",
@@ -230,7 +230,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 908
+          "stock": 457
         },
         {
           "name": "Ship Ammunition - Size 1",
