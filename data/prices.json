@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T15:10:07.794201+00:00",
+  "generated_at": "2026-07-29T17:18:13.218594+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -711,7 +711,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 7800
+          "price": 5800
         },
         {
           "name": "Laranite",
@@ -2600,12 +2600,12 @@
         {
           "name": "Tungsten",
           "price": 8265,
-          "stock": 148
+          "stock": 500
         },
         {
           "name": "Quartz",
           "price": 3705,
-          "stock": 4498
+          "stock": 5552
         },
         {
           "name": "Laranite",
@@ -3099,12 +3099,12 @@
         {
           "name": "Revenant Tree Pollen",
           "price": 967,
-          "stock": 16467
+          "stock": 18000
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 35158
+          "stock": 35570
         },
         {
           "name": "Potassium",
@@ -3114,7 +3114,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 3146
+          "stock": 1854
         },
         {
           "name": "Processed Food",
@@ -3124,7 +3124,7 @@
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 151
+          "stock": 410
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -3200,7 +3200,7 @@
         },
         {
           "name": "Borase",
-          "price": 27000
+          "price": 26000
         },
         {
           "name": "Agricium",
@@ -3216,15 +3216,15 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4800
+          "price": 4600
         },
         {
           "name": "Human Food Bars",
-          "price": 460
+          "price": 470
         },
         {
           "name": "Construction Materials",
-          "price": 11000
+          "price": 12000
         },
         {
           "name": "Corundum",
@@ -3244,7 +3244,7 @@
         },
         {
           "name": "Mercury",
-          "price": 1000
+          "price": 1100
         },
         {
           "name": "Methane",
@@ -3356,7 +3356,7 @@
         },
         {
           "name": "Riccite",
-          "price": 59000
+          "price": 58000
         },
         {
           "name": "Recycled Material Composite",
@@ -3388,7 +3388,7 @@
         },
         {
           "name": "Copper",
-          "price": 3300
+          "price": 3400
         },
         {
           "name": "Ammonia",
