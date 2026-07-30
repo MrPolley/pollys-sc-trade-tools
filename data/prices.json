@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T00:02:49.290929+00:00",
+  "generated_at": "2026-07-30T04:07:47.527819+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -470,17 +470,17 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 40
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1728
+          "stock": 1123
         },
         {
           "name": "Medical Supplies",
           "price": 4401,
-          "stock": 1050
+          "stock": 206
         }
       ],
       "sell": [
@@ -510,11 +510,11 @@
         },
         {
           "name": "Astatine",
-          "price": 3800
+          "price": 3300
         },
         {
           "name": "Nitrogen",
-          "price": 3500
+          "price": 3100
         },
         {
           "name": "Methane",
@@ -527,22 +527,22 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 27
+          "stock": 75
         },
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 50
+          "stock": 1013
         },
         {
           "name": "Gold",
           "price": 28928,
-          "stock": 21
+          "stock": 16
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 788
+          "stock": 1852
         }
       ],
       "sell": [
@@ -580,11 +580,11 @@
         },
         {
           "name": "Agricium",
-          "price": 9600
+          "price": 11000
         },
         {
           "name": "Titanium",
-          "price": 7700
+          "price": 8300
         }
       ]
     },
@@ -1025,17 +1025,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 80
+          "stock": 40
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 256
+          "stock": 205
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 399
+          "stock": 764
         }
       ],
       "sell": [
@@ -1057,7 +1057,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 69000
+          "price": 61000
         },
         {
           "name": "Party Favors",
@@ -1069,7 +1069,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Marok Gem",
@@ -1077,7 +1077,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3600
+          "price": 2900
         },
         {
           "name": "Borase",
@@ -1238,7 +1238,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 287
+          "stock": 437
         },
         {
           "name": "Recycled Material Composite",
@@ -1248,7 +1248,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 44
         }
       ],
       "sell": [
@@ -1258,7 +1258,7 @@
         },
         {
           "name": "Processed Food",
-          "price": 1400
+          "price": 1500
         },
         {
           "name": "Hydrogen",
@@ -1266,7 +1266,7 @@
         },
         {
           "name": "Stims",
-          "price": 4900
+          "price": 5100
         },
         {
           "name": "Dolivine",
@@ -1282,11 +1282,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Medical Supplies",
-          "price": 5400
+          "price": 5800
         },
         {
           "name": "Beryl",
@@ -1294,7 +1294,7 @@
         },
         {
           "name": "Agricium",
-          "price": 9600
+          "price": 10000
         },
         {
           "name": "Borase",
@@ -1302,7 +1302,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 5000
+          "price": 4200
         }
       ]
     },
