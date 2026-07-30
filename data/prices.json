@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T21:13:05.007546+00:00",
+  "generated_at": "2026-07-30T23:10:23.261142+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4649,7 +4649,7 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 2050
+          "stock": 1527
         },
         {
           "name": "Fluorine",
@@ -4669,27 +4669,27 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 3000
+          "stock": 1454
         },
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 5965
+          "stock": 6000
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 258
+          "stock": 690
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 313
+          "stock": 155
         },
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 10606
+          "stock": 9676
         },
         {
           "name": "Chlorine",
@@ -4708,7 +4708,7 @@
         },
         {
           "name": "Quantum Fuel",
-          "price": 976,
+          "price": 978,
           "stock": 12000
         },
         {
@@ -4794,12 +4794,12 @@
         {
           "name": "Ship Ammunition - Size 3",
           "price": 7384,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 5",
@@ -4830,7 +4830,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3800
+          "price": 3400
         },
         {
           "name": "Luminalia Gift",
@@ -4842,7 +4842,7 @@
         },
         {
           "name": "Iron",
-          "price": 3500
+          "price": 3300
         },
         {
           "name": "Medical Supplies",
@@ -4850,7 +4850,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3800
+          "price": 3500
         },
         {
           "name": "Stims",
@@ -4862,7 +4862,7 @@
         },
         {
           "name": "Quartz",
-          "price": 5400
+          "price": 4900
         },
         {
           "name": "Tungsten",
@@ -4874,7 +4874,7 @@
         },
         {
           "name": "Potassium",
-          "price": 560
+          "price": 550
         },
         {
           "name": "Processed Food",
