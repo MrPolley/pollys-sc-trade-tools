@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T15:12:50.989947+00:00",
+  "generated_at": "2026-07-30T17:38:17.935899+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 413
+          "stock": 160
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 1217
+          "stock": 407
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 175
+          "stock": 239
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 3201
+          "stock": 1035
         },
         {
           "name": "Carbon",
@@ -42,12 +42,12 @@
         {
           "name": "Ship Ammunition - Size 3",
           "price": 7384,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 5",
@@ -57,12 +57,12 @@
         {
           "name": "Ship Ammunition - Size 6",
           "price": 8328,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 7",
           "price": 8671,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -87,7 +87,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 2000
         }
       ],
       "sell": [
@@ -1608,7 +1608,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 1088
+          "stock": 952
         },
         {
           "name": "Waste",
@@ -1623,12 +1623,12 @@
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 1254
+          "stock": 398
         },
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 1486
+          "stock": 343
         },
         {
           "name": "Titanium",
@@ -1648,22 +1648,22 @@
         {
           "name": "Ship Ammunition - Size 2",
           "price": 7126,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 3",
           "price": 7384,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 5",
           "price": 7985,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 6",
