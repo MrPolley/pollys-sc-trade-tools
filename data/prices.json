@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T10:27:31.544852+00:00",
+  "generated_at": "2026-07-30T12:47:10.694333+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2196,17 +2196,17 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 194
+          "stock": 84
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 63
+          "stock": 76
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 110
+          "stock": 27
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 883
+          "stock": 232
         },
         {
           "name": "Hydrogen Fuel",
@@ -2270,7 +2270,7 @@
         },
         {
           "name": "Ship Ammunition - Size 6",
-          "price": 8326,
+          "price": 8328,
           "stock": 12000
         },
         {
@@ -2306,11 +2306,11 @@
         },
         {
           "name": "Atlasium",
-          "price": 95000
+          "price": 91000
         },
         {
           "name": "Audio-Visual Equipment",
-          "price": 38000
+          "price": 39000
         },
         {
           "name": "Bexalite",
@@ -2338,7 +2338,7 @@
         },
         {
           "name": "Cobalt",
-          "price": 22000
+          "price": 23000
         },
         {
           "name": "Compboard",
@@ -2438,7 +2438,7 @@
         },
         {
           "name": "Methane",
-          "price": 3700
+          "price": 3600
         },
         {
           "name": "Nitrogen",
@@ -2478,7 +2478,7 @@
         },
         {
           "name": "Ranta Dung",
-          "price": 39000
+          "price": 38000
         },
         {
           "name": "Revenant Tree Pollen",
@@ -2486,7 +2486,7 @@
         },
         {
           "name": "Riccite",
-          "price": 76000
+          "price": 72000
         },
         {
           "name": "Recycled Material Composite",
@@ -2494,7 +2494,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3600
         },
         {
           "name": "Ship Ammunition",
@@ -2514,7 +2514,7 @@
         },
         {
           "name": "Stileron",
-          "price": 140000
+          "price": 160000
         },
         {
           "name": "Stims",
@@ -2887,37 +2887,37 @@
         {
           "name": "Hydrogen",
           "price": 708,
-          "stock": 6717
+          "stock": 8828
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 244
+          "stock": 1225
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 299
+          "stock": 428
         },
         {
           "name": "Fluorine",
           "price": 919,
-          "stock": 10
+          "stock": 2
         },
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 905
+          "stock": 4606
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 417
+          "stock": 148
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 10
+          "stock": 28
         },
         {
           "name": "Quantum Fuel",
@@ -2990,7 +2990,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 22000
+          "price": 23000
         },
         {
           "name": "Aluminum",
@@ -3014,7 +3014,7 @@
         },
         {
           "name": "E'tam",
-          "price": 22000
+          "price": 23000
         },
         {
           "name": "Helium",
@@ -3022,11 +3022,11 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4500
         },
         {
           "name": "Laranite",
-          "price": 8700
+          "price": 8400
         },
         {
           "name": "Neon",
@@ -3034,7 +3034,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4200
+          "price": 4000
         },
         {
           "name": "Partillium",
@@ -3062,7 +3062,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3400
         },
         {
           "name": "Silicon",
