@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T23:10:23.261142+00:00",
+  "generated_at": "2026-07-31T03:17:37.613678+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 160
+          "stock": 658
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 407
+          "stock": 2328
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 239
+          "stock": 404
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 1035
+          "stock": 2341
         },
         {
           "name": "Carbon",
@@ -32,22 +32,22 @@
         {
           "name": "Ship Ammunition - Size 1",
           "price": 6868,
-          "stock": 12000
+          "stock": 24000
         },
         {
           "name": "Ship Ammunition - Size 2",
           "price": 7126,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 3",
           "price": 7384,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 5",
@@ -57,12 +57,12 @@
         {
           "name": "Ship Ammunition - Size 6",
           "price": 8328,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 7",
           "price": 8671,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -87,13 +87,13 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 2000
+          "stock": 12000
         }
       ],
       "sell": [
         {
           "name": "Stims",
-          "price": 5700
+          "price": 5500
         },
         {
           "name": "Audio-Visual Equipment",
@@ -125,7 +125,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4500
         },
         {
           "name": "Hydrogen",
@@ -137,7 +137,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Ammonia",
@@ -145,7 +145,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3500
+          "price": 3800
         },
         {
           "name": "Corundum",
@@ -157,7 +157,7 @@
         },
         {
           "name": "Mercury",
-          "price": 1000
+          "price": 930
         },
         {
           "name": "Argon",
@@ -2887,17 +2887,17 @@
         {
           "name": "Hydrogen",
           "price": 708,
-          "stock": 8828
+          "stock": 517
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 1225
+          "stock": 561
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 428
+          "stock": 532
         },
         {
           "name": "Fluorine",
@@ -2907,17 +2907,17 @@
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 4606
+          "stock": 3343
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 148
+          "stock": 251
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 28
+          "stock": 22
         },
         {
           "name": "Quantum Fuel",
