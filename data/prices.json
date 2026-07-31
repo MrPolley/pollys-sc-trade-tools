@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T06:46:40.427767+00:00",
+  "generated_at": "2026-07-31T09:47:44.389088+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2887,12 +2887,12 @@
         {
           "name": "Hydrogen",
           "price": 708,
-          "stock": 517
+          "stock": 11186
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 561
+          "stock": 2100
         },
         {
           "name": "Nitrogen",
@@ -2907,17 +2907,17 @@
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 3343
+          "stock": 2565
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 251
+          "stock": 760
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 22
+          "stock": 11
         },
         {
           "name": "Quantum Fuel",
@@ -2978,7 +2978,7 @@
       "sell": [
         {
           "name": "Agricultural Supplies",
-          "price": 1400
+          "price": 1300
         },
         {
           "name": "Beryl",
@@ -3022,11 +3022,11 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4600
         },
         {
           "name": "Laranite",
-          "price": 8400
+          "price": 8700
         },
         {
           "name": "Neon",
@@ -3034,7 +3034,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4000
+          "price": 4400
         },
         {
           "name": "Partillium",
@@ -3062,7 +3062,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 3700
         },
         {
           "name": "Silicon",
@@ -4361,7 +4361,7 @@
         {
           "name": "Iron",
           "price": 2850,
-          "stock": 114
+          "stock": 887
         },
         {
           "name": "Argon",
@@ -4386,7 +4386,7 @@
         {
           "name": "Aluminum",
           "price": 3128,
-          "stock": 980
+          "stock": 1050
         },
         {
           "name": "Hydrogen Fuel",
@@ -4416,7 +4416,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 11744
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 4",
@@ -4505,7 +4505,7 @@
         },
         {
           "name": "Ship Ammunition - Size 6",
-          "price": 8328,
+          "price": 8671,
           "stock": 12000
         }
       ],
@@ -4724,7 +4724,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 6",
