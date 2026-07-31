@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T17:41:31.087621+00:00",
+  "generated_at": "2026-07-31T19:37:49.454145+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -736,7 +736,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 17
         },
         {
           "name": "Recycled Material Composite",
@@ -746,7 +746,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 184
+          "stock": 1373
         }
       ],
       "sell": [
@@ -844,7 +844,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Thermalfoam",
