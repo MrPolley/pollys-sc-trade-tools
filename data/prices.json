@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T22:02:10.144334+00:00",
+  "generated_at": "2026-08-01T23:59:09.443670+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,27 +7,27 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 680
+          "stock": 120
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 1408
+          "stock": 514
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 497
+          "stock": 10
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 1002
+          "stock": 514
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 20668
+          "stock": 22688
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -37,7 +37,7 @@
         {
           "name": "Ship Ammunition - Size 2",
           "price": 7126,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 3",
@@ -93,7 +93,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 4900
+          "price": 5700
         },
         {
           "name": "Audio-Visual Equipment",
@@ -125,7 +125,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4400
+          "price": 4300
         },
         {
           "name": "Hydrogen",
@@ -137,7 +137,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Ammonia",
@@ -145,7 +145,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3800
+          "price": 3500
         },
         {
           "name": "Corundum",
