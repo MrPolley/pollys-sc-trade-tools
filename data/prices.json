@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T13:26:56.917307+00:00",
+  "generated_at": "2026-08-01T15:02:45.153267+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -657,7 +657,7 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1737
+          "stock": 1254
         },
         {
           "name": "Waste",
@@ -672,18 +672,18 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 127
+          "stock": 1172
         },
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 524
+          "stock": 519
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 4700
+          "price": 5300
         },
         {
           "name": "Distilled Spirits",
@@ -711,7 +711,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 5800
+          "price": 6500
         },
         {
           "name": "Laranite",
@@ -719,7 +719,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3500
+          "price": 3400
         },
         {
           "name": "Hephaestanite",
@@ -887,7 +887,7 @@
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 480
+          "stock": 778
         },
         {
           "name": "Nitrogen",
@@ -3542,7 +3542,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5700
+          "price": 5100
         },
         {
           "name": "Processed Food",
