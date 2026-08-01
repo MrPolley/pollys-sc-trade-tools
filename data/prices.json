@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T15:02:45.153267+00:00",
+  "generated_at": "2026-08-01T17:03:03.736446+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -820,7 +820,7 @@
         },
         {
           "name": "E'tam",
-          "price": 26000
+          "price": 22000
         },
         {
           "name": "Neon",
@@ -1185,7 +1185,7 @@
         },
         {
           "name": "Stims",
-          "price": 5800
+          "price": 5600
         },
         {
           "name": "Dolivine",
@@ -1618,7 +1618,7 @@
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 2
+          "stock": 602
         },
         {
           "name": "Silicon",
@@ -1748,7 +1748,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 6400
+          "price": 6800
         },
         {
           "name": "Ammonia",
