@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T19:12:36.050022+00:00",
+  "generated_at": "2026-08-01T20:56:38.455302+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1608,17 +1608,17 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 2100
+          "stock": 520
         },
         {
           "name": "Waste",
           "price": 189,
-          "stock": 99072
+          "stock": 100000
         },
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 602
+          "stock": 140
         },
         {
           "name": "Silicon",
@@ -1628,17 +1628,17 @@
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 2227
+          "stock": 305
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 2708
+          "stock": 788
         },
         {
           "name": "Carbon",
           "price": 283,
-          "stock": 24000
+          "stock": 23360
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -1687,13 +1687,13 @@
         },
         {
           "name": "Quantum Fuel",
-          "price": 978,
+          "price": 976,
           "stock": 12000
         },
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 1
         },
         {
           "name": "Ship Noise Countermeasures",
@@ -1752,7 +1752,7 @@
         },
         {
           "name": "Ammonia",
-          "price": 990
+          "price": 1000
         },
         {
           "name": "DynaFlex",
@@ -1887,7 +1887,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5100
+          "price": 5300
         },
         {
           "name": "Agricium",
@@ -1919,7 +1919,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8600
+          "price": 8500
         },
         {
           "name": "Quartz",
@@ -1939,7 +1939,7 @@
         },
         {
           "name": "Taranite",
-          "price": 27000
+          "price": 28000
         },
         {
           "name": "Quantainium",
@@ -1947,11 +1947,11 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4900
         },
         {
           "name": "Bexalite",
-          "price": 29000
+          "price": 28000
         },
         {
           "name": "Copper",
@@ -2075,7 +2075,7 @@
         },
         {
           "name": "Dymantium",
-          "price": 22000
+          "price": 23000
         },
         {
           "name": "Fresh Food",
@@ -2147,7 +2147,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Beradom",
@@ -2717,12 +2717,12 @@
         {
           "name": "Waste",
           "price": 196,
-          "stock": 74000
+          "stock": 72048
         },
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 30
+          "stock": 1
         },
         {
           "name": "Gold",
@@ -2732,12 +2732,12 @@
         {
           "name": "Hephaestanite",
           "price": 3303,
-          "stock": 540
+          "stock": 1
         },
         {
           "name": "Human Food Bars",
           "price": 416,
-          "stock": 6000
+          "stock": 5728
         },
         {
           "name": "Tungsten",
@@ -2747,7 +2747,7 @@
         {
           "name": "Stims",
           "price": 4467,
-          "stock": 282
+          "stock": 1
         }
       ],
       "sell": [
@@ -2769,7 +2769,7 @@
         },
         {
           "name": "Copper",
-          "price": 4400
+          "price": 4100
         },
         {
           "name": "Corundum",
@@ -2777,7 +2777,7 @@
         },
         {
           "name": "Diamond",
-          "price": 6900
+          "price": 7000
         },
         {
           "name": "Cobalt",
@@ -2809,11 +2809,11 @@
         },
         {
           "name": "Iron",
-          "price": 3500
+          "price": 3400
         },
         {
           "name": "Laranite",
-          "price": 8800
+          "price": 9300
         },
         {
           "name": "Medical Supplies",
