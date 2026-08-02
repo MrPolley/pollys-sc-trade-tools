@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T20:58:38.544500+00:00",
+  "generated_at": "2026-08-02T22:03:20.887962+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2889,17 +2889,17 @@
         {
           "name": "Hydrogen",
           "price": 708,
-          "stock": 11034
+          "stock": 187
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 126
+          "stock": 743
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 1441
+          "stock": 179
         },
         {
           "name": "Fluorine",
@@ -2909,12 +2909,12 @@
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 2034
+          "stock": 174
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 60
+          "stock": 554
         },
         {
           "name": "Xa'Pyen",
