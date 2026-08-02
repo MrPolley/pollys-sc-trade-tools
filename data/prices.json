@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T13:27:04.269850+00:00",
+  "generated_at": "2026-08-02T15:04:42.943937+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2602,17 +2602,17 @@
         {
           "name": "Tungsten",
           "price": 8265,
-          "stock": 500
+          "stock": 22
         },
         {
           "name": "Quartz",
           "price": 3705,
-          "stock": 5552
+          "stock": 6000
         },
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 750
+          "stock": 1050
         }
       ],
       "sell": [
@@ -5175,7 +5175,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8800
+          "price": 8500
         },
         {
           "name": "Medical Supplies",
@@ -5231,7 +5231,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 28000
+          "price": 29000
         },
         {
           "name": "Hephaestanite",
@@ -5263,7 +5263,7 @@
         },
         {
           "name": "Atlasium",
-          "price": 89000
+          "price": 88000
         },
         {
           "name": "Aphorite",
@@ -5403,7 +5403,7 @@
         },
         {
           "name": "Stileron",
-          "price": 140000
+          "price": 130000
         },
         {
           "name": "Dolivine",
@@ -5435,7 +5435,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Neograph",
