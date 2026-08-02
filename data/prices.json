@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T06:35:25.649223+00:00",
+  "generated_at": "2026-08-02T09:10:36.350712+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -518,7 +518,7 @@
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 4100
         }
       ]
     },
@@ -711,7 +711,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 5800
+          "price": 7500
         },
         {
           "name": "Laranite",
@@ -1025,7 +1025,7 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 40
+          "stock": 81
         },
         {
           "name": "Scrap",
@@ -1035,7 +1035,7 @@
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 764
+          "stock": 390
         }
       ],
       "sell": [
@@ -1057,7 +1057,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 61000
+          "price": 69000
         },
         {
           "name": "Party Favors",
@@ -1069,7 +1069,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Marok Gem",
@@ -1085,7 +1085,7 @@
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 4100
         }
       ]
     },
@@ -1238,7 +1238,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 171
+          "stock": 784
         },
         {
           "name": "Recycled Material Composite",
@@ -1248,7 +1248,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 41
+          "stock": 75
         }
       ],
       "sell": [
@@ -1266,7 +1266,7 @@
         },
         {
           "name": "Stims",
-          "price": 4900
+          "price": 5200
         },
         {
           "name": "Dolivine",
@@ -1282,15 +1282,15 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Medical Supplies",
-          "price": 5800
+          "price": 4900
         },
         {
           "name": "Beryl",
-          "price": 18000
+          "price": 22000
         },
         {
           "name": "Agricium",
@@ -1455,7 +1455,7 @@
         {
           "name": "Ship Noise Countermeasures",
           "price": 8585,
-          "stock": 1
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 3",
@@ -1555,7 +1555,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 2500
         },
         {
           "name": "Omnapoxy",
@@ -1618,7 +1618,7 @@
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 140
+          "stock": 1050
         },
         {
           "name": "Silicon",
@@ -2224,6 +2224,11 @@
           "stock": 12000
         },
         {
+          "name": "Quantainium",
+          "price": 978,
+          "stock": 12000
+        },
+        {
           "name": "Hydrogen Fuel",
           "price": 196,
           "stock": 12000
@@ -2276,6 +2281,11 @@
         {
           "name": "Ship Ammunition - Size 7",
           "price": 8671,
+          "stock": 12000
+        },
+        {
+          "name": "Hydrogen",
+          "price": 196,
           "stock": 12000
         }
       ],
@@ -2469,10 +2479,6 @@
           "price": 76000
         },
         {
-          "name": "Quantainium",
-          "price": 140000
-        },
-        {
           "name": "Quartz",
           "price": 3700
         },
@@ -2583,10 +2589,6 @@
         {
           "name": "Ouratite",
           "price": 46000
-        },
-        {
-          "name": "Hydrogen",
-          "price": 1000
         }
       ]
     },
@@ -3090,7 +3092,7 @@
         },
         {
           "name": "Iron",
-          "price": 3000
+          "price": 3900
         }
       ]
     },
@@ -4858,7 +4860,7 @@
         },
         {
           "name": "Helium",
-          "price": 1300
+          "price": 1000
         },
         {
           "name": "Quartz",
@@ -5016,7 +5018,7 @@
         },
         {
           "name": "Copper",
-          "price": 3600
+          "price": 4700
         },
         {
           "name": "Degnous Root",
