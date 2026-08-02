@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T23:59:09.443670+00:00",
+  "generated_at": "2026-08-02T03:43:31.269347+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -190,7 +190,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 588
+          "stock": 1321
         },
         {
           "name": "Recycled Material Composite",
@@ -205,22 +205,22 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 326
+          "stock": 912
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 180
+          "stock": 5
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 1430
+          "stock": 3128
         },
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 1267
+          "stock": 3000
         },
         {
           "name": "Ammonia",
@@ -290,13 +290,13 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 1
         }
       ],
       "sell": [
         {
           "name": "Stims",
-          "price": 5700
+          "price": 5600
         },
         {
           "name": "Dolivine",
@@ -320,7 +320,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Degnous Root",
@@ -340,7 +340,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3700
+          "price": 3500
         },
         {
           "name": "Chlorine",
@@ -348,7 +348,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1500
+          "price": 1400
         },
         {
           "name": "Human Food Bars",
@@ -356,7 +356,7 @@
         },
         {
           "name": "Tin",
-          "price": 4300
+          "price": 4400
         },
         {
           "name": "Potassium",
