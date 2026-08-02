@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T15:04:42.943937+00:00",
+  "generated_at": "2026-08-02T17:02:36.963041+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3218,7 +3218,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 5200
         },
         {
           "name": "Human Food Bars",
@@ -3995,7 +3995,7 @@
         {
           "name": "Agricultural Supplies",
           "price": 1108,
-          "stock": 6000
+          "stock": 3101
         },
         {
           "name": "Carbon",
@@ -4005,22 +4005,22 @@
         {
           "name": "Distilled Spirits",
           "price": 1427,
-          "stock": 3078
+          "stock": 3511
         },
         {
           "name": "DynaFlex",
           "price": 1603,
-          "stock": 3000
+          "stock": 174
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 672
+          "stock": 970
         },
         {
           "name": "Iron",
           "price": 2480,
-          "stock": 104
+          "stock": 178
         },
         {
           "name": "Mercury",
