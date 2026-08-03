@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T19:41:37.771870+00:00",
+  "generated_at": "2026-08-03T21:05:57.831306+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1380,32 +1380,32 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 10791
+          "stock": 2410
         },
         {
           "name": "Waste",
-          "price": 198,
+          "price": 190,
           "stock": 98000
         },
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 4849
+          "stock": 1648
         },
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 517
+          "stock": 682
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 4169
+          "stock": 853
         },
         {
           "name": "Potassium",
           "price": 452,
-          "stock": 22714
+          "stock": 24000
         },
         {
           "name": "Ammonia",
@@ -1415,12 +1415,12 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 2652
+          "stock": 5126
         },
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 4790
+          "stock": 2562
         },
         {
           "name": "Hydrogen Fuel",
@@ -1485,7 +1485,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 2100
+          "stock": 765
         }
       ],
       "sell": [
@@ -1507,7 +1507,7 @@
         },
         {
           "name": "Processed Food",
-          "price": 1500
+          "price": 1400
         },
         {
           "name": "Agricultural Supplies",
@@ -1515,7 +1515,7 @@
         },
         {
           "name": "Amioshi Plague",
-          "price": 27000
+          "price": 25000
         },
         {
           "name": "Aphorite",
@@ -1535,7 +1535,7 @@
         },
         {
           "name": "Iodine",
-          "price": 11000
+          "price": 12000
         },
         {
           "name": "Prota",
@@ -1543,7 +1543,7 @@
         },
         {
           "name": "Ranta Dung",
-          "price": 39000
+          "price": 37000
         },
         {
           "name": "Stims",
@@ -1559,7 +1559,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4300
+          "price": 5000
         },
         {
           "name": "Human Food Bars",
@@ -1567,7 +1567,7 @@
         },
         {
           "name": "Steel",
-          "price": 2000
+          "price": 1900
         },
         {
           "name": "Quartz",
@@ -1579,7 +1579,7 @@
         },
         {
           "name": "Argon",
-          "price": 550
+          "price": 490
         },
         {
           "name": "Beradom",
@@ -3604,13 +3604,13 @@
         },
         {
           "name": "Dymantium",
-          "price": 20758,
+          "price": 20756,
           "stock": 128
         },
         {
           "name": "Audio-Visual Equipment",
           "price": 25004,
-          "stock": 12
+          "stock": 60
         },
         {
           "name": "Scrap",
@@ -3621,7 +3621,7 @@
       "sell": [
         {
           "name": "Atlasium",
-          "price": 94000
+          "price": 92000
         },
         {
           "name": "Compboard",
