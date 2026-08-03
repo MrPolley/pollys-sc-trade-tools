@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T15:45:07.434491+00:00",
+  "generated_at": "2026-08-03T17:53:28.551664+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -764,7 +764,7 @@
         },
         {
           "name": "Stims",
-          "price": 4900
+          "price": 5900
         },
         {
           "name": "Dolivine",
@@ -3217,7 +3217,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 5200
+          "price": 4600
         },
         {
           "name": "Human Food Bars",
@@ -3225,7 +3225,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 11000
         },
         {
           "name": "Corundum",
@@ -4196,12 +4196,12 @@
         {
           "name": "Cobalt",
           "price": 18050,
-          "stock": 45
+          "stock": 114
         },
         {
           "name": "DynaFlex",
           "price": 1350,
-          "stock": 1524
+          "stock": 413
         },
         {
           "name": "Human Food Bars",
