@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T11:26:46.462629+00:00",
+  "generated_at": "2026-08-04T14:21:58.810220+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3802,7 +3802,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 124
+          "stock": 523
         },
         {
           "name": "Ammonia",
@@ -3817,17 +3817,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 52
+          "stock": 811
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 120
+          "stock": 1050
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 376
+          "stock": 1050
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3921,7 +3921,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1800
+          "price": 1900
         },
         {
           "name": "Fluorine",
@@ -3973,7 +3973,7 @@
         },
         {
           "name": "Titanium",
-          "price": 8200
+          "price": 7700
         },
         {
           "name": "Tungsten",
