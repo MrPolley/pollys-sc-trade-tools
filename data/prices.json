@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T16:53:57.657203+00:00",
+  "generated_at": "2026-08-04T18:39:57.289253+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3994,7 +3994,7 @@
         {
           "name": "Agricultural Supplies",
           "price": 1108,
-          "stock": 6000
+          "stock": 3840
         },
         {
           "name": "Carbon",
@@ -4004,27 +4004,27 @@
         {
           "name": "Distilled Spirits",
           "price": 1427,
-          "stock": 511
+          "stock": 5261
         },
         {
           "name": "DynaFlex",
           "price": 1603,
-          "stock": 186
+          "stock": 3000
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 0
+          "stock": 1200
         },
         {
           "name": "Iron",
           "price": 2480,
-          "stock": 30
+          "stock": 573
         },
         {
           "name": "Mercury",
           "price": 715,
-          "stock": 12606
+          "stock": 10796
         },
         {
           "name": "Waste",
@@ -4139,7 +4139,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1200
+          "price": 1000
         },
         {
           "name": "Neon",
@@ -4159,7 +4159,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5000
+          "price": 4900
         },
         {
           "name": "Processed Food",
@@ -4171,7 +4171,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 3700
         },
         {
           "name": "Steel",
