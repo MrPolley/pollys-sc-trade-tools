@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T14:21:58.810220+00:00",
+  "generated_at": "2026-08-04T16:53:57.657203+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -882,12 +882,12 @@
         {
           "name": "Gold",
           "price": 26492,
-          "stock": 56
+          "stock": 2
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 778
+          "stock": 1674
         },
         {
           "name": "Nitrogen",
@@ -1007,7 +1007,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4800
+          "price": 4700
         },
         {
           "name": "Agricium",
@@ -2196,12 +2196,12 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 5
+          "stock": 0
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 4
+          "stock": 0
         },
         {
           "name": "Construction Materials",
