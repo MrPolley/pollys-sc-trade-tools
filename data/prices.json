@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T23:03:56.244870+00:00",
+  "generated_at": "2026-08-04T02:46:59.437681+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -205,32 +205,32 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 282
+          "stock": 168
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 186
+          "stock": 122
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 6000
+          "stock": 2542
         },
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 365
+          "stock": 1088
         },
         {
           "name": "Ammonia",
           "price": 783,
-          "stock": 12000
+          "stock": 11761
         },
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 603
+          "stock": 350
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -296,7 +296,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5500
+          "price": 5700
         },
         {
           "name": "Dolivine",
@@ -340,7 +340,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 4000
+          "price": 3500
         },
         {
           "name": "Chlorine",
@@ -348,7 +348,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1300
+          "price": 1500
         },
         {
           "name": "Human Food Bars",
@@ -356,7 +356,7 @@
         },
         {
           "name": "Tin",
-          "price": 4500
+          "price": 4200
         },
         {
           "name": "Potassium",
