@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T00:05:48.522263+00:00",
+  "generated_at": "2026-08-05T04:12:36.256118+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1282,7 +1282,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Medical Supplies",
@@ -5154,7 +5154,7 @@
         },
         {
           "name": "Titanium",
-          "price": 8200
+          "price": 8300
         },
         {
           "name": "Agricium",
@@ -5178,7 +5178,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5100
         },
         {
           "name": "Distilled Spirits",
@@ -5230,11 +5230,11 @@
         },
         {
           "name": "Bexalite",
-          "price": 27000
+          "price": 29000
         },
         {
           "name": "Hephaestanite",
-          "price": 4800
+          "price": 4600
         },
         {
           "name": "Quantainium",
@@ -5402,7 +5402,7 @@
         },
         {
           "name": "Stileron",
-          "price": 130000
+          "price": 140000
         },
         {
           "name": "Dolivine",
