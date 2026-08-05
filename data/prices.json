@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T10:38:23.039568+00:00",
+  "generated_at": "2026-08-05T12:55:41.717185+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2196,27 +2196,27 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 98
+          "stock": 29
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 1
+          "stock": 0
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 7
+          "stock": 28
         },
         {
           "name": "Corundum",
           "price": 2970,
-          "stock": 1
+          "stock": 0
         },
         {
           "name": "Iron",
-          "price": 2340,
-          "stock": 1
+          "price": 2349,
+          "stock": 5
         },
         {
           "name": "Hydrogen Fuel",
@@ -4650,12 +4650,12 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 1821
+          "stock": 1586
         },
         {
           "name": "Fluorine",
           "price": 1142,
-          "stock": 6000
+          "stock": 4060
         },
         {
           "name": "Waste",
@@ -4670,27 +4670,27 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 3000
+          "stock": 2703
         },
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 517
+          "stock": 6000
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 116
+          "stock": 457
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 267
+          "stock": 63
         },
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 4903
+          "stock": 15000
         },
         {
           "name": "Chlorine",
@@ -4794,7 +4794,7 @@
         },
         {
           "name": "Ship Ammunition - Size 3",
-          "price": 7384,
+          "price": 7304,
           "stock": 12000
         },
         {
@@ -4843,11 +4843,11 @@
         },
         {
           "name": "Iron",
-          "price": 3500
+          "price": 3300
         },
         {
           "name": "Medical Supplies",
-          "price": 5100
+          "price": 4800
         },
         {
           "name": "Scrap",
@@ -4859,11 +4859,11 @@
         },
         {
           "name": "Helium",
-          "price": 1100
+          "price": 1300
         },
         {
           "name": "Quartz",
-          "price": 4700
+          "price": 4800
         },
         {
           "name": "Tungsten",
