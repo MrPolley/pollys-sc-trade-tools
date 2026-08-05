@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T22:15:08.375050+00:00",
+  "generated_at": "2026-08-05T00:05:48.522263+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -824,7 +824,7 @@
         },
         {
           "name": "Neon",
-          "price": 19000
+          "price": 22000
         },
         {
           "name": "Altruciatoxin",
@@ -832,7 +832,7 @@
         },
         {
           "name": "WiDoW",
-          "price": 5500
+          "price": 5700
         },
         {
           "name": "SLAM",
@@ -882,12 +882,12 @@
         {
           "name": "Gold",
           "price": 26492,
-          "stock": 2
+          "stock": 18
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 1674
+          "stock": 183
         },
         {
           "name": "Nitrogen",
@@ -1007,7 +1007,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4700
+          "price": 4800
         },
         {
           "name": "Agricium",
@@ -2201,12 +2201,12 @@
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 35
+          "stock": 1
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 83
+          "stock": 7
         },
         {
           "name": "Corundum",
@@ -2215,7 +2215,7 @@
         },
         {
           "name": "Iron",
-          "price": 2349,
+          "price": 2340,
           "stock": 1
         },
         {
@@ -3106,7 +3106,7 @@
         {
           "name": "Helium",
           "price": 727,
-          "stock": 35086
+          "stock": 33269
         },
         {
           "name": "Potassium",
@@ -3115,13 +3115,13 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 4500,
-          "stock": 4500
+          "price": 4536,
+          "stock": 4210
         },
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 1401
+          "stock": 120
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -3193,7 +3193,7 @@
         },
         {
           "name": "Beryl",
-          "price": 20000
+          "price": 19000
         },
         {
           "name": "Bioplastic",
@@ -3201,7 +3201,7 @@
         },
         {
           "name": "Borase",
-          "price": 26000
+          "price": 27000
         },
         {
           "name": "Agricium",
@@ -3273,7 +3273,7 @@
         },
         {
           "name": "Steel",
-          "price": 1600
+          "price": 1800
         },
         {
           "name": "Stims",
@@ -3301,11 +3301,11 @@
         },
         {
           "name": "Compboard",
-          "price": 30000
+          "price": 28000
         },
         {
           "name": "Dolivine",
-          "price": 150000
+          "price": 130000
         },
         {
           "name": "Dymantium",
@@ -3357,7 +3357,7 @@
         },
         {
           "name": "Riccite",
-          "price": 58000
+          "price": 59000
         },
         {
           "name": "Recycled Material Composite",
@@ -4908,7 +4908,7 @@
         {
           "name": "Distilled Spirits",
           "price": 1685,
-          "stock": 4110
+          "stock": 5451
         },
         {
           "name": "Hephaestanite",
@@ -4918,27 +4918,27 @@
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 691
+          "stock": 865
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 40
+          "stock": 96
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 757
+          "stock": 1289
         },
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 51
+          "stock": 120
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 2328
+          "stock": 3261
         },
         {
           "name": "Quantum Fuel",
