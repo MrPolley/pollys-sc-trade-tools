@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T12:55:41.717185+00:00",
+  "generated_at": "2026-08-05T15:17:51.251248+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2316,11 +2316,11 @@
         },
         {
           "name": "Atlasium",
-          "price": 92000
+          "price": 97000
         },
         {
           "name": "Audio-Visual Equipment",
-          "price": 39000
+          "price": 38000
         },
         {
           "name": "Bexalite",
@@ -2396,7 +2396,7 @@
         },
         {
           "name": "Gold",
-          "price": 27000
+          "price": 28000
         },
         {
           "name": "Golden Medmon",
@@ -2420,7 +2420,7 @@
         },
         {
           "name": "Iodine",
-          "price": 11000
+          "price": 13000
         },
         {
           "name": "Janalite",
@@ -2492,15 +2492,15 @@
         },
         {
           "name": "Riccite",
-          "price": 72000
+          "price": 77000
         },
         {
           "name": "Recycled Material Composite",
-          "price": 6300
+          "price": 6400
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 3700
         },
         {
           "name": "Ship Ammunition",
@@ -2520,7 +2520,7 @@
         },
         {
           "name": "Stileron",
-          "price": 140000
+          "price": 150000
         },
         {
           "name": "Stims",
