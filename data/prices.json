@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T08:41:04.942429+00:00",
+  "generated_at": "2026-08-06T11:25:29.821623+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3099,12 +3099,12 @@
         {
           "name": "Revenant Tree Pollen",
           "price": 967,
-          "stock": 18000
+          "stock": 16183
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 36000
+          "stock": 35153
         },
         {
           "name": "Potassium",
@@ -3114,7 +3114,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 154
+          "stock": 4500
         },
         {
           "name": "Processed Food",
@@ -3123,8 +3123,8 @@
         },
         {
           "name": "Silicon",
-          "price": 1681,
-          "stock": 510
+          "price": 1881,
+          "stock": 168
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -3168,7 +3168,7 @@
         },
         {
           "name": "Ship Ammunition - Size 6",
-          "price": 8326,
+          "price": 8328,
           "stock": 12000
         },
         {
@@ -3216,7 +3216,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4600
         },
         {
           "name": "Human Food Bars",
@@ -3232,7 +3232,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3400
+          "price": 3600
         },
         {
           "name": "Iron",
@@ -3248,7 +3248,7 @@
         },
         {
           "name": "Methane",
-          "price": 3500
+          "price": 3400
         },
         {
           "name": "Neon",
@@ -3316,7 +3316,7 @@
         },
         {
           "name": "Gasping Weevil Eggs",
-          "price": 56000
+          "price": 55000
         },
         {
           "name": "Hadanite",
