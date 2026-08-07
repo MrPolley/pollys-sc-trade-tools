@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T22:38:44.475097+00:00",
+  "generated_at": "2026-08-07T23:35:54.153747+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2728,12 +2728,12 @@
         {
           "name": "Waste",
           "price": 196,
-          "stock": 73872
+          "stock": 74000
         },
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 108
+          "stock": 381
         },
         {
           "name": "Gold",
@@ -2743,7 +2743,7 @@
         {
           "name": "Hephaestanite",
           "price": 3303,
-          "stock": 25
+          "stock": 80
         },
         {
           "name": "Human Food Bars",
@@ -2758,17 +2758,17 @@
         {
           "name": "Stims",
           "price": 4467,
-          "stock": 0
+          "stock": 180
         }
       ],
       "sell": [
         {
           "name": "Altruciatoxin",
-          "price": 6300
+          "price": 6400
         },
         {
           "name": "Revenant Tree Pollen",
-          "price": 1200
+          "price": 1100
         },
         {
           "name": "Agricium",
@@ -2780,15 +2780,15 @@
         },
         {
           "name": "Copper",
-          "price": 4600
+          "price": 4100
         },
         {
           "name": "Corundum",
-          "price": 3800
+          "price": 4200
         },
         {
           "name": "Diamond",
-          "price": 7800
+          "price": 7900
         },
         {
           "name": "Cobalt",
@@ -2800,7 +2800,7 @@
         },
         {
           "name": "Beryl",
-          "price": 23000
+          "price": 24000
         },
         {
           "name": "Bexalite",
@@ -2820,7 +2820,7 @@
         },
         {
           "name": "Iron",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Laranite",
@@ -2832,11 +2832,11 @@
         },
         {
           "name": "Neon",
-          "price": 18000
+          "price": 19000
         },
         {
           "name": "Nitrogen",
-          "price": 2800
+          "price": 2900
         },
         {
           "name": "Omnapoxy",
