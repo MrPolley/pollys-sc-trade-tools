@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:02:18.501435+00:00",
+  "generated_at": "2026-08-07T10:55:06.271734+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1380,27 +1380,27 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 571
+          "stock": 2959
         },
         {
           "name": "Waste",
           "price": 198,
-          "stock": 98000
+          "stock": 97360
         },
         {
           "name": "Hydrogen",
-          "price": 800,
-          "stock": 11532
+          "price": 600,
+          "stock": 10455
         },
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 1592
+          "stock": 1080
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 4012
+          "stock": 1660
         },
         {
           "name": "Potassium",
@@ -1410,7 +1410,7 @@
         {
           "name": "Ammonia",
           "price": 783,
-          "stock": 10949
+          "stock": 12000
         },
         {
           "name": "Chlorine",
@@ -1420,7 +1420,7 @@
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 6000
+          "stock": 1565
         },
         {
           "name": "Hydrogen Fuel",
@@ -1515,7 +1515,7 @@
         },
         {
           "name": "Amioshi Plague",
-          "price": 25000
+          "price": 27000
         },
         {
           "name": "Aphorite",
@@ -1535,7 +1535,7 @@
         },
         {
           "name": "Iodine",
-          "price": 11000
+          "price": 13000
         },
         {
           "name": "Prota",
@@ -1559,7 +1559,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4200
+          "price": 4800
         },
         {
           "name": "Human Food Bars",
@@ -1579,7 +1579,7 @@
         },
         {
           "name": "Argon",
-          "price": 470
+          "price": 510
         },
         {
           "name": "Beradom",
@@ -3801,7 +3801,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 523
+          "stock": 175
         },
         {
           "name": "Ammonia",
@@ -3811,22 +3811,22 @@
         {
           "name": "Argon",
           "price": 300,
-          "stock": 24000
+          "stock": 23352
         },
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 811
+          "stock": 12
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 1050
+          "stock": 113
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 1050
+          "stock": 124
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3936,7 +3936,7 @@
         },
         {
           "name": "Iron",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Methane",
