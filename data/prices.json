@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T18:40:51.673826+00:00",
+  "generated_at": "2026-08-08T19:32:09.549247+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3809,8 +3809,8 @@
         },
         {
           "name": "Aluminum",
-          "price": 2504,
-          "stock": 919
+          "price": 2584,
+          "stock": 856
         },
         {
           "name": "Ammonia",
@@ -3825,17 +3825,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 99
+          "stock": 391
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 465
+          "stock": 339
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 14
+          "stock": 529
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3849,7 +3849,7 @@
         },
         {
           "name": "Ship Ammunition - Size 7",
-          "price": 8671,
+          "price": 6868,
           "stock": 12000
         },
         {
@@ -3905,7 +3905,7 @@
         },
         {
           "name": "Altruciatoxin",
-          "price": 6100
+          "price": 6200
         },
         {
           "name": "Beryl",
