@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T14:34:08.278574+00:00",
+  "generated_at": "2026-08-08T15:32:40.245802+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -636,15 +636,15 @@
         },
         {
           "name": "Agricium",
-          "price": 9400
+          "price": 12000
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3800
         },
         {
           "name": "Omnapoxy",
-          "price": 4200
+          "price": 5300
         },
         {
           "name": "Hephaestanite",
@@ -4209,11 +4209,11 @@
         {
           "name": "DynaFlex",
           "price": 1350,
-          "stock": 787
+          "stock": 16
         },
         {
           "name": "Human Food Bars",
-          "price": 416,
+          "price": 410,
           "stock": 6000
         },
         {
@@ -4228,7 +4228,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 997,
+          "price": 907,
           "stock": 2
         }
       ],
