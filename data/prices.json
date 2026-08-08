@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T05:51:03.503219+00:00",
+  "generated_at": "2026-08-08T06:58:00.079818+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -117,7 +117,7 @@
         },
         {
           "name": "Dolivine",
-          "price": 150000
+          "price": 150400
         },
         {
           "name": "Hadanite",
@@ -1209,7 +1209,7 @@
         },
         {
           "name": "Beryl",
-          "price": 22000
+          "price": 21000
         },
         {
           "name": "Diamond",
@@ -1395,7 +1395,7 @@
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 4
+          "stock": 3123
         },
         {
           "name": "Potassium",
@@ -1555,7 +1555,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2500
+          "price": 1800
         },
         {
           "name": "Omnapoxy",
@@ -2196,17 +2196,17 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 29
+          "stock": 600
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 6
+          "stock": 63
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 7
+          "stock": 84
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 239
+          "stock": 130
         },
         {
           "name": "Hydrogen Fuel",
@@ -2864,7 +2864,7 @@
         },
         {
           "name": "Scrap",
-          "price": 4600
+          "price": 3400
         },
         {
           "name": "Silicon",
@@ -3138,6 +3138,21 @@
           "stock": 160
         },
         {
+          "name": "Nitrogen",
+          "price": 2561,
+          "stock": 1626
+        },
+        {
+          "name": "Waste",
+          "price": 229,
+          "stock": 75
+        },
+        {
+          "name": "Scrap",
+          "price": 2990,
+          "stock": 1460
+        },
+        {
           "name": "Ship Ammunition - Size 2",
           "price": 7126,
           "stock": 12000
@@ -3259,10 +3274,6 @@
         {
           "name": "Neon",
           "price": 17000
-        },
-        {
-          "name": "Nitrogen",
-          "price": 2900
         },
         {
           "name": "Omnapoxy",
@@ -3427,14 +3438,6 @@
         {
           "name": "Fluorine",
           "price": 1200
-        },
-        {
-          "name": "Waste",
-          "price": 450
-        },
-        {
-          "name": "Scrap",
-          "price": 3400
         },
         {
           "name": "Ouratite",
