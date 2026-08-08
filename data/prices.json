@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T22:32:09.943960+00:00",
+  "generated_at": "2026-08-08T23:31:49.714401+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4921,32 +4921,32 @@
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 240
+          "stock": 124
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 4474
+          "stock": 657
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 231
+          "stock": 120
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 1210
+          "stock": 1871
         },
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 375
+          "stock": 61
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 1487
+          "stock": 629
         },
         {
           "name": "Quantum Fuel",
@@ -5041,7 +5041,7 @@
         },
         {
           "name": "Iron",
-          "price": 4000
+          "price": 3100
         },
         {
           "name": "Stims",
@@ -5053,11 +5053,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 3500
+          "price": 4200
         },
         {
           "name": "Corundum",
-          "price": 4100
+          "price": 4000
         },
         {
           "name": "Silicon",
