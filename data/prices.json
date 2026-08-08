@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T04:59:38.736889+00:00",
+  "generated_at": "2026-08-08T05:51:03.503219+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1380,7 +1380,7 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 1723
+          "stock": 4616
         },
         {
           "name": "Waste",
@@ -1390,7 +1390,7 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 1029
+          "stock": 182
         },
         {
           "name": "Aluminum",
@@ -1400,7 +1400,7 @@
         {
           "name": "Potassium",
           "price": 452,
-          "stock": 22697
+          "stock": 24000
         },
         {
           "name": "Ammonia",
@@ -1410,12 +1410,12 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 517
+          "stock": 4102
         },
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 1838
+          "stock": 3298
         },
         {
           "name": "Hydrogen Fuel",
@@ -1424,7 +1424,7 @@
         },
         {
           "name": "Quantum Fuel",
-          "price": 977,
+          "price": 978,
           "stock": 12000
         },
         {
@@ -1480,12 +1480,12 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 240
+          "stock": 2100
         },
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 2364
+          "stock": 1014
         }
       ],
       "sell": [
@@ -1511,11 +1511,11 @@
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1400
+          "price": 1500
         },
         {
           "name": "Amioshi Plague",
-          "price": 26000
+          "price": 27000
         },
         {
           "name": "Aphorite",
@@ -1523,7 +1523,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3400
+          "price": 3300
         },
         {
           "name": "Golden Medmon",
@@ -1543,11 +1543,11 @@
         },
         {
           "name": "Ranta Dung",
-          "price": 36000
+          "price": 39000
         },
         {
           "name": "Stims",
-          "price": 5600
+          "price": 5500
         },
         {
           "name": "Revenant Pod",
@@ -1567,7 +1567,7 @@
         },
         {
           "name": "Steel",
-          "price": 2000
+          "price": 1900
         },
         {
           "name": "Quartz",
@@ -1579,7 +1579,7 @@
         },
         {
           "name": "Argon",
-          "price": 460
+          "price": 550
         },
         {
           "name": "Beradom",
