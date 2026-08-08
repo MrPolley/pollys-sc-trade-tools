@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T01:49:29.902528+00:00",
+  "generated_at": "2026-08-08T03:35:24.882593+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1099,22 +1099,22 @@
         {
           "name": "Diamond",
           "price": 5759,
-          "stock": 56
+          "stock": 188
         },
         {
           "name": "Medical Supplies",
           "price": 3541,
-          "stock": 95
+          "stock": 420
         },
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 250
+          "stock": 499
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1612
+          "stock": 2100
         }
       ],
       "sell": [
@@ -1162,12 +1162,12 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 163
+          "stock": 2100
         },
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 6
+          "stock": 106
         }
       ],
       "sell": [
@@ -1193,7 +1193,7 @@
         },
         {
           "name": "Compboard",
-          "price": 32000
+          "price": 34000
         },
         {
           "name": "Party Favors",
@@ -1201,7 +1201,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4600
+          "price": 5500
         },
         {
           "name": "Marok Gem",
@@ -3604,18 +3604,18 @@
       "buy": [
         {
           "name": "Construction Materials",
-          "price": 10023,
+          "price": 10032,
           "stock": 1050
         },
         {
           "name": "Dymantium",
-          "price": 20756,
+          "price": 20758,
           "stock": 128
         },
         {
           "name": "Audio-Visual Equipment",
           "price": 25004,
-          "stock": 60
+          "stock": 14
         },
         {
           "name": "Scrap",
@@ -3626,7 +3626,7 @@
       "sell": [
         {
           "name": "Atlasium",
-          "price": 92000
+          "price": 94000
         },
         {
           "name": "Compboard",
