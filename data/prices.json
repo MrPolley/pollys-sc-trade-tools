@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T13:48:07.523764+00:00",
+  "generated_at": "2026-08-08T14:34:08.278574+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1025,17 +1025,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 40
+          "stock": 125
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 882
+          "stock": 1876
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 165
+          "stock": 346
         }
       ],
       "sell": [
