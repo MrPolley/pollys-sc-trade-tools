@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T09:42:09.685986+00:00",
+  "generated_at": "2026-08-09T10:37:32.545312+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2196,17 +2196,17 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 600
+          "stock": 121
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 63
+          "stock": 4
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 84
+          "stock": 6
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 130
+          "stock": 234
         },
         {
           "name": "Hydrogen Fuel",
@@ -2260,7 +2260,7 @@
         },
         {
           "name": "Ship Ammunition - Size 4",
-          "price": 7641,
+          "price": 7384,
           "stock": 12000
         },
         {
@@ -2321,11 +2321,11 @@
         },
         {
           "name": "Atlasium",
-          "price": 98000
+          "price": 93000
         },
         {
           "name": "Audio-Visual Equipment",
-          "price": 38000
+          "price": 39000
         },
         {
           "name": "Bexalite",
@@ -2333,7 +2333,7 @@
         },
         {
           "name": "Bioplastic",
-          "price": 8500
+          "price": 8300
         },
         {
           "name": "Borase",
@@ -2369,7 +2369,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7700
+          "price": 7600
         },
         {
           "name": "Diamond Laminate",
@@ -2453,7 +2453,7 @@
         },
         {
           "name": "Methane",
-          "price": 3700
+          "price": 3500
         },
         {
           "name": "Nitrogen",
@@ -2501,7 +2501,7 @@
         },
         {
           "name": "Recycled Material Composite",
-          "price": 6400
+          "price": 6100
         },
         {
           "name": "Scrap",
@@ -2529,7 +2529,7 @@
         },
         {
           "name": "Sunset Berries",
-          "price": 79000
+          "price": 78000
         },
         {
           "name": "Taranite",
@@ -2561,7 +2561,7 @@
         },
         {
           "name": "Savrilium",
-          "price": 110000
+          "price": 100000
         },
         {
           "name": "Lindinium",
@@ -2589,7 +2589,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 45000
+          "price": 46000
         },
         {
           "name": "Hydrogen",
