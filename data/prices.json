@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T16:38:40.347029+00:00",
+  "generated_at": "2026-08-09T17:33:51.626214+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1380,7 +1380,7 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 4616
+          "stock": 858
         },
         {
           "name": "Waste",
@@ -1390,12 +1390,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 182
+          "stock": 515
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 3123
+          "stock": 92
         },
         {
           "name": "Potassium",
@@ -1410,12 +1410,12 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 4102
+          "stock": 2288
         },
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 3298
+          "stock": 4391
         },
         {
           "name": "Hydrogen Fuel",
@@ -1485,7 +1485,7 @@
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 1014
+          "stock": 9759
         }
       ],
       "sell": [
@@ -4635,7 +4635,7 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 2050
+          "stock": 1645
         },
         {
           "name": "Fluorine",
@@ -4655,22 +4655,22 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 1965
+          "stock": 1362
         },
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 1301
+          "stock": 9
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 313
+          "stock": 117
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 64
+          "stock": 108
         },
         {
           "name": "Mercury",
@@ -4685,7 +4685,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 9104
+          "stock": 12000
         },
         {
           "name": "Recycled Material Composite",
