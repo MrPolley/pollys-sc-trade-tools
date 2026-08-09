@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T17:33:51.626214+00:00",
+  "generated_at": "2026-08-09T18:44:44.127796+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -190,7 +190,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 324
+          "stock": 1582
         },
         {
           "name": "Recycled Material Composite",
@@ -200,22 +200,22 @@
         {
           "name": "Waste",
           "price": 200,
-          "stock": 90000
+          "stock": 85584
         },
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 146
+          "stock": 730
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 150
+          "stock": 109
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 4206
+          "stock": 5449
         },
         {
           "name": "DynaFlex",
@@ -225,12 +225,12 @@
         {
           "name": "Ammonia",
           "price": 783,
-          "stock": 11448
+          "stock": 11307
         },
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 730
+          "stock": 6
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -290,7 +290,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 2000
         }
       ],
       "sell": [
@@ -320,7 +320,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Degnous Root",
@@ -340,7 +340,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 4600
+          "price": 3500
         },
         {
           "name": "Chlorine",
@@ -348,7 +348,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1400
+          "price": 1500
         },
         {
           "name": "Human Food Bars",
@@ -877,17 +877,17 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 11
         },
         {
           "name": "Gold",
           "price": 26492,
-          "stock": 20
+          "stock": 7
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 2100
+          "stock": 12
         },
         {
           "name": "Nitrogen",
@@ -2196,7 +2196,7 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 121
+          "stock": 3
         },
         {
           "name": "Beryl",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 234
+          "stock": 15
         },
         {
           "name": "Hydrogen Fuel",
@@ -2245,7 +2245,7 @@
         },
         {
           "name": "Ship Ammunition - Size 4",
-          "price": 7384,
+          "price": 7641,
           "stock": 12000
         },
         {
