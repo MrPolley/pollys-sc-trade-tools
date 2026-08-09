@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T13:52:48.735510+00:00",
+  "generated_at": "2026-08-09T14:37:05.017314+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2234,16 +2234,6 @@
           "stock": 12000
         },
         {
-          "name": "Hydrogen Fuel",
-          "price": 196,
-          "stock": 12000
-        },
-        {
-          "name": "Quantum Fuel",
-          "price": 978,
-          "stock": 12000
-        },
-        {
           "name": "Ship Ammunition - Size 1",
           "price": 6868,
           "stock": 12000
@@ -2286,11 +2276,6 @@
         {
           "name": "Ship Ammunition - Size 7",
           "price": 8671,
-          "stock": 12000
-        },
-        {
-          "name": "Hydrogen Fuel",
-          "price": 196,
           "stock": 12000
         }
       ],
