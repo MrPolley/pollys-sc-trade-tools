@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T22:34:21.614745+00:00",
+  "generated_at": "2026-08-09T23:33:35.805780+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -5069,7 +5069,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 11665
+          "stock": 12000
         },
         {
           "name": "Hydrogen Fuel",
@@ -5159,11 +5159,11 @@
         },
         {
           "name": "Laranite",
-          "price": 8600
+          "price": 8500
         },
         {
           "name": "Medical Supplies",
-          "price": 4900
+          "price": 5500
         },
         {
           "name": "Distilled Spirits",
@@ -5215,7 +5215,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 29000
+          "price": 28000
         },
         {
           "name": "Hephaestanite",
@@ -5247,7 +5247,7 @@
         },
         {
           "name": "Atlasium",
-          "price": 89000
+          "price": 85000
         },
         {
           "name": "Aphorite",
@@ -5311,11 +5311,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12922
+          "price": 12000
         },
         {
           "name": "Methane",
-          "price": 3700
+          "price": 3600
         },
         {
           "name": "Nitrogen",
@@ -5387,7 +5387,7 @@
         },
         {
           "name": "Stileron",
-          "price": 140000
+          "price": 130000
         },
         {
           "name": "Dolivine",
@@ -5419,7 +5419,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Neograph",
@@ -5451,7 +5451,7 @@
         },
         {
           "name": "Lindinium",
-          "price": 50000
+          "price": 51000
         },
         {
           "name": "Year of the Rat Envelope",
@@ -5463,7 +5463,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 46000
+          "price": 44000
         },
         {
           "name": "Sadaryx",
