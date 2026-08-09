@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:35:36.091562+00:00",
+  "generated_at": "2026-08-09T20:35:29.129691+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4342,12 +4342,12 @@
         {
           "name": "Hephaestanite",
           "price": 4167,
-          "stock": 186
+          "stock": 208
         },
         {
           "name": "Iron",
           "price": 2850,
-          "stock": 188
+          "stock": 693
         },
         {
           "name": "Argon",
@@ -4372,7 +4372,7 @@
         {
           "name": "Aluminum",
           "price": 3128,
-          "stock": 182
+          "stock": 326
         },
         {
           "name": "Hydrogen Fuel",
@@ -4492,13 +4492,13 @@
         {
           "name": "Ship Ammunition - Size 6",
           "price": 8328,
-          "stock": 12000
+          "stock": 2000
         }
       ],
       "sell": [
         {
           "name": "Quartz",
-          "price": 5500
+          "price": 5400
         },
         {
           "name": "Tungsten",
@@ -4514,7 +4514,7 @@
         },
         {
           "name": "Distilled Spirits",
-          "price": 2100
+          "price": 1900
         },
         {
           "name": "Carbon",
@@ -4522,11 +4522,11 @@
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1400
+          "price": 1500
         },
         {
           "name": "Copper",
-          "price": 3700
+          "price": 4400
         },
         {
           "name": "Fluorine",
@@ -4610,7 +4610,7 @@
         },
         {
           "name": "Stims",
-          "price": 5600
+          "price": 5100
         },
         {
           "name": "Construction Materials",
