@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:01:13.505770+00:00",
+  "generated_at": "2026-08-10T16:55:51.180702+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -230,7 +230,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 6
+          "stock": 601
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -2196,7 +2196,7 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 3
+          "stock": 517
         },
         {
           "name": "Beryl",
@@ -2381,7 +2381,7 @@
         },
         {
           "name": "Gold",
-          "price": 28000
+          "price": 26000
         },
         {
           "name": "Golden Medmon",
@@ -3825,11 +3825,6 @@
           "stock": 12000
         },
         {
-          "name": "Ship Ammunition - Size 7",
-          "price": 6868,
-          "stock": 12000
-        },
-        {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
           "stock": 12000
@@ -3872,6 +3867,11 @@
         {
           "name": "Ship Ammunition - Size 1",
           "price": 6868,
+          "stock": 12000
+        },
+        {
+          "name": "Ship Ammunition - Size 7",
+          "price": 8671,
           "stock": 12000
         }
       ],
@@ -4635,12 +4635,12 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 1169
+          "stock": 2050
         },
         {
           "name": "Fluorine",
           "price": 1142,
-          "stock": 6000
+          "stock": 3538
         },
         {
           "name": "Waste",
@@ -4655,27 +4655,27 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 263
+          "stock": 2589
         },
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 9
+          "stock": 6000
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 402
+          "stock": 104
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 395
+          "stock": 114
         },
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 15000
+          "stock": 13518
         },
         {
           "name": "Chlorine",
@@ -4685,7 +4685,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 10292
+          "stock": 12000
         },
         {
           "name": "Recycled Material Composite",
@@ -4832,7 +4832,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5400
+          "price": 5000
         },
         {
           "name": "Scrap",
@@ -4848,7 +4848,7 @@
         },
         {
           "name": "Quartz",
-          "price": 5200
+          "price": 5300
         },
         {
           "name": "Tungsten",
@@ -4860,7 +4860,7 @@
         },
         {
           "name": "Potassium",
-          "price": 560
+          "price": 550
         },
         {
           "name": "Processed Food",
