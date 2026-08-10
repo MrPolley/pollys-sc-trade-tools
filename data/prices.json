@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T13:14:29.485653+00:00",
+  "generated_at": "2026-08-10T15:01:13.505770+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2201,12 +2201,12 @@
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 4
+          "stock": 26
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 6
+          "stock": 62
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 15
+          "stock": 351
         },
         {
           "name": "Hydrogen Fuel",
@@ -2301,7 +2301,7 @@
         },
         {
           "name": "Atlasium",
-          "price": 93000
+          "price": 91000
         },
         {
           "name": "Audio-Visual Equipment",
@@ -2313,7 +2313,7 @@
         },
         {
           "name": "Bioplastic",
-          "price": 8300
+          "price": 8400
         },
         {
           "name": "Borase",
@@ -2349,7 +2349,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7600
+          "price": 7700
         },
         {
           "name": "Diamond Laminate",
