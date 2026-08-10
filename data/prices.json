@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T23:33:35.805780+00:00",
+  "generated_at": "2026-08-10T02:00:42.135325+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -657,7 +657,7 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 171
+          "stock": 1354
         },
         {
           "name": "Waste",
@@ -672,12 +672,12 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 196
+          "stock": 981
         },
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 841
+          "stock": 321
         }
       ],
       "sell": [
@@ -711,7 +711,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 7700
+          "price": 5800
         },
         {
           "name": "Laranite",
@@ -719,11 +719,11 @@
         },
         {
           "name": "Astatine",
-          "price": 3300
+          "price": 3600
         },
         {
           "name": "Hephaestanite",
-          "price": 4800
+          "price": 4500
         },
         {
           "name": "Agricium",
@@ -1025,17 +1025,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 0
+          "stock": 85
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 1058
+          "stock": 247
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 277
+          "stock": 301
         }
       ],
       "sell": [
@@ -1077,7 +1077,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3300
+          "price": 2900
         },
         {
           "name": "Borase",
@@ -1085,7 +1085,7 @@
         },
         {
           "name": "Methane",
-          "price": 4100
+          "price": 3800
         }
       ]
     },
@@ -3787,7 +3787,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 856
+          "stock": 433
         },
         {
           "name": "Ammonia",
@@ -3802,17 +3802,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 391
+          "stock": 59
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 339
+          "stock": 1050
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 529
+          "stock": 61
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3846,7 +3846,7 @@
         },
         {
           "name": "Ship Ammunition - Size 6",
-          "price": 8326,
+          "price": 8328,
           "stock": 12000
         },
         {
@@ -3958,7 +3958,7 @@
         },
         {
           "name": "Titanium",
-          "price": 10000
+          "price": 7700
         },
         {
           "name": "Tungsten",
@@ -4848,7 +4848,7 @@
         },
         {
           "name": "Quartz",
-          "price": 5400
+          "price": 5200
         },
         {
           "name": "Tungsten",
