@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T20:00:27.204506+00:00",
+  "generated_at": "2026-08-11T21:51:39.728738+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -752,7 +752,7 @@
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5000
         },
         {
           "name": "Distilled Spirits",
@@ -764,7 +764,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 4900
         },
         {
           "name": "Dolivine",
@@ -776,7 +776,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 63000
+          "price": 61000
         },
         {
           "name": "Aluminum",
@@ -852,7 +852,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 5800
+          "price": 4500
         },
         {
           "name": "Nitrogen",
