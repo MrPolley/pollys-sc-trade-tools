@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T11:45:59.866490+00:00",
+  "generated_at": "2026-08-11T13:11:17.249766+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,12 +7,12 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 0
+          "stock": 1828
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 525
+          "stock": 1198
         },
         {
           "name": "Steel",
@@ -22,12 +22,12 @@
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 172
+          "stock": 1608
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 16583
+          "stock": 23458
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -1025,17 +1025,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 85
+          "stock": 80
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 247
+          "stock": 2100
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 301
+          "stock": 2100
         }
       ],
       "sell": [
@@ -1057,7 +1057,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 58000
+          "price": 59000
         },
         {
           "name": "Party Favors",
@@ -1077,7 +1077,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3400
         },
         {
           "name": "Borase",
@@ -1085,7 +1085,7 @@
         },
         {
           "name": "Methane",
-          "price": 3800
+          "price": 4100
         }
       ]
     },
@@ -4357,7 +4357,7 @@
         {
           "name": "Scrap",
           "price": 3265,
-          "stock": 1876
+          "stock": 617
         },
         {
           "name": "Methane",
@@ -4387,7 +4387,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 1808
+          "stock": 12000
         },
         {
           "name": "Hydrogen Fuel",
@@ -4582,7 +4582,7 @@
         },
         {
           "name": "Agricium",
-          "price": 9600
+          "price": 9500
         },
         {
           "name": "Borase",
@@ -4590,7 +4590,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 9200
         },
         {
           "name": "Bexalite",
@@ -4622,11 +4622,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Iron",
-          "price": 3100
+          "price": 3400
         }
       ]
     },
