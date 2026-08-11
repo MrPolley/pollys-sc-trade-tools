@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T21:51:39.728738+00:00",
+  "generated_at": "2026-08-11T22:46:00.258183+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4357,7 +4357,7 @@
         {
           "name": "Scrap",
           "price": 3265,
-          "stock": 617
+          "stock": 2100
         },
         {
           "name": "Methane",
@@ -4562,7 +4562,7 @@
         },
         {
           "name": "Copper",
-          "price": 3700
+          "price": 3500
         },
         {
           "name": "Corundum",
@@ -4590,7 +4590,7 @@
         },
         {
           "name": "Laranite",
-          "price": 9200
+          "price": 8500
         },
         {
           "name": "Bexalite",
@@ -4626,7 +4626,7 @@
         },
         {
           "name": "Iron",
-          "price": 3400
+          "price": 3300
         }
       ]
     },
