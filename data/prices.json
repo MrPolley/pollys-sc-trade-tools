@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T01:56:17.201529+00:00",
+  "generated_at": "2026-08-11T03:49:36.131381+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2883,12 +2883,12 @@
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 200
+          "stock": 340
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 191
+          "stock": 919
         },
         {
           "name": "Fluorine",
@@ -2898,17 +2898,17 @@
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 1366
+          "stock": 514
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 122
+          "stock": 127
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 25
+          "stock": 40
         },
         {
           "name": "Quantum Fuel",
@@ -2981,7 +2981,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 23000
+          "price": 19000
         },
         {
           "name": "Aluminum",
@@ -3013,7 +3013,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4400
+          "price": 4600
         },
         {
           "name": "Laranite",
@@ -3025,7 +3025,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4200
+          "price": 4000
         },
         {
           "name": "Partillium",
@@ -3053,7 +3053,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3400
         },
         {
           "name": "Silicon",
@@ -3073,7 +3073,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5300
+          "price": 5500
         },
         {
           "name": "Tritium",
@@ -3081,7 +3081,7 @@
         },
         {
           "name": "Iron",
-          "price": 3900
+          "price": 3500
         }
       ]
     },
@@ -3906,7 +3906,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 1800
         },
         {
           "name": "Fluorine",
@@ -3914,7 +3914,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4500
         },
         {
           "name": "Human Food Bars",
@@ -3958,7 +3958,7 @@
         },
         {
           "name": "Titanium",
-          "price": 7700
+          "price": 8700
         },
         {
           "name": "Tungsten",
