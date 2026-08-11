@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:52:06.368172+00:00",
+  "generated_at": "2026-08-11T11:45:59.866490+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4635,12 +4635,12 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 2050
+          "stock": 350
         },
         {
           "name": "Fluorine",
           "price": 1142,
-          "stock": 3538
+          "stock": 6000
         },
         {
           "name": "Waste",
@@ -4655,7 +4655,7 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 2589
+          "stock": 2023
         },
         {
           "name": "Aluminum",
@@ -4665,17 +4665,17 @@
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 104
+          "stock": 240
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 0
+          "stock": 90
         },
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 13518
+          "stock": 13664
         },
         {
           "name": "Chlorine",
