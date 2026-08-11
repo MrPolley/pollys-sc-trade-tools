@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T23:37:34.903106+00:00",
+  "generated_at": "2026-08-11T01:56:17.201529+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3782,12 +3782,12 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 30000
+          "stock": 26341
         },
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 433
+          "stock": 1076
         },
         {
           "name": "Ammonia",
