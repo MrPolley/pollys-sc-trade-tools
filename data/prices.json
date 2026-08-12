@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T11:49:05.643876+00:00",
+  "generated_at": "2026-08-12T13:15:18.977360+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 20
+          "stock": 747
         }
       ],
       "sell": [
@@ -417,7 +417,7 @@
         },
         {
           "name": "Distilled Spirits",
-          "price": 1700
+          "price": 1900
         },
         {
           "name": "Processed Food",
@@ -441,7 +441,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3900
+          "price": 3300
         },
         {
           "name": "Construction Materials",
@@ -453,11 +453,11 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3500
+          "price": 2900
         },
         {
           "name": "Methane",
-          "price": 3500
+          "price": 3400
         },
         {
           "name": "Omnapoxy",
@@ -4872,11 +4872,11 @@
         },
         {
           "name": "Stileron",
-          "price": 150000
+          "price": 140000
         },
         {
           "name": "Medical Supplies",
-          "price": 5800
+          "price": 5000
         },
         {
           "name": "Stims",
