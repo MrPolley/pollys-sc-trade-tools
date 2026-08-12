@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T16:05:46.794475+00:00",
+  "generated_at": "2026-08-12T17:58:34.449744+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,27 +7,27 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 324
+          "stock": 1176
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 974
+          "stock": 4
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 5
+          "stock": 189
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 1923
+          "stock": 520
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 23001
+          "stock": 19849
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -87,7 +87,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 936
         }
       ],
       "sell": [
@@ -125,7 +125,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4400
+          "price": 4300
         },
         {
           "name": "Hydrogen",
@@ -145,11 +145,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 3800
+          "price": 3500
         },
         {
           "name": "Corundum",
-          "price": 3700
+          "price": 3400
         },
         {
           "name": "Fluorine",
@@ -640,7 +640,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3900
+          "price": 2900
         },
         {
           "name": "Omnapoxy",
@@ -711,7 +711,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 5800
+          "price": 7800
         },
         {
           "name": "Laranite",
@@ -1380,7 +1380,7 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 1327
+          "stock": 867
         },
         {
           "name": "Waste",
@@ -1395,7 +1395,7 @@
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 92
+          "stock": 6000
         },
         {
           "name": "Potassium",
@@ -1415,7 +1415,7 @@
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 1550
+          "stock": 2243
         },
         {
           "name": "Hydrogen Fuel",
@@ -1485,7 +1485,7 @@
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 8785
+          "stock": 6414
         }
       ],
       "sell": [
@@ -1555,7 +1555,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1800
+          "price": 2500
         },
         {
           "name": "Omnapoxy",
@@ -3266,7 +3266,7 @@
         },
         {
           "name": "Tin",
-          "price": 3000
+          "price": 3800
         },
         {
           "name": "Titanium",
@@ -3443,7 +3443,7 @@
         {
           "name": "Agricium",
           "price": 6640,
-          "stock": 29
+          "stock": 12
         },
         {
           "name": "Human Food Bars",
@@ -3453,12 +3453,12 @@
         {
           "name": "Hydrogen",
           "price": 752,
-          "stock": 9784
+          "stock": 11325
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 254
+          "stock": 221
         }
       ],
       "sell": [
@@ -3508,7 +3508,7 @@
         },
         {
           "name": "Iron",
-          "price": 3000
+          "price": 3100
         },
         {
           "name": "Laranite",
@@ -3548,7 +3548,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 4600
         },
         {
           "name": "Silicon",
@@ -3560,7 +3560,7 @@
         },
         {
           "name": "Steel",
-          "price": 1900
+          "price": 2000
         },
         {
           "name": "Stims",
@@ -3568,7 +3568,7 @@
         },
         {
           "name": "Tin",
-          "price": 3800
+          "price": 3600
         },
         {
           "name": "Titanium",
@@ -4998,7 +4998,7 @@
         },
         {
           "name": "Chlorine",
-          "price": 1400
+          "price": 1800
         },
         {
           "name": "Copper",
@@ -5018,7 +5018,7 @@
         },
         {
           "name": "Iron",
-          "price": 3100
+          "price": 4000
         },
         {
           "name": "Stims",
