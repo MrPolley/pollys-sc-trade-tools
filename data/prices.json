@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T23:42:45.966354+00:00",
+  "generated_at": "2026-08-12T02:09:02.132751+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3029,7 +3029,7 @@
         },
         {
           "name": "Partillium",
-          "price": 90000
+          "price": 84000
         },
         {
           "name": "Potassium",
