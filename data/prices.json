@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T20:49:30.444005+00:00",
+  "generated_at": "2026-08-12T21:49:50.355643+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 747
+          "stock": 3052
         }
       ],
       "sell": [
@@ -441,11 +441,11 @@
         },
         {
           "name": "Astatine",
-          "price": 3300
+          "price": 3500
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Gold",
@@ -453,11 +453,11 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3300
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 4100
         },
         {
           "name": "Omnapoxy",
