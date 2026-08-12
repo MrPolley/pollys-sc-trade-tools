@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T08:20:00.644124+00:00",
+  "generated_at": "2026-08-12T10:08:59.243761+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -657,7 +657,7 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1354
+          "stock": 2100
         },
         {
           "name": "Waste",
@@ -672,18 +672,18 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 981
+          "stock": 637
         },
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 321
+          "stock": 1863
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5100
+          "price": 5600
         },
         {
           "name": "Distilled Spirits",
@@ -719,11 +719,11 @@
         },
         {
           "name": "Astatine",
-          "price": 3600
+          "price": 3300
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4700
         },
         {
           "name": "Agricium",
