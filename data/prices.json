@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T17:59:19.858557+00:00",
+  "generated_at": "2026-08-13T19:15:06.514751+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 4
+          "stock": 649
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 4
+          "stock": 1451
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 1921
+          "stock": 115
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 414
+          "stock": 1400
         },
         {
           "name": "Carbon",
@@ -711,7 +711,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 7800
+          "price": 5800
         },
         {
           "name": "Laranite",
@@ -1555,7 +1555,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2500
+          "price": 1800
         },
         {
           "name": "Omnapoxy",
@@ -2804,7 +2804,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8100
+          "price": 8300
         },
         {
           "name": "Medical Supplies",
@@ -2816,7 +2816,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3000
+          "price": 2900
         },
         {
           "name": "Omnapoxy",
@@ -2844,7 +2844,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 4600
         },
         {
           "name": "Silicon",
@@ -3548,7 +3548,7 @@
         },
         {
           "name": "Scrap",
-          "price": 4600
+          "price": 3400
         },
         {
           "name": "Silicon",
