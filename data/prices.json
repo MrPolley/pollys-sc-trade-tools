@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T23:44:20.704713+00:00",
+  "generated_at": "2026-08-13T02:10:43.024041+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1025,17 +1025,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 80
+          "stock": 168
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 2100
+          "stock": 47
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 2100
+          "stock": 210
         }
       ],
       "sell": [
@@ -1057,7 +1057,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 59000
+          "price": 69000
         },
         {
           "name": "Party Favors",
@@ -1077,7 +1077,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3400
+          "price": 2900
         },
         {
           "name": "Borase",
@@ -1085,7 +1085,7 @@
         },
         {
           "name": "Methane",
-          "price": 4100
+          "price": 3400
         }
       ]
     },
@@ -2877,18 +2877,18 @@
         },
         {
           "name": "Hydrogen",
-          "price": 708,
-          "stock": 12000
+          "price": 700,
+          "stock": 2190
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 676
+          "stock": 773
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 2100
+          "stock": 871
         },
         {
           "name": "Fluorine",
@@ -2898,17 +2898,17 @@
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 5488
+          "stock": 2245
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 40
+          "stock": 320
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 41
+          "stock": 7
         },
         {
           "name": "Quantum Fuel",
@@ -2962,14 +2962,14 @@
         },
         {
           "name": "Ship Ammunition - Size 7",
-          "price": 8671,
+          "price": 6868,
           "stock": 12000
         }
       ],
       "sell": [
         {
           "name": "Agricultural Supplies",
-          "price": 1300
+          "price": 1400
         },
         {
           "name": "Beryl",
@@ -2989,7 +2989,7 @@
         },
         {
           "name": "Altruciatoxin",
-          "price": 6300
+          "price": 6400
         },
         {
           "name": "Borase",
@@ -3025,7 +3025,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4700
+          "price": 4000
         },
         {
           "name": "Partillium",
@@ -3053,7 +3053,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3600
+          "price": 3700
         },
         {
           "name": "Silicon",
@@ -3081,7 +3081,7 @@
         },
         {
           "name": "Iron",
-          "price": 3600
+          "price": 3000
         }
       ]
     },
@@ -3442,8 +3442,8 @@
       "buy": [
         {
           "name": "Agricium",
-          "price": 6640,
-          "stock": 12
+          "price": 6840,
+          "stock": 205
         },
         {
           "name": "Human Food Bars",
@@ -3453,12 +3453,12 @@
         {
           "name": "Hydrogen",
           "price": 752,
-          "stock": 11325
+          "stock": 12000
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 221
+          "stock": 1195
         }
       ],
       "sell": [
@@ -3492,7 +3492,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1700
+          "price": 1800
         },
         {
           "name": "E'tam",
@@ -3508,7 +3508,7 @@
         },
         {
           "name": "Iron",
-          "price": 3100
+          "price": 3500
         },
         {
           "name": "Laranite",
@@ -3560,15 +3560,15 @@
         },
         {
           "name": "Steel",
-          "price": 2000
+          "price": 2500
         },
         {
           "name": "Stims",
-          "price": 5000
+          "price": 4900
         },
         {
           "name": "Tin",
-          "price": 3600
+          "price": 3800
         },
         {
           "name": "Titanium",
@@ -3958,7 +3958,7 @@
         },
         {
           "name": "Titanium",
-          "price": 10000
+          "price": 7700
         },
         {
           "name": "Tungsten",
