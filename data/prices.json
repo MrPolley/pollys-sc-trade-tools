@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T06:18:30.651753+00:00",
+  "generated_at": "2026-08-13T08:22:58.934312+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4655,7 +4655,7 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 2052
+          "stock": 2630
         },
         {
           "name": "Aluminum",
@@ -4675,7 +4675,7 @@
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 15000
+          "stock": 13635
         },
         {
           "name": "Chlorine",
@@ -4832,7 +4832,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5700
         },
         {
           "name": "Scrap",
@@ -4848,7 +4848,7 @@
         },
         {
           "name": "Quartz",
-          "price": 5400
+          "price": 5500
         },
         {
           "name": "Tungsten",
