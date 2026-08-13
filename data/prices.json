@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T10:10:21.057619+00:00",
+  "generated_at": "2026-08-13T11:49:46.029622+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1380,17 +1380,17 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 867
+          "stock": 4450
         },
         {
           "name": "Waste",
           "price": 198,
-          "stock": 98000
+          "stock": 97880
         },
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 685
+          "stock": 5038
         },
         {
           "name": "Aluminum",
@@ -1410,12 +1410,12 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 6000
+          "stock": 4732
         },
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 2243
+          "stock": 6000
         },
         {
           "name": "Hydrogen Fuel",
@@ -1430,7 +1430,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -1485,7 +1485,7 @@
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 6414
+          "stock": 7935
         }
       ],
       "sell": [
@@ -1503,7 +1503,7 @@
         },
         {
           "name": "Pitambu",
-          "price": 62000
+          "price": 63000
         },
         {
           "name": "Processed Food",
@@ -1511,11 +1511,11 @@
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1300
+          "price": 1400
         },
         {
           "name": "Amioshi Plague",
-          "price": 25000
+          "price": 27000
         },
         {
           "name": "Aphorite",
@@ -1527,7 +1527,7 @@
         },
         {
           "name": "Golden Medmon",
-          "price": 63000
+          "price": 61000
         },
         {
           "name": "Hadanite",
@@ -1535,7 +1535,7 @@
         },
         {
           "name": "Iodine",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Prota",
@@ -1559,7 +1559,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 5000
+          "price": 4800
         },
         {
           "name": "Human Food Bars",
