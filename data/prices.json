@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T13:17:51.657034+00:00",
+  "generated_at": "2026-08-13T14:59:58.743097+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -190,7 +190,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 1580
+          "stock": 519
         },
         {
           "name": "Recycled Material Composite",
@@ -200,27 +200,27 @@
         {
           "name": "Waste",
           "price": 200,
-          "stock": 90000
+          "stock": 30000
         },
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 1048
+          "stock": 460
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 87
+          "stock": 240
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 4880
+          "stock": 3752
         },
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 3000
+          "stock": 518
         },
         {
           "name": "Ammonia",
@@ -230,7 +230,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 944
+          "stock": 649
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -290,7 +290,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 2000
+          "stock": 12000
         }
       ],
       "sell": [
@@ -304,7 +304,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1100
+          "price": 970
         },
         {
           "name": "Aphorite",
@@ -320,7 +320,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Degnous Root",
@@ -340,7 +340,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3500
+          "price": 3700
         },
         {
           "name": "Chlorine",
@@ -348,7 +348,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1400
+          "price": 1500
         },
         {
           "name": "Human Food Bars",
@@ -356,7 +356,7 @@
         },
         {
           "name": "Tin",
-          "price": 3900
+          "price": 4300
         },
         {
           "name": "Potassium",
@@ -1618,12 +1618,12 @@
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 91
+          "stock": 898
         },
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 2562
+          "stock": 19
         },
         {
           "name": "Corundum",
