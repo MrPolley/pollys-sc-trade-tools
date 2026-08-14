@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T14:54:08.842414+00:00",
+  "generated_at": "2026-08-14T15:54:48.938122+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,27 +7,27 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 649
+          "stock": 80
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 1451
+          "stock": 68
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 115
+          "stock": 58
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 1400
+          "stock": 77
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 23643
+          "stock": 21986
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -42,7 +42,7 @@
         {
           "name": "Ship Ammunition - Size 3",
           "price": 7384,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 4",
@@ -81,7 +81,7 @@
         },
         {
           "name": "Quantum Fuel",
-          "price": 976,
+          "price": 878,
           "stock": 12000
         },
         {
@@ -125,7 +125,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4300
         },
         {
           "name": "Hydrogen",
@@ -137,7 +137,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Ammonia",
@@ -149,7 +149,7 @@
         },
         {
           "name": "Corundum",
-          "price": 4100
+          "price": 3500
         },
         {
           "name": "Fluorine",
