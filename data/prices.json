@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T13:12:09.853574+00:00",
+  "generated_at": "2026-08-14T14:54:08.842414+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2196,17 +2196,17 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 0
+          "stock": 86
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 32
+          "stock": 0
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 0
+          "stock": 55
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 0
+          "stock": 351
         },
         {
           "name": "Hydrogen Fuel",
@@ -4893,37 +4893,37 @@
         {
           "name": "Distilled Spirits",
           "price": 1685,
-          "stock": 6000
+          "stock": 2402
         },
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 88
+          "stock": 91
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 533
+          "stock": 2839
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 1001
+          "stock": 176
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 2100
+          "stock": 718
         },
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 644
+          "stock": 185
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 5871
+          "stock": 696
         },
         {
           "name": "Quantum Fuel",
@@ -4994,15 +4994,15 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3500
+          "price": 3100
         },
         {
           "name": "Chlorine",
-          "price": 1600
+          "price": 1400
         },
         {
           "name": "Copper",
-          "price": 3800
+          "price": 3600
         },
         {
           "name": "Degnous Root",
@@ -5018,7 +5018,7 @@
         },
         {
           "name": "Iron",
-          "price": 3600
+          "price": 4000
         },
         {
           "name": "Stims",
@@ -5034,7 +5034,7 @@
         },
         {
           "name": "Corundum",
-          "price": 3900
+          "price": 3600
         },
         {
           "name": "Silicon",
@@ -5046,7 +5046,7 @@
         },
         {
           "name": "Carbon",
-          "price": 430
+          "price": 410
         },
         {
           "name": "Year of the Rat Envelope",
