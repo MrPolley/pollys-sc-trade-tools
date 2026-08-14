@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T11:45:41.964340+00:00",
+  "generated_at": "2026-08-14T13:12:09.853574+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3560,7 +3560,7 @@
         },
         {
           "name": "Steel",
-          "price": 2500
+          "price": 1900
         },
         {
           "name": "Stims",
