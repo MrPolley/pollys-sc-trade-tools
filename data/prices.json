@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T16:56:19.056835+00:00",
+  "generated_at": "2026-08-14T17:56:06.172458+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3782,12 +3782,12 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 25614
+          "stock": 30000
         },
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 684
+          "stock": 675
         },
         {
           "name": "Ammonia",
@@ -3802,17 +3802,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 124
+          "stock": 68
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 889
+          "stock": 922
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 821
+          "stock": 561
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3922,7 +3922,7 @@
         },
         {
           "name": "Iron",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Methane",
@@ -3934,7 +3934,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3000
+          "price": 2900
         },
         {
           "name": "Potassium",
@@ -3950,7 +3950,7 @@
         },
         {
           "name": "Stims",
-          "price": 5000
+          "price": 4700
         },
         {
           "name": "Tin",
@@ -3958,7 +3958,7 @@
         },
         {
           "name": "Titanium",
-          "price": 7700
+          "price": 8100
         },
         {
           "name": "Tungsten",
@@ -3966,7 +3966,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5200
+          "price": 5000
         },
         {
           "name": "Lindinium",
