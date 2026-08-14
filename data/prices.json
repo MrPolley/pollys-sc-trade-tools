@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T19:00:59.546075+00:00",
+  "generated_at": "2026-08-14T20:33:51.721248+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1947,7 +1947,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 5200
+          "price": 5100
         },
         {
           "name": "Bexalite",
