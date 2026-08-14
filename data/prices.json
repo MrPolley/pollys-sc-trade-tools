@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T10:05:31.740961+00:00",
+  "generated_at": "2026-08-14T11:45:41.964340+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2989,7 +2989,7 @@
         },
         {
           "name": "Altruciatoxin",
-          "price": 6400
+          "price": 6200
         },
         {
           "name": "Borase",
@@ -3017,7 +3017,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8700
+          "price": 8500
         },
         {
           "name": "Neon",
@@ -3025,7 +3025,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4000
+          "price": 4800
         },
         {
           "name": "Partillium",
@@ -3053,7 +3053,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3500
         },
         {
           "name": "Silicon",
@@ -3081,7 +3081,7 @@
         },
         {
           "name": "Iron",
-          "price": 3000
+          "price": 3600
         }
       ]
     },
@@ -4872,7 +4872,7 @@
         },
         {
           "name": "Stileron",
-          "price": 140000
+          "price": 150000
         },
         {
           "name": "Medical Supplies",
