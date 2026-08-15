@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T17:22:15.791290+00:00",
+  "generated_at": "2026-08-15T18:33:47.253717+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -542,7 +542,7 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 17
+          "stock": 1700
         }
       ],
       "sell": [
@@ -640,7 +640,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3900
         },
         {
           "name": "Omnapoxy",
@@ -711,7 +711,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 7800
+          "price": 5800
         },
         {
           "name": "Laranite",
@@ -1213,7 +1213,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7100
+          "price": 9700
         },
         {
           "name": "Construction Materials",
@@ -1555,7 +1555,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1800
+          "price": 2500
         },
         {
           "name": "Omnapoxy",
@@ -2578,6 +2578,10 @@
         {
           "name": "Quantainium",
           "price": 140000
+        },
+        {
+          "name": "Ship Ammunition",
+          "price": 12
         }
       ]
     },
@@ -3595,7 +3599,7 @@
         {
           "name": "Audio-Visual Equipment",
           "price": 25004,
-          "stock": 14
+          "stock": 33
         },
         {
           "name": "Scrap",
@@ -3622,7 +3626,7 @@
         },
         {
           "name": "Recycled Material Composite",
-          "price": 8500
+          "price": 8000
         },
         {
           "name": "Stims",
@@ -4124,7 +4128,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 930
+          "price": 1200
         },
         {
           "name": "Neon",
@@ -4186,7 +4190,7 @@
         {
           "name": "DynaFlex",
           "price": 1350,
-          "stock": 16
+          "stock": 3000
         },
         {
           "name": "Human Food Bars",
@@ -4248,7 +4252,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7300
+          "price": 6900
         },
         {
           "name": "E'tam",
@@ -4276,7 +4280,7 @@
         },
         {
           "name": "Methane",
-          "price": 3300
+          "price": 4400
         },
         {
           "name": "Neon",
@@ -4660,7 +4664,7 @@
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 1
+          "stock": 6000
         },
         {
           "name": "Corundum",
@@ -5038,7 +5042,7 @@
         },
         {
           "name": "Silicon",
-          "price": 2800
+          "price": 3200
         },
         {
           "name": "Tungsten",
@@ -5251,7 +5255,7 @@
         },
         {
           "name": "Aphorite",
-          "price": 60000
+          "price": 80000
         },
         {
           "name": "Compboard",
