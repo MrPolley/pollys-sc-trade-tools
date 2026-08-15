@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T21:23:51.875125+00:00",
+  "generated_at": "2026-08-15T22:24:47.249272+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4897,27 +4897,27 @@
         {
           "name": "Distilled Spirits",
           "price": 1685,
-          "stock": 2590
+          "stock": 5493
         },
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 228
+          "stock": 100
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 11100
+          "stock": 617
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 838
+          "stock": 1
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 2100
+          "stock": 2010
         },
         {
           "name": "Quartz",
@@ -4927,7 +4927,7 @@
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 1189
+          "stock": 2092
         },
         {
           "name": "Quantum Fuel",
@@ -4998,15 +4998,15 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3500
+          "price": 3700
         },
         {
           "name": "Chlorine",
-          "price": 1800
+          "price": 1500
         },
         {
           "name": "Copper",
-          "price": 3600
+          "price": 4100
         },
         {
           "name": "Degnous Root",
@@ -5030,7 +5030,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 11000
+          "price": 12000
         },
         {
           "name": "Aluminum",
@@ -5038,7 +5038,7 @@
         },
         {
           "name": "Corundum",
-          "price": 3900
+          "price": 3400
         },
         {
           "name": "Silicon",
@@ -5050,7 +5050,7 @@
         },
         {
           "name": "Carbon",
-          "price": 420
+          "price": 430
         },
         {
           "name": "Year of the Rat Envelope",
