@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T22:24:47.249272+00:00",
+  "generated_at": "2026-08-15T23:22:57.759077+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2648,7 +2648,7 @@
         {
           "name": "Atlasium",
           "price": 72214,
-          "stock": 3
+          "stock": 12
         },
         {
           "name": "Construction Materials",
@@ -2658,7 +2658,7 @@
         {
           "name": "Dymantium",
           "price": 17480,
-          "stock": 52
+          "stock": 29
         },
         {
           "name": "Scrap",
@@ -2668,12 +2668,12 @@
         {
           "name": "Neon",
           "price": 14206,
-          "stock": 52
+          "stock": 2
         },
         {
           "name": "Organics",
           "price": 9257,
-          "stock": 115
+          "stock": 170
         }
       ],
       "sell": [
@@ -3791,7 +3791,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 675
+          "stock": 2496
         },
         {
           "name": "Ammonia",
@@ -3806,17 +3806,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 68
+          "stock": 703
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 922
+          "stock": 414
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 561
+          "stock": 228
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -5163,7 +5163,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 8800
         },
         {
           "name": "Medical Supplies",
@@ -5219,7 +5219,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 27000
+          "price": 29000
         },
         {
           "name": "Hephaestanite",
@@ -5423,7 +5423,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Neograph",
