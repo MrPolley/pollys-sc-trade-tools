@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T19:22:32.550893+00:00",
+  "generated_at": "2026-08-15T20:25:06.921504+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1915,11 +1915,11 @@
         },
         {
           "name": "Diamond",
-          "price": 7600
+          "price": 7400
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 8900
         },
         {
           "name": "Quartz",
@@ -1947,7 +1947,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 5100
+          "price": 5300
         },
         {
           "name": "Bexalite",
@@ -2147,7 +2147,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Beradom",
@@ -5391,7 +5391,7 @@
         },
         {
           "name": "Stileron",
-          "price": 140000
+          "price": 130000
         },
         {
           "name": "Dolivine",
