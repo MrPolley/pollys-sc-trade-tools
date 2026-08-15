@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T03:41:11.218932+00:00",
+  "generated_at": "2026-08-15T04:34:17.946219+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1025,17 +1025,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 338
+          "stock": 40
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 2100
+          "stock": 125
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 2055
+          "stock": 24
         }
       ],
       "sell": [
@@ -1057,7 +1057,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 58000
+          "price": 66000
         },
         {
           "name": "Party Favors",
@@ -2196,17 +2196,17 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 86
+          "stock": 206
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 0
+          "stock": 58
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 55
+          "stock": 165
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 351
+          "stock": 941
         },
         {
           "name": "Hydrogen Fuel",
@@ -2301,7 +2301,7 @@
         },
         {
           "name": "Atlasium",
-          "price": 98000
+          "price": 96000
         },
         {
           "name": "Audio-Visual Equipment",
@@ -2381,7 +2381,7 @@
         },
         {
           "name": "Gold",
-          "price": 26000
+          "price": 27000
         },
         {
           "name": "Golden Medmon",
@@ -2433,7 +2433,7 @@
         },
         {
           "name": "Methane",
-          "price": 3500
+          "price": 3700
         },
         {
           "name": "Nitrogen",
@@ -2477,15 +2477,15 @@
         },
         {
           "name": "Riccite",
-          "price": 77000
+          "price": 72000
         },
         {
           "name": "Recycled Material Composite",
-          "price": 6100
+          "price": 6400
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3600
         },
         {
           "name": "Silicon",
@@ -2501,7 +2501,7 @@
         },
         {
           "name": "Stileron",
-          "price": 150000
+          "price": 160000
         },
         {
           "name": "Stims",
@@ -2541,7 +2541,7 @@
         },
         {
           "name": "Savrilium",
-          "price": 100000
+          "price": 110000
         },
         {
           "name": "Lindinium",
