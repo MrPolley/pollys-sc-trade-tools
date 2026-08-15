@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T18:33:47.253717+00:00",
+  "generated_at": "2026-08-15T19:22:32.550893+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -598,7 +598,7 @@
         {
           "name": "Scrap",
           "price": 3265,
-          "stock": 2100
+          "stock": 1956
         }
       ],
       "sell": [
@@ -608,7 +608,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 60000
+          "price": 63000
         },
         {
           "name": "Distilled Spirits",
@@ -620,7 +620,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5300
+          "price": 5500
         },
         {
           "name": "Party Favors",
@@ -632,11 +632,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Agricium",
-          "price": 9400
+          "price": 11000
         },
         {
           "name": "Nitrogen",
@@ -644,7 +644,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4400
+          "price": 4200
         },
         {
           "name": "Hephaestanite",
@@ -1380,22 +1380,22 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 4206
+          "stock": 24
         },
         {
           "name": "Waste",
           "price": 198,
-          "stock": 98000
+          "stock": 93000
         },
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 1116
+          "stock": 1553
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 5894
+          "stock": 511
         },
         {
           "name": "Potassium",
@@ -1405,12 +1405,12 @@
         {
           "name": "Ammonia",
           "price": 783,
-          "stock": 12000
+          "stock": 10560
         },
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 4980
+          "stock": 2179
         },
         {
           "name": "Fluorine",
@@ -1430,7 +1430,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 10811
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -1480,12 +1480,12 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 2100
+          "stock": 7
         },
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 12000
+          "stock": 3870
         }
       ],
       "sell": [
