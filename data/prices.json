@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T14:25:17.266248+00:00",
+  "generated_at": "2026-08-15T15:23:30.944516+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -532,12 +532,12 @@
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 459
+          "stock": 300
         },
         {
           "name": "Gold",
           "price": 28928,
-          "stock": 72
+          "stock": 33
         },
         {
           "name": "Scrap",
@@ -572,7 +572,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Thermalfoam",
@@ -584,7 +584,7 @@
         },
         {
           "name": "Titanium",
-          "price": 9100
+          "price": 8500
         }
       ]
     },
@@ -632,7 +632,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Agricium",
@@ -644,7 +644,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4200
+          "price": 4400
         },
         {
           "name": "Hephaestanite",
@@ -1321,7 +1321,7 @@
         {
           "name": "Diamond",
           "price": 6269,
-          "stock": 84
+          "stock": 1
         }
       ],
       "sell": [
