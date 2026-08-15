@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T16:27:42.434833+00:00",
+  "generated_at": "2026-08-15T17:22:15.791290+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -5069,7 +5069,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 10754
+          "stock": 12000
         },
         {
           "name": "Hydrogen Fuel",
@@ -5159,7 +5159,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8800
+          "price": 8500
         },
         {
           "name": "Medical Supplies",
@@ -5215,7 +5215,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 29000
+          "price": 27000
         },
         {
           "name": "Hephaestanite",
@@ -5351,7 +5351,7 @@
         },
         {
           "name": "Dymantium",
-          "price": 22000
+          "price": 23000
         },
         {
           "name": "Fresh Food",
@@ -5455,7 +5455,7 @@
         },
         {
           "name": "Year of the Rat Envelope",
-          "price": 2000000
+          "price": 2200000
         },
         {
           "name": "Aslarite",
