@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T10:26:02.542304+00:00",
+  "generated_at": "2026-08-16T11:22:36.798915+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -190,7 +190,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 519
+          "stock": 1210
         },
         {
           "name": "Recycled Material Composite",
@@ -200,27 +200,27 @@
         {
           "name": "Waste",
           "price": 200,
-          "stock": 30000
+          "stock": 90000
         },
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 460
+          "stock": 457
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 240
+          "stock": 389
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 3752
+          "stock": 2853
         },
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 518
+          "stock": 3000
         },
         {
           "name": "Ammonia",
@@ -230,7 +230,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 649
+          "stock": 4
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -304,7 +304,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 970
+          "price": 1200
         },
         {
           "name": "Aphorite",
@@ -340,7 +340,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3700
+          "price": 3500
         },
         {
           "name": "Chlorine",
@@ -348,7 +348,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1500
+          "price": 1400
         },
         {
           "name": "Human Food Bars",
@@ -356,7 +356,7 @@
         },
         {
           "name": "Tin",
-          "price": 4300
+          "price": 3700
         },
         {
           "name": "Potassium",
