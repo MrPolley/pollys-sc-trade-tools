@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T12:43:24.213108+00:00",
+  "generated_at": "2026-08-16T13:33:17.884956+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3786,12 +3786,12 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 30000
+          "stock": 29352
         },
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 2496
+          "stock": 186
         },
         {
           "name": "Ammonia",
@@ -3806,17 +3806,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 703
+          "stock": 90
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 414
+          "stock": 213
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 228
+          "stock": 88
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3875,7 +3875,7 @@
         },
         {
           "name": "Ship Ammunition - Size 7",
-          "price": 8671,
+          "price": 6868,
           "stock": 12000
         }
       ],
@@ -3954,7 +3954,7 @@
         },
         {
           "name": "Stims",
-          "price": 4900
+          "price": 5000
         },
         {
           "name": "Tin",
@@ -3962,7 +3962,7 @@
         },
         {
           "name": "Titanium",
-          "price": 8300
+          "price": 8400
         },
         {
           "name": "Tungsten",
