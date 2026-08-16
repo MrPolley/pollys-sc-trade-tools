@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T05:31:01.448085+00:00",
+  "generated_at": "2026-08-16T06:43:33.905632+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -640,7 +640,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3900
+          "price": 2900
         },
         {
           "name": "Omnapoxy",
@@ -1321,7 +1321,7 @@
         {
           "name": "Diamond",
           "price": 6269,
-          "stock": 1
+          "stock": 372
         }
       ],
       "sell": [
@@ -5042,7 +5042,7 @@
         },
         {
           "name": "Silicon",
-          "price": 3200
+          "price": 2300
         },
         {
           "name": "Tungsten",
