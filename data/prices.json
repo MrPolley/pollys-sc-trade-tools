@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T06:43:33.905632+00:00",
+  "generated_at": "2026-08-16T07:33:33.771443+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1623,7 +1623,7 @@
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 19
+          "stock": 1364
         },
         {
           "name": "Corundum",
@@ -3222,7 +3222,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3600
+          "price": 3400
         },
         {
           "name": "Iron",
@@ -3639,7 +3639,7 @@
         {
           "name": "Agricultural Supplies",
           "price": 1015,
-          "stock": 227
+          "stock": 6000
         },
         {
           "name": "Human Food Bars",
@@ -3649,17 +3649,17 @@
         {
           "name": "Hydrogen",
           "price": 752,
-          "stock": 10522
+          "stock": 11700
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 802
+          "stock": 878
         },
         {
           "name": "Omnapoxy",
           "price": 3521,
-          "stock": 383
+          "stock": 304
         }
       ],
       "sell": [
@@ -3669,7 +3669,7 @@
         },
         {
           "name": "Altruciatoxin",
-          "price": 6400
+          "price": 6000
         },
         {
           "name": "Aluminum",
@@ -3693,7 +3693,7 @@
         },
         {
           "name": "Agricium",
-          "price": 9220
+          "price": 9200
         },
         {
           "name": "Distilled Spirits",
@@ -3705,11 +3705,11 @@
         },
         {
           "name": "Helium",
-          "price": 1000
+          "price": 1200
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4500
         },
         {
           "name": "Iron",
@@ -3717,7 +3717,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8100
+          "price": 8200
         },
         {
           "name": "Medical Supplies",
@@ -3729,7 +3729,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3000
+          "price": 2800
         },
         {
           "name": "Partillium",
@@ -3737,7 +3737,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5200
+          "price": 5100
         },
         {
           "name": "Processed Food",
@@ -5223,7 +5223,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4800
+          "price": 4600
         },
         {
           "name": "Quantainium",
