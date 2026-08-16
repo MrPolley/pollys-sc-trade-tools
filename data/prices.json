@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T23:22:57.759077+00:00",
+  "generated_at": "2026-08-16T01:27:11.247993+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1608,7 +1608,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 779
+          "stock": 1500
         },
         {
           "name": "Waste",
@@ -1618,7 +1618,7 @@
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 898
+          "stock": 365
         },
         {
           "name": "Silicon",
@@ -1628,12 +1628,12 @@
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 173
+          "stock": 2308
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 942
+          "stock": 6000
         },
         {
           "name": "Carbon",
@@ -1648,7 +1648,7 @@
         {
           "name": "Ship Ammunition - Size 2",
           "price": 7126,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 3",
@@ -1658,7 +1658,7 @@
         {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 5",
@@ -1698,7 +1698,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 2000
+          "stock": 12000
         }
       ],
       "sell": [
@@ -1744,19 +1744,19 @@
         },
         {
           "name": "Tin",
-          "price": 4200
+          "price": 3700
         },
         {
           "name": "Pressurized Ice",
-          "price": 5000
+          "price": 6000
         },
         {
           "name": "Ammonia",
-          "price": 1100
+          "price": 1000
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 2000
         },
         {
           "name": "Mercury",
@@ -3094,12 +3094,12 @@
         {
           "name": "Revenant Tree Pollen",
           "price": 967,
-          "stock": 17125
+          "stock": 18000
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 36000
+          "stock": 34873
         },
         {
           "name": "Potassium",
@@ -3109,7 +3109,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 4500
+          "stock": 4068
         },
         {
           "name": "Processed Food",
@@ -3119,7 +3119,7 @@
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 16
+          "stock": 40
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3190,7 +3190,7 @@
         },
         {
           "name": "Borase",
-          "price": 27000
+          "price": 25000
         },
         {
           "name": "Agricium",
@@ -3234,7 +3234,7 @@
         },
         {
           "name": "Mercury",
-          "price": 840
+          "price": 910
         },
         {
           "name": "Methane",
@@ -3354,7 +3354,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8100
+          "price": 8700
         },
         {
           "name": "Inert Materials",
@@ -3406,7 +3406,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 990
+          "price": 1000
         },
         {
           "name": "Fluorine",
@@ -3938,7 +3938,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3000
         },
         {
           "name": "Potassium",
@@ -3954,7 +3954,7 @@
         },
         {
           "name": "Stims",
-          "price": 4700
+          "price": 4900
         },
         {
           "name": "Tin",
@@ -3962,7 +3962,7 @@
         },
         {
           "name": "Titanium",
-          "price": 8100
+          "price": 8300
         },
         {
           "name": "Tungsten",
@@ -3970,7 +3970,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5000
+          "price": 5200
         },
         {
           "name": "Lindinium",
@@ -5391,7 +5391,7 @@
         },
         {
           "name": "Stileron",
-          "price": 130000
+          "price": 140000
         },
         {
           "name": "Dolivine",
@@ -5467,7 +5467,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 46000
+          "price": 45000
         },
         {
           "name": "Sadaryx",
