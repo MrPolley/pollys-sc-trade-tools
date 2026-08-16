@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T21:22:58.407956+00:00",
+  "generated_at": "2026-08-16T22:23:29.435900+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1613,27 +1613,27 @@
         {
           "name": "Waste",
           "price": 189,
-          "stock": 99568
+          "stock": 100000
         },
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 441
+          "stock": 196
         },
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 892
+          "stock": 1363
         },
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 472
+          "stock": 886
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 847
+          "stock": 4941
         },
         {
           "name": "Carbon",
@@ -3182,7 +3182,7 @@
         },
         {
           "name": "Beryl",
-          "price": 19000
+          "price": 20000
         },
         {
           "name": "Bioplastic",
@@ -3198,7 +3198,7 @@
         },
         {
           "name": "Distilled Spirits",
-          "price": 1800
+          "price": 2100
         },
         {
           "name": "DynaFlex",
@@ -3206,7 +3206,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 5400
         },
         {
           "name": "Human Food Bars",
@@ -3214,7 +3214,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 11000
+          "price": 13000
         },
         {
           "name": "Corundum",
@@ -3246,7 +3246,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3000
+          "price": 3700
         },
         {
           "name": "Omnapoxy",
@@ -3290,11 +3290,11 @@
         },
         {
           "name": "Compboard",
-          "price": 28000
+          "price": 30000
         },
         {
           "name": "Dolivine",
-          "price": 130000
+          "price": 150000
         },
         {
           "name": "Dymantium",
