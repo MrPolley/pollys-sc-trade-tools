@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T01:27:11.247993+00:00",
+  "generated_at": "2026-08-16T03:02:42.005704+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2882,17 +2882,17 @@
         {
           "name": "Hydrogen",
           "price": 708,
-          "stock": 10485
+          "stock": 2347
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 0
+          "stock": 823
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 1456
+          "stock": 609
         },
         {
           "name": "Fluorine",
@@ -2902,17 +2902,17 @@
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 6000
+          "stock": 3408
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 69
+          "stock": 126
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 13
+          "stock": 20
         },
         {
           "name": "Quantum Fuel",
@@ -2973,7 +2973,7 @@
       "sell": [
         {
           "name": "Agricultural Supplies",
-          "price": 1300
+          "price": 1400
         },
         {
           "name": "Beryl",
@@ -2985,7 +2985,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 19000
+          "price": 23000
         },
         {
           "name": "Aluminum",
@@ -3009,7 +3009,7 @@
         },
         {
           "name": "E'tam",
-          "price": 23000
+          "price": 22000
         },
         {
           "name": "Helium",
@@ -3025,15 +3025,15 @@
         },
         {
           "name": "Neon",
-          "price": 19000
+          "price": 18000
         },
         {
           "name": "Omnapoxy",
-          "price": 4300
+          "price": 4800
         },
         {
           "name": "Partillium",
-          "price": 90000
+          "price": 88000
         },
         {
           "name": "Potassium",
@@ -3057,7 +3057,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3600
         },
         {
           "name": "Silicon",
@@ -3085,7 +3085,7 @@
         },
         {
           "name": "Iron",
-          "price": 3900
+          "price": 3400
         }
       ]
     },
