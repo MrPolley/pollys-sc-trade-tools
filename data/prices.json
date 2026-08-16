@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T18:32:36.977781+00:00",
+  "generated_at": "2026-08-16T19:22:25.680899+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -397,7 +397,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 19
+          "stock": 50
         },
         {
           "name": "Recycled Material Composite",
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 421
+          "stock": 885
         }
       ],
       "sell": [
@@ -457,11 +457,11 @@
         },
         {
           "name": "Methane",
-          "price": 3800
+          "price": 3900
         },
         {
           "name": "Omnapoxy",
-          "price": 4500
+          "price": 4600
         }
       ]
     },
