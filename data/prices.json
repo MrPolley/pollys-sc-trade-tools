@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T14:25:43.510828+00:00",
+  "generated_at": "2026-08-16T15:24:05.045493+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1608,32 +1608,32 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 1500
+          "stock": 2100
         },
         {
           "name": "Waste",
           "price": 189,
-          "stock": 100000
+          "stock": 99568
         },
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 365
+          "stock": 441
         },
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 1364
+          "stock": 892
         },
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 2308
+          "stock": 472
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 6000
+          "stock": 847
         },
         {
           "name": "Carbon",
