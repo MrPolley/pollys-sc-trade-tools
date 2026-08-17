@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T17:28:42.479496+00:00",
+  "generated_at": "2026-08-17T18:42:27.253910+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1748,7 +1748,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 6000
+          "price": 5000
         },
         {
           "name": "Ammonia",
@@ -3109,7 +3109,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 4500
+          "stock": 8
         },
         {
           "name": "Processed Food",
@@ -3119,7 +3119,7 @@
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 630
+          "stock": 264
         },
         {
           "name": "Ship Ammunition - Size 2",
