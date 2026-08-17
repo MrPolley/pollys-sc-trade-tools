@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:24:45.104042+00:00",
+  "generated_at": "2026-08-17T03:02:10.293132+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1414,8 +1414,8 @@
         },
         {
           "name": "Fluorine",
-          "price": 1090,
-          "stock": 5280
+          "price": 1162,
+          "stock": 4154
         },
         {
           "name": "Hydrogen Fuel",
@@ -1503,7 +1503,7 @@
         },
         {
           "name": "Pitambu",
-          "price": 63000
+          "price": 58000
         },
         {
           "name": "Processed Food",
@@ -1511,11 +1511,11 @@
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1500
+          "price": 1200
         },
         {
           "name": "Amioshi Plague",
-          "price": 24000
+          "price": 27000
         },
         {
           "name": "Aphorite",
@@ -1535,7 +1535,7 @@
         },
         {
           "name": "Iodine",
-          "price": 13000
+          "price": 11000
         },
         {
           "name": "Prota",
@@ -1559,7 +1559,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4600
+          "price": 4200
         },
         {
           "name": "Human Food Bars",
@@ -1567,7 +1567,7 @@
         },
         {
           "name": "Steel",
-          "price": 1900
+          "price": 2000
         },
         {
           "name": "Quartz",
@@ -1579,7 +1579,7 @@
         },
         {
           "name": "Argon",
-          "price": 480
+          "price": 410
         },
         {
           "name": "Beradom",
@@ -2882,17 +2882,17 @@
         {
           "name": "Hydrogen",
           "price": 708,
-          "stock": 2347
+          "stock": 11720
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 823
+          "stock": 240
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 609
+          "stock": 364
         },
         {
           "name": "Fluorine",
@@ -2902,17 +2902,17 @@
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 3408
+          "stock": 9
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 126
+          "stock": 2
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 20
+          "stock": 33
         },
         {
           "name": "Quantum Fuel",
@@ -2985,7 +2985,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 23000
+          "price": 19000
         },
         {
           "name": "Aluminum",
@@ -3009,7 +3009,7 @@
         },
         {
           "name": "E'tam",
-          "price": 22000
+          "price": 23000
         },
         {
           "name": "Helium",
@@ -3025,15 +3025,15 @@
         },
         {
           "name": "Neon",
-          "price": 18000
+          "price": 19000
         },
         {
           "name": "Omnapoxy",
-          "price": 4800
+          "price": 4000
         },
         {
           "name": "Partillium",
-          "price": 88000
+          "price": 90000
         },
         {
           "name": "Potassium",
@@ -3049,7 +3049,7 @@
         },
         {
           "name": "Riccite",
-          "price": 67000
+          "price": 66000
         },
         {
           "name": "Recycled Material Composite",
@@ -3057,7 +3057,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Silicon",
@@ -3085,7 +3085,7 @@
         },
         {
           "name": "Iron",
-          "price": 3400
+          "price": 3900
         }
       ]
     },
@@ -3094,12 +3094,12 @@
         {
           "name": "Revenant Tree Pollen",
           "price": 967,
-          "stock": 18000
+          "stock": 13392
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 33685
+          "stock": 33149
         },
         {
           "name": "Potassium",
@@ -3109,7 +3109,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 215
+          "stock": 4500
         },
         {
           "name": "Processed Food",
@@ -3119,7 +3119,7 @@
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 2009
+          "stock": 630
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3158,7 +3158,7 @@
         },
         {
           "name": "Ship Ammunition - Size 6",
-          "price": 8671,
+          "price": 8328,
           "stock": 12000
         },
         {
@@ -3182,7 +3182,7 @@
         },
         {
           "name": "Beryl",
-          "price": 20000
+          "price": 19000
         },
         {
           "name": "Bioplastic",
@@ -3198,7 +3198,7 @@
         },
         {
           "name": "Distilled Spirits",
-          "price": 2100
+          "price": 1800
         },
         {
           "name": "DynaFlex",
@@ -3206,7 +3206,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 5400
+          "price": 4600
         },
         {
           "name": "Human Food Bars",
@@ -3214,7 +3214,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 11000
         },
         {
           "name": "Corundum",
@@ -3234,7 +3234,7 @@
         },
         {
           "name": "Mercury",
-          "price": 910
+          "price": 1000
         },
         {
           "name": "Methane",
@@ -3246,7 +3246,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3700
+          "price": 2900
         },
         {
           "name": "Omnapoxy",
@@ -3290,11 +3290,11 @@
         },
         {
           "name": "Compboard",
-          "price": 30000
+          "price": 28000
         },
         {
           "name": "Dolivine",
-          "price": 150000
+          "price": 130000
         },
         {
           "name": "Dymantium",
@@ -3334,7 +3334,7 @@
         },
         {
           "name": "Prota",
-          "price": 56000
+          "price": 58000
         },
         {
           "name": "Quantainium",
