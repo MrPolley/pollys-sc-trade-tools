@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T23:21:59.746029+00:00",
+  "generated_at": "2026-08-17T01:24:45.104042+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,27 +7,27 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 136
+          "stock": 365
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 735
+          "stock": 511
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 1799
+          "stock": 58
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 0
+          "stock": 6
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 23275
+          "stock": 14321
         },
         {
           "name": "Ship Ammunition - Size 1",
