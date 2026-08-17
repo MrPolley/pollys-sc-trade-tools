@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T21:27:55.713962+00:00",
+  "generated_at": "2026-08-17T22:27:33.161029+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4897,27 +4897,27 @@
         {
           "name": "Distilled Spirits",
           "price": 1685,
-          "stock": 6000
+          "stock": 360
         },
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 457
+          "stock": 144
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 1012
+          "stock": 968
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 909
+          "stock": 80
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 486
+          "stock": 1193
         },
         {
           "name": "Quartz",
