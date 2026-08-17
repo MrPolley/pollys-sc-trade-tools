@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:27:20.558010+00:00",
+  "generated_at": "2026-08-17T16:30:29.867620+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -584,7 +584,7 @@
         },
         {
           "name": "Titanium",
-          "price": 8500
+          "price": 7700
         }
       ]
     },
