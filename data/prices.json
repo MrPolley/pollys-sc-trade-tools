@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T07:00:42.106234+00:00",
+  "generated_at": "2026-08-17T08:46:24.963291+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,17 +7,17 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 365
+          "stock": 1841
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 511
+          "stock": 3929
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 58
+          "stock": 174
         },
         {
           "name": "Titanium",
@@ -27,7 +27,7 @@
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 14321
+          "stock": 24000
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -47,7 +47,7 @@
         {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 5",
@@ -57,7 +57,7 @@
         {
           "name": "Ship Ammunition - Size 6",
           "price": 8328,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 7",
@@ -86,8 +86,8 @@
         },
         {
           "name": "Recycled Material Composite",
-          "price": 7587,
-          "stock": 2000
+          "price": 7597,
+          "stock": 12000
         }
       ],
       "sell": [
@@ -125,7 +125,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4300
+          "price": 4600
         },
         {
           "name": "Hydrogen",
@@ -137,7 +137,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Ammonia",
