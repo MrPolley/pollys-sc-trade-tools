@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T03:02:10.293132+00:00",
+  "generated_at": "2026-08-17T04:44:56.047825+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3993,7 +3993,7 @@
         {
           "name": "Distilled Spirits",
           "price": 1427,
-          "stock": 1571
+          "stock": 4311
         },
         {
           "name": "DynaFlex",
@@ -4018,7 +4018,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 25618
+          "stock": 30000
         },
         {
           "name": "Recycled Material Composite",
@@ -4100,7 +4100,7 @@
         },
         {
           "name": "Bioplastic",
-          "price": 8100
+          "price": 8600
         },
         {
           "name": "Borase",
@@ -4120,7 +4120,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4500
         },
         {
           "name": "Human Food Bars",
@@ -4128,7 +4128,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1200
+          "price": 1000
         },
         {
           "name": "Neon",
@@ -4160,7 +4160,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3900
+          "price": 3200
         },
         {
           "name": "Steel",
