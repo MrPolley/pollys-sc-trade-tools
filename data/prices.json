@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T13:43:56.463475+00:00",
+  "generated_at": "2026-08-18T14:35:55.680396+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -397,7 +397,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 50
+          "stock": 19
         },
         {
           "name": "Recycled Material Composite",
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 885
+          "stock": 592
         }
       ],
       "sell": [
@@ -441,7 +441,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3900
+          "price": 3300
         },
         {
           "name": "Construction Materials",
@@ -453,15 +453,15 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3500
+          "price": 2900
         },
         {
           "name": "Methane",
-          "price": 3900
+          "price": 3700
         },
         {
           "name": "Omnapoxy",
-          "price": 4600
+          "price": 5000
         }
       ]
     },
@@ -4659,7 +4659,7 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 2086
+          "stock": 229
         },
         {
           "name": "Aluminum",
@@ -4674,7 +4674,7 @@
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 1050
+          "stock": 122
         },
         {
           "name": "Mercury",
