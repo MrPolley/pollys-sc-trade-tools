@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T19:29:46.037184+00:00",
+  "generated_at": "2026-08-18T20:26:58.346418+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4897,22 +4897,22 @@
         {
           "name": "Distilled Spirits",
           "price": 1685,
-          "stock": 3972
+          "stock": 6000
         },
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 314
+          "stock": 24
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 1596
+          "stock": 198
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 280
+          "stock": 265
         },
         {
           "name": "Scrap",
@@ -4922,12 +4922,12 @@
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 60
+          "stock": 55
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 4518
+          "stock": 1216
         },
         {
           "name": "Quantum Fuel",
@@ -4998,15 +4998,15 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3300
+          "price": 3600
         },
         {
           "name": "Chlorine",
-          "price": 1400
+          "price": 1700
         },
         {
           "name": "Copper",
-          "price": 4400
+          "price": 3600
         },
         {
           "name": "Degnous Root",
@@ -5014,7 +5014,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1400
+          "price": 1300
         },
         {
           "name": "Luminalia Gift",
@@ -5022,7 +5022,7 @@
         },
         {
           "name": "Iron",
-          "price": 3100
+          "price": 3300
         },
         {
           "name": "Stims",
@@ -5034,11 +5034,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 3800
+          "price": 3600
         },
         {
           "name": "Corundum",
-          "price": 3800
+          "price": 3700
         },
         {
           "name": "Silicon",
