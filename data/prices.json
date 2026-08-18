@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:44:46.093746+00:00",
+  "generated_at": "2026-08-18T09:36:02.409296+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2760,7 +2760,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 20000
+          "price": 21000
         },
         {
           "name": "Copper",
@@ -2768,15 +2768,15 @@
         },
         {
           "name": "Corundum",
-          "price": 4400
+          "price": 4000
         },
         {
           "name": "Diamond",
-          "price": 7800
+          "price": 8200
         },
         {
           "name": "Cobalt",
-          "price": 24000
+          "price": 20000
         },
         {
           "name": "Borase",
@@ -2784,11 +2784,11 @@
         },
         {
           "name": "Beryl",
-          "price": 24000
+          "price": 18000
         },
         {
           "name": "Bexalite",
-          "price": 28000
+          "price": 30000
         },
         {
           "name": "Distilled Spirits",
@@ -2804,11 +2804,11 @@
         },
         {
           "name": "Iron",
-          "price": 3400
+          "price": 3600
         },
         {
           "name": "Laranite",
-          "price": 9700
+          "price": 8100
         },
         {
           "name": "Medical Supplies",
@@ -2828,7 +2828,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5000
+          "price": 5200
         },
         {
           "name": "Processed Food",
@@ -2844,7 +2844,7 @@
         },
         {
           "name": "Recycled Material Composite",
-          "price": 7600
+          "price": 7700
         },
         {
           "name": "Scrap",
