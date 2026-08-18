@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T22:26:44.264489+00:00",
+  "generated_at": "2026-08-18T23:24:42.044854+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -5163,11 +5163,11 @@
         },
         {
           "name": "Laranite",
-          "price": 8800
+          "price": 8500
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5200
         },
         {
           "name": "Distilled Spirits",
@@ -5223,7 +5223,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4800
         },
         {
           "name": "Quantainium",
@@ -5423,7 +5423,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Neograph",
@@ -5467,7 +5467,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 45000
+          "price": 46000
         },
         {
           "name": "Sadaryx",
