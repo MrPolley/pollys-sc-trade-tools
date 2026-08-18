@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T07:39:57.215502+00:00",
+  "generated_at": "2026-08-18T08:44:46.093746+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2717,7 +2717,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 208
+          "stock": 384
         },
         {
           "name": "Gold",
@@ -2727,7 +2727,7 @@
         {
           "name": "Hephaestanite",
           "price": 3303,
-          "stock": 207
+          "stock": 107
         },
         {
           "name": "Human Food Bars",
