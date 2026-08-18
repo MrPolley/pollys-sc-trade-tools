@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T21:27:15.170357+00:00",
+  "generated_at": "2026-08-18T22:26:44.264489+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1380,7 +1380,7 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 2964
+          "stock": 3619
         },
         {
           "name": "Waste",
@@ -1390,12 +1390,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 511
+          "stock": 1032
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 2572
+          "stock": 5788
         },
         {
           "name": "Potassium",
@@ -1410,7 +1410,7 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 511
+          "stock": 1129
         },
         {
           "name": "Fluorine",
@@ -1480,12 +1480,12 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 2100
+          "stock": 942
         },
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 1980
+          "stock": 5158
         }
       ],
       "sell": [
@@ -1515,7 +1515,7 @@
         },
         {
           "name": "Amioshi Plague",
-          "price": 27000
+          "price": 23000
         },
         {
           "name": "Aphorite",
@@ -1535,7 +1535,7 @@
         },
         {
           "name": "Iodine",
-          "price": 11000
+          "price": 12000
         },
         {
           "name": "Prota",
@@ -1567,7 +1567,7 @@
         },
         {
           "name": "Steel",
-          "price": 2000
+          "price": 1900
         },
         {
           "name": "Quartz",
@@ -4639,7 +4639,7 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 2008
+          "stock": 943
         },
         {
           "name": "Fluorine",
@@ -4659,7 +4659,7 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 229
+          "stock": 368
         },
         {
           "name": "Aluminum",
@@ -4669,7 +4669,7 @@
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 288
+          "stock": 1010
         },
         {
           "name": "Tin",
@@ -4679,7 +4679,7 @@
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 14552
+          "stock": 11752
         },
         {
           "name": "Chlorine",
@@ -4764,7 +4764,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Hydrogen Fuel",
@@ -4820,7 +4820,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 4400
+          "price": 3400
         },
         {
           "name": "Luminalia Gift",
@@ -4832,11 +4832,11 @@
         },
         {
           "name": "Iron",
-          "price": 3500
+          "price": 3300
         },
         {
           "name": "Medical Supplies",
-          "price": 4800
+          "price": 5500
         },
         {
           "name": "Scrap",
@@ -4848,11 +4848,11 @@
         },
         {
           "name": "Helium",
-          "price": 1200
+          "price": 1000
         },
         {
           "name": "Quartz",
-          "price": 4800
+          "price": 5200
         },
         {
           "name": "Tungsten",
