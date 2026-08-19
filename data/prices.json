@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T16:34:20.302778+00:00",
+  "generated_at": "2026-08-19T17:28:48.826854+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2882,7 +2882,7 @@
         {
           "name": "Hydrogen",
           "price": 708,
-          "stock": 4416
+          "stock": 10180
         },
         {
           "name": "Methane",
@@ -2892,7 +2892,7 @@
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 259
+          "stock": 1137
         },
         {
           "name": "Fluorine",
@@ -2902,17 +2902,17 @@
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 1284
+          "stock": 1030
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 100
+          "stock": 67
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 1
+          "stock": 11
         },
         {
           "name": "Quantum Fuel",
@@ -2985,7 +2985,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 19000
+          "price": 22000
         },
         {
           "name": "Aluminum",
@@ -3017,11 +3017,11 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4500
         },
         {
           "name": "Laranite",
-          "price": 8700
+          "price": 8600
         },
         {
           "name": "Neon",
@@ -3029,7 +3029,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4000
+          "price": 4800
         },
         {
           "name": "Partillium",
@@ -3049,7 +3049,7 @@
         },
         {
           "name": "Riccite",
-          "price": 66000
+          "price": 67000
         },
         {
           "name": "Recycled Material Composite",
@@ -3057,7 +3057,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3700
         },
         {
           "name": "Silicon",
@@ -3085,7 +3085,7 @@
         },
         {
           "name": "Iron",
-          "price": 3900
+          "price": 3700
         }
       ]
     },
