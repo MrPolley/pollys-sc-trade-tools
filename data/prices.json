@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T14:36:23.903189+00:00",
+  "generated_at": "2026-08-19T15:33:39.964794+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1555,7 +1555,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 2500
         },
         {
           "name": "Omnapoxy",
@@ -1579,7 +1579,7 @@
         },
         {
           "name": "Argon",
-          "price": 410
+          "price": 550
         },
         {
           "name": "Beradom",
@@ -2196,7 +2196,7 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 0
+          "stock": 86
         },
         {
           "name": "Beryl",
@@ -2206,7 +2206,7 @@
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 83
+          "stock": 62
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 240
+          "stock": 361
         },
         {
           "name": "Hydrogen Fuel",
@@ -2882,17 +2882,17 @@
         {
           "name": "Hydrogen",
           "price": 708,
-          "stock": 11720
+          "stock": 4416
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 818
+          "stock": 127
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 1016
+          "stock": 259
         },
         {
           "name": "Fluorine",
@@ -2902,17 +2902,17 @@
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 9
+          "stock": 1284
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 2
+          "stock": 100
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 33
+          "stock": 1
         },
         {
           "name": "Quantum Fuel",
