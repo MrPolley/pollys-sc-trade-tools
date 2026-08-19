@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T17:28:48.826854+00:00",
+  "generated_at": "2026-08-19T18:38:43.457639+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -657,7 +657,7 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 878
+          "stock": 2100
         },
         {
           "name": "Waste",
@@ -672,7 +672,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 128
+          "stock": 351
         },
         {
           "name": "Methane",
@@ -683,7 +683,7 @@
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 4900
+          "price": 5600
         },
         {
           "name": "Distilled Spirits",
@@ -719,7 +719,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3300
+          "price": 3800
         },
         {
           "name": "Hephaestanite",
@@ -2717,7 +2717,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 202
+          "stock": 346
         },
         {
           "name": "Gold",
@@ -2727,12 +2727,12 @@
         {
           "name": "Hephaestanite",
           "price": 3303,
-          "stock": 201
+          "stock": 292
         },
         {
           "name": "Human Food Bars",
           "price": 416,
-          "stock": 6000
+          "stock": 620
         },
         {
           "name": "Tungsten",
@@ -2742,13 +2742,13 @@
         {
           "name": "Stims",
           "price": 4467,
-          "stock": 200
+          "stock": 620
         }
       ],
       "sell": [
         {
           "name": "Altruciatoxin",
-          "price": 5900
+          "price": 6100
         },
         {
           "name": "Revenant Tree Pollen",
@@ -2756,11 +2756,11 @@
         },
         {
           "name": "Agricium",
-          "price": 11000
+          "price": 10000
         },
         {
           "name": "Carbon-Silk",
-          "price": 19000
+          "price": 21000
         },
         {
           "name": "Copper",
@@ -2768,11 +2768,11 @@
         },
         {
           "name": "Corundum",
-          "price": 3400
+          "price": 4000
         },
         {
           "name": "Diamond",
-          "price": 7200
+          "price": 6900
         },
         {
           "name": "Cobalt",
@@ -2788,7 +2788,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 30000
+          "price": 28000
         },
         {
           "name": "Distilled Spirits",
@@ -2804,11 +2804,11 @@
         },
         {
           "name": "Iron",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Laranite",
-          "price": 8700
+          "price": 8600
         },
         {
           "name": "Medical Supplies",
@@ -2887,7 +2887,7 @@
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 127
+          "stock": 346
         },
         {
           "name": "Nitrogen",
