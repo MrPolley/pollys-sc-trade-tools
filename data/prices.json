@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T02:59:30.243494+00:00",
+  "generated_at": "2026-08-19T03:53:17.049029+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2196,17 +2196,17 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 178
+          "stock": 0
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 4
+          "stock": 58
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 6
+          "stock": 83
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 703
+          "stock": 240
         },
         {
           "name": "Hydrogen Fuel",
@@ -2301,7 +2301,7 @@
         },
         {
           "name": "Atlasium",
-          "price": 99000
+          "price": 91000
         },
         {
           "name": "Audio-Visual Equipment",
@@ -2477,11 +2477,11 @@
         },
         {
           "name": "Riccite",
-          "price": 74000
+          "price": 75000
         },
         {
           "name": "Recycled Material Composite",
-          "price": 6400
+          "price": 6300
         },
         {
           "name": "Scrap",
@@ -2501,7 +2501,7 @@
         },
         {
           "name": "Stileron",
-          "price": 160000
+          "price": 140000
         },
         {
           "name": "Stims",
@@ -2509,7 +2509,7 @@
         },
         {
           "name": "Sunset Berries",
-          "price": 78000
+          "price": 79000
         },
         {
           "name": "Taranite",
