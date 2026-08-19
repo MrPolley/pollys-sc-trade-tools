@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T20:31:18.506905+00:00",
+  "generated_at": "2026-08-19T21:27:25.484520+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -764,7 +764,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 4900
         },
         {
           "name": "Dolivine",
@@ -848,11 +848,11 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 6100
+          "price": 5000
         },
         {
           "name": "Hephaestanite",
-          "price": 6000
+          "price": 4500
         },
         {
           "name": "Nitrogen",
