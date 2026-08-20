@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:36:14.938559+00:00",
+  "generated_at": "2026-08-20T16:38:05.432632+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -677,7 +677,7 @@
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 8
+          "stock": 1515
         }
       ],
       "sell": [
@@ -711,7 +711,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 7800
+          "price": 5800
         },
         {
           "name": "Laranite",
@@ -2784,7 +2784,7 @@
         },
         {
           "name": "Beryl",
-          "price": 18000
+          "price": 24000
         },
         {
           "name": "Bexalite",
