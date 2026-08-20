@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T06:50:40.743354+00:00",
+  "generated_at": "2026-08-20T07:43:03.426153+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3993,27 +3993,27 @@
         {
           "name": "Distilled Spirits",
           "price": 1427,
-          "stock": 4311
+          "stock": 1906
         },
         {
           "name": "DynaFlex",
           "price": 1603,
-          "stock": 3000
+          "stock": 1607
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 1197
+          "stock": 1200
         },
         {
           "name": "Iron",
           "price": 2480,
-          "stock": 122
+          "stock": 343
         },
         {
           "name": "Mercury",
           "price": 715,
-          "stock": 10439
+          "stock": 10232
         },
         {
           "name": "Waste",
@@ -4100,7 +4100,7 @@
         },
         {
           "name": "Bioplastic",
-          "price": 8600
+          "price": 6500
         },
         {
           "name": "Borase",
@@ -4108,7 +4108,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 11000
         },
         {
           "name": "Corundum",
@@ -4120,7 +4120,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4600
         },
         {
           "name": "Human Food Bars",
@@ -4128,7 +4128,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1000
+          "price": 1200
         },
         {
           "name": "Neon",
@@ -4160,7 +4160,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3200
+          "price": 3900
         },
         {
           "name": "Steel",
