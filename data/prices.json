@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T04:39:29.121413+00:00",
+  "generated_at": "2026-08-20T05:33:39.594136+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -746,13 +746,13 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 1881
+          "stock": 1417
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 4600
         },
         {
           "name": "Distilled Spirits",
@@ -764,7 +764,7 @@
         },
         {
           "name": "Stims",
-          "price": 4900
+          "price": 5900
         },
         {
           "name": "Dolivine",
@@ -844,7 +844,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Thermalfoam",
@@ -852,7 +852,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4800
         },
         {
           "name": "Nitrogen",
@@ -1380,7 +1380,7 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 3619
+          "stock": 2667
         },
         {
           "name": "Waste",
@@ -1390,12 +1390,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 1032
+          "stock": 1027
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 5788
+          "stock": 6000
         },
         {
           "name": "Potassium",
@@ -1410,12 +1410,12 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 1129
+          "stock": 3076
         },
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 6000
+          "stock": 5204
         },
         {
           "name": "Hydrogen Fuel",
@@ -1454,7 +1454,7 @@
         },
         {
           "name": "Ship Ammunition - Size 3",
-          "price": 7384,
+          "price": 7394,
           "stock": 12000
         },
         {
@@ -1480,12 +1480,12 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 942
+          "stock": 2100
         },
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 5158
+          "stock": 4835
         }
       ],
       "sell": [
@@ -1511,11 +1511,11 @@
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1400
+          "price": 1200
         },
         {
           "name": "Amioshi Plague",
-          "price": 23000
+          "price": 27000
         },
         {
           "name": "Aphorite",
@@ -1535,7 +1535,7 @@
         },
         {
           "name": "Iodine",
-          "price": 12000
+          "price": 11000
         },
         {
           "name": "Prota",
@@ -1547,7 +1547,7 @@
         },
         {
           "name": "Stims",
-          "price": 5600
+          "price": 5200
         },
         {
           "name": "Revenant Pod",
@@ -1559,7 +1559,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 5000
+          "price": 4800
         },
         {
           "name": "Human Food Bars",
@@ -1567,7 +1567,7 @@
         },
         {
           "name": "Steel",
-          "price": 1900
+          "price": 2000
         },
         {
           "name": "Quartz",
@@ -1579,7 +1579,7 @@
         },
         {
           "name": "Argon",
-          "price": 550
+          "price": 530
         },
         {
           "name": "Beradom",
@@ -3094,12 +3094,12 @@
         {
           "name": "Revenant Tree Pollen",
           "price": 967,
-          "stock": 13392
+          "stock": 18000
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 33149
+          "stock": 15323
         },
         {
           "name": "Potassium",
@@ -3118,8 +3118,8 @@
         },
         {
           "name": "Silicon",
-          "price": 1891,
-          "stock": 2100
+          "price": 1881,
+          "stock": 952
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3163,7 +3163,7 @@
         },
         {
           "name": "Ship Ammunition - Size 7",
-          "price": 8671,
+          "price": 6860,
           "stock": 12000
         }
       ],
