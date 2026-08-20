@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T02:59:05.972769+00:00",
+  "generated_at": "2026-08-20T03:53:17.512963+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1608,32 +1608,32 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 2100
+          "stock": 1377
         },
         {
           "name": "Waste",
           "price": 189,
-          "stock": 100000
+          "stock": 98400
         },
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 196
+          "stock": 1048
         },
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 1363
+          "stock": 14
         },
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 886
+          "stock": 344
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 4941
+          "stock": 4636
         },
         {
           "name": "Carbon",
@@ -1728,7 +1728,7 @@
         },
         {
           "name": "Copper",
-          "price": 3600
+          "price": 3700
         },
         {
           "name": "Dolivine",
@@ -1740,19 +1740,19 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1100
+          "price": 1000
         },
         {
           "name": "Tin",
-          "price": 3700
+          "price": 3900
         },
         {
           "name": "Pressurized Ice",
-          "price": 5000
+          "price": 5300
         },
         {
           "name": "Ammonia",
-          "price": 1000
+          "price": 1100
         },
         {
           "name": "DynaFlex",
@@ -2882,17 +2882,17 @@
         {
           "name": "Hydrogen",
           "price": 708,
-          "stock": 10180
+          "stock": 4004
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 346
+          "stock": 163
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 1137
+          "stock": 243
         },
         {
           "name": "Fluorine",
@@ -2902,12 +2902,12 @@
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 1030
+          "stock": 5074
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 67
+          "stock": 383
         },
         {
           "name": "Xa'Pyen",
@@ -2966,7 +2966,7 @@
         },
         {
           "name": "Ship Ammunition - Size 7",
-          "price": 8671,
+          "price": 6868,
           "stock": 12000
         }
       ],
@@ -2985,7 +2985,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 22000
+          "price": 21000
         },
         {
           "name": "Aluminum",
@@ -3017,11 +3017,11 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4600
         },
         {
           "name": "Laranite",
-          "price": 8600
+          "price": 8700
         },
         {
           "name": "Neon",
@@ -3029,7 +3029,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4800
+          "price": 4000
         },
         {
           "name": "Partillium",
@@ -3057,7 +3057,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3500
         },
         {
           "name": "Silicon",
@@ -3085,7 +3085,7 @@
         },
         {
           "name": "Iron",
-          "price": 3700
+          "price": 3900
         }
       ]
     },
