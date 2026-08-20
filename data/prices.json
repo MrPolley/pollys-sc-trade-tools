@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:43:03.426153+00:00",
+  "generated_at": "2026-08-20T08:41:32.769234+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4346,12 +4346,12 @@
         {
           "name": "Hephaestanite",
           "price": 4167,
-          "stock": 681
+          "stock": 367
         },
         {
           "name": "Iron",
           "price": 2850,
-          "stock": 23
+          "stock": 1050
         },
         {
           "name": "Argon",
@@ -4376,7 +4376,7 @@
         {
           "name": "Aluminum",
           "price": 3128,
-          "stock": 1050
+          "stock": 763
         },
         {
           "name": "Hydrogen Fuel",
@@ -4518,7 +4518,7 @@
         },
         {
           "name": "Distilled Spirits",
-          "price": 1800
+          "price": 2100
         },
         {
           "name": "Carbon",
@@ -4530,7 +4530,7 @@
         },
         {
           "name": "Copper",
-          "price": 3700
+          "price": 4400
         },
         {
           "name": "Fluorine",
