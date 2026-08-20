@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:38:33.264126+00:00",
+  "generated_at": "2026-08-20T15:36:14.938559+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2848,7 +2848,7 @@
         },
         {
           "name": "Scrap",
-          "price": 4600
+          "price": 3400
         },
         {
           "name": "Silicon",
