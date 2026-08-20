@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T16:38:05.432632+00:00",
+  "generated_at": "2026-08-20T17:32:00.474781+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -677,7 +677,7 @@
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 1515
+          "stock": 1850
         }
       ],
       "sell": [
@@ -746,13 +746,13 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 1417
+          "stock": 2041
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 4600
+          "price": 5400
         },
         {
           "name": "Distilled Spirits",
@@ -764,7 +764,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 4900
         },
         {
           "name": "Dolivine",
@@ -824,7 +824,7 @@
         },
         {
           "name": "Neon",
-          "price": 24000
+          "price": 21000
         },
         {
           "name": "Altruciatoxin",
@@ -844,15 +844,15 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Thermalfoam",
-          "price": 5000
+          "price": 6200
         },
         {
           "name": "Hephaestanite",
-          "price": 4800
+          "price": 4700
         },
         {
           "name": "Nitrogen",
@@ -1555,7 +1555,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2500
+          "price": 1800
         },
         {
           "name": "Omnapoxy",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 1
+          "stock": 115
         },
         {
           "name": "Hydrogen Fuel",
@@ -2760,23 +2760,23 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 21000
+          "price": 20000
         },
         {
           "name": "Copper",
-          "price": 4600
+          "price": 4300
         },
         {
           "name": "Corundum",
-          "price": 4400
+          "price": 3600
         },
         {
           "name": "Diamond",
-          "price": 7800
+          "price": 8200
         },
         {
           "name": "Cobalt",
-          "price": 22000
+          "price": 24000
         },
         {
           "name": "Borase",
@@ -2784,11 +2784,11 @@
         },
         {
           "name": "Beryl",
-          "price": 24000
+          "price": 22000
         },
         {
           "name": "Bexalite",
-          "price": 30000
+          "price": 28000
         },
         {
           "name": "Distilled Spirits",
@@ -2796,7 +2796,7 @@
         },
         {
           "name": "E'tam",
-          "price": 23000
+          "price": 22000
         },
         {
           "name": "Helium",
@@ -2808,7 +2808,7 @@
         },
         {
           "name": "Laranite",
-          "price": 9000
+          "price": 9400
         },
         {
           "name": "Medical Supplies",
@@ -2816,7 +2816,7 @@
         },
         {
           "name": "Neon",
-          "price": 18000
+          "price": 19000
         },
         {
           "name": "Nitrogen",
@@ -3109,7 +3109,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 8
+          "stock": 4500
         },
         {
           "name": "Processed Food",
@@ -3406,7 +3406,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1000
+          "price": 990
         },
         {
           "name": "Fluorine",
