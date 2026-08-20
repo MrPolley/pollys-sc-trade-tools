@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T20:31:20.284294+00:00",
+  "generated_at": "2026-08-20T21:30:27.380901+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4902,32 +4902,32 @@
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 24
+          "stock": 200
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 198
+          "stock": 3408
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 265
+          "stock": 491
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 2100
+          "stock": 421
         },
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 55
+          "stock": 756
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 1216
+          "stock": 6000
         },
         {
           "name": "Quantum Fuel",
@@ -4998,15 +4998,15 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3600
+          "price": 3700
         },
         {
           "name": "Chlorine",
-          "price": 1700
+          "price": 1500
         },
         {
           "name": "Copper",
-          "price": 3600
+          "price": 3800
         },
         {
           "name": "Degnous Root",
@@ -5014,7 +5014,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1300
+          "price": 1400
         },
         {
           "name": "Luminalia Gift",
@@ -5022,7 +5022,7 @@
         },
         {
           "name": "Iron",
-          "price": 3300
+          "price": 3100
         },
         {
           "name": "Stims",
@@ -5038,7 +5038,7 @@
         },
         {
           "name": "Corundum",
-          "price": 3700
+          "price": 3600
         },
         {
           "name": "Silicon",
@@ -5050,7 +5050,7 @@
         },
         {
           "name": "Carbon",
-          "price": 430
+          "price": 410
         },
         {
           "name": "Year of the Rat Envelope",
