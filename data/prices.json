@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T17:31:11.012195+00:00",
+  "generated_at": "2026-08-21T18:39:43.216718+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1608,17 +1608,17 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 1377
+          "stock": 1571
         },
         {
           "name": "Waste",
           "price": 189,
-          "stock": 98400
+          "stock": 96152
         },
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 1048
+          "stock": 131
         },
         {
           "name": "Silicon",
@@ -1628,12 +1628,12 @@
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 344
+          "stock": 326
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 4636
+          "stock": 1773
         },
         {
           "name": "Carbon",
@@ -1704,7 +1704,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5700
+          "price": 5400
         },
         {
           "name": "Audio-Visual Equipment",
@@ -1728,7 +1728,7 @@
         },
         {
           "name": "Copper",
-          "price": 3700
+          "price": 3900
         },
         {
           "name": "Dolivine",
@@ -1744,19 +1744,19 @@
         },
         {
           "name": "Tin",
-          "price": 3900
+          "price": 3800
         },
         {
           "name": "Pressurized Ice",
-          "price": 5300
+          "price": 5800
         },
         {
           "name": "Ammonia",
-          "price": 1100
+          "price": 980
         },
         {
           "name": "DynaFlex",
-          "price": 2000
+          "price": 1900
         },
         {
           "name": "Mercury",
