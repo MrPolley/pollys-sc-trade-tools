@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T06:52:05.391706+00:00",
+  "generated_at": "2026-08-21T07:45:11.357996+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3094,12 +3094,12 @@
         {
           "name": "Revenant Tree Pollen",
           "price": 967,
-          "stock": 18000
+          "stock": 17609
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 15323
+          "stock": 27611
         },
         {
           "name": "Potassium",
@@ -3109,7 +3109,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 4500
+          "stock": 2836
         },
         {
           "name": "Processed Food",
@@ -3119,7 +3119,7 @@
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 952
+          "stock": 2100
         },
         {
           "name": "Ship Ammunition - Size 2",
