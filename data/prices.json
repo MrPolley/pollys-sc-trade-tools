@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T14:38:00.447136+00:00",
+  "generated_at": "2026-08-21T15:36:13.355798+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,7 +7,7 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 7
+          "stock": 2100
         },
         {
           "name": "Iron",
@@ -22,7 +22,7 @@
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 1
+          "stock": 568
         },
         {
           "name": "Carbon",
@@ -1025,7 +1025,7 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 128
+          "stock": 135
         },
         {
           "name": "Scrap",
@@ -1035,7 +1035,7 @@
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 11
+          "stock": 763
         }
       ],
       "sell": [
@@ -1321,7 +1321,7 @@
         {
           "name": "Diamond",
           "price": 6269,
-          "stock": 18
+          "stock": 142
         }
       ],
       "sell": [
@@ -3109,7 +3109,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 1146
+          "stock": 3924
         },
         {
           "name": "Processed Food",
@@ -3119,7 +3119,7 @@
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 2100
+          "stock": 134
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -5034,7 +5034,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3600
+          "price": 4600
         },
         {
           "name": "Corundum",
