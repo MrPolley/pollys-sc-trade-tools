@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:45:11.357996+00:00",
+  "generated_at": "2026-08-21T08:43:17.672877+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3099,7 +3099,7 @@
         {
           "name": "Helium",
           "price": 727,
-          "stock": 27611
+          "stock": 32390
         },
         {
           "name": "Potassium",
@@ -3109,7 +3109,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 2836
+          "stock": 1146
         },
         {
           "name": "Processed Food",
@@ -3206,7 +3206,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 5600
+          "price": 4600
         },
         {
           "name": "Human Food Bars",
@@ -3230,11 +3230,11 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5300
         },
         {
           "name": "Mercury",
-          "price": 890
+          "price": 840
         },
         {
           "name": "Methane",
@@ -3270,7 +3270,7 @@
         },
         {
           "name": "Tin",
-          "price": 3800
+          "price": 3000
         },
         {
           "name": "Titanium",
@@ -3406,7 +3406,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 990
+          "price": 1000
         },
         {
           "name": "Fluorine",
