@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T16:37:26.921195+00:00",
+  "generated_at": "2026-08-21T17:31:11.012195+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2648,7 +2648,7 @@
         {
           "name": "Atlasium",
           "price": 72214,
-          "stock": 12
+          "stock": 27
         },
         {
           "name": "Construction Materials",
@@ -2658,7 +2658,7 @@
         {
           "name": "Dymantium",
           "price": 17480,
-          "stock": 29
+          "stock": 15
         },
         {
           "name": "Scrap",
@@ -2673,7 +2673,7 @@
         {
           "name": "Organics",
           "price": 9257,
-          "stock": 170
+          "stock": 258
         }
       ],
       "sell": [
