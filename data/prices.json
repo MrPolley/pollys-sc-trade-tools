@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T19:24:18.539265+00:00",
+  "generated_at": "2026-08-22T20:25:54.626047+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -190,7 +190,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 1188
+          "stock": 637
         },
         {
           "name": "Recycled Material Composite",
@@ -205,22 +205,22 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 206
+          "stock": 95
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 482
+          "stock": 90
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 3370
+          "stock": 2757
         },
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 3000
+          "stock": 736
         },
         {
           "name": "Ammonia",
@@ -230,7 +230,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 326
+          "stock": 319
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -250,7 +250,7 @@
         {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
-          "stock": 11964
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 5",
@@ -296,7 +296,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5500
+          "price": 5700
         },
         {
           "name": "Dolivine",
@@ -304,7 +304,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1200
+          "price": 970
         },
         {
           "name": "Aphorite",
@@ -340,7 +340,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3700
+          "price": 3500
         },
         {
           "name": "Chlorine",
@@ -348,7 +348,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1400
+          "price": 1200
         },
         {
           "name": "Human Food Bars",
@@ -356,7 +356,7 @@
         },
         {
           "name": "Tin",
-          "price": 3900
+          "price": 3800
         },
         {
           "name": "Potassium",
@@ -384,7 +384,7 @@
         },
         {
           "name": "Torite",
-          "price": 8900
+          "price": 8500
         },
         {
           "name": "Year of the Rat Envelope",
@@ -1266,7 +1266,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 5200
         },
         {
           "name": "Dolivine",
@@ -1278,19 +1278,19 @@
         },
         {
           "name": "Degnous Root",
-          "price": 63000
+          "price": 62000
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Medical Supplies",
-          "price": 4800
+          "price": 5500
         },
         {
           "name": "Beryl",
-          "price": 21000
+          "price": 18000
         },
         {
           "name": "Agricium",
@@ -1302,7 +1302,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4900
+          "price": 5000
         }
       ]
     },
