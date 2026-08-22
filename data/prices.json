@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T22:24:39.452332+00:00",
+  "generated_at": "2026-08-22T23:22:54.955392+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -475,7 +475,7 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 12
+          "stock": 303
         },
         {
           "name": "Medical Supplies",
@@ -510,15 +510,15 @@
         },
         {
           "name": "Astatine",
-          "price": 3600
+          "price": 3900
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3000
         },
         {
           "name": "Methane",
-          "price": 4100
+          "price": 3900
         }
       ]
     },
