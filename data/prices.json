@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:33:43.782518+00:00",
+  "generated_at": "2026-08-22T14:24:14.700298+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3783,12 +3783,12 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 29352
+          "stock": 30000
         },
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 186
+          "stock": 1155
         },
         {
           "name": "Ammonia",
@@ -3803,17 +3803,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 90
+          "stock": 402
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 213
+          "stock": 765
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 88
+          "stock": 654
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -4343,17 +4343,17 @@
         {
           "name": "Hephaestanite",
           "price": 4167,
-          "stock": 205
+          "stock": 359
         },
         {
           "name": "Iron",
           "price": 2850,
-          "stock": 99
+          "stock": 273
         },
         {
           "name": "Argon",
           "price": 316,
-          "stock": 23210
+          "stock": 24000
         },
         {
           "name": "Scrap",
@@ -4373,7 +4373,7 @@
         {
           "name": "Aluminum",
           "price": 3128,
-          "stock": 502
+          "stock": 532
         },
         {
           "name": "Hydrogen Fuel",
@@ -4515,7 +4515,7 @@
         },
         {
           "name": "Distilled Spirits",
-          "price": 1900
+          "price": 2100
         },
         {
           "name": "Carbon",
@@ -4523,11 +4523,11 @@
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1500
+          "price": 1400
         },
         {
           "name": "Copper",
-          "price": 3700
+          "price": 4400
         },
         {
           "name": "Fluorine",
