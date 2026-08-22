@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T18:34:08.824605+00:00",
+  "generated_at": "2026-08-22T19:24:18.539265+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 360
+          "stock": 528
         }
       ],
       "sell": [
@@ -421,7 +421,7 @@
         },
         {
           "name": "Processed Food",
-          "price": 1500
+          "price": 1400
         },
         {
           "name": "Medical Supplies",
@@ -441,7 +441,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3300
+          "price": 3700
         },
         {
           "name": "Construction Materials",
@@ -453,15 +453,15 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3500
+          "price": 2900
         },
         {
           "name": "Methane",
-          "price": 3900
+          "price": 3400
         },
         {
           "name": "Omnapoxy",
-          "price": 5000
+          "price": 4400
         }
       ]
     },
@@ -475,12 +475,12 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 622
+          "stock": 12
         },
         {
           "name": "Medical Supplies",
           "price": 4401,
-          "stock": 413
+          "stock": 14
         }
       ],
       "sell": [
@@ -510,7 +510,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3300
+          "price": 3600
         },
         {
           "name": "Nitrogen",
@@ -518,7 +518,7 @@
         },
         {
           "name": "Methane",
-          "price": 3900
+          "price": 4100
         }
       ]
     },
@@ -1025,17 +1025,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 135
+          "stock": 248
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 567
+          "stock": 326
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 763
+          "stock": 8
         }
       ],
       "sell": [
@@ -1057,7 +1057,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 60000
+          "price": 69000
         },
         {
           "name": "Party Favors",
@@ -1077,7 +1077,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3400
         },
         {
           "name": "Borase",
@@ -1085,7 +1085,7 @@
         },
         {
           "name": "Methane",
-          "price": 4100
+          "price": 3400
         }
       ]
     },
