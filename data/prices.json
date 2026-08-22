@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T20:25:54.626047+00:00",
+  "generated_at": "2026-08-22T21:24:19.274713+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2595,17 +2595,17 @@
         {
           "name": "Tungsten",
           "price": 8265,
-          "stock": 22
+          "stock": 285
         },
         {
           "name": "Quartz",
           "price": 3705,
-          "stock": 6000
+          "stock": 236
         },
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 1050
+          "stock": 42
         }
       ],
       "sell": [
@@ -4361,7 +4361,7 @@
         {
           "name": "Scrap",
           "price": 3265,
-          "stock": 2100
+          "stock": 399
         },
         {
           "name": "Methane",
@@ -4391,7 +4391,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Hydrogen Fuel",
@@ -4426,7 +4426,7 @@
         {
           "name": "Ship Ammunition - Size 1",
           "price": 6868,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -4566,7 +4566,7 @@
         },
         {
           "name": "Copper",
-          "price": 3500
+          "price": 3700
         },
         {
           "name": "Corundum",
@@ -4586,15 +4586,15 @@
         },
         {
           "name": "Agricium",
-          "price": 9500
+          "price": 9800
         },
         {
           "name": "Borase",
-          "price": 28000
+          "price": 26000
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 8600
         },
         {
           "name": "Bexalite",
@@ -4630,7 +4630,7 @@
         },
         {
           "name": "Iron",
-          "price": 3300
+          "price": 3100
         }
       ]
     },
