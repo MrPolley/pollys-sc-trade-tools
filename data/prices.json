@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T14:24:14.700298+00:00",
+  "generated_at": "2026-08-22T15:24:00.750142+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -655,6 +655,16 @@
     "CRU-L1": {
       "buy": [
         {
+          "name": "Scrap",
+          "price": 2990,
+          "stock": 1088
+        },
+        {
+          "name": "Waste",
+          "price": 229,
+          "stock": 75
+        },
+        {
           "name": "Recycled Material Composite",
           "price": 10710,
           "stock": 100
@@ -663,17 +673,14 @@
           "name": "Nitrogen",
           "price": 2561,
           "stock": 40
+        },
+        {
+          "name": "Methane",
+          "price": 3033,
+          "stock": 121
         }
       ],
       "sell": [
-        {
-          "name": "Scrap",
-          "price": 2990
-        },
-        {
-          "name": "Waste",
-          "price": 229
-        },
         {
           "name": "Medical Supplies",
           "price": 5500
@@ -701,10 +708,6 @@
         {
           "name": "Party Favors",
           "price": 4900
-        },
-        {
-          "name": "Methane",
-          "price": 3033
         },
         {
           "name": "Thermalfoam",
@@ -3927,7 +3930,7 @@
         },
         {
           "name": "Methane",
-          "price": 3500
+          "price": 3400
         },
         {
           "name": "Neon",
