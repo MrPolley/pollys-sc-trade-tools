@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T04:35:09.712186+00:00",
+  "generated_at": "2026-08-22T05:29:51.138215+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 2100
+          "stock": 488
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 421
+          "stock": 697
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 371
+          "stock": 1099
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 568
+          "stock": 1030
         },
         {
           "name": "Carbon",
@@ -93,7 +93,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5700
+          "price": 5500
         },
         {
           "name": "Audio-Visual Equipment",
@@ -137,7 +137,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Ammonia",
@@ -157,7 +157,7 @@
         },
         {
           "name": "Mercury",
-          "price": 1000
+          "price": 950
         },
         {
           "name": "Argon",
