@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T21:24:19.274713+00:00",
+  "generated_at": "2026-08-22T22:24:39.452332+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 953
+          "stock": 121
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 697
+          "stock": 172
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 1099
+          "stock": 174
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 2040
+          "stock": 8
         },
         {
           "name": "Carbon",
@@ -4185,12 +4185,12 @@
         {
           "name": "Cobalt",
           "price": 18050,
-          "stock": 184
+          "stock": 17
         },
         {
           "name": "DynaFlex",
           "price": 1350,
-          "stock": 1749
+          "stock": 58
         },
         {
           "name": "Human Food Bars",
@@ -4200,12 +4200,12 @@
         {
           "name": "Nitrogen",
           "price": 2439,
-          "stock": 194
+          "stock": 842
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 89
+          "stock": 67
         },
         {
           "name": "Fluorine",
@@ -4252,7 +4252,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7400
+          "price": 7300
         },
         {
           "name": "E'tam",
@@ -4280,7 +4280,7 @@
         },
         {
           "name": "Methane",
-          "price": 4400
+          "price": 3300
         },
         {
           "name": "Neon",
@@ -4292,7 +4292,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5200
+          "price": 5000
         },
         {
           "name": "Processed Food",
@@ -4304,7 +4304,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 3700
         },
         {
           "name": "Silicon",
@@ -4324,7 +4324,7 @@
         },
         {
           "name": "Titanium",
-          "price": 8900
+          "price": 8200
         },
         {
           "name": "WiDoW",
@@ -4332,7 +4332,7 @@
         },
         {
           "name": "Altruciatoxin",
-          "price": 6400
+          "price": 6300
         }
       ]
     },
