@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T06:43:37.171490+00:00",
+  "generated_at": "2026-08-22T07:34:00.887470+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -5006,7 +5006,7 @@
         },
         {
           "name": "Copper",
-          "price": 4400
+          "price": 3700
         },
         {
           "name": "Degnous Root",
@@ -5014,7 +5014,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1300
+          "price": 1400
         },
         {
           "name": "Luminalia Gift",
@@ -5022,7 +5022,7 @@
         },
         {
           "name": "Iron",
-          "price": 3200
+          "price": 3300
         },
         {
           "name": "Stims",
@@ -5034,7 +5034,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3500
+          "price": 3900
         },
         {
           "name": "Corundum",
