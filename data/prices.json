@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T21:24:07.857933+00:00",
+  "generated_at": "2026-08-23T22:24:55.518964+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3447,7 +3447,7 @@
         {
           "name": "Agricium",
           "price": 6840,
-          "stock": 86
+          "stock": 168
         },
         {
           "name": "Human Food Bars",
@@ -3457,12 +3457,12 @@
         {
           "name": "Hydrogen",
           "price": 752,
-          "stock": 9051
+          "stock": 9823
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 171
+          "stock": 41
         }
       ],
       "sell": [
@@ -3496,7 +3496,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2000
+          "price": 1700
         },
         {
           "name": "E'tam",
