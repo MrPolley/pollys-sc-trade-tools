@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T10:26:34.614520+00:00",
+  "generated_at": "2026-08-23T11:23:05.337378+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2712,12 +2712,12 @@
         {
           "name": "Waste",
           "price": 196,
-          "stock": 74000
+          "stock": 71840
         },
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 246
+          "stock": 241
         },
         {
           "name": "Gold",
@@ -2727,7 +2727,7 @@
         {
           "name": "Hephaestanite",
           "price": 3303,
-          "stock": 52
+          "stock": 160
         },
         {
           "name": "Human Food Bars",
@@ -2742,13 +2742,13 @@
         {
           "name": "Stims",
           "price": 4467,
-          "stock": 452
+          "stock": 201
         }
       ],
       "sell": [
         {
           "name": "Altruciatoxin",
-          "price": 6400
+          "price": 6000
         },
         {
           "name": "Revenant Tree Pollen",
@@ -2756,27 +2756,27 @@
         },
         {
           "name": "Agricium",
-          "price": 10000
+          "price": 11000
         },
         {
           "name": "Carbon-Silk",
-          "price": 20000
+          "price": 21000
         },
         {
           "name": "Copper",
-          "price": 3900
+          "price": 4200
         },
         {
           "name": "Corundum",
-          "price": 3600
+          "price": 4400
         },
         {
           "name": "Diamond",
-          "price": 8200
+          "price": 6800
         },
         {
           "name": "Cobalt",
-          "price": 22000
+          "price": 20000
         },
         {
           "name": "Borase",
@@ -2784,7 +2784,7 @@
         },
         {
           "name": "Beryl",
-          "price": 19000
+          "price": 22000
         },
         {
           "name": "Bexalite",
@@ -2808,7 +2808,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8600
+          "price": 8100
         },
         {
           "name": "Medical Supplies",
@@ -2816,11 +2816,11 @@
         },
         {
           "name": "Neon",
-          "price": 19000
+          "price": 17000
         },
         {
           "name": "Nitrogen",
-          "price": 3000
+          "price": 2900
         },
         {
           "name": "Omnapoxy",
@@ -2844,7 +2844,7 @@
         },
         {
           "name": "Recycled Material Composite",
-          "price": 7300
+          "price": 7700
         },
         {
           "name": "Scrap",
