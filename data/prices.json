@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T15:25:02.743619+00:00",
+  "generated_at": "2026-08-23T16:29:04.548075+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1380,22 +1380,22 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 5903
+          "stock": 4133
         },
         {
           "name": "Waste",
           "price": 198,
-          "stock": 98000
+          "stock": 95840
         },
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 18
+          "stock": 620
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 1757
+          "stock": 4549
         },
         {
           "name": "Potassium",
@@ -1410,12 +1410,12 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 3214
+          "stock": 1606
         },
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 3925
+          "stock": 5721
         },
         {
           "name": "Hydrogen Fuel",
@@ -1480,12 +1480,12 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 2100
+          "stock": 721
         },
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 466
+          "stock": 7554
         }
       ],
       "sell": [
@@ -1507,15 +1507,15 @@
         },
         {
           "name": "Processed Food",
-          "price": 1400
+          "price": 1500
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1400
+          "price": 1200
         },
         {
           "name": "Amioshi Plague",
-          "price": 26000
+          "price": 27000
         },
         {
           "name": "Aphorite",
@@ -1527,7 +1527,7 @@
         },
         {
           "name": "Golden Medmon",
-          "price": 64000
+          "price": 62000
         },
         {
           "name": "Hadanite",
@@ -1555,7 +1555,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2400
+          "price": 1800
         },
         {
           "name": "Omnapoxy",
@@ -1567,11 +1567,11 @@
         },
         {
           "name": "Steel",
-          "price": 2000
+          "price": 1900
         },
         {
           "name": "Quartz",
-          "price": 4600
+          "price": 4700
         },
         {
           "name": "Silicon",
