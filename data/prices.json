@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T07:35:11.460189+00:00",
+  "generated_at": "2026-08-23T08:33:02.323911+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1099,22 +1099,22 @@
         {
           "name": "Diamond",
           "price": 5759,
-          "stock": 4
+          "stock": 31
         },
         {
           "name": "Medical Supplies",
           "price": 3541,
-          "stock": 125
+          "stock": 8
         },
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 155
+          "stock": 50
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 2028
+          "stock": 1799
         }
       ],
       "sell": [
@@ -1144,7 +1144,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Marok Gem",
