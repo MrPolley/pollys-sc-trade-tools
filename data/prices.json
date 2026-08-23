@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T20:26:26.343837+00:00",
+  "generated_at": "2026-08-23T21:24:07.857933+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1099,22 +1099,22 @@
         {
           "name": "Diamond",
           "price": 5759,
-          "stock": 31
+          "stock": 64
         },
         {
           "name": "Medical Supplies",
           "price": 3541,
-          "stock": 8
+          "stock": 245
         },
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 50
+          "stock": 234
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1799
+          "stock": 1753
         }
       ],
       "sell": [
@@ -1162,12 +1162,12 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 980
+          "stock": 577
         },
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 32
+          "stock": 140
         }
       ],
       "sell": [
@@ -1185,7 +1185,7 @@
         },
         {
           "name": "Stims",
-          "price": 5300
+          "price": 5900
         },
         {
           "name": "Dolivine",
@@ -1193,7 +1193,7 @@
         },
         {
           "name": "Compboard",
-          "price": 34000
+          "price": 33000
         },
         {
           "name": "Party Favors",
@@ -1201,7 +1201,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5300
+          "price": 5500
         },
         {
           "name": "Marok Gem",
@@ -1213,7 +1213,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7500
+          "price": 8600
         },
         {
           "name": "Construction Materials",
