@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T16:29:04.548075+00:00",
+  "generated_at": "2026-08-23T17:22:11.526200+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2196,17 +2196,17 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 87
+          "stock": 75
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 19
+          "stock": 58
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 29
+          "stock": 28
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 1154
+          "stock": 73
         },
         {
           "name": "Hydrogen Fuel",
@@ -2473,7 +2473,7 @@
         },
         {
           "name": "Revenant Tree Pollen",
-          "price": 1400
+          "price": 1300
         },
         {
           "name": "Riccite",
