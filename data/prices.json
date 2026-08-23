@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T03:04:47.630299+00:00",
+  "generated_at": "2026-08-23T04:39:48.162783+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3094,12 +3094,12 @@
         {
           "name": "Revenant Tree Pollen",
           "price": 967,
-          "stock": 17609
+          "stock": 4709
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 32390
+          "stock": 5216
         },
         {
           "name": "Potassium",
@@ -3109,7 +3109,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 3924
+          "stock": 9
         },
         {
           "name": "Processed Food",
@@ -3119,7 +3119,7 @@
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 134
+          "stock": 519
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3214,7 +3214,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 11000
         },
         {
           "name": "Corundum",
@@ -3230,7 +3230,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5300
+          "price": 5500
         },
         {
           "name": "Mercury",
@@ -3246,7 +3246,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3000
+          "price": 2900
         },
         {
           "name": "Omnapoxy",
@@ -3350,7 +3350,7 @@
         },
         {
           "name": "Recycled Material Composite",
-          "price": 7200
+          "price": 7100
         },
         {
           "name": "Laranite",
@@ -3422,7 +3422,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 45000
+          "price": 46000
         },
         {
           "name": "Aslarite",
@@ -3447,7 +3447,7 @@
         {
           "name": "Agricium",
           "price": 6840,
-          "stock": 67
+          "stock": 3
         },
         {
           "name": "Human Food Bars",
@@ -3457,12 +3457,12 @@
         {
           "name": "Hydrogen",
           "price": 752,
-          "stock": 9784
+          "stock": 9307
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 1396
+          "stock": 120
         }
       ],
       "sell": [
@@ -3496,7 +3496,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1700
+          "price": 2100
         },
         {
           "name": "E'tam",
@@ -3512,7 +3512,7 @@
         },
         {
           "name": "Iron",
-          "price": 3900
+          "price": 3000
         },
         {
           "name": "Laranite",
@@ -3532,7 +3532,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5700
+          "price": 4800
         },
         {
           "name": "Processed Food",
