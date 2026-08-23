@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T12:44:16.707465+00:00",
+  "generated_at": "2026-08-23T13:34:25.701715+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1025,17 +1025,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 248
+          "stock": 129
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 326
+          "stock": 81
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 8
+          "stock": 312
         }
       ],
       "sell": [
@@ -1057,7 +1057,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 69000
+          "price": 66000
         },
         {
           "name": "Party Favors",
@@ -1077,7 +1077,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3400
+          "price": 2900
         },
         {
           "name": "Borase",
@@ -1085,7 +1085,7 @@
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 4000
         }
       ]
     },
