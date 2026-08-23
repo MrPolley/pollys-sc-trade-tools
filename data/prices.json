@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T05:31:56.647133+00:00",
+  "generated_at": "2026-08-23T06:44:53.135028+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4659,7 +4659,7 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 368
+          "stock": 948
         },
         {
           "name": "Aluminum",
@@ -4669,17 +4669,17 @@
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 1010
+          "stock": 107
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 122
+          "stock": 1050
         },
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 11752
+          "stock": 3894
         },
         {
           "name": "Chlorine",
@@ -4689,7 +4689,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 12000
+          "stock": 11968
         },
         {
           "name": "Recycled Material Composite",
@@ -4764,7 +4764,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Hydrogen Fuel",
@@ -4836,7 +4836,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5600
         },
         {
           "name": "Scrap",
@@ -4852,7 +4852,7 @@
         },
         {
           "name": "Quartz",
-          "price": 5200
+          "price": 5300
         },
         {
           "name": "Tungsten",
