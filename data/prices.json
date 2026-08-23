@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T01:34:35.323781+00:00",
+  "generated_at": "2026-08-23T03:04:47.630299+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1608,32 +1608,32 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 1571
+          "stock": 962
         },
         {
           "name": "Waste",
           "price": 189,
-          "stock": 96152
+          "stock": 100000
         },
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 131
+          "stock": 845
         },
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 740
+          "stock": 1977
         },
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 326
+          "stock": 1363
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 1773
+          "stock": 525
         },
         {
           "name": "Carbon",
@@ -1648,7 +1648,7 @@
         {
           "name": "Ship Ammunition - Size 2",
           "price": 7126,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 3",
@@ -1658,7 +1658,7 @@
         {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 5",
@@ -1673,7 +1673,7 @@
         {
           "name": "Ship Ammunition - Size 7",
           "price": 8671,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -1704,7 +1704,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5400
+          "price": 5700
         },
         {
           "name": "Audio-Visual Equipment",
@@ -1740,23 +1740,23 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1000
+          "price": 1100
         },
         {
           "name": "Tin",
-          "price": 3800
+          "price": 3700
         },
         {
           "name": "Pressurized Ice",
-          "price": 5800
+          "price": 5000
         },
         {
           "name": "Ammonia",
-          "price": 980
+          "price": 1100
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 2000
         },
         {
           "name": "Mercury",
