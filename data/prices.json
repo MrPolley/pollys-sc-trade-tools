@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T12:55:12.613670+00:00",
+  "generated_at": "2026-08-24T13:53:43.392825+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1025,17 +1025,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 127
+          "stock": 281
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 246
+          "stock": 653
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 204
+          "stock": 797
         }
       ],
       "sell": [
@@ -1069,7 +1069,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Marok Gem",
@@ -1077,7 +1077,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3200
+          "price": 3600
         },
         {
           "name": "Borase",
@@ -1085,7 +1085,7 @@
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 3800
         }
       ]
     },
@@ -3447,7 +3447,7 @@
         {
           "name": "Agricium",
           "price": 6840,
-          "stock": 11
+          "stock": 20
         },
         {
           "name": "Human Food Bars",
@@ -3462,7 +3462,7 @@
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 120
+          "stock": 968
         }
       ],
       "sell": [
@@ -3484,7 +3484,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 30000
+          "price": 29000
         },
         {
           "name": "Carbon-Silk",
@@ -3496,7 +3496,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1800
+          "price": 1700
         },
         {
           "name": "E'tam",
@@ -3508,7 +3508,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4600
         },
         {
           "name": "Iron",
@@ -3564,7 +3564,7 @@
         },
         {
           "name": "Steel",
-          "price": 2000
+          "price": 1900
         },
         {
           "name": "Stims",
