@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T05:40:24.961772+00:00",
+  "generated_at": "2026-08-24T07:03:09.462039+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4897,7 +4897,7 @@
         {
           "name": "Distilled Spirits",
           "price": 1685,
-          "stock": 2516
+          "stock": 5248
         },
         {
           "name": "Hephaestanite",
@@ -4912,22 +4912,22 @@
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 371
+          "stock": 249
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 99
+          "stock": 736
         },
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 574
+          "stock": 205
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 4632
+          "stock": 4732
         },
         {
           "name": "Quantum Fuel",
@@ -4982,7 +4982,7 @@
         {
           "name": "Ship Ammunition - Size 1",
           "price": 6868,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 2",
