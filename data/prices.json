@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T09:50:51.702000+00:00",
+  "generated_at": "2026-08-24T10:39:16.743372+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2882,17 +2882,17 @@
         {
           "name": "Hydrogen",
           "price": 708,
-          "stock": 4004
+          "stock": 7339
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 163
+          "stock": 1100
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 243
+          "stock": 2100
         },
         {
           "name": "Fluorine",
@@ -2902,17 +2902,17 @@
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 5074
+          "stock": 1316
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 383
+          "stock": 75
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 11
+          "stock": 14
         },
         {
           "name": "Quantum Fuel",
@@ -2985,7 +2985,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 21000
+          "price": 22000
         },
         {
           "name": "Aluminum",
@@ -3029,7 +3029,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4000
+          "price": 4700
         },
         {
           "name": "Partillium",
@@ -3053,11 +3053,11 @@
         },
         {
           "name": "Recycled Material Composite",
-          "price": 7700
+          "price": 7600
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Silicon",
@@ -3085,7 +3085,7 @@
         },
         {
           "name": "Iron",
-          "price": 3900
+          "price": 3300
         }
       ]
     },
