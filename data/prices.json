@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:29:18.296147+00:00",
+  "generated_at": "2026-08-24T23:24:20.074518+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2196,7 +2196,7 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 0
+          "stock": 100
         },
         {
           "name": "Beryl",
@@ -2206,7 +2206,7 @@
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 0
+          "stock": 29
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 296
+          "stock": 117
         },
         {
           "name": "Hydrogen Fuel",
@@ -2301,11 +2301,11 @@
         },
         {
           "name": "Atlasium",
-          "price": 85000
+          "price": 98000
         },
         {
           "name": "Audio-Visual Equipment",
-          "price": 39000
+          "price": 37000
         },
         {
           "name": "Bexalite",
@@ -2353,7 +2353,7 @@
         },
         {
           "name": "Diamond Laminate",
-          "price": 99000
+          "price": 98000
         },
         {
           "name": "Distilled Spirits",
@@ -2377,11 +2377,11 @@
         },
         {
           "name": "Fresh Food",
-          "price": 26000
+          "price": 25000
         },
         {
           "name": "Gold",
-          "price": 26000
+          "price": 27000
         },
         {
           "name": "Golden Medmon",
@@ -2405,7 +2405,7 @@
         },
         {
           "name": "Iodine",
-          "price": 13000
+          "price": 11000
         },
         {
           "name": "Janalite",
@@ -2473,11 +2473,11 @@
         },
         {
           "name": "Revenant Tree Pollen",
-          "price": 1400
+          "price": 1300
         },
         {
           "name": "Riccite",
-          "price": 71000
+          "price": 76000
         },
         {
           "name": "Recycled Material Composite",
@@ -2541,7 +2541,7 @@
         },
         {
           "name": "Savrilium",
-          "price": 110000
+          "price": 100000
         },
         {
           "name": "Lindinium",
@@ -2569,7 +2569,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 45000
+          "price": 46000
         },
         {
           "name": "Hydrogen",
@@ -3446,7 +3446,7 @@
         {
           "name": "Agricium",
           "price": 6840,
-          "stock": 10
+          "stock": 54
         },
         {
           "name": "Human Food Bars",
@@ -3456,12 +3456,12 @@
         {
           "name": "Hydrogen",
           "price": 752,
-          "stock": 11777
+          "stock": 12000
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 989
+          "stock": 440
         }
       ],
       "sell": [
