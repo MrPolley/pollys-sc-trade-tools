@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T23:23:14.602054+00:00",
+  "generated_at": "2026-08-24T01:26:36.831645+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -736,7 +736,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 74
+          "stock": 75
         },
         {
           "name": "Recycled Material Composite",
@@ -746,13 +746,13 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 23
+          "stock": 10
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5400
+          "price": 5500
         },
         {
           "name": "Distilled Spirits",
@@ -764,7 +764,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 4900
         },
         {
           "name": "Dolivine",
@@ -848,7 +848,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 7000
+          "price": 5800
         },
         {
           "name": "Hephaestanite",
@@ -1099,22 +1099,22 @@
         {
           "name": "Diamond",
           "price": 5759,
-          "stock": 64
+          "stock": 42
         },
         {
           "name": "Medical Supplies",
           "price": 3541,
-          "stock": 245
+          "stock": 81
         },
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 234
+          "stock": 309
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1753
+          "stock": 2100
         }
       ],
       "sell": [
@@ -1144,7 +1144,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Marok Gem",
@@ -1162,12 +1162,12 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 577
+          "stock": 444
         },
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 140
+          "stock": 165
         }
       ],
       "sell": [
@@ -1185,7 +1185,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 5800
         },
         {
           "name": "Dolivine",
@@ -1201,7 +1201,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5300
         },
         {
           "name": "Marok Gem",
@@ -1209,11 +1209,11 @@
         },
         {
           "name": "Beryl",
-          "price": 21000
+          "price": 22000
         },
         {
           "name": "Diamond",
-          "price": 8600
+          "price": 7100
         },
         {
           "name": "Construction Materials",
@@ -1728,7 +1728,7 @@
         },
         {
           "name": "Copper",
-          "price": 3900
+          "price": 3600
         },
         {
           "name": "Dolivine",
@@ -1748,15 +1748,15 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5000
+          "price": 5900
         },
         {
           "name": "Ammonia",
-          "price": 1100
+          "price": 930
         },
         {
           "name": "DynaFlex",
-          "price": 2000
+          "price": 1900
         },
         {
           "name": "Mercury",
