@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T01:26:36.831645+00:00",
+  "generated_at": "2026-08-24T03:05:35.142513+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -598,7 +598,7 @@
         {
           "name": "Scrap",
           "price": 3265,
-          "stock": 1956
+          "stock": 1015
         }
       ],
       "sell": [
@@ -620,7 +620,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5100
         },
         {
           "name": "Party Favors",
@@ -632,19 +632,19 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 15000
         },
         {
           "name": "Agricium",
-          "price": 11000
+          "price": 9400
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3100
         },
         {
           "name": "Omnapoxy",
-          "price": 4200
+          "price": 4800
         },
         {
           "name": "Hephaestanite",
@@ -2712,12 +2712,12 @@
         {
           "name": "Waste",
           "price": 196,
-          "stock": 71840
+          "stock": 74000
         },
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 241
+          "stock": 360
         },
         {
           "name": "Gold",
@@ -2727,7 +2727,7 @@
         {
           "name": "Hephaestanite",
           "price": 3303,
-          "stock": 160
+          "stock": 299
         },
         {
           "name": "Human Food Bars",
@@ -2742,13 +2742,13 @@
         {
           "name": "Stims",
           "price": 4467,
-          "stock": 201
+          "stock": 75
         }
       ],
       "sell": [
         {
           "name": "Altruciatoxin",
-          "price": 6000
+          "price": 6400
         },
         {
           "name": "Revenant Tree Pollen",
@@ -2756,7 +2756,7 @@
         },
         {
           "name": "Agricium",
-          "price": 11000
+          "price": 8500
         },
         {
           "name": "Carbon-Silk",
@@ -2764,7 +2764,7 @@
         },
         {
           "name": "Copper",
-          "price": 4200
+          "price": 4700
         },
         {
           "name": "Corundum",
@@ -2772,11 +2772,11 @@
         },
         {
           "name": "Diamond",
-          "price": 6800
+          "price": 8200
         },
         {
           "name": "Cobalt",
-          "price": 20000
+          "price": 24000
         },
         {
           "name": "Borase",
@@ -2784,7 +2784,7 @@
         },
         {
           "name": "Beryl",
-          "price": 22000
+          "price": 18000
         },
         {
           "name": "Bexalite",
@@ -2816,11 +2816,11 @@
         },
         {
           "name": "Neon",
-          "price": 17000
+          "price": 19000
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3000
         },
         {
           "name": "Omnapoxy",
@@ -2828,7 +2828,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5200
+          "price": 5100
         },
         {
           "name": "Processed Food",
@@ -3447,7 +3447,7 @@
         {
           "name": "Agricium",
           "price": 6840,
-          "stock": 168
+          "stock": 11
         },
         {
           "name": "Human Food Bars",
@@ -3457,12 +3457,12 @@
         {
           "name": "Hydrogen",
           "price": 752,
-          "stock": 9823
+          "stock": 12000
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 41
+          "stock": 120
         }
       ],
       "sell": [
@@ -3496,7 +3496,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1700
+          "price": 1800
         },
         {
           "name": "E'tam",
@@ -3532,7 +3532,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 4800
+          "price": 5700
         },
         {
           "name": "Processed Food",
@@ -3564,7 +3564,7 @@
         },
         {
           "name": "Steel",
-          "price": 2500
+          "price": 2000
         },
         {
           "name": "Stims",
