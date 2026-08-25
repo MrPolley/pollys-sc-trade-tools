@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T17:33:48.078337+00:00",
+  "generated_at": "2026-08-25T18:42:35.667816+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1623,7 +1623,7 @@
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 7
+          "stock": 1027
         },
         {
           "name": "Corundum",
@@ -2784,7 +2784,7 @@
         },
         {
           "name": "Beryl",
-          "price": 18000
+          "price": 24000
         },
         {
           "name": "Bexalite",
