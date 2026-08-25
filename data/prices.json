@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T12:51:43.235898+00:00",
+  "generated_at": "2026-08-25T13:52:31.720426+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -657,7 +657,7 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 780
+          "stock": 1765
         },
         {
           "name": "Waste",
@@ -672,12 +672,12 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 1466
+          "stock": 8
         },
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 2100
+          "stock": 243
         }
       ],
       "sell": [
@@ -1286,7 +1286,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5700
         },
         {
           "name": "Beryl",
@@ -4638,17 +4638,17 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 2050
+          "stock": 794
         },
         {
           "name": "Fluorine",
           "price": 1142,
-          "stock": 6000
+          "stock": 5020
         },
         {
           "name": "Waste",
           "price": 232,
-          "stock": 250000
+          "stock": 248560
         },
         {
           "name": "Recycled Material Composite",
@@ -4658,27 +4658,27 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 3000
+          "stock": 174
         },
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 6000
+          "stock": 5890
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 463
+          "stock": 1050
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 492
+          "stock": 421
         },
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 15000
+          "stock": 12414
         },
         {
           "name": "Chlorine",
@@ -4688,7 +4688,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 11961
+          "stock": 12000
         },
         {
           "name": "Recycled Material Composite",
