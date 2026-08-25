@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T22:30:08.140554+00:00",
+  "generated_at": "2026-08-25T23:26:46.430629+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1887,7 +1887,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5200
+          "price": 5000
         },
         {
           "name": "Agricium",
@@ -1915,11 +1915,11 @@
         },
         {
           "name": "Diamond",
-          "price": 7400
+          "price": 7700
         },
         {
           "name": "Laranite",
-          "price": 8900
+          "price": 9000
         },
         {
           "name": "Quartz",
@@ -1947,11 +1947,11 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 5300
+          "price": 4900
         },
         {
           "name": "Bexalite",
-          "price": 29000
+          "price": 27000
         },
         {
           "name": "Copper",
@@ -2075,11 +2075,11 @@
         },
         {
           "name": "Dymantium",
-          "price": 23000
+          "price": 24000
         },
         {
           "name": "Fresh Food",
-          "price": 24000
+          "price": 23000
         },
         {
           "name": "Riccite",
@@ -2111,7 +2111,7 @@
         },
         {
           "name": "Stileron",
-          "price": 140000
+          "price": 130000
         },
         {
           "name": "Sunset Berries",
@@ -2147,7 +2147,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3600
+          "price": 3400
         },
         {
           "name": "Beradom",
@@ -2167,7 +2167,7 @@
         },
         {
           "name": "Lindinium",
-          "price": 50000
+          "price": 51000
         },
         {
           "name": "Luminalia Gift",
@@ -2183,7 +2183,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 46000
+          "price": 45000
         },
         {
           "name": "Sadaryx",
