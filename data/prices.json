@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T03:07:51.422426+00:00",
+  "generated_at": "2026-08-26T04:42:12.687759+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -882,12 +882,12 @@
         {
           "name": "Gold",
           "price": 26492,
-          "stock": 43
+          "stock": 58
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 327
+          "stock": 2100
         },
         {
           "name": "Nitrogen",
@@ -4901,32 +4901,32 @@
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 486
+          "stock": 81
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 12000
+          "stock": 5082
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 44
+          "stock": 200
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 1517
+          "stock": 2100
         },
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 7
+          "stock": 342
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 1776
+          "stock": 6000
         },
         {
           "name": "Quantum Fuel",
@@ -4941,7 +4941,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 11356
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 4",
@@ -4976,7 +4976,7 @@
         {
           "name": "Ship Noise Countermeasures",
           "price": 8585,
-          "stock": 12000
+          "stock": 1
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -4997,7 +4997,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3600
+          "price": 3700
         },
         {
           "name": "Chlorine",
@@ -5005,7 +5005,7 @@
         },
         {
           "name": "Copper",
-          "price": 4500
+          "price": 3600
         },
         {
           "name": "Degnous Root",
@@ -5021,7 +5021,7 @@
         },
         {
           "name": "Iron",
-          "price": 3400
+          "price": 3100
         },
         {
           "name": "Stims",
@@ -5041,7 +5041,7 @@
         },
         {
           "name": "Silicon",
-          "price": 2300
+          "price": 2500
         },
         {
           "name": "Tungsten",
