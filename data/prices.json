@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T06:16:59.607566+00:00",
+  "generated_at": "2026-08-29T13:02:02.451250+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -480,7 +480,7 @@
         {
           "name": "Medical Supplies",
           "price": 4401,
-          "stock": 654
+          "stock": 96
         }
       ],
       "sell": [
@@ -2196,17 +2196,17 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 32
+          "stock": 58
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 0
+          "stock": 11
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 0
+          "stock": 55
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 356
+          "stock": 117
         },
         {
           "name": "Hydrogen Fuel",
@@ -2240,7 +2240,7 @@
         },
         {
           "name": "Ship Ammunition - Size 3",
-          "price": 7641,
+          "price": 7384,
           "stock": 12000
         },
         {
@@ -2301,7 +2301,7 @@
         },
         {
           "name": "Atlasium",
-          "price": 97000
+          "price": 94000
         },
         {
           "name": "Audio-Visual Equipment",
@@ -2333,7 +2333,7 @@
         },
         {
           "name": "Cobalt",
-          "price": 23000
+          "price": 22000
         },
         {
           "name": "Compboard",
@@ -2345,7 +2345,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 51000
+          "price": 53000
         },
         {
           "name": "Diamond",
@@ -2353,7 +2353,7 @@
         },
         {
           "name": "Diamond Laminate",
-          "price": 96000
+          "price": 99000
         },
         {
           "name": "Distilled Spirits",
@@ -2501,7 +2501,7 @@
         },
         {
           "name": "Stileron",
-          "price": 150000
+          "price": 160000
         },
         {
           "name": "Stims",
@@ -5060,7 +5060,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 12000
+          "stock": 10241
         },
         {
           "name": "Hydrogen Fuel",
