@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T15:13:46.112235+00:00",
+  "generated_at": "2026-08-30T19:08:46.585375+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3571,7 +3571,7 @@
         {
           "name": "Construction Materials",
           "price": 10023,
-          "stock": 760
+          "stock": 638
         },
         {
           "name": "Dymantium",
@@ -3581,7 +3581,7 @@
         {
           "name": "Audio-Visual Equipment",
           "price": 25004,
-          "stock": 50
+          "stock": 96
         },
         {
           "name": "Scrap",
@@ -3592,7 +3592,7 @@
       "sell": [
         {
           "name": "Atlasium",
-          "price": 87000
+          "price": 90000
         },
         {
           "name": "Compboard",
@@ -4160,32 +4160,32 @@
         {
           "name": "Cobalt",
           "price": 18050,
-          "stock": 81
+          "stock": 23
         },
         {
           "name": "DynaFlex",
           "price": 1350,
-          "stock": 3000
+          "stock": 58
         },
         {
           "name": "Human Food Bars",
           "price": 416,
-          "stock": 6000
+          "stock": 3289
         },
         {
           "name": "Nitrogen",
           "price": 2439,
-          "stock": 1587
+          "stock": 40
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 733
+          "stock": 50
         },
         {
           "name": "Fluorine",
           "price": 987,
-          "stock": 698
+          "stock": 2
         }
       ],
       "sell": [
@@ -4227,7 +4227,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7400
+          "price": 7100
         },
         {
           "name": "E'tam",
@@ -4255,7 +4255,7 @@
         },
         {
           "name": "Methane",
-          "price": 3700
+          "price": 3300
         },
         {
           "name": "Neon",
@@ -4275,11 +4275,11 @@
         },
         {
           "name": "Recycled Material Composite",
-          "price": 7700
+          "price": 7500
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3400
         },
         {
           "name": "Silicon",
@@ -4299,7 +4299,7 @@
         },
         {
           "name": "Titanium",
-          "price": 9200
+          "price": 7900
         },
         {
           "name": "WiDoW",
