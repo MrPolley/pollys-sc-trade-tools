@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T22:30:14.519166+00:00",
+  "generated_at": "2026-08-31T01:11:38.058902+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1306,7 +1306,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 65
         },
         {
           "name": "Mercury",
@@ -1316,13 +1316,13 @@
         {
           "name": "Diamond",
           "price": 6269,
-          "stock": 30
+          "stock": 100
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5100
+          "price": 5300
         },
         {
           "name": "Distilled Spirits",
@@ -1346,7 +1346,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Marok Gem",
@@ -1354,7 +1354,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 5800
+          "price": 6700
         },
         {
           "name": "Beryl",
@@ -1366,7 +1366,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3400
+          "price": 2900
         }
       ]
     },
@@ -1400,7 +1400,7 @@
         {
           "name": "Ammonia",
           "price": 783,
-          "stock": 11077
+          "stock": 12000
         },
         {
           "name": "Chlorine",
@@ -3084,27 +3084,27 @@
         {
           "name": "Revenant Tree Pollen",
           "price": 967,
-          "stock": 16440
+          "stock": 2254
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 35930
+          "stock": 29219
         },
         {
           "name": "Potassium",
-          "price": 452,
+          "price": 430,
           "stock": 24000
         },
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 4500
+          "stock": 1298
         },
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 645
+          "stock": 1771
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3765,12 +3765,12 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 14553
+          "stock": 30000
         },
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 178
+          "stock": 1031
         },
         {
           "name": "Ammonia",
@@ -3784,18 +3784,18 @@
         },
         {
           "name": "Copper",
-          "price": 2660,
-          "stock": 32
+          "price": 2600,
+          "stock": 76
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 729
+          "stock": 11
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 349
+          "stock": 245
         },
         {
           "name": "Ship Ammunition - Size 2",
