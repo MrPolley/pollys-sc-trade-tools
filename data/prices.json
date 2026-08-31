@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T01:11:38.058902+00:00",
+  "generated_at": "2026-08-31T08:19:10.203452+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -593,7 +593,7 @@
         {
           "name": "Scrap",
           "price": 3265,
-          "stock": 2038
+          "stock": 2100
         }
       ],
       "sell": [
@@ -615,7 +615,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5300
+          "price": 5500
         },
         {
           "name": "Party Favors",
@@ -627,11 +627,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 15000
         },
         {
           "name": "Agricium",
-          "price": 9600
+          "price": 12000
         },
         {
           "name": "Nitrogen",
@@ -643,7 +643,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4800
         }
       ]
     },
@@ -1877,7 +1877,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4600
+          "price": 5300
         },
         {
           "name": "Agricium",
@@ -1909,7 +1909,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 8900
         },
         {
           "name": "Quartz",
@@ -1937,11 +1937,11 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 5400
+          "price": 4500
         },
         {
           "name": "Bexalite",
-          "price": 28000
+          "price": 29000
         },
         {
           "name": "Copper",
@@ -2137,7 +2137,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 3500
         },
         {
           "name": "Beradom",
@@ -2173,7 +2173,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 44000
+          "price": 46000
         },
         {
           "name": "Sadaryx",
@@ -2585,17 +2585,17 @@
         {
           "name": "Tungsten",
           "price": 8265,
-          "stock": 123
+          "stock": 11
         },
         {
           "name": "Quartz",
           "price": 3705,
-          "stock": 233
+          "stock": 444
         },
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 602
+          "stock": 609
         }
       ],
       "sell": [
@@ -2707,7 +2707,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 12
+          "stock": 31
         },
         {
           "name": "Gold",
@@ -2732,13 +2732,13 @@
         {
           "name": "Stims",
           "price": 4467,
-          "stock": 15
+          "stock": 9
         }
       ],
       "sell": [
         {
           "name": "Altruciatoxin",
-          "price": 5500
+          "price": 6200
         },
         {
           "name": "Revenant Tree Pollen",
@@ -2746,7 +2746,7 @@
         },
         {
           "name": "Agricium",
-          "price": 9300
+          "price": 8800
         },
         {
           "name": "Carbon-Silk",
@@ -2754,19 +2754,19 @@
         },
         {
           "name": "Copper",
-          "price": 3900
+          "price": 4400
         },
         {
           "name": "Corundum",
-          "price": 3900
+          "price": 4400
         },
         {
           "name": "Diamond",
-          "price": 6800
+          "price": 8000
         },
         {
           "name": "Cobalt",
-          "price": 22000
+          "price": 21000
         },
         {
           "name": "Borase",
@@ -2778,7 +2778,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 29000
+          "price": 30000
         },
         {
           "name": "Distilled Spirits",
@@ -2786,7 +2786,7 @@
         },
         {
           "name": "E'tam",
-          "price": 23000
+          "price": 22000
         },
         {
           "name": "Helium",
@@ -2794,15 +2794,15 @@
         },
         {
           "name": "Iron",
-          "price": 3500
+          "price": 3300
         },
         {
           "name": "Laranite",
-          "price": 9700
+          "price": 8300
         },
         {
           "name": "Medical Supplies",
-          "price": 5000
+          "price": 5200
         },
         {
           "name": "Neon",
@@ -2838,7 +2838,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 3900
         },
         {
           "name": "Silicon",
@@ -3429,7 +3429,7 @@
         {
           "name": "Agricium",
           "price": 6840,
-          "stock": 79
+          "stock": 40
         },
         {
           "name": "Human Food Bars",
@@ -3439,12 +3439,12 @@
         {
           "name": "Hydrogen",
           "price": 752,
-          "stock": 1040
+          "stock": 11360
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 319
+          "stock": 155
         }
       ],
       "sell": [
@@ -3478,7 +3478,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1700
+          "price": 2100
         },
         {
           "name": "E'tam",
@@ -3514,7 +3514,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5200
+          "price": 5700
         },
         {
           "name": "Processed Food",
@@ -3621,7 +3621,7 @@
         {
           "name": "Agricultural Supplies",
           "price": 1015,
-          "stock": 3032
+          "stock": 255
         },
         {
           "name": "Human Food Bars",
@@ -3652,7 +3652,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 4000
+          "price": 3400
         },
         {
           "name": "Beryl",
@@ -3684,7 +3684,7 @@
         },
         {
           "name": "Helium",
-          "price": 970
+          "price": 950
         },
         {
           "name": "Hephaestanite",
@@ -3696,7 +3696,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8100
+          "price": 8400
         },
         {
           "name": "Medical Supplies",
@@ -3716,7 +3716,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5200
+          "price": 5000
         },
         {
           "name": "Processed Food",
@@ -3736,7 +3736,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 3700
         },
         {
           "name": "Silicon",
@@ -3752,7 +3752,7 @@
         },
         {
           "name": "Tin",
-          "price": 3800
+          "price": 4600
         },
         {
           "name": "Titanium",
@@ -3972,12 +3972,12 @@
         {
           "name": "Distilled Spirits",
           "price": 1427,
-          "stock": 5269
+          "stock": 2687
         },
         {
           "name": "DynaFlex",
           "price": 1603,
-          "stock": 3000
+          "stock": 1207
         },
         {
           "name": "Recycled Material Composite",
@@ -4075,7 +4075,7 @@
         },
         {
           "name": "Bioplastic",
-          "price": 8600
+          "price": 7200
         },
         {
           "name": "Borase",
@@ -4095,7 +4095,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4400
+          "price": 4600
         },
         {
           "name": "Human Food Bars",
@@ -4103,7 +4103,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1000
+          "price": 930
         },
         {
           "name": "Neon",
@@ -4123,7 +4123,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5200
+          "price": 5000
         },
         {
           "name": "Processed Food",
@@ -4135,7 +4135,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3200
+          "price": 3700
         },
         {
           "name": "Steel",
@@ -4143,7 +4143,7 @@
         },
         {
           "name": "Stims",
-          "price": 4700
+          "price": 5000
         },
         {
           "name": "Tin",
