@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T20:45:06.410798+00:00",
+  "generated_at": "2026-09-01T23:07:39.272997+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1152,17 +1152,17 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 44
+          "stock": 75
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 134
+          "stock": 1729
         },
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 175
+          "stock": 38
         }
       ],
       "sell": [
@@ -1180,7 +1180,7 @@
         },
         {
           "name": "Stims",
-          "price": 5500
+          "price": 5900
         },
         {
           "name": "Dolivine",
@@ -1196,7 +1196,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5400
+          "price": 5500
         },
         {
           "name": "Marok Gem",
@@ -1208,7 +1208,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7100
+          "price": 7800
         },
         {
           "name": "Construction Materials",
@@ -4674,7 +4674,7 @@
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 7299
+          "stock": 3529
         },
         {
           "name": "Chlorine",
