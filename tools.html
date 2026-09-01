@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>Polly's Trade Tools v2.2 — Patch 4.9</title>
+<title>Polly's Trade Tools v2.2 — Patch 4.10</title>
 <style>
 
   :root{
@@ -355,7 +355,7 @@ input[type=text], input[type=number], select, .mat-qty, .qty-input, .cargo-row s
       <h1 class="site-title">Polly's Trade Tools <span style="font-size:14px; color:var(--muted); font-weight:400;">v2.2</span></h1>
     </div>
     <div style="display:flex; flex-direction:column; align-items:flex-end; gap:8px;">
-      <div class="patch-badge" style="margin-bottom:0;">Patch 4.9 LIVE</div>
+      <div class="patch-badge" style="margin-bottom:0;">Patch 4.10 LIVE</div>
       <div class="sync-status" id="syncStatus">Preisdaten werden geladen …</div>
     </div>
   </div>
@@ -536,7 +536,7 @@ input[type=text], input[type=number], select, .mat-qty, .qty-input, .cargo-row s
 
   <div class="hdr">
     <div>
-      <div class="eyebrow">Stanton · Patch 4.9</div>
+      <div class="eyebrow">Stanton · Patch 4.10</div>
       <h1>Routen-Rechner</h1>
       <div class="sub">Geschlossene Rundreise über verifizierte Lift-Stationen, Fracht bei jedem Stopp getauscht</div>
     </div>
@@ -1948,7 +1948,7 @@ function renderResultsPanel(startCode, shipKey, otherShipKey, loadRate, resultsC
 
   const dataStatus = livePricesLoaded
     ? `Live-Preise geladen (Stand: ${new Date(livePricesGeneratedAt).toLocaleString('de-DE')})`
-    : `Preise = UEX-Schnappschuss Patch 4.9, keine Live-Anbindung aktiv`;
+    : `Preise = UEX-Schnappschuss Patch 4.10, keine Live-Anbindung aktiv`;
   html += `<div class="footer-note">Berechnet: ${new Date().toLocaleString('de-DE')} · ${dataStatus} · Distanzen zwischen Stationen sind Schätzwerte (Systemgeographie) · Ladegeschwindigkeit ${loadRate} SCU/Min ist eine editierbare Annahme, keine offizielle Kennzahl · ${resultsCount} durchgehend profitable Rundrouten von ${factorial(CODES.length-1)} geprüften Kombinationen gefunden.</div>`;
 
   out.innerHTML = html;
