@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T17:41:47.071124+00:00",
+  "generated_at": "2026-09-01T20:45:06.410798+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1375,22 +1375,22 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 3335
+          "stock": 11646
         },
         {
           "name": "Waste",
           "price": 198,
-          "stock": 96544
+          "stock": 98000
         },
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 853
+          "stock": 856
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 1101
+          "stock": 5074
         },
         {
           "name": "Potassium",
@@ -1405,27 +1405,27 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 1115
+          "stock": 2074
         },
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 4547
+          "stock": 525
         },
         {
           "name": "Hydrogen Fuel",
           "price": 782,
-          "stock": 12000
+          "stock": 11992
         },
         {
           "name": "Quantum Fuel",
           "price": 1760,
-          "stock": 12000
+          "stock": 11992
         },
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 11992
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -1465,7 +1465,7 @@
         {
           "name": "Ship Decoy Countermeasures",
           "price": 4293,
-          "stock": 12000
+          "stock": 11992
         },
         {
           "name": "Ship Ammunition - Size 6",
@@ -1475,12 +1475,12 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 1099
+          "stock": 740
         },
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 2064
+          "stock": 1035
         }
       ],
       "sell": [
@@ -1510,7 +1510,7 @@
         },
         {
           "name": "Amioshi Plague",
-          "price": 27000
+          "price": 24000
         },
         {
           "name": "Aphorite",
@@ -1530,7 +1530,7 @@
         },
         {
           "name": "Iodine",
-          "price": 11000
+          "price": 12000
         },
         {
           "name": "Prota",
@@ -1542,7 +1542,7 @@
         },
         {
           "name": "Stims",
-          "price": 5500
+          "price": 5600
         },
         {
           "name": "Revenant Pod",
@@ -1550,11 +1550,11 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2200
+          "price": 2400
         },
         {
           "name": "Omnapoxy",
-          "price": 4300
+          "price": 5000
         },
         {
           "name": "Human Food Bars",
@@ -1590,7 +1590,7 @@
         },
         {
           "name": "Carbon",
-          "price": 370
+          "price": 380
         },
         {
           "name": "Year of the Rat Envelope",
