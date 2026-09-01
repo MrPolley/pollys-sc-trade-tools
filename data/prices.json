@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T21:47:37.503927+00:00",
+  "generated_at": "2026-09-01T01:04:21.110113+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3175,7 +3175,7 @@
         },
         {
           "name": "Mercury",
-          "price": 840
+          "price": 850
         },
         {
           "name": "Methane",
@@ -3223,7 +3223,7 @@
         },
         {
           "name": "Fresh Food",
-          "price": 21000
+          "price": 24000
         },
         {
           "name": "Gasping Weevil Eggs",
@@ -3343,7 +3343,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3000
+          "price": 2900
         },
         {
           "name": "Distilled Spirits",
@@ -3355,7 +3355,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 11000
+          "price": 12000
         },
         {
           "name": "Hephaestanite",
@@ -4565,7 +4565,7 @@
         {
           "name": "Fluorine",
           "price": 1142,
-          "stock": 1471
+          "stock": 6000
         },
         {
           "name": "Waste",
@@ -4585,17 +4585,17 @@
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 516
+          "stock": 4263
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 174
+          "stock": 90
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 150
+          "stock": 90
         },
         {
           "name": "Mercury",
@@ -4685,7 +4685,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Hydrogen Fuel",
@@ -4694,7 +4694,7 @@
         },
         {
           "name": "Ship Ammunition - Size 3",
-          "price": 7384,
+          "price": 7338,
           "stock": 12000
         },
         {
@@ -4747,7 +4747,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5700
+          "price": 5300
         },
         {
           "name": "Scrap",
@@ -4759,7 +4759,7 @@
         },
         {
           "name": "Helium",
-          "price": 1200
+          "price": 1000
         },
         {
           "name": "Quartz",
