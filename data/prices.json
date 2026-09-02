@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T17:42:42.393093+00:00",
+  "generated_at": "2026-09-02T20:44:17.903632+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1180,7 +1180,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 4900
         },
         {
           "name": "Dolivine",
@@ -1196,7 +1196,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 4800
         },
         {
           "name": "Marok Gem",
@@ -3781,12 +3781,12 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 30000
+          "stock": 29820
         },
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 176
+          "stock": 496
         },
         {
           "name": "Ammonia",
@@ -3801,17 +3801,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 96
+          "stock": 109
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 1050
+          "stock": 91
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 68
+          "stock": 737
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3913,7 +3913,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4500
         },
         {
           "name": "Human Food Bars",
@@ -3933,7 +3933,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3000
+          "price": 2900
         },
         {
           "name": "Potassium",
@@ -3949,7 +3949,7 @@
         },
         {
           "name": "Stims",
-          "price": 4800
+          "price": 5000
         },
         {
           "name": "Tin",
@@ -3957,7 +3957,7 @@
         },
         {
           "name": "Titanium",
-          "price": 7700
+          "price": 9300
         },
         {
           "name": "Tungsten",
@@ -4180,12 +4180,12 @@
         {
           "name": "Cobalt",
           "price": 18050,
-          "stock": 20
+          "stock": 6
         },
         {
           "name": "DynaFlex",
           "price": 1350,
-          "stock": 116
+          "stock": 58
         },
         {
           "name": "Human Food Bars",
@@ -4195,12 +4195,12 @@
         {
           "name": "Nitrogen",
           "price": 2439,
-          "stock": 88
+          "stock": 53
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 32
+          "stock": 28
         },
         {
           "name": "Fluorine",
@@ -4235,7 +4235,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 20000
+          "price": 21000
         },
         {
           "name": "Copper",
@@ -4247,11 +4247,11 @@
         },
         {
           "name": "Diamond",
-          "price": 7400
+          "price": 6900
         },
         {
           "name": "E'tam",
-          "price": 23000
+          "price": 22000
         },
         {
           "name": "Agricium",
@@ -4275,7 +4275,7 @@
         },
         {
           "name": "Methane",
-          "price": 4400
+          "price": 3300
         },
         {
           "name": "Neon",
@@ -4287,7 +4287,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5200
+          "price": 5100
         },
         {
           "name": "Processed Food",
@@ -4319,15 +4319,15 @@
         },
         {
           "name": "Titanium",
-          "price": 7700
+          "price": 9200
         },
         {
           "name": "WiDoW",
-          "price": 7600
+          "price": 7000
         },
         {
           "name": "Altruciatoxin",
-          "price": 6400
+          "price": 5600
         }
       ]
     },
