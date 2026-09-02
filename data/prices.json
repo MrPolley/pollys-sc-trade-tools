@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T08:34:01.855328+00:00",
+  "generated_at": "2026-09-02T13:23:28.356117+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -615,7 +615,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4700
+          "price": 5500
         },
         {
           "name": "Party Favors",
@@ -631,7 +631,7 @@
         },
         {
           "name": "Agricium",
-          "price": 9400
+          "price": 10000
         },
         {
           "name": "Nitrogen",
@@ -643,7 +643,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4800
         }
       ]
     },
