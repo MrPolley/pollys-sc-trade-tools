@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T23:07:39.272997+00:00",
+  "generated_at": "2026-09-02T03:35:59.212962+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -615,7 +615,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 4700
         },
         {
           "name": "Party Favors",
@@ -627,11 +627,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 15000
+          "price": 12000
         },
         {
           "name": "Agricium",
-          "price": 12000
+          "price": 9400
         },
         {
           "name": "Nitrogen",
@@ -639,11 +639,11 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 5700
+          "price": 4300
         },
         {
           "name": "Hephaestanite",
-          "price": 4800
+          "price": 4600
         }
       ]
     },
@@ -3089,7 +3089,7 @@
         {
           "name": "Revenant Tree Pollen",
           "price": 967,
-          "stock": 14329
+          "stock": 13250
         },
         {
           "name": "Helium",
@@ -3104,12 +3104,12 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 2556
+          "stock": 3923
         },
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 439
+          "stock": 628
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -3205,7 +3205,7 @@
         },
         {
           "name": "Mercury",
-          "price": 890
+          "price": 840
         },
         {
           "name": "Methane",
@@ -3385,11 +3385,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 11000
+          "price": 12000
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4560
         },
         {
           "name": "Pitambu",
