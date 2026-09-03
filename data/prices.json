@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T03:35:17.054010+00:00",
+  "generated_at": "2026-09-03T08:42:08.987865+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1232,8 +1232,8 @@
       "buy": [
         {
           "name": "Nitrogen",
-          "price": 2561,
-          "stock": 135
+          "price": 2100,
+          "stock": 2100
         },
         {
           "name": "Recycled Material Composite",
@@ -1277,15 +1277,15 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Medical Supplies",
-          "price": 5200
+          "price": 5800
         },
         {
           "name": "Beryl",
-          "price": 23000
+          "price": 18000
         },
         {
           "name": "Agricium",
@@ -5063,7 +5063,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 11945
+          "stock": 11266
         },
         {
           "name": "Hydrogen Fuel",
@@ -5153,11 +5153,11 @@
         },
         {
           "name": "Laranite",
-          "price": 9000
+          "price": 8500
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 4700
         },
         {
           "name": "Distilled Spirits",
@@ -5185,7 +5185,7 @@
         },
         {
           "name": "Gold",
-          "price": 33000
+          "price": 31000
         },
         {
           "name": "Tungsten",
