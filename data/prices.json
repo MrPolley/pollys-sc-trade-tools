@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T17:38:24.037931+00:00",
+  "generated_at": "2026-09-03T20:42:26.051267+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -731,7 +731,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 68
         },
         {
           "name": "Recycled Material Composite",
@@ -741,7 +741,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 0
+          "stock": 4
         }
       ],
       "sell": [
@@ -1233,7 +1233,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 96
+          "stock": 246
         },
         {
           "name": "Recycled Material Composite",
@@ -4356,12 +4356,12 @@
         {
           "name": "Scrap",
           "price": 3265,
-          "stock": 482
+          "stock": 613
         },
         {
           "name": "Methane",
           "price": 3312,
-          "stock": 18000
+          "stock": 14436
         },
         {
           "name": "Recycled Material Composite",
@@ -4581,7 +4581,7 @@
         },
         {
           "name": "Agricium",
-          "price": 9700
+          "price": 10000
         },
         {
           "name": "Borase",
@@ -4589,7 +4589,7 @@
         },
         {
           "name": "Laranite",
-          "price": 9200
+          "price": 8500
         },
         {
           "name": "Bexalite",
@@ -4621,11 +4621,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 3800
+          "price": 3700
         },
         {
           "name": "Iron",
-          "price": 3100
+          "price": 3200
         }
       ]
     },
