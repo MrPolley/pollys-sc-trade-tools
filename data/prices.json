@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T23:03:37.158731+00:00",
+  "generated_at": "2026-09-04T03:35:53.564292+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3786,7 +3786,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 3788
+          "stock": 519
         },
         {
           "name": "Ammonia",
@@ -3801,17 +3801,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 1050
+          "stock": 93
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 969
+          "stock": 178
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 279
+          "stock": 241
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3905,7 +3905,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 1700
         },
         {
           "name": "Fluorine",
@@ -3913,7 +3913,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4600
         },
         {
           "name": "Human Food Bars",
@@ -3921,7 +3921,7 @@
         },
         {
           "name": "Iron",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Methane",
@@ -3933,7 +3933,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 2800
         },
         {
           "name": "Potassium",
@@ -3945,11 +3945,11 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3400
         },
         {
           "name": "Stims",
-          "price": 5000
+          "price": 4900
         },
         {
           "name": "Tin",
@@ -3957,7 +3957,7 @@
         },
         {
           "name": "Titanium",
-          "price": 9300
+          "price": 7800
         },
         {
           "name": "Tungsten",
@@ -3988,12 +3988,12 @@
         {
           "name": "Distilled Spirits",
           "price": 1427,
-          "stock": 5020
+          "stock": 6000
         },
         {
           "name": "DynaFlex",
           "price": 1603,
-          "stock": 2912
+          "stock": 1799
         },
         {
           "name": "Helium",
@@ -4003,12 +4003,12 @@
         {
           "name": "Iron",
           "price": 2480,
-          "stock": 565
+          "stock": 286
         },
         {
           "name": "Mercury",
           "price": 715,
-          "stock": 15000
+          "stock": 10120
         },
         {
           "name": "Waste",
@@ -4079,7 +4079,7 @@
       "sell": [
         {
           "name": "Altruciatoxin",
-          "price": 6100
+          "price": 6200
         },
         {
           "name": "Revenant Tree Pollen",
@@ -4115,7 +4115,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4600
         },
         {
           "name": "Human Food Bars",
@@ -4155,7 +4155,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 3800
         },
         {
           "name": "Steel",
