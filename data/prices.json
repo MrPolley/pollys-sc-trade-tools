@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T08:37:27.903541+00:00",
+  "generated_at": "2026-09-04T13:16:19.007706+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -667,12 +667,12 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 134
+          "stock": 1099
         },
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 135
+          "stock": 998
         }
       ],
       "sell": [
