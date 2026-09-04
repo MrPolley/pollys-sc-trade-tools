@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:16:19.007706+00:00",
+  "generated_at": "2026-09-04T17:26:52.936182+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1233,7 +1233,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 246
+          "stock": 40
         },
         {
           "name": "Recycled Material Composite",
@@ -1261,7 +1261,7 @@
         },
         {
           "name": "Stims",
-          "price": 5100
+          "price": 5900
         },
         {
           "name": "Dolivine",
@@ -1281,15 +1281,15 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4800
+          "price": 5800
         },
         {
           "name": "Beryl",
-          "price": 18000
+          "price": 22000
         },
         {
           "name": "Agricium",
-          "price": 9400
+          "price": 10000
         },
         {
           "name": "Borase",
