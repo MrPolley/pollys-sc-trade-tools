@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T03:35:53.564292+00:00",
+  "generated_at": "2026-09-04T08:37:27.903541+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -12,7 +12,7 @@
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 3193
+          "stock": 1366
         },
         {
           "name": "Steel",
@@ -145,7 +145,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 4100
+          "price": 3570
         },
         {
           "name": "Corundum",
@@ -402,7 +402,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 32
+          "stock": 1100
         }
       ],
       "sell": [
@@ -436,7 +436,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3300
+          "price": 3900
         },
         {
           "name": "Construction Materials",
@@ -448,15 +448,15 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3500
+          "price": 2900
         },
         {
           "name": "Methane",
-          "price": 4000
+          "price": 3400
         },
         {
           "name": "Omnapoxy",
-          "price": 5000
+          "price": 4600
         }
       ]
     },
@@ -635,7 +635,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3900
+          "price": 2942
         },
         {
           "name": "Omnapoxy",
