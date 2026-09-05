@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:42:22.959797+00:00",
+  "generated_at": "2026-09-05T05:22:57.174476+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4892,12 +4892,12 @@
         {
           "name": "Distilled Spirits",
           "price": 1685,
-          "stock": 185
+          "stock": 6000
         },
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 116
+          "stock": 520
         },
         {
           "name": "Hydrogen",
@@ -4907,22 +4907,22 @@
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 48
+          "stock": 1050
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 230
+          "stock": 2100
         },
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 182
+          "stock": 782
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 175
+          "stock": 5271
         },
         {
           "name": "Quantum Fuel",
@@ -4988,7 +4988,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3500
+          "price": 3700
         },
         {
           "name": "Chlorine",
@@ -5024,15 +5024,15 @@
         },
         {
           "name": "Aluminum",
-          "price": 3600
+          "price": 4500
         },
         {
           "name": "Corundum",
-          "price": 3600
+          "price": 3900
         },
         {
           "name": "Silicon",
-          "price": 2500
+          "price": 3000
         },
         {
           "name": "Tungsten",
@@ -5040,7 +5040,7 @@
         },
         {
           "name": "Carbon",
-          "price": 410
+          "price": 430
         },
         {
           "name": "Year of the Rat Envelope",
