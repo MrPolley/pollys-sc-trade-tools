@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:11:49.253185+00:00",
+  "generated_at": "2026-09-05T13:44:29.798884+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1277,15 +1277,15 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Medical Supplies",
-          "price": 5800
+          "price": 4800
         },
         {
           "name": "Beryl",
-          "price": 22000
+          "price": 23000
         },
         {
           "name": "Agricium",
@@ -1306,7 +1306,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 65
+          "stock": 75
         },
         {
           "name": "Mercury",
@@ -1316,13 +1316,13 @@
         {
           "name": "Diamond",
           "price": 6269,
-          "stock": 100
+          "stock": 75
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5300
+          "price": 5500
         },
         {
           "name": "Distilled Spirits",
@@ -1346,7 +1346,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Marok Gem",
@@ -1354,7 +1354,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 6700
+          "price": 6100
         },
         {
           "name": "Beryl",
@@ -1366,7 +1366,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3500
         }
       ]
     },
