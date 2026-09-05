@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T16:38:00.163172+00:00",
+  "generated_at": "2026-09-05T18:52:05.909974+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1020,7 +1020,7 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 120
+          "stock": 205
         },
         {
           "name": "Scrap",
@@ -1030,7 +1030,7 @@
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 349
+          "stock": 1089
         }
       ],
       "sell": [
@@ -1052,7 +1052,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 68000
+          "price": 69000
         },
         {
           "name": "Party Favors",
@@ -1072,7 +1072,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3600
         },
         {
           "name": "Borase",
@@ -1080,7 +1080,7 @@
         },
         {
           "name": "Methane",
-          "price": 4100
+          "price": 3400
         }
       ]
     },
@@ -1375,7 +1375,7 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 11646
+          "stock": 1226
         },
         {
           "name": "Waste",
@@ -1385,12 +1385,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 856
+          "stock": 43
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 5074
+          "stock": 437
         },
         {
           "name": "Potassium",
@@ -1405,27 +1405,27 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 2074
+          "stock": 1195
         },
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 525
+          "stock": 2383
         },
         {
           "name": "Hydrogen Fuel",
           "price": 782,
-          "stock": 11992
+          "stock": 12000
         },
         {
           "name": "Quantum Fuel",
           "price": 1760,
-          "stock": 11992
+          "stock": 12000
         },
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 11992
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -1465,7 +1465,7 @@
         {
           "name": "Ship Decoy Countermeasures",
           "price": 4293,
-          "stock": 11992
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 6",
@@ -1475,12 +1475,12 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 740
+          "stock": 653
         },
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 1035
+          "stock": 12000
         }
       ],
       "sell": [
@@ -1498,7 +1498,7 @@
         },
         {
           "name": "Pitambu",
-          "price": 63000
+          "price": 62000
         },
         {
           "name": "Processed Food",
@@ -1506,7 +1506,7 @@
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1500
+          "price": 1300
         },
         {
           "name": "Amioshi Plague",
@@ -1530,7 +1530,7 @@
         },
         {
           "name": "Iodine",
-          "price": 12000
+          "price": 11000
         },
         {
           "name": "Prota",
@@ -1542,7 +1542,7 @@
         },
         {
           "name": "Stims",
-          "price": 5600
+          "price": 5400
         },
         {
           "name": "Revenant Pod",
@@ -1550,7 +1550,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2400
+          "price": 1800
         },
         {
           "name": "Omnapoxy",
@@ -1562,7 +1562,7 @@
         },
         {
           "name": "Steel",
-          "price": 1900
+          "price": 2000
         },
         {
           "name": "Quartz",
@@ -1574,7 +1574,7 @@
         },
         {
           "name": "Argon",
-          "price": 550
+          "price": 530
         },
         {
           "name": "Beradom",
