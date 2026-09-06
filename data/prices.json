@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T17:32:31.101994+00:00",
+  "generated_at": "2026-09-06T20:09:24.571018+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2680,7 +2680,7 @@
       "sell": [
         {
           "name": "Bioplastic",
-          "price": 8100
+          "price": 8000
         },
         {
           "name": "Compboard",
@@ -4640,7 +4640,7 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 202
+          "stock": 2050
         },
         {
           "name": "Fluorine",
@@ -4660,27 +4660,27 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 346
+          "stock": 2144
         },
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 4263
+          "stock": 1029
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 90
+          "stock": 232
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 90
+          "stock": 94
         },
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 3529
+          "stock": 666
         },
         {
           "name": "Chlorine",
@@ -4690,7 +4690,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 10799
+          "stock": 12000
         },
         {
           "name": "Recycled Material Composite",
@@ -4765,7 +4765,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Hydrogen Fuel",
@@ -4774,7 +4774,7 @@
         },
         {
           "name": "Ship Ammunition - Size 3",
-          "price": 7338,
+          "price": 7384,
           "stock": 12000
         },
         {
@@ -4833,11 +4833,11 @@
         },
         {
           "name": "Iron",
-          "price": 3300
+          "price": 3500
         },
         {
           "name": "Medical Supplies",
-          "price": 5300
+          "price": 5200
         },
         {
           "name": "Scrap",
