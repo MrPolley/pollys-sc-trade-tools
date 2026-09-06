@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T20:09:24.571018+00:00",
+  "generated_at": "2026-09-06T22:46:23.854628+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2649,17 +2649,17 @@
         {
           "name": "Atlasium",
           "price": 72214,
-          "stock": 4
+          "stock": 2
         },
         {
           "name": "Construction Materials",
           "price": 10023,
-          "stock": 1050
+          "stock": 750
         },
         {
           "name": "Dymantium",
-          "price": 17480,
-          "stock": 128
+          "price": 17483,
+          "stock": 1
         },
         {
           "name": "Scrap",
@@ -3792,7 +3792,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 519
+          "stock": 5
         },
         {
           "name": "Ammonia",
@@ -3807,17 +3807,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 93
+          "stock": 193
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 178
+          "stock": 1025
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 241
+          "stock": 263
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3836,7 +3836,7 @@
         },
         {
           "name": "Ship Noise Countermeasures",
-          "price": 8585,
+          "price": 8671,
           "stock": 12000
         },
         {
@@ -4640,12 +4640,12 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 2050
+          "stock": 798
         },
         {
           "name": "Fluorine",
           "price": 1142,
-          "stock": 6000
+          "stock": 5930
         },
         {
           "name": "Waste",
@@ -4660,27 +4660,27 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 2144
+          "stock": 863
         },
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 1029
+          "stock": 869
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 232
+          "stock": 180
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 94
+          "stock": 240
         },
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 666
+          "stock": 1079
         },
         {
           "name": "Chlorine",
@@ -4837,7 +4837,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5200
+          "price": 5500
         },
         {
           "name": "Scrap",
@@ -4849,7 +4849,7 @@
         },
         {
           "name": "Helium",
-          "price": 1000
+          "price": 1200
         },
         {
           "name": "Quartz",
