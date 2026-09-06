@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T00:42:36.505650+00:00",
+  "generated_at": "2026-09-06T05:39:03.648199+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3104,12 +3104,12 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 3923
+          "stock": 4500
         },
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 628
+          "stock": 447
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -3123,7 +3123,7 @@
         },
         {
           "name": "Ship Ammunition - Size 7",
-          "price": 8671,
+          "price": 6868,
           "stock": 12000
         },
         {
