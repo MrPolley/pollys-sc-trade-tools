@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T10:32:42.858720+00:00",
+  "generated_at": "2026-09-06T14:00:47.735725+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 135
+          "stock": 2097
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 491
+          "stock": 2603
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 181
+          "stock": 2015
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 622
+          "stock": 941
         },
         {
           "name": "Carbon",
@@ -215,12 +215,12 @@
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 17
+          "stock": 4489
         },
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 2
+          "stock": 3000
         },
         {
           "name": "Ammonia",
@@ -285,6 +285,11 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
+          "stock": 12000
+        },
+        {
+          "name": "Ship Ammunition - Size 2",
+          "price": 7126,
           "stock": 12000
         }
       ],
@@ -402,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 1100
+          "stock": 514
         }
       ],
       "sell": [
@@ -448,7 +453,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3200
         },
         {
           "name": "Methane",
@@ -456,7 +461,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4600
+          "price": 4500
         }
       ]
     },
@@ -1152,17 +1157,17 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 30
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1729
+          "stock": 427
         },
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 38
+          "stock": 96
         }
       ],
       "sell": [
@@ -1180,7 +1185,7 @@
         },
         {
           "name": "Stims",
-          "price": 4900
+          "price": 5900
         },
         {
           "name": "Dolivine",
@@ -1196,7 +1201,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4800
+          "price": 5500
         },
         {
           "name": "Marok Gem",
@@ -1208,7 +1213,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7800
+          "price": 7100
         },
         {
           "name": "Construction Materials",
@@ -1220,7 +1225,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 5000
+          "price": 4800
         },
         {
           "name": "Thermalfoam",
@@ -1261,7 +1266,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 5000
         },
         {
           "name": "Dolivine",
@@ -1277,19 +1282,19 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Medical Supplies",
-          "price": 4800
+          "price": 5600
         },
         {
           "name": "Beryl",
-          "price": 23000
+          "price": 20000
         },
         {
           "name": "Agricium",
-          "price": 10000
+          "price": 9500
         },
         {
           "name": "Borase",
@@ -2759,7 +2764,7 @@
         },
         {
           "name": "Copper",
-          "price": 3700
+          "price": 4700
         },
         {
           "name": "Corundum",
@@ -2779,7 +2784,7 @@
         },
         {
           "name": "Beryl",
-          "price": 18000
+          "price": 24000
         },
         {
           "name": "Bexalite",
@@ -2843,7 +2848,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 4600
         },
         {
           "name": "Silicon",
@@ -4922,7 +4927,7 @@
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 533
+          "stock": 2
         },
         {
           "name": "Quantum Fuel",
