@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T18:31:43.136809+00:00",
+  "generated_at": "2026-09-08T21:40:39.352471+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3984,7 +3984,7 @@
         {
           "name": "Agricultural Supplies",
           "price": 1108,
-          "stock": 5209
+          "stock": 6000
         },
         {
           "name": "Carbon",
@@ -3994,12 +3994,12 @@
         {
           "name": "Distilled Spirits",
           "price": 1427,
-          "stock": 6000
+          "stock": 3321
         },
         {
           "name": "DynaFlex",
           "price": 1603,
-          "stock": 1394
+          "stock": 693
         },
         {
           "name": "Helium",
@@ -4009,17 +4009,17 @@
         {
           "name": "Iron",
           "price": 2480,
-          "stock": 100
+          "stock": 370
         },
         {
           "name": "Mercury",
           "price": 715,
-          "stock": 13714
+          "stock": 8252
         },
         {
           "name": "Waste",
           "price": 229,
-          "stock": 28505
+          "stock": 30000
         },
         {
           "name": "Recycled Material Composite",
@@ -4039,7 +4039,7 @@
         {
           "name": "Ship Ammunition - Size 2",
           "price": 7126,
-          "stock": 11996
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 3",
@@ -4064,7 +4064,7 @@
         {
           "name": "Ship Decoy Countermeasures",
           "price": 4293,
-          "stock": 11998
+          "stock": 12000
         },
         {
           "name": "Hydrogen Fuel",
@@ -4074,7 +4074,7 @@
         {
           "name": "Quantum Fuel",
           "price": 1760,
-          "stock": 11996
+          "stock": 12000
         },
         {
           "name": "Ship Noise Countermeasures",
@@ -4105,7 +4105,7 @@
         },
         {
           "name": "Borase",
-          "price": 27000
+          "price": 26000
         },
         {
           "name": "Construction Materials",
@@ -4149,7 +4149,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5200
+          "price": 5000
         },
         {
           "name": "Processed Food",
@@ -5074,7 +5074,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 11602
+          "stock": 12000
         },
         {
           "name": "Hydrogen Fuel",
@@ -5164,11 +5164,11 @@
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 8600
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5300
         },
         {
           "name": "Distilled Spirits",
@@ -5220,7 +5220,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 29000
+          "price": 28000
         },
         {
           "name": "Hephaestanite",
@@ -5348,7 +5348,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 20000
+          "price": 19000
         },
         {
           "name": "Cobalt",
@@ -5360,7 +5360,7 @@
         },
         {
           "name": "Fresh Food",
-          "price": 24000
+          "price": 23000
         },
         {
           "name": "Riccite",
@@ -5424,7 +5424,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Neograph",
