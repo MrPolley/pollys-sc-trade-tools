@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T21:40:39.352471+00:00",
+  "generated_at": "2026-09-08T23:55:24.703346+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3095,7 +3095,7 @@
         {
           "name": "Revenant Tree Pollen",
           "price": 967,
-          "stock": 13250
+          "stock": 13552
         },
         {
           "name": "Helium",
@@ -3115,7 +3115,7 @@
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 447
+          "stock": 885
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -3211,7 +3211,7 @@
         },
         {
           "name": "Mercury",
-          "price": 840
+          "price": 940
         },
         {
           "name": "Methane",
@@ -3291,7 +3291,7 @@
         },
         {
           "name": "Recycled Material Composite",
-          "price": 7200
+          "price": 7000
         },
         {
           "name": "Laranite",
@@ -3383,7 +3383,7 @@
         },
         {
           "name": "Distilled Spirits",
-          "price": 1800
+          "price": 1900
         },
         {
           "name": "Beryl",
@@ -3391,11 +3391,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 11000
         },
         {
           "name": "Hephaestanite",
-          "price": 4560
+          "price": 4600
         },
         {
           "name": "Pitambu",
@@ -5232,7 +5232,7 @@
         },
         {
           "name": "Taranite",
-          "price": 28000
+          "price": 27000
         },
         {
           "name": "Hadanite",
