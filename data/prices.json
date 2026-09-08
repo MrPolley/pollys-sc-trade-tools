@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T21:16:44.443833+00:00",
+  "generated_at": "2026-09-08T00:03:18.087001+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -190,7 +190,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 2100
+          "stock": 463
         },
         {
           "name": "Recycled Material Composite",
@@ -210,7 +210,7 @@
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 252
+          "stock": 211
         },
         {
           "name": "Agricultural Supplies",
@@ -230,7 +230,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 1050
+          "stock": 228
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -304,7 +304,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1000
+          "price": 1200
         },
         {
           "name": "Aphorite",
