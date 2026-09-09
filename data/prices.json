@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T20:40:09.913310+00:00",
+  "generated_at": "2026-09-09T23:02:28.514998+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -230,7 +230,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 1050
+          "stock": 104
         },
         {
           "name": "Ship Ammunition - Size 1",
