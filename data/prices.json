@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T17:40:58.084232+00:00",
+  "generated_at": "2026-09-09T20:40:09.913310+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -453,7 +453,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3100
+          "price": 2900
         },
         {
           "name": "Methane",
@@ -461,7 +461,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4700
+          "price": 5000
         }
       ]
     },
@@ -1114,7 +1114,7 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 7
+          "stock": 1586
         }
       ],
       "sell": [
@@ -3219,7 +3219,7 @@
         },
         {
           "name": "Neon",
-          "price": 17000
+          "price": 16000
         },
         {
           "name": "Quartz",
@@ -3255,7 +3255,7 @@
         },
         {
           "name": "Dymantium",
-          "price": 21000
+          "price": 20000
         },
         {
           "name": "Fresh Food",
