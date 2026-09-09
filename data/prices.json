@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T23:55:24.703346+00:00",
+  "generated_at": "2026-09-09T03:52:52.493529+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -882,12 +882,12 @@
         {
           "name": "Gold",
           "price": 26492,
-          "stock": 30
+          "stock": 29
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 16
+          "stock": 352
         },
         {
           "name": "Nitrogen",
