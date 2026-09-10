@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T23:02:28.514998+00:00",
+  "generated_at": "2026-09-10T03:45:28.984162+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -746,7 +746,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 1246
+          "stock": 1707
         }
       ],
       "sell": [
@@ -1238,7 +1238,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 361
+          "stock": 1884
         },
         {
           "name": "Recycled Material Composite",
@@ -1248,7 +1248,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 22
+          "stock": 75
         }
       ],
       "sell": [
@@ -1266,7 +1266,7 @@
         },
         {
           "name": "Stims",
-          "price": 5000
+          "price": 5900
         },
         {
           "name": "Dolivine",
@@ -1286,15 +1286,15 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5100
+          "price": 5800
         },
         {
           "name": "Beryl",
-          "price": 20000
+          "price": 22000
         },
         {
           "name": "Agricium",
-          "price": 9500
+          "price": 10000
         },
         {
           "name": "Borase",
@@ -1608,7 +1608,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 2100
+          "stock": 979
         },
         {
           "name": "Waste",
@@ -1618,22 +1618,22 @@
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 215
+          "stock": 482
         },
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 4123
+          "stock": 2499
         },
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 343
+          "stock": 514
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 3711
+          "stock": 6000
         },
         {
           "name": "Carbon",
@@ -1728,7 +1728,7 @@
         },
         {
           "name": "Copper",
-          "price": 3900
+          "price": 3700
         },
         {
           "name": "Dolivine",
@@ -1752,7 +1752,7 @@
         },
         {
           "name": "Ammonia",
-          "price": 1100
+          "price": 950
         },
         {
           "name": "DynaFlex",
@@ -4660,27 +4660,27 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 1490
+          "stock": 3000
         },
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 178
+          "stock": 6000
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 433
+          "stock": 1050
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 251
+          "stock": 1050
         },
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 15000
+          "stock": 14412
         },
         {
           "name": "Chlorine",
@@ -4690,7 +4690,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 11245
+          "stock": 11559
         },
         {
           "name": "Recycled Material Composite",
@@ -4821,7 +4821,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3400
+          "price": 3700
         },
         {
           "name": "Luminalia Gift",
@@ -4833,15 +4833,15 @@
         },
         {
           "name": "Iron",
-          "price": 3300
+          "price": 3500
         },
         {
           "name": "Medical Supplies",
-          "price": 4900
+          "price": 5300
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3500
         },
         {
           "name": "Stims",
@@ -4849,7 +4849,7 @@
         },
         {
           "name": "Helium",
-          "price": 1300
+          "price": 1000
         },
         {
           "name": "Quartz",
