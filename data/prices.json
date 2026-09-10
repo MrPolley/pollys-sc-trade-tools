@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T17:33:17.739397+00:00",
+  "generated_at": "2026-09-10T20:35:07.087578+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -190,7 +190,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 2100
+          "stock": 241
         },
         {
           "name": "Recycled Material Composite",
@@ -205,32 +205,32 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 94
+          "stock": 201
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 90
+          "stock": 95
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 5108
+          "stock": 2305
         },
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 3000
+          "stock": 1769
         },
         {
           "name": "Ammonia",
           "price": 783,
-          "stock": 11701
+          "stock": 8698
         },
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 104
+          "stock": 200
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -304,7 +304,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1200
+          "price": 1000
         },
         {
           "name": "Aphorite",
@@ -320,7 +320,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Degnous Root",
@@ -348,7 +348,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1500
+          "price": 1400
         },
         {
           "name": "Human Food Bars",
@@ -882,12 +882,12 @@
         {
           "name": "Gold",
           "price": 26492,
-          "stock": 29
+          "stock": 10
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 352
+          "stock": 2100
         },
         {
           "name": "Nitrogen",
@@ -1167,7 +1167,7 @@
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 357
+          "stock": 16
         }
       ],
       "sell": [
@@ -1185,7 +1185,7 @@
         },
         {
           "name": "Stims",
-          "price": 5400
+          "price": 5900
         },
         {
           "name": "Dolivine",
@@ -1193,7 +1193,7 @@
         },
         {
           "name": "Compboard",
-          "price": 33000
+          "price": 32000
         },
         {
           "name": "Party Favors",
@@ -1201,7 +1201,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5200
+          "price": 5500
         },
         {
           "name": "Marok Gem",
@@ -1209,7 +1209,7 @@
         },
         {
           "name": "Beryl",
-          "price": 21000
+          "price": 22000
         },
         {
           "name": "Diamond",
@@ -1217,7 +1217,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 15000
+          "price": 12000
         },
         {
           "name": "Laranite",
