@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T05:47:36.555528+00:00",
+  "generated_at": "2026-09-11T10:51:23.824712+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2196,12 +2196,12 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 0
+          "stock": 29
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 1
+          "stock": 20
         },
         {
           "name": "Construction Materials",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 234
+          "stock": 159
         },
         {
           "name": "Hydrogen Fuel",
@@ -2226,7 +2226,7 @@
         {
           "name": "Quantum Fuel",
           "price": 1760,
-          "stock": 1200
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -2236,7 +2236,7 @@
         {
           "name": "Ship Ammunition - Size 2",
           "price": 7126,
-          "stock": 11992
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 3",
@@ -2306,7 +2306,7 @@
         },
         {
           "name": "Atlasium",
-          "price": 99000
+          "price": 93000
         },
         {
           "name": "Audio-Visual Equipment",
@@ -2338,11 +2338,11 @@
         },
         {
           "name": "Cobalt",
-          "price": 23000
+          "price": 22000
         },
         {
           "name": "Compboard",
-          "price": 35000
+          "price": 34000
         },
         {
           "name": "Copper",
@@ -2410,7 +2410,7 @@
         },
         {
           "name": "Iodine",
-          "price": 11000
+          "price": 13000
         },
         {
           "name": "Janalite",
@@ -2438,7 +2438,7 @@
         },
         {
           "name": "Methane",
-          "price": 3500
+          "price": 3700
         },
         {
           "name": "Nitrogen",
@@ -2446,7 +2446,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4800
+          "price": 4700
         },
         {
           "name": "Party Favors",
@@ -2482,15 +2482,15 @@
         },
         {
           "name": "Riccite",
-          "price": 76000
+          "price": 74000
         },
         {
           "name": "Recycled Material Composite",
-          "price": 6400
+          "price": 6500
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 3700
         },
         {
           "name": "Silicon",
@@ -2506,7 +2506,7 @@
         },
         {
           "name": "Stileron",
-          "price": 160000
+          "price": 150000
         },
         {
           "name": "Stims",
