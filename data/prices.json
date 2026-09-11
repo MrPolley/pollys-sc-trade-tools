@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T22:59:10.372879+00:00",
+  "generated_at": "2026-09-11T00:57:15.358484+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -149,7 +149,7 @@
         },
         {
           "name": "Corundum",
-          "price": 3900
+          "price": 4000
         },
         {
           "name": "Fluorine",
@@ -1390,12 +1390,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 1603
+          "stock": 515
         },
         {
           "name": "Aluminum",
-          "price": 3235,
-          "stock": 1012
+          "price": 3285,
+          "stock": 2374
         },
         {
           "name": "Potassium",
