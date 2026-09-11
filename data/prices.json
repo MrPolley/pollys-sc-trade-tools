@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T10:51:23.824712+00:00",
+  "generated_at": "2026-09-11T14:53:52.246586+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 0
+          "stock": 4252
         }
       ],
       "sell": [
@@ -441,7 +441,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3900
+          "price": 3300
         },
         {
           "name": "Construction Materials",
@@ -453,11 +453,11 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3500
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 4100
         },
         {
           "name": "Omnapoxy",
@@ -657,7 +657,7 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1803
+          "stock": 2100
         },
         {
           "name": "Waste",
@@ -672,18 +672,18 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 519
+          "stock": 1843
         },
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 254
+          "stock": 2100
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5400
+          "price": 4900
         },
         {
           "name": "Distilled Spirits",
@@ -719,15 +719,15 @@
         },
         {
           "name": "Astatine",
-          "price": 3300
+          "price": 3900
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4800
         },
         {
           "name": "Agricium",
-          "price": 9700
+          "price": 10000
         }
       ]
     },
@@ -1238,7 +1238,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 1884
+          "stock": 222
         },
         {
           "name": "Recycled Material Composite",
@@ -1282,11 +1282,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Medical Supplies",
-          "price": 5800
+          "price": 4800
         },
         {
           "name": "Beryl",
