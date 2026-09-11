@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:15:31.546800+00:00",
+  "generated_at": "2026-09-11T21:35:09.180472+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,27 +7,27 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 1516
+          "stock": 128
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 1221
+          "stock": 493
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 627
+          "stock": 949
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 1885
+          "stock": 1038
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 20762
+          "stock": 24000
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -42,7 +42,7 @@
         {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 5",
@@ -76,7 +76,7 @@
         },
         {
           "name": "Quantum Fuel",
-          "price": 760,
+          "price": 1760,
           "stock": 12000
         },
         {
@@ -340,7 +340,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3500
+          "price": 4600
         },
         {
           "name": "Chlorine",
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 685
+          "stock": 424
         }
       ],
       "sell": [
@@ -820,7 +820,7 @@
         },
         {
           "name": "E'tam",
-          "price": 22000
+          "price": 24000
         },
         {
           "name": "Neon",
@@ -1213,7 +1213,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7100
+          "price": 9700
         },
         {
           "name": "Construction Materials",
@@ -1238,7 +1238,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 222
+          "stock": 51
         },
         {
           "name": "Recycled Material Composite",
@@ -1555,7 +1555,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 2500
         },
         {
           "name": "Omnapoxy",
@@ -2749,7 +2749,7 @@
       "sell": [
         {
           "name": "Altruciatoxin",
-          "price": 6200
+          "price": 6400
         },
         {
           "name": "Revenant Tree Pollen",
@@ -2809,7 +2809,7 @@
         },
         {
           "name": "Laranite",
-          "price": 9700
+          "price": 8700
         },
         {
           "name": "Medical Supplies",
@@ -3595,12 +3595,12 @@
         {
           "name": "Dymantium",
           "price": 20758,
-          "stock": 64
+          "stock": 128
         },
         {
           "name": "Audio-Visual Equipment",
           "price": 25004,
-          "stock": 9
+          "stock": 96
         },
         {
           "name": "Scrap",
@@ -3611,7 +3611,7 @@
       "sell": [
         {
           "name": "Atlasium",
-          "price": 94000
+          "price": 87000
         },
         {
           "name": "Compboard",
