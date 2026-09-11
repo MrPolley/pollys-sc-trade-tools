@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T21:35:09.180472+00:00",
+  "generated_at": "2026-09-11T23:57:35.315666+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3640,7 +3640,7 @@
         {
           "name": "Agricultural Supplies",
           "price": 1015,
-          "stock": 255
+          "stock": 6000
         },
         {
           "name": "Human Food Bars",
@@ -3650,7 +3650,7 @@
         {
           "name": "Hydrogen",
           "price": 752,
-          "stock": 8274
+          "stock": 12000
         },
         {
           "name": "Methane",
@@ -3660,7 +3660,7 @@
         {
           "name": "Omnapoxy",
           "price": 3521,
-          "stock": 376
+          "stock": 342
         }
       ],
       "sell": [
@@ -4347,12 +4347,12 @@
         {
           "name": "Hephaestanite",
           "price": 4167,
-          "stock": 150
+          "stock": 604
         },
         {
           "name": "Iron",
           "price": 2850,
-          "stock": 918
+          "stock": 707
         },
         {
           "name": "Argon",
@@ -4377,7 +4377,7 @@
         {
           "name": "Aluminum",
           "price": 3128,
-          "stock": 1050
+          "stock": 540
         },
         {
           "name": "Hydrogen Fuel",
