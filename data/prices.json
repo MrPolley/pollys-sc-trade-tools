@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T19:01:42.611572+00:00",
+  "generated_at": "2026-09-12T22:00:14.732821+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 514
+          "stock": 1257
         }
       ],
       "sell": [
@@ -453,7 +453,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3400
+          "price": 2900
         },
         {
           "name": "Methane",
@@ -461,7 +461,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4200
+          "price": 5000
         }
       ]
     },
@@ -593,12 +593,12 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 12
+          "stock": 75
         },
         {
           "name": "Scrap",
           "price": 3265,
-          "stock": 2100
+          "stock": 1588
         }
       ],
       "sell": [
@@ -632,11 +632,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Agricium",
-          "price": 11000
+          "price": 9400
         },
         {
           "name": "Nitrogen",
@@ -644,11 +644,11 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 5700
+          "price": 5300
         },
         {
           "name": "Hephaestanite",
-          "price": 4700
+          "price": 4800
         }
       ]
     },
@@ -672,18 +672,18 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 253
+          "stock": 87
         },
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 127
+          "stock": 328
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5400
+          "price": 5200
         },
         {
           "name": "Distilled Spirits",
@@ -719,7 +719,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3700
+          "price": 3300
         },
         {
           "name": "Hephaestanite",
@@ -2717,7 +2717,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 104
+          "stock": 301
         },
         {
           "name": "Gold",
@@ -2727,7 +2727,7 @@
         {
           "name": "Hephaestanite",
           "price": 3303,
-          "stock": 89
+          "stock": 80
         },
         {
           "name": "Human Food Bars",
@@ -2742,7 +2742,7 @@
         {
           "name": "Stims",
           "price": 4467,
-          "stock": 246
+          "stock": 80
         }
       ],
       "sell": [
@@ -2756,7 +2756,7 @@
         },
         {
           "name": "Agricium",
-          "price": 10000
+          "price": 9200
         },
         {
           "name": "Carbon-Silk",
@@ -2768,15 +2768,15 @@
         },
         {
           "name": "Corundum",
-          "price": 4400
+          "price": 3600
         },
         {
           "name": "Diamond",
-          "price": 6800
+          "price": 6900
         },
         {
           "name": "Cobalt",
-          "price": 23000
+          "price": 20000
         },
         {
           "name": "Borase",
@@ -2784,7 +2784,7 @@
         },
         {
           "name": "Beryl",
-          "price": 22000
+          "price": 24000
         },
         {
           "name": "Bexalite",
@@ -2808,7 +2808,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8700
+          "price": 9700
         },
         {
           "name": "Medical Supplies",
@@ -2840,7 +2840,7 @@
         },
         {
           "name": "Riccite",
-          "price": 67000
+          "price": 64000
         },
         {
           "name": "Recycled Material Composite",
@@ -4200,12 +4200,12 @@
         {
           "name": "Nitrogen",
           "price": 2439,
-          "stock": 2100
+          "stock": 112
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 192
+          "stock": 126
         },
         {
           "name": "Fluorine",
@@ -4304,7 +4304,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3600
         },
         {
           "name": "Silicon",
