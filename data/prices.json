@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T05:44:46.775161+00:00",
+  "generated_at": "2026-09-13T11:19:54.257564+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 128
+          "stock": 1540
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 493
+          "stock": 517
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 949
+          "stock": 179
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 1038
+          "stock": 1134
         },
         {
           "name": "Carbon",
@@ -145,11 +145,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 3500
+          "price": 4200
         },
         {
           "name": "Corundum",
-          "price": 4000
+          "price": 3600
         },
         {
           "name": "Fluorine",
@@ -161,7 +161,7 @@
         },
         {
           "name": "Argon",
-          "price": 490
+          "price": 480
         },
         {
           "name": "Luminalia Gift",
@@ -4897,22 +4897,22 @@
         {
           "name": "Distilled Spirits",
           "price": 1685,
-          "stock": 5510
+          "stock": 6000
         },
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 493
+          "stock": 60
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 3575
+          "stock": 3076
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 40
+          "stock": 126
         },
         {
           "name": "Scrap",
@@ -4922,12 +4922,12 @@
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 329
+          "stock": 215
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 2283
+          "stock": 4051
         },
         {
           "name": "Quantum Fuel",
