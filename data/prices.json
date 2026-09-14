@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:23:14.115892+00:00",
+  "generated_at": "2026-09-14T16:49:42.594203+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,27 +7,27 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 2100
+          "stock": 296
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 4824
+          "stock": 1147
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 2551
+          "stock": 572
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 3982
+          "stock": 731
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 24000
+          "stock": 21810
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -109,7 +109,7 @@
         },
         {
           "name": "Processed Food",
-          "price": 1500
+          "price": 1400
         },
         {
           "name": "Aphorite",
@@ -145,11 +145,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 4200
+          "price": 3900
         },
         {
           "name": "Corundum",
-          "price": 4000
+          "price": 3600
         },
         {
           "name": "Fluorine",
@@ -1266,7 +1266,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 4900
         },
         {
           "name": "Dolivine",
@@ -1613,27 +1613,27 @@
         {
           "name": "Waste",
           "price": 189,
-          "stock": 97840
+          "stock": 95392
         },
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 838
+          "stock": 20
         },
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 1841
+          "stock": 12000
         },
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 340
+          "stock": 1280
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 1104
+          "stock": 6000
         },
         {
           "name": "Carbon",
@@ -1752,7 +1752,7 @@
         },
         {
           "name": "Ammonia",
-          "price": 930
+          "price": 1100
         },
         {
           "name": "DynaFlex",
