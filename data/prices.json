@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:41:51.019669+00:00",
+  "generated_at": "2026-09-15T18:45:34.898958+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -620,7 +620,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5100
+          "price": 5500
         },
         {
           "name": "Party Favors",
@@ -632,11 +632,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Agricium",
-          "price": 9400
+          "price": 12000
         },
         {
           "name": "Nitrogen",
@@ -644,7 +644,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 5700
+          "price": 4200
         },
         {
           "name": "Hephaestanite",
@@ -1608,7 +1608,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 520
+          "stock": 2100
         },
         {
           "name": "Waste",
@@ -1618,26 +1618,26 @@
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 1050
+          "stock": 710
         },
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 8601
+          "stock": 8639
         },
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 1295
+          "stock": 741
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 4938
+          "stock": 6000
         },
         {
           "name": "Carbon",
-          "price": 293,
+          "price": 283,
           "stock": 24000
         },
         {
@@ -1704,7 +1704,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5700
+          "price": 4900
         },
         {
           "name": "Audio-Visual Equipment",
@@ -1728,7 +1728,7 @@
         },
         {
           "name": "Copper",
-          "price": 3900
+          "price": 3800
         },
         {
           "name": "Dolivine",
@@ -1748,15 +1748,15 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5000
+          "price": 5900
         },
         {
           "name": "Ammonia",
-          "price": 980
+          "price": 1100
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 2000
         },
         {
           "name": "Mercury",
@@ -3654,7 +3654,7 @@
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 1
+          "stock": 1799
         },
         {
           "name": "Omnapoxy",
@@ -3705,7 +3705,7 @@
         },
         {
           "name": "Helium",
-          "price": 950
+          "price": 1200
         },
         {
           "name": "Hephaestanite",
@@ -5347,7 +5347,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 19000
+          "price": 20000
         },
         {
           "name": "Cobalt",
@@ -5359,7 +5359,7 @@
         },
         {
           "name": "Fresh Food",
-          "price": 23000
+          "price": 24000
         },
         {
           "name": "Riccite",
@@ -5423,7 +5423,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Neograph",
