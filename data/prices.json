@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T18:45:34.898958+00:00",
+  "generated_at": "2026-09-15T21:57:49.488097+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 1253
+          "stock": 904
         }
       ],
       "sell": [
@@ -457,7 +457,7 @@
         },
         {
           "name": "Methane",
-          "price": 3700
+          "price": 3600
         },
         {
           "name": "Omnapoxy",
@@ -671,13 +671,13 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3033,
-          "stock": 409
+          "price": 2561,
+          "stock": 529
         },
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 1094
+          "stock": 1500
         }
       ],
       "sell": [
