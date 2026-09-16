@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T00:08:08.811230+00:00",
+  "generated_at": "2026-09-16T05:44:47.060228+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 904
+          "stock": 195
         }
       ],
       "sell": [
