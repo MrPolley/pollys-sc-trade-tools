@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T11:05:39.256690+00:00",
+  "generated_at": "2026-09-16T16:25:31.525827+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -572,7 +572,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Thermalfoam",
@@ -5002,7 +5002,7 @@
         },
         {
           "name": "Chlorine",
-          "price": 1400
+          "price": 1900
         },
         {
           "name": "Copper",
