@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T01:09:54.465282+00:00",
+  "generated_at": "2026-09-17T07:20:48.053384+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -532,17 +532,17 @@
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 357
+          "stock": 1458
         },
         {
           "name": "Gold",
           "price": 28928,
-          "stock": 37
+          "stock": 29
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1899
+          "stock": 1907
         }
       ],
       "sell": [
@@ -580,7 +580,7 @@
         },
         {
           "name": "Agricium",
-          "price": 9800
+          "price": 10000
         },
         {
           "name": "Titanium",
@@ -746,7 +746,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 4596
+          "stock": 10
         }
       ],
       "sell": [
@@ -844,7 +844,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Thermalfoam",
@@ -882,12 +882,12 @@
         {
           "name": "Gold",
           "price": 26492,
-          "stock": 58
+          "stock": 16
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 838
+          "stock": 2100
         },
         {
           "name": "Nitrogen",
@@ -1608,7 +1608,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 2100
+          "stock": 940
         },
         {
           "name": "Waste",
@@ -1623,17 +1623,17 @@
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 10793
+          "stock": 9800
         },
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 195
+          "stock": 2191
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 5720
+          "stock": 6000
         },
         {
           "name": "Carbon",
@@ -1704,7 +1704,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5700
+          "price": 5100
         },
         {
           "name": "Audio-Visual Equipment",
@@ -1748,7 +1748,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 6500
+          "price": 5600
         },
         {
           "name": "Ammonia",
@@ -3993,7 +3993,7 @@
         {
           "name": "Distilled Spirits",
           "price": 1427,
-          "stock": 3321
+          "stock": 6000
         },
         {
           "name": "DynaFlex",
@@ -4008,12 +4008,12 @@
         {
           "name": "Iron",
           "price": 2480,
-          "stock": 370
+          "stock": 366
         },
         {
           "name": "Mercury",
           "price": 715,
-          "stock": 8252
+          "stock": 15000
         },
         {
           "name": "Waste",
@@ -4027,7 +4027,7 @@
         },
         {
           "name": "Ship Ammunition - Size 7",
-          "price": 8671,
+          "price": 6868,
           "stock": 12000
         },
         {
@@ -4659,17 +4659,17 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 2151
+          "stock": 2891
         },
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 2196
+          "stock": 5948
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 720
+          "stock": 1050
         },
         {
           "name": "Tin",
@@ -4724,7 +4724,7 @@
         {
           "name": "Ship Ammunition - Size 1",
           "price": 6868,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -4820,7 +4820,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3800
+          "price": 4300
         },
         {
           "name": "Luminalia Gift",
@@ -4852,7 +4852,7 @@
         },
         {
           "name": "Quartz",
-          "price": 5500
+          "price": 4600
         },
         {
           "name": "Tungsten",
@@ -4880,7 +4880,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5800
+          "price": 4900
         },
         {
           "name": "Stims",
