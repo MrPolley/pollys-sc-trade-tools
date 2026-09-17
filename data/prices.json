@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T22:43:48.104275+00:00",
+  "generated_at": "2026-09-17T01:09:54.465282+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4902,17 +4902,17 @@
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 349
+          "stock": 747
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 10007
+          "stock": 11831
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 168
+          "stock": 518
         },
         {
           "name": "Scrap",
@@ -4922,12 +4922,12 @@
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 40
+          "stock": 318
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 5597
+          "stock": 6000
         },
         {
           "name": "Quantum Fuel",
@@ -4998,7 +4998,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3600
+          "price": 3700
         },
         {
           "name": "Chlorine",
@@ -5006,7 +5006,7 @@
         },
         {
           "name": "Copper",
-          "price": 4700
+          "price": 4600
         },
         {
           "name": "Degnous Root",
@@ -5022,7 +5022,7 @@
         },
         {
           "name": "Iron",
-          "price": 3600
+          "price": 3300
         },
         {
           "name": "Stims",
@@ -5034,7 +5034,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 4000
+          "price": 3600
         },
         {
           "name": "Corundum",
@@ -5042,7 +5042,7 @@
         },
         {
           "name": "Silicon",
-          "price": 2800
+          "price": 2500
         },
         {
           "name": "Tungsten",
