@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T21:57:10.778854+00:00",
+  "generated_at": "2026-09-18T00:03:11.151795+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2201,7 +2201,7 @@
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 42
+          "stock": 43
         },
         {
           "name": "Construction Materials",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 16
+          "stock": 469
         },
         {
           "name": "Hydrogen Fuel",
