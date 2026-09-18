@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:49:27.974804+00:00",
+  "generated_at": "2026-09-18T18:08:39.703250+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -532,17 +532,17 @@
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 1458
+          "stock": 5
         },
         {
           "name": "Gold",
           "price": 28928,
-          "stock": 29
+          "stock": 70
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1907
+          "stock": 1293
         }
       ],
       "sell": [
@@ -564,7 +564,7 @@
         },
         {
           "name": "Processed Food",
-          "price": 1500
+          "price": 1400
         },
         {
           "name": "Stims",
@@ -572,7 +572,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Thermalfoam",
@@ -580,7 +580,7 @@
         },
         {
           "name": "Agricium",
-          "price": 10000
+          "price": 11000
         },
         {
           "name": "Titanium",
@@ -4639,7 +4639,7 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 673
+          "stock": 2050
         },
         {
           "name": "Fluorine",
@@ -4664,17 +4664,17 @@
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 5972
+          "stock": 6000
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 524
+          "stock": 598
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 770
+          "stock": 236
         },
         {
           "name": "Mercury",
@@ -4764,7 +4764,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Hydrogen Fuel",
@@ -4779,7 +4779,7 @@
         {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 5",
@@ -4820,7 +4820,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 4500
+          "price": 3500
         },
         {
           "name": "Luminalia Gift",
@@ -4836,7 +4836,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5600
+          "price": 4800
         },
         {
           "name": "Scrap",
@@ -4852,7 +4852,7 @@
         },
         {
           "name": "Quartz",
-          "price": 5100
+          "price": 4900
         },
         {
           "name": "Tungsten",
@@ -4902,17 +4902,17 @@
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 747
+          "stock": 504
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 11831
+          "stock": 12000
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 518
+          "stock": 90
         },
         {
           "name": "Scrap",
@@ -4922,12 +4922,12 @@
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 318
+          "stock": 1042
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 6000
+          "stock": 3888
         },
         {
           "name": "Quantum Fuel",
@@ -5022,7 +5022,7 @@
         },
         {
           "name": "Iron",
-          "price": 3300
+          "price": 3100
         },
         {
           "name": "Stims",
@@ -5034,7 +5034,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3600
+          "price": 3800
         },
         {
           "name": "Corundum",
@@ -5042,7 +5042,7 @@
         },
         {
           "name": "Silicon",
-          "price": 2500
+          "price": 3100
         },
         {
           "name": "Tungsten",
