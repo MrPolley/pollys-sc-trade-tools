@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T23:58:29.332400+00:00",
+  "generated_at": "2026-09-19T04:26:48.035987+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1321,13 +1321,13 @@
         {
           "name": "Diamond",
           "price": 6269,
-          "stock": 53
+          "stock": 1
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 4700
+          "price": 5500
         },
         {
           "name": "Distilled Spirits",
@@ -1359,7 +1359,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 7000
+          "price": 5800
         },
         {
           "name": "Beryl",
@@ -1371,7 +1371,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3100
         }
       ]
     },
@@ -3109,12 +3109,12 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 4500
+          "stock": 3473
         },
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 2100
+          "stock": 1360
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -3214,7 +3214,7 @@
         },
         {
           "name": "Methane",
-          "price": 3500
+          "price": 3400
         },
         {
           "name": "Neon",
@@ -4361,7 +4361,7 @@
         {
           "name": "Scrap",
           "price": 3265,
-          "stock": 2100
+          "stock": 1096
         },
         {
           "name": "Methane",
@@ -4586,7 +4586,7 @@
         },
         {
           "name": "Agricium",
-          "price": 10000
+          "price": 9700
         },
         {
           "name": "Borase",
@@ -4594,7 +4594,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 9200
         },
         {
           "name": "Bexalite",
@@ -4626,11 +4626,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 3700
+          "price": 3800
         },
         {
           "name": "Iron",
-          "price": 3200
+          "price": 3100
         }
       ]
     },
