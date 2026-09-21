@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T10:28:34.590316+00:00",
+  "generated_at": "2026-09-21T16:51:10.816458+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -230,7 +230,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 834
+          "stock": 174
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -1321,7 +1321,7 @@
         {
           "name": "Diamond",
           "price": 6269,
-          "stock": 11
+          "stock": 1
         }
       ],
       "sell": [
@@ -1351,7 +1351,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Marok Gem",
@@ -1371,7 +1371,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3500
+          "price": 3400
         }
       ]
     },
