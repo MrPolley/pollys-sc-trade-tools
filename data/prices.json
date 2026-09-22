@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T03:58:32.162373+00:00",
+  "generated_at": "2026-09-22T09:14:20.110010+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1025,12 +1025,12 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 35
+          "stock": 271
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 914
+          "stock": 2100
         },
         {
           "name": "Astatine",
@@ -1057,7 +1057,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 60000
+          "price": 69000
         },
         {
           "name": "Party Favors",
@@ -1077,7 +1077,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3600
+          "price": 3100
         },
         {
           "name": "Borase",
@@ -1085,7 +1085,7 @@
         },
         {
           "name": "Methane",
-          "price": 3700
+          "price": 3600
         }
       ]
     },
@@ -3993,12 +3993,12 @@
         {
           "name": "Distilled Spirits",
           "price": 1427,
-          "stock": 3784
+          "stock": 6000
         },
         {
           "name": "DynaFlex",
           "price": 1603,
-          "stock": 3000
+          "stock": 2660
         },
         {
           "name": "Helium",
@@ -4008,7 +4008,7 @@
         {
           "name": "Iron",
           "price": 2480,
-          "stock": 1050
+          "stock": 475
         },
         {
           "name": "Mercury",
@@ -4047,7 +4047,7 @@
         },
         {
           "name": "Ship Ammunition - Size 4",
-          "price": 7641,
+          "price": 7441,
           "stock": 12000
         },
         {
@@ -4057,7 +4057,7 @@
         },
         {
           "name": "Ship Ammunition - Size 6",
-          "price": 8328,
+          "price": 8326,
           "stock": 12000
         },
         {
