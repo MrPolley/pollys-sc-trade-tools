@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T16:24:05.150295+00:00",
+  "generated_at": "2026-09-23T20:00:13.578877+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3117,16 +3117,6 @@
           "stock": 140
         },
         {
-          "name": "Quantum Fuel",
-          "price": 1760,
-          "stock": 12000
-        },
-        {
-          "name": "Hydrogen Fuel",
-          "price": 782,
-          "stock": 12000
-        },
-        {
           "name": "Ship Decoy Countermeasures",
           "price": 4293,
           "stock": 12000
@@ -3235,6 +3225,10 @@
           "price": 4200
         },
         {
+          "name": "Quantum Fuel",
+          "price": 1600
+        },
+        {
           "name": "Steel",
           "price": 1800
         },
@@ -3309,6 +3303,10 @@
         {
           "name": "HexaPolyMesh Coating",
           "price": 1
+        },
+        {
+          "name": "Hydrogen Fuel",
+          "price": 740
         },
         {
           "name": "Stileron",
