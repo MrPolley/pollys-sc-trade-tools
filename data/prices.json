@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T11:02:39.654848+00:00",
+  "generated_at": "2026-09-23T16:24:05.150295+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 1552
+          "stock": 1368
         }
       ],
       "sell": [
@@ -441,7 +441,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3600
+          "price": 3900
         },
         {
           "name": "Construction Materials",
@@ -457,7 +457,7 @@
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 4100
         },
         {
           "name": "Omnapoxy",
@@ -711,7 +711,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 6000
+          "price": 7800
         },
         {
           "name": "Laranite",
@@ -882,7 +882,7 @@
         {
           "name": "Gold",
           "price": 26492,
-          "stock": 16
+          "stock": 49
         },
         {
           "name": "Scrap",
@@ -1380,7 +1380,7 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 6634
+          "stock": 7057
         },
         {
           "name": "Waste",
@@ -1390,12 +1390,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 6000
+          "stock": 5191
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 5575
+          "stock": 6000
         },
         {
           "name": "Potassium",
@@ -1410,12 +1410,12 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 1564
+          "stock": 6000
         },
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 5936
+          "stock": 6000
         },
         {
           "name": "Hydrogen Fuel",
@@ -1460,12 +1460,12 @@
         {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 5",
           "price": 7985,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -1485,7 +1485,7 @@
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 12000
+          "stock": 11211
         }
       ],
       "sell": [
@@ -1503,7 +1503,7 @@
         },
         {
           "name": "Pitambu",
-          "price": 63000
+          "price": 61000
         },
         {
           "name": "Processed Food",
@@ -1555,11 +1555,11 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 2100
         },
         {
           "name": "Omnapoxy",
-          "price": 4500
+          "price": 5000
         },
         {
           "name": "Human Food Bars",
@@ -2848,7 +2848,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 4600
         },
         {
           "name": "Silicon",
@@ -3117,6 +3117,16 @@
           "stock": 140
         },
         {
+          "name": "Quantum Fuel",
+          "price": 1760,
+          "stock": 12000
+        },
+        {
+          "name": "Hydrogen Fuel",
+          "price": 782,
+          "stock": 12000
+        },
+        {
           "name": "Ship Decoy Countermeasures",
           "price": 4293,
           "stock": 12000
@@ -3225,10 +3235,6 @@
           "price": 4200
         },
         {
-          "name": "Quantum Fuel",
-          "price": 1600
-        },
-        {
           "name": "Steel",
           "price": 1800
         },
@@ -3303,10 +3309,6 @@
         {
           "name": "HexaPolyMesh Coating",
           "price": 1
-        },
-        {
-          "name": "Hydrogen Fuel",
-          "price": 740
         },
         {
           "name": "Stileron",
@@ -3552,7 +3554,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 4600
         },
         {
           "name": "Silicon",
@@ -3564,7 +3566,7 @@
         },
         {
           "name": "Steel",
-          "price": 1900
+          "price": 2500
         },
         {
           "name": "Stims",
@@ -5118,7 +5120,7 @@
         {
           "name": "Ship Ammunition - Size 6",
           "price": 8328,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 7",
