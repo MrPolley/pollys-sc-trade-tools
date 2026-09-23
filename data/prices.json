@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T21:51:47.361329+00:00",
+  "generated_at": "2026-09-23T00:07:44.648673+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1380,7 +1380,7 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 12000
+          "stock": 6634
         },
         {
           "name": "Waste",
@@ -1390,12 +1390,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 5880
+          "stock": 6000
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 6000
+          "stock": 5575
         },
         {
           "name": "Potassium",
@@ -1410,12 +1410,12 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 5415
+          "stock": 1564
         },
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 5543
+          "stock": 5936
         },
         {
           "name": "Hydrogen Fuel",
@@ -1535,7 +1535,7 @@
         },
         {
           "name": "Iodine",
-          "price": 12000
+          "price": 11000
         },
         {
           "name": "Prota",
@@ -1555,11 +1555,11 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2500
+          "price": 1900
         },
         {
           "name": "Omnapoxy",
-          "price": 5000
+          "price": 4500
         },
         {
           "name": "Human Food Bars",
