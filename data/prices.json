@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T00:07:44.648673+00:00",
+  "generated_at": "2026-09-23T05:37:47.294906+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1025,7 +1025,7 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 594
+          "stock": 46
         },
         {
           "name": "Scrap",
@@ -1035,7 +1035,7 @@
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 655
+          "stock": 2100
         }
       ],
       "sell": [
@@ -1057,7 +1057,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 69000
+          "price": 59000
         },
         {
           "name": "Party Favors",
@@ -1077,7 +1077,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3100
+          "price": 3200
         },
         {
           "name": "Borase",
@@ -1085,7 +1085,7 @@
         },
         {
           "name": "Methane",
-          "price": 3600
+          "price": 3400
         }
       ]
     },
@@ -1099,22 +1099,22 @@
         {
           "name": "Diamond",
           "price": 5759,
-          "stock": 40
+          "stock": 160
         },
         {
           "name": "Medical Supplies",
           "price": 3541,
-          "stock": 128
+          "stock": 127
         },
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 58
+          "stock": 1140
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1586
+          "stock": 2100
         }
       ],
       "sell": [
@@ -3370,7 +3370,7 @@
         },
         {
           "name": "Compboard",
-          "price": 28000
+          "price": 30000
         },
         {
           "name": "Hydrogen",
@@ -3382,7 +3382,7 @@
         },
         {
           "name": "Distilled Spirits",
-          "price": 1800
+          "price": 1900
         },
         {
           "name": "Beryl",
@@ -3426,7 +3426,7 @@
         },
         {
           "name": "Dolivine",
-          "price": 130000
+          "price": 150000
         },
         {
           "name": "DynaFlex",
@@ -3447,22 +3447,22 @@
         {
           "name": "Agricium",
           "price": 6840,
-          "stock": 77
+          "stock": 11
         },
         {
           "name": "Human Food Bars",
           "price": 416,
-          "stock": 6000
+          "stock": 4856
         },
         {
           "name": "Hydrogen",
           "price": 752,
-          "stock": 11416
+          "stock": 12000
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 1024
+          "stock": 42
         }
       ],
       "sell": [
@@ -3496,7 +3496,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 2100
         },
         {
           "name": "E'tam",
@@ -3508,11 +3508,11 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4400
+          "price": 4600
         },
         {
           "name": "Iron",
-          "price": 3800
+          "price": 3900
         },
         {
           "name": "Laranite",
@@ -3532,7 +3532,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5700
+          "price": 5500
         },
         {
           "name": "Processed Food",
@@ -3568,7 +3568,7 @@
         },
         {
           "name": "Stims",
-          "price": 4800
+          "price": 5000
         },
         {
           "name": "Tin",
@@ -4008,7 +4008,7 @@
         {
           "name": "Iron",
           "price": 2480,
-          "stock": 180
+          "stock": 744
         },
         {
           "name": "Mercury",
@@ -4128,7 +4128,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1100
+          "price": 1200
         },
         {
           "name": "Neon",
@@ -4160,7 +4160,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3800
+          "price": 3900
         },
         {
           "name": "Steel",
