@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T18:51:55.407800+00:00",
+  "generated_at": "2026-09-24T22:06:06.236521+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1099,22 +1099,22 @@
         {
           "name": "Diamond",
           "price": 5759,
-          "stock": 160
+          "stock": 64
         },
         {
           "name": "Medical Supplies",
           "price": 3541,
-          "stock": 127
+          "stock": 159
         },
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 1140
+          "stock": 783
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 2100
+          "stock": 1118
         }
       ],
       "sell": [
@@ -1162,12 +1162,12 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 2100
+          "stock": 1724
         },
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 105
+          "stock": 45
         }
       ],
       "sell": [
@@ -1201,7 +1201,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4800
+          "price": 5200
         },
         {
           "name": "Marok Gem",
@@ -1217,15 +1217,15 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Laranite",
-          "price": 11000
+          "price": 8500
         },
         {
           "name": "Omnapoxy",
-          "price": 5000
+          "price": 4800
         },
         {
           "name": "Thermalfoam",
@@ -1327,7 +1327,7 @@
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5200
         },
         {
           "name": "Distilled Spirits",
@@ -1363,7 +1363,7 @@
         },
         {
           "name": "Beryl",
-          "price": 22000
+          "price": 21000
         },
         {
           "name": "Agricium",
@@ -1371,7 +1371,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3400
+          "price": 3500
         }
       ]
     },
