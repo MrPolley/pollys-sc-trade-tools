@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T03:49:17.965780+00:00",
+  "generated_at": "2026-09-24T09:06:54.826266+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 1843
+          "stock": 376
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 3595
+          "stock": 691
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 115
+          "stock": 3000
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 172
+          "stock": 1033
         },
         {
           "name": "Carbon",
@@ -210,7 +210,7 @@
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 190
+          "stock": 180
         },
         {
           "name": "Agricultural Supplies",
@@ -230,7 +230,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 610
+          "stock": 1050
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -480,7 +480,7 @@
         {
           "name": "Medical Supplies",
           "price": 4401,
-          "stock": 190
+          "stock": 1050
         }
       ],
       "sell": [
@@ -514,11 +514,11 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3500
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 4100
         }
       ]
     },
