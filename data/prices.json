@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:19:20.915998+00:00",
+  "generated_at": "2026-09-25T22:03:59.544612+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1380,7 +1380,7 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 10718
+          "stock": 7246
         },
         {
           "name": "Waste",
@@ -1390,12 +1390,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 1962
+          "stock": 1032
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 5800
+          "stock": 1423
         },
         {
           "name": "Potassium",
@@ -1410,7 +1410,7 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 3759
+          "stock": 5008
         },
         {
           "name": "Fluorine",
@@ -1485,7 +1485,7 @@
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 12000
+          "stock": 8416
         }
       ],
       "sell": [
@@ -1511,11 +1511,11 @@
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1500
+          "price": 1400
         },
         {
           "name": "Amioshi Plague",
-          "price": 27000
+          "price": 26000
         },
         {
           "name": "Aphorite",
@@ -1527,7 +1527,7 @@
         },
         {
           "name": "Golden Medmon",
-          "price": 64000
+          "price": 63000
         },
         {
           "name": "Hadanite",
@@ -1555,7 +1555,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2100
+          "price": 2500
         },
         {
           "name": "Omnapoxy",
