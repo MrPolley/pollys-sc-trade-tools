@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T07:19:44.773062+00:00",
+  "generated_at": "2026-09-25T13:23:22.360398+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 1368
+          "stock": 382
         }
       ],
       "sell": [
@@ -441,7 +441,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3900
+          "price": 3400
         },
         {
           "name": "Construction Materials",
@@ -457,7 +457,7 @@
         },
         {
           "name": "Methane",
-          "price": 4100
+          "price": 4000
         },
         {
           "name": "Omnapoxy",
@@ -475,12 +475,12 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 2100
+          "stock": 12
         },
         {
           "name": "Medical Supplies",
           "price": 4401,
-          "stock": 1050
+          "stock": 281
         }
       ],
       "sell": [
@@ -510,7 +510,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3900
+          "price": 3700
         },
         {
           "name": "Nitrogen",
@@ -518,7 +518,7 @@
         },
         {
           "name": "Methane",
-          "price": 4100
+          "price": 3500
         }
       ]
     },
@@ -598,7 +598,7 @@
         {
           "name": "Scrap",
           "price": 3265,
-          "stock": 2100
+          "stock": 1923
         }
       ],
       "sell": [
@@ -608,7 +608,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 62000
+          "price": 63000
         },
         {
           "name": "Distilled Spirits",
@@ -620,7 +620,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4700
+          "price": 5500
         },
         {
           "name": "Party Favors",
@@ -632,7 +632,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 15000
+          "price": 12000
         },
         {
           "name": "Agricium",
@@ -644,11 +644,11 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4800
+          "price": 5700
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4800
         }
       ]
     },
@@ -657,7 +657,7 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1578
+          "stock": 2100
         },
         {
           "name": "Waste",
@@ -672,18 +672,18 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 2100
+          "stock": 133
         },
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 2100
+          "stock": 3
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5600
+          "price": 5400
         },
         {
           "name": "Distilled Spirits",
@@ -719,11 +719,11 @@
         },
         {
           "name": "Astatine",
-          "price": 3900
+          "price": 3700
         },
         {
           "name": "Hephaestanite",
-          "price": 4800
+          "price": 4500
         },
         {
           "name": "Agricium",
@@ -1162,12 +1162,12 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1724
+          "stock": 1780
         },
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 45
+          "stock": 7
         }
       ],
       "sell": [
@@ -1185,7 +1185,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 5400
         },
         {
           "name": "Dolivine",
@@ -1201,7 +1201,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5200
+          "price": 5500
         },
         {
           "name": "Marok Gem",
@@ -1217,7 +1217,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Laranite",
@@ -1225,7 +1225,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4800
+          "price": 5000
         },
         {
           "name": "Thermalfoam",
@@ -2985,7 +2985,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 22000
+          "price": 23000
         },
         {
           "name": "Aluminum",
