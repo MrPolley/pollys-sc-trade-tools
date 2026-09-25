@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T01:14:29.865815+00:00",
+  "generated_at": "2026-09-25T07:19:44.773062+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 376
+          "stock": 2100
         },
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 691
+          "stock": 1223
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 3000
+          "stock": 590
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 1033
+          "stock": 860
         },
         {
           "name": "Carbon",
@@ -145,11 +145,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 4200
+          "price": 4100
         },
         {
           "name": "Corundum",
-          "price": 4100
+          "price": 4000
         },
         {
           "name": "Fluorine",
@@ -537,12 +537,12 @@
         {
           "name": "Gold",
           "price": 28928,
-          "stock": 70
+          "stock": 220
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1293
+          "stock": 837
         }
       ],
       "sell": [
@@ -564,7 +564,7 @@
         },
         {
           "name": "Processed Food",
-          "price": 1400
+          "price": 1500
         },
         {
           "name": "Stims",
@@ -580,11 +580,11 @@
         },
         {
           "name": "Agricium",
-          "price": 11000
+          "price": 10000
         },
         {
           "name": "Titanium",
-          "price": 8200
+          "price": 7800
         }
       ]
     },
@@ -1025,7 +1025,7 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 46
+          "stock": 367
         },
         {
           "name": "Scrap",
@@ -1057,7 +1057,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 59000
+          "price": 69000
         },
         {
           "name": "Party Favors",
@@ -1077,7 +1077,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3200
+          "price": 3600
         },
         {
           "name": "Borase",
@@ -1085,7 +1085,7 @@
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 4100
         }
       ]
     },
@@ -2381,7 +2381,7 @@
         },
         {
           "name": "Gold",
-          "price": 27000
+          "price": 26000
         },
         {
           "name": "Golden Medmon",
@@ -2405,7 +2405,7 @@
         },
         {
           "name": "Iodine",
-          "price": 11000
+          "price": 13000
         },
         {
           "name": "Janalite",
@@ -2477,7 +2477,7 @@
         },
         {
           "name": "Riccite",
-          "price": 76000
+          "price": 77000
         },
         {
           "name": "Recycled Material Composite",
@@ -2501,7 +2501,7 @@
         },
         {
           "name": "Stileron",
-          "price": 140000
+          "price": 160000
         },
         {
           "name": "Stims",
@@ -2569,7 +2569,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 45000
+          "price": 46000
         },
         {
           "name": "Hydrogen",
@@ -3589,17 +3589,17 @@
         {
           "name": "Construction Materials",
           "price": 10023,
-          "stock": 1050
+          "stock": 766
         },
         {
           "name": "Dymantium",
           "price": 20758,
-          "stock": 87
+          "stock": 128
         },
         {
           "name": "Audio-Visual Equipment",
           "price": 25004,
-          "stock": 7
+          "stock": 53
         },
         {
           "name": "Scrap",
@@ -3626,7 +3626,7 @@
         },
         {
           "name": "Recycled Material Composite",
-          "price": 7700
+          "price": 8500
         },
         {
           "name": "Stims",
