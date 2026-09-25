@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T22:06:06.236521+00:00",
+  "generated_at": "2026-09-25T01:14:29.865815+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2196,17 +2196,17 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 87
+          "stock": 86
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 43
+          "stock": 57
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 52
+          "stock": 86
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 469
+          "stock": 1054
         },
         {
           "name": "Hydrogen Fuel",
@@ -2305,7 +2305,7 @@
         },
         {
           "name": "Audio-Visual Equipment",
-          "price": 38000
+          "price": 39000
         },
         {
           "name": "Bexalite",
@@ -2313,7 +2313,7 @@
         },
         {
           "name": "Bioplastic",
-          "price": 8300
+          "price": 8500
         },
         {
           "name": "Borase",
@@ -2353,7 +2353,7 @@
         },
         {
           "name": "Diamond Laminate",
-          "price": 99000
+          "price": 97000
         },
         {
           "name": "Distilled Spirits",
@@ -3447,12 +3447,12 @@
         {
           "name": "Agricium",
           "price": 6840,
-          "stock": 11
+          "stock": 59
         },
         {
           "name": "Human Food Bars",
           "price": 416,
-          "stock": 4856
+          "stock": 6000
         },
         {
           "name": "Hydrogen",
@@ -3462,7 +3462,7 @@
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 42
+          "stock": 1972
         }
       ],
       "sell": [
@@ -3496,7 +3496,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2100
+          "price": 2000
         },
         {
           "name": "E'tam",
@@ -3512,7 +3512,7 @@
         },
         {
           "name": "Iron",
-          "price": 3900
+          "price": 3200
         },
         {
           "name": "Laranite",
@@ -3532,7 +3532,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5500
+          "price": 5700
         },
         {
           "name": "Processed Food",
