@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T22:03:59.544612+00:00",
+  "generated_at": "2026-09-26T01:16:54.226148+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1503,7 +1503,7 @@
         },
         {
           "name": "Pitambu",
-          "price": 61000
+          "price": 63000
         },
         {
           "name": "Processed Food",
@@ -1535,7 +1535,7 @@
         },
         {
           "name": "Iodine",
-          "price": 11000
+          "price": 12000
         },
         {
           "name": "Prota",
@@ -3109,12 +3109,12 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 2848
+          "stock": 4204
         },
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 140
+          "stock": 2100
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -3226,7 +3226,7 @@
         },
         {
           "name": "Quantum Fuel",
-          "price": 1600
+          "price": 1760
         },
         {
           "name": "Steel",
@@ -3306,7 +3306,7 @@
         },
         {
           "name": "Hydrogen Fuel",
-          "price": 740
+          "price": 782
         },
         {
           "name": "Stileron",
@@ -3457,7 +3457,7 @@
         {
           "name": "Hydrogen",
           "price": 752,
-          "stock": 11703
+          "stock": 12000
         },
         {
           "name": "Nitrogen",
