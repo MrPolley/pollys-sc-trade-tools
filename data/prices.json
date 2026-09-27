@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T01:10:11.374270+00:00",
+  "generated_at": "2026-09-27T07:46:48.427707+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -210,27 +210,27 @@
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 14
+          "stock": 182
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 5345
+          "stock": 6000
         },
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 840
+          "stock": 1628
         },
         {
           "name": "Ammonia",
           "price": 783,
-          "stock": 10793
+          "stock": 12000
         },
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 418
+          "stock": 1050
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -304,7 +304,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1200
+          "price": 970
         },
         {
           "name": "Aphorite",
@@ -320,7 +320,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Degnous Root",
@@ -340,7 +340,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 4100
+          "price": 4300
         },
         {
           "name": "Chlorine",
@@ -2887,12 +2887,12 @@
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 127
+          "stock": 2100
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 184
+          "stock": 2100
         },
         {
           "name": "Fluorine",
@@ -2902,17 +2902,17 @@
         {
           "name": "Distilled Spirits",
           "price": 1312,
-          "stock": 1529
+          "stock": 6000
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 697
+          "stock": 808
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 23
+          "stock": 69
         },
         {
           "name": "Quantum Fuel",
@@ -2981,11 +2981,11 @@
         },
         {
           "name": "Corundum",
-          "price": 3900
+          "price": 3500
         },
         {
           "name": "Carbon-Silk",
-          "price": 23000
+          "price": 21000
         },
         {
           "name": "Aluminum",
@@ -3025,11 +3025,11 @@
         },
         {
           "name": "Neon",
-          "price": 17000
+          "price": 19000
         },
         {
           "name": "Omnapoxy",
-          "price": 4000
+          "price": 4800
         },
         {
           "name": "Partillium",
@@ -3085,7 +3085,7 @@
         },
         {
           "name": "Iron",
-          "price": 3700
+          "price": 3900
         }
       ]
     },
