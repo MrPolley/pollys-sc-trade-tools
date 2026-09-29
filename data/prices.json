@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:29:25.178781+00:00",
+  "generated_at": "2026-09-29T20:31:06.357144+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1618,12 +1618,12 @@
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 112
+          "stock": 66
         },
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 9536
+          "stock": 12000
         },
         {
           "name": "Corundum",
@@ -1633,7 +1633,7 @@
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 5055
+          "stock": 6000
         },
         {
           "name": "Carbon",
@@ -1744,19 +1744,19 @@
         },
         {
           "name": "Tin",
-          "price": 4400
+          "price": 4500
         },
         {
           "name": "Pressurized Ice",
-          "price": 5000
+          "price": 5600
         },
         {
           "name": "Ammonia",
-          "price": 1000
+          "price": 1100
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 2000
         },
         {
           "name": "Mercury",
@@ -2196,17 +2196,17 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 86
+          "stock": 6
         },
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 57
+          "stock": 0
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 86
+          "stock": 0
         },
         {
           "name": "Corundum",
@@ -2216,7 +2216,7 @@
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 1054
+          "stock": 172
         },
         {
           "name": "Hydrogen Fuel",
