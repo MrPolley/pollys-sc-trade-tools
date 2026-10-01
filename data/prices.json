@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:51:38.099317+00:00",
+  "generated_at": "2026-10-01T01:52:02.349695+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1081,17 +1081,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 240
+          "stock": 80
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 2100
+          "stock": 204
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 2100
+          "stock": 254
         }
       ],
       "sell": [
@@ -1377,7 +1377,7 @@
         {
           "name": "Diamond",
           "price": 6269,
-          "stock": 96
+          "stock": 44
         }
       ],
       "sell": [
@@ -1427,7 +1427,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3500
+          "price": 2900
         }
       ]
     },
