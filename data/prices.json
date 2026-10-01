@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:31:57.456055+00:00",
+  "generated_at": "2026-10-01T16:07:35.807409+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -12,17 +12,17 @@
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 5948
+          "stock": 6000
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 692
+          "stock": 400
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 1775
+          "stock": 3179
         },
         {
           "name": "Carbon",
@@ -1133,7 +1133,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3000
+          "price": 3600
         },
         {
           "name": "Borase",
@@ -1141,7 +1141,7 @@
         },
         {
           "name": "Methane",
-          "price": 3600
+          "price": 4100
         }
       ]
     },
