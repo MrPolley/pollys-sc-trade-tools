@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:45:18.801617+00:00",
+  "generated_at": "2026-10-03T23:35:31.038886+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4185,12 +4185,12 @@
         {
           "name": "Cobalt",
           "price": 18050,
-          "stock": 69
+          "stock": 45
         },
         {
           "name": "DynaFlex",
           "price": 1350,
-          "stock": 919
+          "stock": 177
         },
         {
           "name": "Human Food Bars",
@@ -4200,12 +4200,12 @@
         {
           "name": "Nitrogen",
           "price": 2439,
-          "stock": 2100
+          "stock": 275
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 175
+          "stock": 242
         },
         {
           "name": "Fluorine",
@@ -4272,7 +4272,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8700
+          "price": 8400
         },
         {
           "name": "Medical Supplies",
@@ -4280,11 +4280,11 @@
         },
         {
           "name": "Methane",
-          "price": 4100
+          "price": 3400
         },
         {
           "name": "Neon",
-          "price": 19000
+          "price": 17000
         },
         {
           "name": "Omnapoxy",
@@ -4304,7 +4304,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3600
         },
         {
           "name": "Silicon",
@@ -4324,11 +4324,11 @@
         },
         {
           "name": "Titanium",
-          "price": 9100
+          "price": 9000
         },
         {
           "name": "WiDoW",
-          "price": 7600
+          "price": 7800
         },
         {
           "name": "Altruciatoxin",
