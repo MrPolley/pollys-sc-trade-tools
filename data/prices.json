@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T00:15:07.095221+00:00",
+  "generated_at": "2026-10-03T06:10:52.367170+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1887,7 +1887,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5000
+          "price": 5500
         },
         {
           "name": "Agricium",
@@ -1919,7 +1919,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 9000
         },
         {
           "name": "Quartz",
@@ -2083,7 +2083,7 @@
         },
         {
           "name": "Riccite",
-          "price": 66000
+          "price": 65000
         },
         {
           "name": "Diamond Laminate",
@@ -2147,7 +2147,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Beradom",
