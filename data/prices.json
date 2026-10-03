@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:19:02.286099+00:00",
+  "generated_at": "2026-10-03T17:04:09.304005+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3589,17 +3589,17 @@
         {
           "name": "Construction Materials",
           "price": 10023,
-          "stock": 654
+          "stock": 1050
         },
         {
           "name": "Dymantium",
           "price": 20758,
-          "stock": 128
+          "stock": 53
         },
         {
           "name": "Audio-Visual Equipment",
           "price": 25004,
-          "stock": 33
+          "stock": 57
         },
         {
           "name": "Scrap",
@@ -5042,7 +5042,7 @@
         },
         {
           "name": "Silicon",
-          "price": 2800
+          "price": 2300
         },
         {
           "name": "Tungsten",
