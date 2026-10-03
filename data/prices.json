@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:28:00.065588+00:00",
+  "generated_at": "2026-10-03T00:15:07.095221+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2882,17 +2882,17 @@
         {
           "name": "Hydrogen",
           "price": 708,
-          "stock": 9073
+          "stock": 12000
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 650
+          "stock": 2100
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 1524
+          "stock": 606
         },
         {
           "name": "Fluorine",
@@ -2907,12 +2907,12 @@
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 61
+          "stock": 261
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 13
+          "stock": 38
         },
         {
           "name": "Quantum Fuel",
@@ -2985,7 +2985,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 22000
+          "price": 23000
         },
         {
           "name": "Aluminum",
@@ -2993,7 +2993,7 @@
         },
         {
           "name": "Altruciatoxin",
-          "price": 6300
+          "price": 6400
         },
         {
           "name": "Borase",
@@ -3029,11 +3029,11 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4800
+          "price": 4200
         },
         {
           "name": "Partillium",
-          "price": 90000
+          "price": 84000
         },
         {
           "name": "Potassium",
@@ -3049,7 +3049,7 @@
         },
         {
           "name": "Riccite",
-          "price": 66000
+          "price": 67000
         },
         {
           "name": "Recycled Material Composite",
@@ -3057,7 +3057,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3400
         },
         {
           "name": "Silicon",
@@ -3094,12 +3094,12 @@
         {
           "name": "Revenant Tree Pollen",
           "price": 967,
-          "stock": 15622
+          "stock": 18000
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 31616
+          "stock": 36000
         },
         {
           "name": "Potassium",
@@ -3114,7 +3114,7 @@
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 721
+          "stock": 1112
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -3286,7 +3286,7 @@
         },
         {
           "name": "Riccite",
-          "price": 51000
+          "price": 59000
         },
         {
           "name": "Recycled Material Composite",
@@ -3310,7 +3310,7 @@
         },
         {
           "name": "Stileron",
-          "price": 110000
+          "price": 100000
         },
         {
           "name": "Carbon",
@@ -3354,7 +3354,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 45000
+          "price": 46000
         },
         {
           "name": "Aslarite",
@@ -3998,12 +3998,12 @@
         {
           "name": "DynaFlex",
           "price": 1603,
-          "stock": 3000
+          "stock": 2586
         },
         {
           "name": "Helium",
           "price": 727,
-          "stock": 944
+          "stock": 1200
         },
         {
           "name": "Iron",
@@ -4018,7 +4018,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 30000
+          "stock": 21743
         },
         {
           "name": "Recycled Material Composite",
@@ -4104,7 +4104,7 @@
         },
         {
           "name": "Borase",
-          "price": 27000
+          "price": 25000
         },
         {
           "name": "Construction Materials",
@@ -5467,7 +5467,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 46000
+          "price": 44000
         },
         {
           "name": "Sadaryx",
