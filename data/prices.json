@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:04:09.304005+00:00",
+  "generated_at": "2026-10-03T20:45:18.801617+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2196,7 +2196,7 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 203
+          "stock": 5
         },
         {
           "name": "Beryl",
@@ -2206,7 +2206,7 @@
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 28
+          "stock": 0
         },
         {
           "name": "Corundum",
@@ -2231,11 +2231,11 @@
         {
           "name": "Ship Ammunition - Size 1",
           "price": 6868,
-          "stock": 12000
+          "stock": 1
         },
         {
           "name": "Ship Ammunition - Size 2",
-          "price": 7126,
+          "price": 7426,
           "stock": 12000
         },
         {
@@ -2246,7 +2246,7 @@
         {
           "name": "Ship Ammunition - Size 4",
           "price": 7641,
-          "stock": 12000
+          "stock": 1200
         },
         {
           "name": "Ship Noise Countermeasures",
@@ -2265,13 +2265,13 @@
         },
         {
           "name": "Ship Ammunition - Size 6",
-          "price": 8328,
+          "price": 7985,
           "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 7",
           "price": 8671,
-          "stock": 12000
+          "stock": 23000
         }
       ],
       "sell": [
@@ -2301,7 +2301,7 @@
         },
         {
           "name": "Atlasium",
-          "price": 96000
+          "price": 91000
         },
         {
           "name": "Audio-Visual Equipment",
@@ -2337,7 +2337,7 @@
         },
         {
           "name": "Compboard",
-          "price": 34000
+          "price": 37000
         },
         {
           "name": "Copper",
@@ -2381,7 +2381,7 @@
         },
         {
           "name": "Gold",
-          "price": 26000
+          "price": 27000
         },
         {
           "name": "Golden Medmon",
@@ -2405,7 +2405,7 @@
         },
         {
           "name": "Iodine",
-          "price": 11000
+          "price": 13000
         },
         {
           "name": "Janalite",
@@ -4502,7 +4502,7 @@
       "sell": [
         {
           "name": "Quartz",
-          "price": 4800
+          "price": 5100
         },
         {
           "name": "Tungsten",
@@ -4530,7 +4530,7 @@
         },
         {
           "name": "Copper",
-          "price": 4400
+          "price": 4300
         },
         {
           "name": "Fluorine",
