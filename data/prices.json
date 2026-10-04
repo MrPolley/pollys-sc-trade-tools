@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T19:55:39.235243+00:00",
+  "generated_at": "2026-10-04T22:54:03.208505+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -397,7 +397,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 72
         },
         {
           "name": "Recycled Material Composite",
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 2333
+          "stock": 343
         }
       ],
       "sell": [
@@ -1390,12 +1390,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 3591
+          "stock": 2000
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 2453
+          "stock": 2733
         },
         {
           "name": "Potassium",
@@ -1515,7 +1515,7 @@
         },
         {
           "name": "Amioshi Plague",
-          "price": 27000
+          "price": 24000
         },
         {
           "name": "Aphorite",
@@ -1535,7 +1535,7 @@
         },
         {
           "name": "Iodine",
-          "price": 13000
+          "price": 11000
         },
         {
           "name": "Prota",
@@ -1543,7 +1543,7 @@
         },
         {
           "name": "Ranta Dung",
-          "price": 39000
+          "price": 36000
         },
         {
           "name": "Stims",
@@ -1579,7 +1579,7 @@
         },
         {
           "name": "Argon",
-          "price": 550
+          "price": 530
         },
         {
           "name": "Beradom",
