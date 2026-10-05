@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T08:37:24.575370+00:00",
+  "generated_at": "2026-10-05T18:06:28.655299+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -527,22 +527,22 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 67
         },
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 493
+          "stock": 54
         },
         {
           "name": "Gold",
           "price": 28928,
-          "stock": 98
+          "stock": 93
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 2100
+          "stock": 1460
         }
       ],
       "sell": [
@@ -580,11 +580,11 @@
         },
         {
           "name": "Agricium",
-          "price": 11000
+          "price": 9800
         },
         {
           "name": "Titanium",
-          "price": 9200
+          "price": 7700
         }
       ]
     },
