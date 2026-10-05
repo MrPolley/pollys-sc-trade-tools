@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T01:43:57.255829+00:00",
+  "generated_at": "2026-10-05T08:37:24.575370+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -532,17 +532,17 @@
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 1329
+          "stock": 493
         },
         {
           "name": "Gold",
           "price": 28928,
-          "stock": 220
+          "stock": 98
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 837
+          "stock": 2100
         }
       ],
       "sell": [
@@ -572,7 +572,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Thermalfoam",
@@ -580,11 +580,11 @@
         },
         {
           "name": "Agricium",
-          "price": 10000
+          "price": 11000
         },
         {
           "name": "Titanium",
-          "price": 7800
+          "price": 9200
         }
       ]
     },
@@ -1025,17 +1025,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 419
+          "stock": 7
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 121
+          "stock": 2100
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 858
+          "stock": 2100
         }
       ],
       "sell": [
@@ -1057,7 +1057,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 66000
+          "price": 69000
         },
         {
           "name": "Party Favors",
@@ -1069,7 +1069,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Marok Gem",
@@ -1077,7 +1077,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3600
         },
         {
           "name": "Borase",
@@ -1085,7 +1085,7 @@
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 3600
         }
       ]
     },
@@ -1321,7 +1321,7 @@
         {
           "name": "Diamond",
           "price": 6269,
-          "stock": 44
+          "stock": 281
         }
       ],
       "sell": [
