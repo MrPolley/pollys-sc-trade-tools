@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T07:19:27.184092+00:00",
+  "generated_at": "2026-10-06T14:52:16.051051+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1217,7 +1217,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 15000
+          "price": 12600
         },
         {
           "name": "Laranite",
