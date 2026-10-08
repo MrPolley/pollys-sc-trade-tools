@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T20:29:01.321818+00:00",
+  "generated_at": "2026-10-08T00:48:13.000690+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,7 +7,7 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 2100
+          "stock": 2038
         },
         {
           "name": "Iron",
@@ -17,12 +17,12 @@
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 541
+          "stock": 2316
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 552
+          "stock": 519
         },
         {
           "name": "Carbon",
@@ -57,7 +57,7 @@
         {
           "name": "Ship Ammunition - Size 7",
           "price": 8671,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -82,7 +82,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 3",
@@ -145,11 +145,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 4100
+          "price": 4200
         },
         {
           "name": "Corundum",
-          "price": 3700
+          "price": 4100
         },
         {
           "name": "Fluorine",
@@ -1380,7 +1380,7 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 10696
+          "stock": 11905
         },
         {
           "name": "Waste",
@@ -1390,12 +1390,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 525
+          "stock": 1325
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 2737
+          "stock": 6000
         },
         {
           "name": "Potassium",
@@ -1410,7 +1410,7 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 4178
+          "stock": 5128
         },
         {
           "name": "Fluorine",
@@ -1430,7 +1430,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -1485,7 +1485,7 @@
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 11356
+          "stock": 12000
         }
       ],
       "sell": [
@@ -1511,11 +1511,11 @@
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1500
+          "price": 1300
         },
         {
           "name": "Amioshi Plague",
-          "price": 24000
+          "price": 27000
         },
         {
           "name": "Aphorite",
@@ -1535,7 +1535,7 @@
         },
         {
           "name": "Iodine",
-          "price": 11000
+          "price": 12000
         },
         {
           "name": "Prota",
@@ -1567,7 +1567,7 @@
         },
         {
           "name": "Steel",
-          "price": 2000
+          "price": 1900
         },
         {
           "name": "Quartz",
@@ -1623,7 +1623,7 @@
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 11436
+          "stock": 12000
         },
         {
           "name": "Corundum",
@@ -1633,7 +1633,7 @@
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 1735
+          "stock": 6000
         },
         {
           "name": "Carbon",
@@ -1668,7 +1668,7 @@
         {
           "name": "Ship Ammunition - Size 6",
           "price": 8328,
-          "stock": 12000
+          "stock": 2000
         },
         {
           "name": "Ship Ammunition - Size 7",
@@ -1704,7 +1704,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5700
+          "price": 4800
         },
         {
           "name": "Audio-Visual Equipment",
@@ -3314,7 +3314,7 @@
         },
         {
           "name": "Carbon",
-          "price": 330
+          "price": 380
         },
         {
           "name": "Copper",
@@ -4902,7 +4902,7 @@
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 1050
+          "stock": 71
         },
         {
           "name": "Hydrogen",
@@ -4912,22 +4912,22 @@
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 8
+          "stock": 332
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 1460
+          "stock": 980
         },
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 35
+          "stock": 933
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 6000
+          "stock": 4209
         },
         {
           "name": "Quantum Fuel",
@@ -4962,7 +4962,7 @@
         {
           "name": "Ship Ammunition - Size 7",
           "price": 8671,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 6",
@@ -4998,15 +4998,15 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3700
+          "price": 3600
         },
         {
           "name": "Chlorine",
-          "price": 1900
+          "price": 1500
         },
         {
           "name": "Copper",
-          "price": 3700
+          "price": 4200
         },
         {
           "name": "Degnous Root",
@@ -5034,15 +5034,15 @@
         },
         {
           "name": "Aluminum",
-          "price": 4500
+          "price": 3600
         },
         {
           "name": "Corundum",
-          "price": 4100
+          "price": 3800
         },
         {
           "name": "Silicon",
-          "price": 2900
+          "price": 2300
         },
         {
           "name": "Tungsten",
