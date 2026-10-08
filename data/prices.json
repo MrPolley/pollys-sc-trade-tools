@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T07:06:06.890335+00:00",
+  "generated_at": "2026-10-08T15:21:16.577843+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -636,7 +636,7 @@
         },
         {
           "name": "Agricium",
-          "price": 9400
+          "price": 12000
         },
         {
           "name": "Nitrogen",
@@ -644,7 +644,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4200
+          "price": 5700
         },
         {
           "name": "Hephaestanite",
@@ -711,7 +711,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 5800
+          "price": 7800
         },
         {
           "name": "Laranite",
@@ -1440,7 +1440,7 @@
         {
           "name": "Ship Ammunition - Size 2",
           "price": 7126,
-          "stock": 2000
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 7",
@@ -1628,7 +1628,7 @@
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 5
+          "stock": 1541
         },
         {
           "name": "Titanium",
@@ -2231,7 +2231,7 @@
         {
           "name": "Ship Ammunition - Size 1",
           "price": 6868,
-          "stock": 1
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -5002,7 +5002,7 @@
         },
         {
           "name": "Chlorine",
-          "price": 1500
+          "price": 1900
         },
         {
           "name": "Copper",
