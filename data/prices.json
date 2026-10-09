@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T15:55:20.887770+00:00",
+  "generated_at": "2026-10-09T20:40:00.651393+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,7 +7,7 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 2100
+          "stock": 2076
         },
         {
           "name": "Iron",
@@ -17,17 +17,17 @@
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 1126
+          "stock": 2491
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 521
+          "stock": 2223
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 24000
+          "stock": 23424
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -82,7 +82,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 11992
         },
         {
           "name": "Ship Ammunition - Size 3",
@@ -149,7 +149,7 @@
         },
         {
           "name": "Corundum",
-          "price": 3500
+          "price": 3900
         },
         {
           "name": "Fluorine",
@@ -4902,17 +4902,17 @@
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 878
+          "stock": 658
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 12000
+          "stock": 11884
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 74
+          "stock": 480
         },
         {
           "name": "Scrap",
@@ -4922,7 +4922,7 @@
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 395
+          "stock": 1050
         },
         {
           "name": "Agricultural Supplies",
@@ -5073,7 +5073,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 12000
+          "stock": 8691
         },
         {
           "name": "Hydrogen Fuel",
@@ -5163,11 +5163,11 @@
         },
         {
           "name": "Laranite",
-          "price": 9100
+          "price": 9200
         },
         {
           "name": "Medical Supplies",
-          "price": 5100
+          "price": 5500
         },
         {
           "name": "Distilled Spirits",
@@ -5195,7 +5195,7 @@
         },
         {
           "name": "Gold",
-          "price": 31000
+          "price": 33000
         },
         {
           "name": "Tungsten",
@@ -5391,7 +5391,7 @@
         },
         {
           "name": "Stileron",
-          "price": 140000
+          "price": 130000
         },
         {
           "name": "Dolivine",
@@ -5423,7 +5423,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Neograph",
