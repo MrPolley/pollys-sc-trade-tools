@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T08:38:43.768886+00:00",
+  "generated_at": "2026-10-09T15:55:20.887770+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -672,7 +672,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 8
+          "stock": 2067
         },
         {
           "name": "Methane",
@@ -711,7 +711,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 7800
+          "price": 5800
         },
         {
           "name": "Laranite",
@@ -882,7 +882,7 @@
         {
           "name": "Gold",
           "price": 26492,
-          "stock": 0
+          "stock": 11
         },
         {
           "name": "Scrap",
@@ -1895,7 +1895,7 @@
         },
         {
           "name": "Gold",
-          "price": 30000
+          "price": 32000
         },
         {
           "name": "Titanium",
@@ -1919,7 +1919,7 @@
         },
         {
           "name": "Laranite",
-          "price": 9000
+          "price": 9100
         },
         {
           "name": "Quartz",
@@ -1951,7 +1951,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 28000
+          "price": 29000
         },
         {
           "name": "Copper",
@@ -2147,7 +2147,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Beradom",
