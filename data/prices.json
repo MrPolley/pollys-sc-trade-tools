@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:40:00.651393+00:00",
+  "generated_at": "2026-10-10T00:34:03.641336+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -397,7 +397,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 72
+          "stock": 54
         },
         {
           "name": "Recycled Material Composite",
@@ -407,7 +407,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 343
+          "stock": 2820
         }
       ],
       "sell": [
@@ -441,7 +441,7 @@
         },
         {
           "name": "Astatine",
-          "price": 3500
+          "price": 3800
         },
         {
           "name": "Construction Materials",
@@ -453,11 +453,11 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3500
+          "price": 3400
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 3700
         },
         {
           "name": "Omnapoxy",
@@ -5073,7 +5073,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 8691
+          "stock": 12000
         },
         {
           "name": "Hydrogen Fuel",
@@ -5167,7 +5167,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5300
         },
         {
           "name": "Distilled Spirits",
@@ -5195,7 +5195,7 @@
         },
         {
           "name": "Gold",
-          "price": 33000
+          "price": 31000
         },
         {
           "name": "Tungsten",
@@ -5219,7 +5219,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 29000
+          "price": 27000
         },
         {
           "name": "Hephaestanite",
@@ -5387,11 +5387,11 @@
         },
         {
           "name": "Ranta Dung",
-          "price": 33000
+          "price": 31000
         },
         {
           "name": "Stileron",
-          "price": 130000
+          "price": 140000
         },
         {
           "name": "Dolivine",
