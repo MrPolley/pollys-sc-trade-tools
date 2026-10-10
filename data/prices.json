@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:23:00.687171+00:00",
+  "generated_at": "2026-10-10T18:17:58.637312+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4820,7 +4820,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3400
+          "price": 3700
         },
         {
           "name": "Luminalia Gift",
@@ -4828,7 +4828,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1000
+          "price": 1100
         },
         {
           "name": "Iron",
@@ -4836,11 +4836,11 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5800
+          "price": 5000
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3700
         },
         {
           "name": "Stims",
@@ -4852,7 +4852,7 @@
         },
         {
           "name": "Quartz",
-          "price": 4600
+          "price": 5500
         },
         {
           "name": "Tungsten",
