@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T00:34:03.641336+00:00",
+  "generated_at": "2026-10-10T06:47:13.652211+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -4832,15 +4832,15 @@
         },
         {
           "name": "Iron",
-          "price": 3400
+          "price": 3500
         },
         {
           "name": "Medical Supplies",
-          "price": 5000
+          "price": 5800
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3500
         },
         {
           "name": "Stims",
