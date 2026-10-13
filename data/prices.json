@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T17:31:31.610519+00:00",
+  "generated_at": "2026-10-13T00:18:35.490666+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1152,17 +1152,17 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 49
+          "stock": 3
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 82
+          "stock": 2100
         },
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 500
+          "stock": 10
         }
       ],
       "sell": [
@@ -1180,7 +1180,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 5500
         },
         {
           "name": "Dolivine",
@@ -1196,7 +1196,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5100
+          "price": 5500
         },
         {
           "name": "Marok Gem",
@@ -1208,11 +1208,11 @@
         },
         {
           "name": "Diamond",
-          "price": 9700
+          "price": 8300
         },
         {
           "name": "Construction Materials",
-          "price": 14000
+          "price": 12000
         },
         {
           "name": "Laranite",
@@ -1882,7 +1882,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 4700
         },
         {
           "name": "Agricium",
@@ -1890,7 +1890,7 @@
         },
         {
           "name": "Gold",
-          "price": 32000
+          "price": 30000
         },
         {
           "name": "Titanium",
@@ -1914,7 +1914,7 @@
         },
         {
           "name": "Laranite",
-          "price": 9100
+          "price": 8900
         },
         {
           "name": "Quartz",
@@ -2078,7 +2078,7 @@
         },
         {
           "name": "Riccite",
-          "price": 65000
+          "price": 66000
         },
         {
           "name": "Diamond Laminate",
@@ -2106,7 +2106,7 @@
         },
         {
           "name": "Stileron",
-          "price": 140000
+          "price": 130000
         },
         {
           "name": "Sunset Berries",
@@ -2142,7 +2142,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Beradom",
@@ -5063,7 +5063,7 @@
         {
           "name": "Waste",
           "price": 240,
-          "stock": 73
+          "stock": 55
         },
         {
           "name": "Processed Food",
@@ -5138,7 +5138,7 @@
         },
         {
           "name": "Titanium",
-          "price": 8200
+          "price": 8300
         },
         {
           "name": "Agricium",
@@ -5158,7 +5158,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8600
+          "price": 8500
         },
         {
           "name": "Medical Supplies",
@@ -5214,7 +5214,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 29000
+          "price": 28000
         },
         {
           "name": "Hephaestanite",
@@ -5350,11 +5350,11 @@
         },
         {
           "name": "Dymantium",
-          "price": 22000
+          "price": 23000
         },
         {
           "name": "Fresh Food",
-          "price": 24000
+          "price": 23000
         },
         {
           "name": "Riccite",
@@ -5386,7 +5386,7 @@
         },
         {
           "name": "Stileron",
-          "price": 140000
+          "price": 130000
         },
         {
           "name": "Dolivine",
@@ -5462,7 +5462,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 46000
+          "price": 45000
         },
         {
           "name": "Sadaryx",
