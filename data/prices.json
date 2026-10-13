@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T15:40:51.235173+00:00",
+  "generated_at": "2026-10-13T21:02:34.361121+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -200,17 +200,17 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 371
+          "stock": 650
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 181
+          "stock": 98
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 6000
+          "stock": 3302
         },
         {
           "name": "DynaFlex",
@@ -220,12 +220,12 @@
         {
           "name": "Ammonia",
           "price": 783,
-          "stock": 12000
+          "stock": 1374
         },
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 468
+          "stock": 151
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -335,7 +335,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 4600
+          "price": 3500
         },
         {
           "name": "Chlorine",
@@ -343,7 +343,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1500
+          "price": 1300
         },
         {
           "name": "Human Food Bars",
@@ -1316,7 +1316,7 @@
         {
           "name": "Diamond",
           "price": 6269,
-          "stock": 525
+          "stock": 30
         }
       ],
       "sell": [
@@ -1366,7 +1366,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3500
+          "price": 2900
         }
       ]
     },
@@ -1882,7 +1882,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4700
+          "price": 5300
         },
         {
           "name": "Agricium",
@@ -1914,7 +1914,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8900
+          "price": 8500
         },
         {
           "name": "Quartz",
@@ -1926,7 +1926,7 @@
         },
         {
           "name": "Stims",
-          "price": 5300
+          "price": 5200
         },
         {
           "name": "Revenant Tree Pollen",
@@ -1934,7 +1934,7 @@
         },
         {
           "name": "Taranite",
-          "price": 27000
+          "price": 28000
         },
         {
           "name": "Quantainium",
@@ -1942,11 +1942,11 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4800
+          "price": 4900
         },
         {
           "name": "Bexalite",
-          "price": 29000
+          "price": 28000
         },
         {
           "name": "Copper",
@@ -2106,7 +2106,7 @@
         },
         {
           "name": "Stileron",
-          "price": 130000
+          "price": 140000
         },
         {
           "name": "Sunset Berries",
@@ -2142,7 +2142,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Beradom",
@@ -2178,7 +2178,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 46000
+          "price": 45000
         },
         {
           "name": "Sadaryx",
