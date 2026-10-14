@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T11:41:12.483534+00:00",
+  "generated_at": "2026-10-14T16:47:19.408921+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -185,7 +185,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 2100
+          "stock": 1726
         },
         {
           "name": "Recycled Material Composite",
@@ -205,7 +205,7 @@
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 473
+          "stock": 102
         },
         {
           "name": "Agricultural Supplies",
@@ -225,7 +225,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 858
+          "stock": 249
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -877,12 +877,12 @@
         {
           "name": "Gold",
           "price": 26492,
-          "stock": 44
+          "stock": 20
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 2100
+          "stock": 1357
         },
         {
           "name": "Nitrogen",
@@ -3589,12 +3589,12 @@
         {
           "name": "Dymantium",
           "price": 20758,
-          "stock": 126
+          "stock": 128
         },
         {
           "name": "Audio-Visual Equipment",
           "price": 25004,
-          "stock": 39
+          "stock": 2
         },
         {
           "name": "Scrap",
@@ -3621,7 +3621,7 @@
         },
         {
           "name": "Recycled Material Composite",
-          "price": 7700
+          "price": 8500
         },
         {
           "name": "Stims",
@@ -5153,7 +5153,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 8900
         },
         {
           "name": "Medical Supplies",
@@ -5209,7 +5209,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 28000
+          "price": 27000
         },
         {
           "name": "Hephaestanite",
@@ -5241,7 +5241,7 @@
         },
         {
           "name": "Atlasium",
-          "price": 89000
+          "price": 87000
         },
         {
           "name": "Aphorite",
@@ -5349,7 +5349,7 @@
         },
         {
           "name": "Fresh Food",
-          "price": 23000
+          "price": 24000
         },
         {
           "name": "Riccite",
@@ -5381,7 +5381,7 @@
         },
         {
           "name": "Stileron",
-          "price": 130000
+          "price": 140000
         },
         {
           "name": "Dolivine",
@@ -5457,7 +5457,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 45000
+          "price": 46000
         },
         {
           "name": "Sadaryx",
