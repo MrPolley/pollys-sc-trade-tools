@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T21:02:34.361121+00:00",
+  "generated_at": "2026-10-14T00:56:50.052332+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -877,12 +877,12 @@
         {
           "name": "Gold",
           "price": 26492,
-          "stock": 56
+          "stock": 44
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 1227
+          "stock": 2100
         },
         {
           "name": "Nitrogen",
@@ -1390,7 +1390,7 @@
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 5985
+          "stock": 2449
         },
         {
           "name": "Potassium",
@@ -1506,7 +1506,7 @@
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1500
+          "price": 1400
         },
         {
           "name": "Amioshi Plague",
