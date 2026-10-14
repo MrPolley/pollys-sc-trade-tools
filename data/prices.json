@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T20:30:08.828425+00:00",
+  "generated_at": "2026-10-14T23:45:25.231242+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -3786,7 +3786,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 3383
+          "stock": 192
         },
         {
           "name": "Ammonia",
@@ -3801,17 +3801,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 271
+          "stock": 215
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 450
+          "stock": 4
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 1050
+          "stock": 130
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -4175,12 +4175,12 @@
         {
           "name": "Cobalt",
           "price": 18050,
-          "stock": 106
+          "stock": 241
         },
         {
           "name": "DynaFlex",
           "price": 1350,
-          "stock": 1547
+          "stock": 3000
         },
         {
           "name": "Human Food Bars",
@@ -4190,7 +4190,7 @@
         {
           "name": "Nitrogen",
           "price": 2439,
-          "stock": 1076
+          "stock": 2100
         },
         {
           "name": "Stims",
@@ -4274,7 +4274,7 @@
         },
         {
           "name": "Neon",
-          "price": 17000
+          "price": 19000
         },
         {
           "name": "Omnapoxy",
@@ -4314,15 +4314,15 @@
         },
         {
           "name": "Titanium",
-          "price": 8400
+          "price": 8000
         },
         {
           "name": "WiDoW",
-          "price": 7300
+          "price": 7400
         },
         {
           "name": "Altruciatoxin",
-          "price": 5400
+          "price": 6400
         }
       ]
     },
