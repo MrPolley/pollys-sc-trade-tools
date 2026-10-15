@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T08:59:05.963145+00:00",
+  "generated_at": "2026-10-15T14:06:30.089701+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1094,12 +1094,12 @@
         {
           "name": "Diamond",
           "price": 5759,
-          "stock": 81
+          "stock": 32
         },
         {
           "name": "Medical Supplies",
           "price": 3541,
-          "stock": 204
+          "stock": 81
         },
         {
           "name": "Astatine",
@@ -2584,8 +2584,8 @@
       "buy": [
         {
           "name": "Waste",
-          "price": 229,
-          "stock": 75
+          "price": 187,
+          "stock": 160
         },
         {
           "name": "Tungsten",
@@ -2606,19 +2606,19 @@
       "sell": [
         {
           "name": "Distilled Spirits",
-          "price": 1800
+          "price": 1900
         },
         {
           "name": "Stims",
-          "price": 5600
+          "price": 5800
         },
         {
           "name": "Processed Food",
-          "price": 1400
+          "price": 1500
         },
         {
           "name": "Hadanite",
-          "price": 600000
+          "price": 590000
         },
         {
           "name": "Dolivine",
