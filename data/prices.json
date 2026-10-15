@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:06:30.089701+00:00",
+  "generated_at": "2026-10-15T18:56:47.292234+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 1047
+          "stock": 679
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 1994
+          "stock": 800
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 1052
+          "stock": 172
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 24000
+          "stock": 21507
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -88,7 +88,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5500
+          "price": 5700
         },
         {
           "name": "Audio-Visual Equipment",
@@ -140,11 +140,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 3500
+          "price": 3700
         },
         {
           "name": "Corundum",
-          "price": 4000
+          "price": 4100
         },
         {
           "name": "Fluorine",
