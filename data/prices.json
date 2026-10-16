@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T20:40:19.138676+00:00",
+  "generated_at": "2026-10-16T23:19:00.517084+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -741,13 +741,13 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 512
+          "stock": 3066
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5000
         },
         {
           "name": "Distilled Spirits",
@@ -759,7 +759,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 4900
         },
         {
           "name": "Dolivine",
@@ -843,7 +843,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 7000
+          "price": 6000
         },
         {
           "name": "Hephaestanite",
@@ -3693,7 +3693,7 @@
         },
         {
           "name": "Agricium",
-          "price": 9200
+          "price": 9100
         },
         {
           "name": "Distilled Spirits",
@@ -4654,7 +4654,7 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 3000
+          "stock": 2535
         },
         {
           "name": "Aluminum",
@@ -4664,12 +4664,12 @@
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 969
+          "stock": 975
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 410
+          "stock": 348
         },
         {
           "name": "Mercury",
@@ -4684,7 +4684,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 12000
+          "stock": 11546
         },
         {
           "name": "Recycled Material Composite",
@@ -4815,7 +4815,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3400
+          "price": 4200
         },
         {
           "name": "Luminalia Gift",
@@ -4831,11 +4831,11 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5800
+          "price": 4900
         },
         {
           "name": "Scrap",
-          "price": 3800
+          "price": 3500
         },
         {
           "name": "Stims",
@@ -4843,15 +4843,15 @@
         },
         {
           "name": "Helium",
-          "price": 1300
+          "price": 1200
         },
         {
           "name": "Quartz",
-          "price": 5100
+          "price": 4200
         },
         {
           "name": "Tungsten",
-          "price": 11000
+          "price": 10000
         },
         {
           "name": "Carbon",
