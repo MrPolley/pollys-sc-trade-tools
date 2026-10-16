@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T22:05:48.437217+00:00",
+  "generated_at": "2026-10-16T01:03:00.478113+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1152,17 +1152,17 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 38
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 2067
+          "stock": 1702
         },
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 149
+          "stock": 117
         }
       ],
       "sell": [
@@ -1180,7 +1180,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 4900
         },
         {
           "name": "Dolivine",
@@ -1196,11 +1196,11 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4900
+          "price": 5200
         },
         {
           "name": "Marok Gem",
-          "price": 60000
+          "price": 50000
         },
         {
           "name": "Beryl",
@@ -1212,7 +1212,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 14000
+          "price": 12000
         },
         {
           "name": "Laranite",
@@ -1220,7 +1220,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4200
+          "price": 5000
         },
         {
           "name": "Thermalfoam",
@@ -1410,7 +1410,7 @@
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 6000
+          "stock": 3297
         },
         {
           "name": "Hydrogen Fuel",
@@ -1475,7 +1475,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 1706
+          "stock": 1724
         },
         {
           "name": "Hydrogen",
@@ -1506,11 +1506,11 @@
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1400
+          "price": 1500
         },
         {
           "name": "Amioshi Plague",
-          "price": 27000
+          "price": 26000
         },
         {
           "name": "Aphorite",
@@ -1562,7 +1562,7 @@
         },
         {
           "name": "Steel",
-          "price": 1900
+          "price": 2000
         },
         {
           "name": "Quartz",
@@ -1574,7 +1574,7 @@
         },
         {
           "name": "Argon",
-          "price": 550
+          "price": 510
         },
         {
           "name": "Beradom",
