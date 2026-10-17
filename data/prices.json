@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:45:45.470763+00:00",
+  "generated_at": "2026-10-17T16:11:21.899644+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -522,17 +522,17 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 64
+          "stock": 17
         },
         {
           "name": "Astatine",
-          "price": 2649,
-          "stock": 201
+          "price": 2469,
+          "stock": 4
         },
         {
           "name": "Gold",
           "price": 28928,
-          "stock": 21
+          "stock": 44
         },
         {
           "name": "Scrap",
@@ -575,11 +575,11 @@
         },
         {
           "name": "Agricium",
-          "price": 11000
+          "price": 9600
         },
         {
           "name": "Titanium",
-          "price": 8300
+          "price": 7800
         }
       ]
     },
@@ -1020,17 +1020,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 84
+          "stock": 126
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 1634
+          "stock": 660
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 1835
+          "stock": 442
         }
       ],
       "sell": [
@@ -1052,7 +1052,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 58000
+          "price": 69000
         },
         {
           "name": "Party Favors",
@@ -1064,7 +1064,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Marok Gem",
@@ -1072,7 +1072,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3600
+          "price": 2900
         },
         {
           "name": "Borase",
@@ -1080,7 +1080,7 @@
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 3800
         }
       ]
     },
@@ -3791,7 +3791,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 192
+          "stock": 740
         },
         {
           "name": "Ammonia",
@@ -3806,7 +3806,7 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 215
+          "stock": 284
         },
         {
           "name": "Silicon",
@@ -3816,7 +3816,7 @@
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 130
+          "stock": 146
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3856,7 +3856,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 10615
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -3918,7 +3918,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4400
+          "price": 4600
         },
         {
           "name": "Human Food Bars",
@@ -3938,7 +3938,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3000
+          "price": 2900
         },
         {
           "name": "Potassium",
@@ -3962,7 +3962,7 @@
         },
         {
           "name": "Titanium",
-          "price": 10000
+          "price": 7700
         },
         {
           "name": "Tungsten",
