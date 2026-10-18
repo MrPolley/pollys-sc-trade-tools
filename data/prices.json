@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T10:36:11.610737+00:00",
+  "generated_at": "2026-10-18T14:20:51.629711+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -12,12 +12,12 @@
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 896
+          "stock": 239
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 356
+          "stock": 2011
         },
         {
           "name": "Carbon",
@@ -526,18 +526,18 @@
         },
         {
           "name": "Astatine",
-          "price": 2469,
-          "stock": 4
+          "price": 2649,
+          "stock": 150
         },
         {
           "name": "Gold",
           "price": 28928,
-          "stock": 5
+          "stock": 15
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 2100
+          "stock": 494
         }
       ],
       "sell": [
@@ -567,7 +567,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Thermalfoam",
@@ -575,7 +575,7 @@
         },
         {
           "name": "Agricium",
-          "price": 11000
+          "price": 9600
         },
         {
           "name": "Titanium",
@@ -1180,7 +1180,7 @@
         },
         {
           "name": "Stims",
-          "price": 5000
+          "price": 5900
         },
         {
           "name": "Dolivine",
@@ -1196,11 +1196,11 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4700
+          "price": 5200
         },
         {
           "name": "Marok Gem",
-          "price": 60000
+          "price": 50000
         },
         {
           "name": "Beryl",
@@ -1208,7 +1208,7 @@
         },
         {
           "name": "Diamond",
-          "price": 8000
+          "price": 9700
         },
         {
           "name": "Construction Materials",
@@ -1233,7 +1233,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 820
+          "stock": 419
         },
         {
           "name": "Recycled Material Composite",
@@ -1261,7 +1261,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 5100
         },
         {
           "name": "Dolivine",
@@ -1277,11 +1277,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Medical Supplies",
-          "price": 5100
+          "price": 5800
         },
         {
           "name": "Beryl",
@@ -1385,12 +1385,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 172
+          "stock": 4493
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 514
+          "stock": 5874
         },
         {
           "name": "Potassium",
