@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T20:17:42.650574+00:00",
+  "generated_at": "2026-10-18T22:52:17.228747+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1375,7 +1375,7 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 4253
+          "stock": 2573
         },
         {
           "name": "Waste",
@@ -1385,12 +1385,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 4493
+          "stock": 829
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 5874
+          "stock": 172
         },
         {
           "name": "Potassium",
@@ -1405,12 +1405,12 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 6000
+          "stock": 5405
         },
         {
           "name": "Fluorine",
           "price": 1090,
-          "stock": 6000
+          "stock": 3761
         },
         {
           "name": "Hydrogen Fuel",
@@ -1480,7 +1480,7 @@
         {
           "name": "Hydrogen",
           "price": 800,
-          "stock": 11816
+          "stock": 1261
         }
       ],
       "sell": [
@@ -1498,7 +1498,7 @@
         },
         {
           "name": "Pitambu",
-          "price": 63000
+          "price": 62000
         },
         {
           "name": "Processed Food",
@@ -1518,11 +1518,11 @@
         },
         {
           "name": "Astatine",
-          "price": 3400
+          "price": 3300
         },
         {
           "name": "Golden Medmon",
-          "price": 64000
+          "price": 63000
         },
         {
           "name": "Hadanite",
@@ -1530,7 +1530,7 @@
         },
         {
           "name": "Iodine",
-          "price": 11000
+          "price": 12000
         },
         {
           "name": "Prota",
@@ -1542,7 +1542,7 @@
         },
         {
           "name": "Stims",
-          "price": 5600
+          "price": 5400
         },
         {
           "name": "Revenant Pod",
@@ -1574,7 +1574,7 @@
         },
         {
           "name": "Argon",
-          "price": 540
+          "price": 550
         },
         {
           "name": "Beradom",
