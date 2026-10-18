@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T14:20:51.629711+00:00",
+  "generated_at": "2026-10-18T17:53:16.979739+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -599,7 +599,7 @@
       "sell": [
         {
           "name": "Compboard",
-          "price": 27000
+          "price": 26000
         },
         {
           "name": "Degnous Root",
@@ -615,7 +615,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5000
+          "price": 5500
         },
         {
           "name": "Party Favors",
@@ -639,11 +639,11 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4900
+          "price": 5400
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4800
         }
       ]
     },
@@ -1094,22 +1094,22 @@
         {
           "name": "Diamond",
           "price": 5759,
-          "stock": 32
+          "stock": 33
         },
         {
           "name": "Medical Supplies",
           "price": 3541,
-          "stock": 81
+          "stock": 0
         },
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 2052
+          "stock": 749
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 2100
+          "stock": 1149
         }
       ],
       "sell": [
@@ -1139,7 +1139,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Marok Gem",
@@ -5138,7 +5138,7 @@
         },
         {
           "name": "Titanium",
-          "price": 8200
+          "price": 8300
         },
         {
           "name": "Agricium",
@@ -5158,11 +5158,11 @@
         },
         {
           "name": "Laranite",
-          "price": 8900
+          "price": 8500
         },
         {
           "name": "Medical Supplies",
-          "price": 4600
+          "price": 5500
         },
         {
           "name": "Distilled Spirits",
@@ -5214,7 +5214,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 29000
+          "price": 28000
         },
         {
           "name": "Hephaestanite",
@@ -5246,7 +5246,7 @@
         },
         {
           "name": "Atlasium",
-          "price": 87000
+          "price": 89000
         },
         {
           "name": "Aphorite",
@@ -5418,7 +5418,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Neograph",
@@ -5462,7 +5462,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 46000
+          "price": 45000
         },
         {
           "name": "Sadaryx",
