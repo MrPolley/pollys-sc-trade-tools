@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T17:53:16.979739+00:00",
+  "generated_at": "2026-10-18T20:17:42.650574+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2191,7 +2191,7 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 14
+          "stock": 92
         },
         {
           "name": "Beryl",
@@ -2201,7 +2201,7 @@
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 90
+          "stock": 28
         },
         {
           "name": "Corundum",
@@ -2226,12 +2226,12 @@
         {
           "name": "Ship Ammunition - Size 1",
           "price": 6868,
-          "stock": 12000
+          "stock": 11996
         },
         {
           "name": "Ship Ammunition - Size 2",
           "price": 7126,
-          "stock": 12000
+          "stock": 11996
         },
         {
           "name": "Ship Ammunition - Size 3",
@@ -2276,7 +2276,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3300
+          "price": 3200
         },
         {
           "name": "Ammonia",
@@ -2376,7 +2376,7 @@
         },
         {
           "name": "Gold",
-          "price": 27000
+          "price": 26000
         },
         {
           "name": "Golden Medmon",
