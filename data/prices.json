@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T05:53:46.658960+00:00",
+  "generated_at": "2026-10-19T12:33:05.097513+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -392,7 +392,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 3
+          "stock": 75
         },
         {
           "name": "Recycled Material Composite",
@@ -436,11 +436,11 @@
         },
         {
           "name": "Astatine",
-          "price": 3900
+          "price": 3400
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Gold",
@@ -452,11 +452,11 @@
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 4100
         },
         {
           "name": "Omnapoxy",
-          "price": 4200
+          "price": 5000
         }
       ]
     },
@@ -599,7 +599,7 @@
       "sell": [
         {
           "name": "Compboard",
-          "price": 26000
+          "price": 27000
         },
         {
           "name": "Degnous Root",
@@ -627,11 +627,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 15000
         },
         {
           "name": "Agricium",
-          "price": 9400
+          "price": 11000
         },
         {
           "name": "Nitrogen",
@@ -639,11 +639,11 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 5400
+          "price": 4300
         },
         {
           "name": "Hephaestanite",
-          "price": 4800
+          "price": 4700
         }
       ]
     },
@@ -1020,17 +1020,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 220
+          "stock": 80
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 1835
+          "stock": 660
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 1476
+          "stock": 1301
         }
       ],
       "sell": [
@@ -1072,7 +1072,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Borase",
@@ -1080,7 +1080,7 @@
         },
         {
           "name": "Methane",
-          "price": 3400
+          "price": 3600
         }
       ]
     },
@@ -1233,7 +1233,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 419
+          "stock": 998
         },
         {
           "name": "Recycled Material Composite",
@@ -1261,7 +1261,7 @@
         },
         {
           "name": "Stims",
-          "price": 5100
+          "price": 4900
         },
         {
           "name": "Dolivine",
@@ -1277,11 +1277,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Medical Supplies",
-          "price": 5800
+          "price": 4800
         },
         {
           "name": "Beryl",
@@ -1289,7 +1289,7 @@
         },
         {
           "name": "Agricium",
-          "price": 10000
+          "price": 9800
         },
         {
           "name": "Borase",
@@ -4634,7 +4634,7 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 3000
+          "stock": 2050
         },
         {
           "name": "Fluorine",
@@ -4659,7 +4659,7 @@
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 5660
+          "stock": 6000
         },
         {
           "name": "Corundum",
@@ -4669,7 +4669,7 @@
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 90
+          "stock": 94
         },
         {
           "name": "Mercury",
@@ -4835,7 +4835,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3700
         },
         {
           "name": "Stims",
@@ -4843,11 +4843,11 @@
         },
         {
           "name": "Helium",
-          "price": 1200
+          "price": 1300
         },
         {
           "name": "Quartz",
-          "price": 5300
+          "price": 5100
         },
         {
           "name": "Tungsten",
