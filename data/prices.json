@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T23:26:09.501645+00:00",
+  "generated_at": "2026-10-20T04:02:27.286469+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,17 +7,17 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 389
+          "stock": 479
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 22
+          "stock": 675
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 172
+          "stock": 522
         },
         {
           "name": "Carbon",
@@ -88,7 +88,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5700
+          "price": 4800
         },
         {
           "name": "Audio-Visual Equipment",
@@ -132,7 +132,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Ammonia",
@@ -144,7 +144,7 @@
         },
         {
           "name": "Corundum",
-          "price": 3800
+          "price": 3500
         },
         {
           "name": "Fluorine",
@@ -200,32 +200,32 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 72
+          "stock": 1050
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 30
+          "stock": 379
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 5152
+          "stock": 6000
         },
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 576
+          "stock": 3000
         },
         {
           "name": "Ammonia",
           "price": 783,
-          "stock": 10069
+          "stock": 12000
         },
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 302
+          "stock": 1050
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -299,7 +299,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1200
+          "price": 1100
         },
         {
           "name": "Aphorite",
@@ -315,7 +315,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Degnous Root",
@@ -335,7 +335,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3800
+          "price": 4400
         },
         {
           "name": "Chlorine",
@@ -1162,7 +1162,7 @@
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 340
+          "stock": 89
         }
       ],
       "sell": [
@@ -1180,7 +1180,7 @@
         },
         {
           "name": "Stims",
-          "price": 5900
+          "price": 5800
         },
         {
           "name": "Dolivine",
@@ -1196,11 +1196,11 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5200
+          "price": 5500
         },
         {
           "name": "Marok Gem",
-          "price": 50000
+          "price": 60000
         },
         {
           "name": "Beryl",
@@ -2590,17 +2590,17 @@
         {
           "name": "Tungsten",
           "price": 8265,
-          "stock": 19
+          "stock": 139
         },
         {
           "name": "Quartz",
           "price": 3705,
-          "stock": 5496
+          "stock": 6
         },
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 850
+          "stock": 1050
         }
       ],
       "sell": [
@@ -3442,7 +3442,7 @@
         {
           "name": "Agricium",
           "price": 6840,
-          "stock": 93
+          "stock": 39
         },
         {
           "name": "Human Food Bars",
@@ -3457,7 +3457,7 @@
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 495
+          "stock": 1977
         }
       ],
       "sell": [
@@ -3491,7 +3491,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2100
+          "price": 1700
         },
         {
           "name": "E'tam",
@@ -3523,7 +3523,7 @@
         },
         {
           "name": "Neon",
-          "price": 18000
+          "price": 19000
         },
         {
           "name": "Pressurized Ice",
@@ -3559,7 +3559,7 @@
         },
         {
           "name": "Steel",
-          "price": 2400
+          "price": 2300
         },
         {
           "name": "Stims",
@@ -4897,32 +4897,32 @@
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 447
+          "stock": 33
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 2772
+          "stock": 2179
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 164
+          "stock": 335
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 707
+          "stock": 2100
         },
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 148
+          "stock": 384
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 4608
+          "stock": 3568
         },
         {
           "name": "Quantum Fuel",
@@ -4993,15 +4993,15 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3700
+          "price": 3100
         },
         {
           "name": "Chlorine",
-          "price": 1800
+          "price": 1400
         },
         {
           "name": "Copper",
-          "price": 4500
+          "price": 3600
         },
         {
           "name": "Degnous Root",
@@ -5029,11 +5029,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 3500
+          "price": 3800
         },
         {
           "name": "Corundum",
-          "price": 3600
+          "price": 4100
         },
         {
           "name": "Silicon",
