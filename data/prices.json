@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T09:12:15.291099+00:00",
+  "generated_at": "2026-10-21T14:55:52.614286+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1322,7 +1322,7 @@
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5000
+          "price": 5100
         },
         {
           "name": "Distilled Spirits",
@@ -1354,7 +1354,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 5800
+          "price": 6600
         },
         {
           "name": "Beryl",
