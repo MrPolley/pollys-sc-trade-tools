@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:55:52.614286+00:00",
+  "generated_at": "2026-10-21T19:10:18.892998+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 426
+          "stock": 360
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 2652
+          "stock": 400
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 1253
+          "stock": 909
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 24000
+          "stock": 21907
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -1020,17 +1020,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 1
+          "stock": 48
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 519
+          "stock": 0
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 767
+          "stock": 1153
         }
       ],
       "sell": [
@@ -1157,12 +1157,12 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 2100
+          "stock": 1149
         },
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 500
+          "stock": 153
         }
       ],
       "sell": [
@@ -1180,7 +1180,7 @@
         },
         {
           "name": "Stims",
-          "price": 4900
+          "price": 5600
         },
         {
           "name": "Dolivine",
@@ -1188,7 +1188,7 @@
         },
         {
           "name": "Compboard",
-          "price": 34000
+          "price": 32000
         },
         {
           "name": "Party Favors",
@@ -1196,7 +1196,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5000
+          "price": 5400
         },
         {
           "name": "Marok Gem",
@@ -1208,15 +1208,15 @@
         },
         {
           "name": "Diamond",
-          "price": 7200
+          "price": 7100
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Laranite",
-          "price": 10000
+          "price": 8500
         },
         {
           "name": "Omnapoxy",
