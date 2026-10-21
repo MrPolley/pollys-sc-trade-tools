@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T03:51:35.183532+00:00",
+  "generated_at": "2026-10-21T09:12:15.291099+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,17 +7,17 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 2100
+          "stock": 426
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 431
+          "stock": 2652
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 502
+          "stock": 1253
         },
         {
           "name": "Carbon",
@@ -88,7 +88,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5000
+          "price": 5700
         },
         {
           "name": "Audio-Visual Equipment",
@@ -132,7 +132,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Ammonia",
@@ -144,7 +144,7 @@
         },
         {
           "name": "Corundum",
-          "price": 3500
+          "price": 4100
         },
         {
           "name": "Fluorine",
@@ -877,12 +877,12 @@
         {
           "name": "Gold",
           "price": 26492,
-          "stock": 25
+          "stock": 50
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 2100
+          "stock": 16
         },
         {
           "name": "Nitrogen",
@@ -1162,7 +1162,7 @@
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 89
+          "stock": 500
         }
       ],
       "sell": [
@@ -1180,7 +1180,7 @@
         },
         {
           "name": "Stims",
-          "price": 5800
+          "price": 4900
         },
         {
           "name": "Dolivine",
@@ -1196,7 +1196,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5000
         },
         {
           "name": "Marok Gem",
@@ -1208,15 +1208,15 @@
         },
         {
           "name": "Diamond",
-          "price": 7100
+          "price": 7200
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 10000
         },
         {
           "name": "Omnapoxy",
@@ -1375,7 +1375,7 @@
         {
           "name": "Helium",
           "price": 772,
-          "stock": 502
+          "stock": 10846
         },
         {
           "name": "Waste",
@@ -1385,12 +1385,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 2502
+          "stock": 3460
         },
         {
           "name": "Aluminum",
           "price": 3285,
-          "stock": 172
+          "stock": 6000
         },
         {
           "name": "Potassium",
@@ -1405,7 +1405,7 @@
         {
           "name": "Chlorine",
           "price": 1162,
-          "stock": 4279
+          "stock": 6000
         },
         {
           "name": "Fluorine",
@@ -1498,7 +1498,7 @@
         },
         {
           "name": "Pitambu",
-          "price": 62000
+          "price": 63000
         },
         {
           "name": "Processed Food",
@@ -1506,11 +1506,11 @@
         },
         {
           "name": "Agricultural Supplies",
-          "price": 1400
+          "price": 1500
         },
         {
           "name": "Amioshi Plague",
-          "price": 24000
+          "price": 27000
         },
         {
           "name": "Aphorite",
@@ -1518,11 +1518,11 @@
         },
         {
           "name": "Astatine",
-          "price": 3300
+          "price": 3400
         },
         {
           "name": "Golden Medmon",
-          "price": 63000
+          "price": 64000
         },
         {
           "name": "Hadanite",
@@ -1530,7 +1530,7 @@
         },
         {
           "name": "Iodine",
-          "price": 12000
+          "price": 11000
         },
         {
           "name": "Prota",
@@ -1538,11 +1538,11 @@
         },
         {
           "name": "Ranta Dung",
-          "price": 39000
+          "price": 36000
         },
         {
           "name": "Stims",
-          "price": 5400
+          "price": 5600
         },
         {
           "name": "Revenant Pod",
@@ -1554,7 +1554,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 5000
+          "price": 4700
         },
         {
           "name": "Human Food Bars",
@@ -1562,7 +1562,7 @@
         },
         {
           "name": "Steel",
-          "price": 1900
+          "price": 2000
         },
         {
           "name": "Quartz",
