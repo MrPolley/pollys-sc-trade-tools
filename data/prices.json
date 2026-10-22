@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T03:51:16.095212+00:00",
+  "generated_at": "2026-10-22T09:15:14.429911+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 360
+          "stock": 1073
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 400
+          "stock": 970
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 909
+          "stock": 312
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 21907
+          "stock": 22513
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -132,7 +132,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Ammonia",
@@ -140,11 +140,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 4200
+          "price": 3500
         },
         {
           "name": "Corundum",
-          "price": 4100
+          "price": 3700
         },
         {
           "name": "Fluorine",
@@ -1020,17 +1020,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 48
+          "stock": 287
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 0
+          "stock": 2100
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 1153
+          "stock": 364
         }
       ],
       "sell": [
@@ -1052,7 +1052,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 67000
+          "price": 64000
         },
         {
           "name": "Party Favors",
@@ -1064,7 +1064,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Marok Gem",
@@ -1072,7 +1072,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 2900
+          "price": 3600
         },
         {
           "name": "Borase",
@@ -1080,7 +1080,7 @@
         },
         {
           "name": "Methane",
-          "price": 3500
+          "price": 3700
         }
       ]
     },
@@ -5068,7 +5068,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 12000
+          "stock": 11289
         },
         {
           "name": "Hydrogen Fuel",
@@ -5162,7 +5162,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5400
         },
         {
           "name": "Distilled Spirits",
@@ -5214,7 +5214,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 28000
+          "price": 29000
         },
         {
           "name": "Hephaestanite",
@@ -5246,7 +5246,7 @@
         },
         {
           "name": "Atlasium",
-          "price": 89000
+          "price": 87000
         },
         {
           "name": "Aphorite",
@@ -5418,7 +5418,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Neograph",
@@ -5462,7 +5462,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 45000
+          "price": 46000
         },
         {
           "name": "Sadaryx",
