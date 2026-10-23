@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T18:55:13.300757+00:00",
+  "generated_at": "2026-10-23T21:55:26.995966+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -741,7 +741,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 2305
+          "stock": 592
         }
       ],
       "sell": [
@@ -759,7 +759,7 @@
         },
         {
           "name": "Stims",
-          "price": 4900
+          "price": 5700
         },
         {
           "name": "Dolivine",
@@ -815,7 +815,7 @@
         },
         {
           "name": "E'tam",
-          "price": 22000
+          "price": 24000
         },
         {
           "name": "Neon",
@@ -823,7 +823,7 @@
         },
         {
           "name": "Altruciatoxin",
-          "price": 6800
+          "price": 7100
         },
         {
           "name": "WiDoW",
@@ -839,19 +839,19 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Thermalfoam",
-          "price": 6300
+          "price": 6200
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 5600
         },
         {
           "name": "Nitrogen",
-          "price": 3100
+          "price": 3000
         },
         {
           "name": "Agricium",
@@ -1613,7 +1613,7 @@
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 1050
+          "stock": 342
         },
         {
           "name": "Silicon",
@@ -1623,12 +1623,12 @@
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 1189
+          "stock": 1946
         },
         {
           "name": "Titanium",
           "price": 7681,
-          "stock": 6000
+          "stock": 30
         },
         {
           "name": "Carbon",
@@ -3089,7 +3089,7 @@
         {
           "name": "Helium",
           "price": 727,
-          "stock": 36000
+          "stock": 33800
         },
         {
           "name": "Potassium",
@@ -3099,12 +3099,12 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 4500
+          "stock": 16
         },
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 1659
+          "stock": 1547
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -3786,7 +3786,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 5068
+          "stock": 173
         },
         {
           "name": "Ammonia",
@@ -3801,17 +3801,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 105
+          "stock": 341
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 688
+          "stock": 188
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 418
+          "stock": 499
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3957,7 +3957,7 @@
         },
         {
           "name": "Titanium",
-          "price": 10000
+          "price": 8100
         },
         {
           "name": "Tungsten",
