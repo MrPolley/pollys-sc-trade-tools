@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:11:58.536442+00:00",
+  "generated_at": "2026-10-23T14:43:58.120725+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -667,18 +667,18 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 939
+          "stock": 2100
         },
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 1678
+          "stock": 2100
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5100
+          "price": 5500
         },
         {
           "name": "Distilled Spirits",
@@ -706,15 +706,15 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 5900
+          "price": 7800
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 8600
         },
         {
           "name": "Astatine",
-          "price": 3400
+          "price": 3800
         },
         {
           "name": "Hephaestanite",
@@ -1020,17 +1020,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 287
+          "stock": 376
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 2100
+          "stock": 331
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 364
+          "stock": 2100
         }
       ],
       "sell": [
@@ -1052,7 +1052,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 64000
+          "price": 63000
         },
         {
           "name": "Party Favors",
@@ -1064,7 +1064,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Marok Gem",
@@ -1080,7 +1080,7 @@
         },
         {
           "name": "Methane",
-          "price": 3700
+          "price": 4100
         }
       ]
     },
@@ -4997,7 +4997,7 @@
         },
         {
           "name": "Chlorine",
-          "price": 1400
+          "price": 1900
         },
         {
           "name": "Copper",
