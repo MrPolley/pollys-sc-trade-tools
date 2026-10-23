@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T03:55:31.442700+00:00",
+  "generated_at": "2026-10-23T09:11:58.536442+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1613,17 +1613,17 @@
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 520
+          "stock": 1050
         },
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 11022
+          "stock": 12000
         },
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 1306
+          "stock": 1189
         },
         {
           "name": "Titanium",
@@ -1699,7 +1699,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5100
+          "price": 5300
         },
         {
           "name": "Audio-Visual Equipment",
@@ -1743,7 +1743,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5900
+          "price": 6000
         },
         {
           "name": "Ammonia",
@@ -1751,7 +1751,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1900
+          "price": 2000
         },
         {
           "name": "Mercury",
@@ -3089,7 +3089,7 @@
         {
           "name": "Revenant Tree Pollen",
           "price": 967,
-          "stock": 16414
+          "stock": 18000
         },
         {
           "name": "Helium",
@@ -3104,12 +3104,12 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 3504
+          "stock": 4500
         },
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 612
+          "stock": 1659
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -3177,7 +3177,7 @@
         },
         {
           "name": "Borase",
-          "price": 25000
+          "price": 27000
         },
         {
           "name": "Agricium",
@@ -3201,7 +3201,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5300
+          "price": 5500
         },
         {
           "name": "Mercury",
@@ -3237,7 +3237,7 @@
         },
         {
           "name": "Titanium",
-          "price": 8100
+          "price": 8300
         },
         {
           "name": "Tungsten",
@@ -3285,7 +3285,7 @@
         },
         {
           "name": "Recycled Material Composite",
-          "price": 6900
+          "price": 7200
         },
         {
           "name": "Laranite",
@@ -3301,7 +3301,7 @@
         },
         {
           "name": "Hydrogen Fuel",
-          "price": 730
+          "price": 740
         },
         {
           "name": "Stileron",
@@ -4341,7 +4341,7 @@
         {
           "name": "Hephaestanite",
           "price": 4167,
-          "stock": 1050
+          "stock": 947
         },
         {
           "name": "Iron",
@@ -4371,7 +4371,7 @@
         {
           "name": "Aluminum",
           "price": 3128,
-          "stock": 620
+          "stock": 22
         },
         {
           "name": "Hydrogen Fuel",
@@ -4497,7 +4497,7 @@
       "sell": [
         {
           "name": "Quartz",
-          "price": 4500
+          "price": 5400
         },
         {
           "name": "Tungsten",
@@ -4513,7 +4513,7 @@
         },
         {
           "name": "Distilled Spirits",
-          "price": 2000
+          "price": 2100
         },
         {
           "name": "Carbon",
@@ -4525,7 +4525,7 @@
         },
         {
           "name": "Copper",
-          "price": 3700
+          "price": 4400
         },
         {
           "name": "Fluorine",
