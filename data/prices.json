@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T14:20:11.569217+00:00",
+  "generated_at": "2026-10-24T17:57:01.196022+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -475,7 +475,7 @@
         {
           "name": "Medical Supplies",
           "price": 4401,
-          "stock": 20
+          "stock": 141
         }
       ],
       "sell": [
@@ -505,15 +505,15 @@
         },
         {
           "name": "Astatine",
-          "price": 3500
+          "price": 3900
         },
         {
           "name": "Nitrogen",
-          "price": 3300
+          "price": 3500
         },
         {
           "name": "Methane",
-          "price": 3500
+          "price": 4100
         }
       ]
     },
@@ -603,7 +603,7 @@
         },
         {
           "name": "Degnous Root",
-          "price": 63000
+          "price": 61000
         },
         {
           "name": "Distilled Spirits",
@@ -615,7 +615,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5000
         },
         {
           "name": "Party Favors",
@@ -1020,17 +1020,17 @@
         {
           "name": "Medical Supplies",
           "price": 3607,
-          "stock": 96
+          "stock": 16
         },
         {
           "name": "Scrap",
           "price": 2749,
-          "stock": 40
+          "stock": 1240
         },
         {
           "name": "Astatine",
           "price": 2881,
-          "stock": 356
+          "stock": 284
         }
       ],
       "sell": [
@@ -1094,12 +1094,12 @@
         {
           "name": "Diamond",
           "price": 5759,
-          "stock": 145
+          "stock": 14
         },
         {
           "name": "Medical Supplies",
           "price": 3541,
-          "stock": 81
+          "stock": 16
         },
         {
           "name": "Astatine",
@@ -1109,7 +1109,7 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 2100
+          "stock": 1028
         }
       ],
       "sell": [
@@ -1322,7 +1322,7 @@
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5100
+          "price": 5400
         },
         {
           "name": "Distilled Spirits",
@@ -1366,7 +1366,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3400
+          "price": 2900
         }
       ]
     },
@@ -3089,7 +3089,7 @@
         {
           "name": "Helium",
           "price": 727,
-          "stock": 33729
+          "stock": 35041
         },
         {
           "name": "Potassium",
@@ -3104,7 +3104,7 @@
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 604
+          "stock": 1123
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -3124,7 +3124,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 11154
+          "stock": 12000
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -4175,7 +4175,7 @@
         {
           "name": "Cobalt",
           "price": 18050,
-          "stock": 65
+          "stock": 34
         },
         {
           "name": "DynaFlex",
@@ -4190,17 +4190,17 @@
         {
           "name": "Nitrogen",
           "price": 2439,
-          "stock": 242
+          "stock": 408
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 210
+          "stock": 360
         },
         {
           "name": "Fluorine",
-          "price": 987,
-          "stock": 1010
+          "price": 1134,
+          "stock": 0
         }
       ],
       "sell": [
@@ -4270,11 +4270,11 @@
         },
         {
           "name": "Methane",
-          "price": 3700
+          "price": 3800
         },
         {
           "name": "Neon",
-          "price": 17000
+          "price": 18000
         },
         {
           "name": "Omnapoxy",
@@ -4314,11 +4314,11 @@
         },
         {
           "name": "Titanium",
-          "price": 9100
+          "price": 7700
         },
         {
           "name": "WiDoW",
-          "price": 7600
+          "price": 7000
         },
         {
           "name": "Altruciatoxin",
@@ -4866,11 +4866,11 @@
         },
         {
           "name": "Stileron",
-          "price": 170000
+          "price": 140000
         },
         {
           "name": "Medical Supplies",
-          "price": 5800
+          "price": 4900
         },
         {
           "name": "Stims",
