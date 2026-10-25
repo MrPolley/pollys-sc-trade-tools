@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:33:24.805785+00:00",
+  "generated_at": "2026-10-25T23:04:02.168151+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2271,7 +2271,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3200
+          "price": 3000
         },
         {
           "name": "Ammonia",
@@ -2291,11 +2291,11 @@
         },
         {
           "name": "Atlasium",
-          "price": 91000
+          "price": 98000
         },
         {
           "name": "Audio-Visual Equipment",
-          "price": 39000
+          "price": 38000
         },
         {
           "name": "Bexalite",
@@ -2303,7 +2303,7 @@
         },
         {
           "name": "Bioplastic",
-          "price": 8500
+          "price": 8300
         },
         {
           "name": "Borase",
@@ -2371,7 +2371,7 @@
         },
         {
           "name": "Gold",
-          "price": 26000
+          "price": 27000
         },
         {
           "name": "Golden Medmon",
@@ -2395,7 +2395,7 @@
         },
         {
           "name": "Iodine",
-          "price": 12000
+          "price": 11000
         },
         {
           "name": "Janalite",
@@ -2423,7 +2423,7 @@
         },
         {
           "name": "Methane",
-          "price": 3600
+          "price": 3700
         },
         {
           "name": "Nitrogen",
@@ -2475,7 +2475,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3500
         },
         {
           "name": "Silicon",
