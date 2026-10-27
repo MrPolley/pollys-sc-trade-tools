@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T01:16:27.277817+00:00",
+  "generated_at": "2026-10-27T07:29:23.134916+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -12,17 +12,17 @@
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 533
+          "stock": 115
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 704
+          "stock": 1900
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 23488
+          "stock": 21794
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -88,7 +88,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5600
+          "price": 5700
         },
         {
           "name": "Audio-Visual Equipment",
@@ -120,7 +120,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4400
         },
         {
           "name": "Hydrogen",
@@ -140,11 +140,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 4200
+          "price": 3600
         },
         {
           "name": "Corundum",
-          "price": 3900
+          "price": 4100
         },
         {
           "name": "Fluorine",
@@ -5153,7 +5153,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8900
+          "price": 8600
         },
         {
           "name": "Medical Supplies",
@@ -5209,7 +5209,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 28000
+          "price": 29000
         },
         {
           "name": "Hephaestanite",
