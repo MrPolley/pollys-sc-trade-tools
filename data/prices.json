@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T21:28:05.921940+00:00",
+  "generated_at": "2026-10-27T01:16:27.277817+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -392,7 +392,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 7
         },
         {
           "name": "Recycled Material Composite",
@@ -402,7 +402,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 532
+          "stock": 2
         }
       ],
       "sell": [
@@ -731,7 +731,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 69
         },
         {
           "name": "Recycled Material Composite",
@@ -740,8 +740,8 @@
         },
         {
           "name": "Laranite",
-          "price": 7400,
-          "stock": 511
+          "price": 8390,
+          "stock": 691
         }
       ],
       "sell": [
@@ -815,7 +815,7 @@
         },
         {
           "name": "E'tam",
-          "price": 24000
+          "price": 26000
         },
         {
           "name": "Neon",
@@ -1233,7 +1233,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 2027
+          "stock": 167
         },
         {
           "name": "Recycled Material Composite",
@@ -1243,7 +1243,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 75
+          "stock": 9
         }
       ],
       "sell": [
@@ -1261,7 +1261,7 @@
         },
         {
           "name": "Stims",
-          "price": 5800
+          "price": 5700
         },
         {
           "name": "Dolivine",
@@ -1277,11 +1277,11 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Medical Supplies",
-          "price": 4800
+          "price": 5800
         },
         {
           "name": "Beryl",
@@ -1289,7 +1289,7 @@
         },
         {
           "name": "Agricium",
-          "price": 10000
+          "price": 9700
         },
         {
           "name": "Borase",
@@ -1297,7 +1297,7 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 4500
+          "price": 5000
         }
       ]
     },
