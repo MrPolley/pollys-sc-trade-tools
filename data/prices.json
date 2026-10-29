@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:43:36.702542+00:00",
+  "generated_at": "2026-10-29T21:38:29.748637+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 254
+          "stock": 368
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 2791
+          "stock": 285
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 5873
+          "stock": 514
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 24000
+          "stock": 20762
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -144,7 +144,7 @@
         },
         {
           "name": "Corundum",
-          "price": 3800
+          "price": 4100
         },
         {
           "name": "Fluorine",
@@ -4624,12 +4624,12 @@
         {
           "name": "Fluorine",
           "price": 1142,
-          "stock": 4560
+          "stock": 6000
         },
         {
           "name": "Waste",
           "price": 232,
-          "stock": 248272
+          "stock": 250000
         },
         {
           "name": "Recycled Material Composite",
@@ -4644,22 +4644,22 @@
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 5703
+          "stock": 6000
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 1050
+          "stock": 876
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 91
+          "stock": 785
         },
         {
           "name": "Mercury",
           "price": 744,
-          "stock": 15000
+          "stock": 13482
         },
         {
           "name": "Chlorine",
@@ -4800,7 +4800,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 4300
+          "price": 3400
         },
         {
           "name": "Luminalia Gift",
@@ -4816,11 +4816,11 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5100
+          "price": 5000
         },
         {
           "name": "Scrap",
-          "price": 3800
+          "price": 3500
         },
         {
           "name": "Stims",
@@ -4832,7 +4832,7 @@
         },
         {
           "name": "Quartz",
-          "price": 5400
+          "price": 5300
         },
         {
           "name": "Tungsten",
