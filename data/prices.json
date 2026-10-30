@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T01:41:39.474737+00:00",
+  "generated_at": "2026-10-30T08:17:18.533228+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -1162,7 +1162,7 @@
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 25
+          "stock": 77
         }
       ],
       "sell": [
@@ -1180,7 +1180,7 @@
         },
         {
           "name": "Stims",
-          "price": 5400
+          "price": 5900
         },
         {
           "name": "Dolivine",
@@ -1196,7 +1196,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4600
+          "price": 4900
         },
         {
           "name": "Marok Gem",
@@ -1208,7 +1208,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7100
+          "price": 7300
         },
         {
           "name": "Construction Materials",
@@ -1216,7 +1216,7 @@
         },
         {
           "name": "Laranite",
-          "price": 11000
+          "price": 8500
         },
         {
           "name": "Omnapoxy",
