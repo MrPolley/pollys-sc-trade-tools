@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T21:38:29.748637+00:00",
+  "generated_at": "2026-10-30T01:41:39.474737+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 368
+          "stock": 1410
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 285
+          "stock": 2221
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 514
+          "stock": 1174
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 20762
+          "stock": 24000
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -402,7 +402,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 511
+          "stock": 2891
         }
       ],
       "sell": [
@@ -436,11 +436,11 @@
         },
         {
           "name": "Astatine",
-          "price": 3600
+          "price": 3700
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Gold",
@@ -448,11 +448,11 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3000
+          "price": 3200
         },
         {
           "name": "Methane",
-          "price": 3600
+          "price": 3400
         },
         {
           "name": "Omnapoxy",
@@ -527,17 +527,17 @@
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 1495
+          "stock": 948
         },
         {
           "name": "Gold",
           "price": 28928,
-          "stock": 63
+          "stock": 197
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1689
+          "stock": 1608
         }
       ],
       "sell": [
@@ -567,7 +567,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Thermalfoam",
@@ -575,11 +575,11 @@
         },
         {
           "name": "Agricium",
-          "price": 9600
+          "price": 10000
         },
         {
           "name": "Titanium",
-          "price": 9200
+          "price": 7700
         }
       ]
     },
@@ -3432,7 +3432,7 @@
         {
           "name": "Agricium",
           "price": 6840,
-          "stock": 39
+          "stock": 252
         },
         {
           "name": "Human Food Bars",
@@ -3481,7 +3481,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2100
+          "price": 1900
         },
         {
           "name": "E'tam",
@@ -3517,7 +3517,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5700
+          "price": 4800
         },
         {
           "name": "Processed Food",
@@ -3549,7 +3549,7 @@
         },
         {
           "name": "Steel",
-          "price": 2500
+          "price": 2100
         },
         {
           "name": "Stims",
@@ -3565,7 +3565,7 @@
         },
         {
           "name": "Tritium",
-          "price": 35000
+          "price": 34000
         }
       ]
     },
