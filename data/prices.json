@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:45:51.378795+00:00",
+  "generated_at": "2026-10-31T13:26:18.502259+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 2100
+          "stock": 1360
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 845
+          "stock": 0
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 4525
+          "stock": 2130
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 24000
+          "stock": 23737
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -140,11 +140,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 3700
+          "price": 4200
         },
         {
           "name": "Corundum",
-          "price": 3900
+          "price": 4000
         },
         {
           "name": "Fluorine",
@@ -185,7 +185,7 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 2100
+          "stock": 361
         },
         {
           "name": "Recycled Material Composite",
@@ -200,22 +200,22 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 1050
+          "stock": 98
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 103
+          "stock": 180
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 6000
+          "stock": 2379
         },
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 3000
+          "stock": 2660
         },
         {
           "name": "Ammonia",
@@ -225,7 +225,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 7
+          "stock": 0
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -315,7 +315,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Degnous Root",
@@ -343,7 +343,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1400
+          "price": 1500
         },
         {
           "name": "Human Food Bars",
@@ -402,7 +402,7 @@
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 2891
+          "stock": 18
         }
       ],
       "sell": [
@@ -470,12 +470,12 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 2100
+          "stock": 491
         },
         {
           "name": "Medical Supplies",
           "price": 4401,
-          "stock": 759
+          "stock": 193
         }
       ],
       "sell": [
@@ -509,11 +509,11 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3500
+          "price": 3400
         },
         {
           "name": "Methane",
-          "price": 4100
+          "price": 3400
         }
       ]
     },
@@ -4341,12 +4341,12 @@
         {
           "name": "Scrap",
           "price": 3265,
-          "stock": 1019
+          "stock": 131
         },
         {
           "name": "Methane",
           "price": 3312,
-          "stock": 18000
+          "stock": 16815
         },
         {
           "name": "Recycled Material Composite",
@@ -4566,7 +4566,7 @@
         },
         {
           "name": "Agricium",
-          "price": 10000
+          "price": 9900
         },
         {
           "name": "Borase",
@@ -4574,7 +4574,7 @@
         },
         {
           "name": "Laranite",
-          "price": 9200
+          "price": 8500
         },
         {
           "name": "Bexalite",
@@ -4606,7 +4606,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3800
+          "price": 3600
         },
         {
           "name": "Iron",
