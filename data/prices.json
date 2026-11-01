@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T22:19:09.399926+00:00",
+  "generated_at": "2026-11-01T01:58:02.381402+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2580,7 +2580,7 @@
         {
           "name": "Tungsten",
           "price": 8265,
-          "stock": 20
+          "stock": 371
         },
         {
           "name": "Quartz",
