@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T00:52:53.091777+00:00",
+  "generated_at": "2026-11-03T07:41:54.589858+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -588,7 +588,7 @@
         {
           "name": "Waste",
           "price": 229,
-          "stock": 29
+          "stock": 75
         },
         {
           "name": "Scrap",
@@ -615,7 +615,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5400
+          "price": 5100
         },
         {
           "name": "Party Favors",
@@ -627,7 +627,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 14000
         },
         {
           "name": "Agricium",
@@ -639,11 +639,11 @@
         },
         {
           "name": "Omnapoxy",
-          "price": 5300
+          "price": 5700
         },
         {
           "name": "Hephaestanite",
-          "price": 4800
+          "price": 4600
         }
       ]
     },
@@ -3363,7 +3363,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3000
+          "price": 2900
         },
         {
           "name": "Distilled Spirits",
@@ -3371,15 +3371,15 @@
         },
         {
           "name": "Beryl",
-          "price": 19000
+          "price": 20000
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 5500
         },
         {
           "name": "Pitambu",
@@ -4978,7 +4978,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3300
+          "price": 3700
         },
         {
           "name": "Chlorine",
@@ -4986,7 +4986,7 @@
         },
         {
           "name": "Copper",
-          "price": 3900
+          "price": 4700
         },
         {
           "name": "Degnous Root",
@@ -5014,7 +5014,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Corundum",
