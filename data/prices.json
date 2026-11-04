@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T21:40:08.056216+00:00",
+  "generated_at": "2026-11-04T01:59:09.018874+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -200,12 +200,12 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 272
+          "stock": 315
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 150
+          "stock": 120
         },
         {
           "name": "Agricultural Supplies",
@@ -225,7 +225,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 995
+          "stock": 1050
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -2191,12 +2191,12 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 94
+          "stock": 10
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 55
+          "stock": 28
         },
         {
           "name": "Corundum",
