@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T10:32:15.531152+00:00",
+  "generated_at": "2026-11-06T17:50:37.162934+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 426
+          "stock": 1194
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 725
+          "stock": 1726
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 821
+          "stock": 1595
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 22297
+          "stock": 24000
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -88,7 +88,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5700
+          "price": 5300
         },
         {
           "name": "Audio-Visual Equipment",
@@ -120,7 +120,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4600
         },
         {
           "name": "Hydrogen",
@@ -132,7 +132,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Ammonia",
@@ -140,11 +140,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 4100
+          "price": 4200
         },
         {
           "name": "Corundum",
-          "price": 3700
+          "price": 4100
         },
         {
           "name": "Fluorine",
@@ -527,12 +527,12 @@
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 1155
+          "stock": 485
         },
         {
           "name": "Gold",
           "price": 28928,
-          "stock": 186
+          "stock": 49
         },
         {
           "name": "Scrap",
@@ -567,7 +567,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Thermalfoam",
@@ -575,11 +575,11 @@
         },
         {
           "name": "Agricium",
-          "price": 9600
+          "price": 10000
         },
         {
           "name": "Titanium",
-          "price": 9100
+          "price": 7700
         }
       ]
     },
@@ -747,7 +747,7 @@
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5100
         },
         {
           "name": "Distilled Spirits",
@@ -759,7 +759,7 @@
         },
         {
           "name": "Stims",
-          "price": 5400
+          "price": 4900
         },
         {
           "name": "Dolivine",
@@ -2580,17 +2580,17 @@
         {
           "name": "Tungsten",
           "price": 8265,
-          "stock": 75
+          "stock": 133
         },
         {
           "name": "Quartz",
           "price": 3705,
-          "stock": 811
+          "stock": 6000
         },
         {
           "name": "Laranite",
-          "price": 7047,
-          "stock": 597
+          "price": 7400,
+          "stock": 1050
         }
       ],
       "sell": [
@@ -4619,7 +4619,7 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 874
+          "stock": 2050
         },
         {
           "name": "Fluorine",
@@ -4644,17 +4644,17 @@
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 5539
+          "stock": 6000
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 1050
+          "stock": 275
         },
         {
           "name": "Tin",
           "price": 3289,
-          "stock": 33
+          "stock": 399
         },
         {
           "name": "Mercury",
@@ -4669,7 +4669,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 12000
+          "stock": 9709
         },
         {
           "name": "Recycled Material Composite",
@@ -4816,7 +4816,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4800
+          "price": 5700
         },
         {
           "name": "Scrap",
@@ -4832,7 +4832,7 @@
         },
         {
           "name": "Quartz",
-          "price": 5400
+          "price": 5200
         },
         {
           "name": "Tungsten",
