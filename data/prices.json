@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T22:50:56.778775+00:00",
+  "generated_at": "2026-11-07T02:36:25.187016+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -2580,17 +2580,17 @@
         {
           "name": "Tungsten",
           "price": 8265,
-          "stock": 133
+          "stock": 2
         },
         {
           "name": "Quartz",
           "price": 3705,
-          "stock": 6000
+          "stock": 3772
         },
         {
           "name": "Laranite",
           "price": 7400,
-          "stock": 1050
+          "stock": 1002
         }
       ],
       "sell": [
@@ -2702,7 +2702,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 241
+          "stock": 7
         },
         {
           "name": "Gold",
@@ -2712,7 +2712,7 @@
         {
           "name": "Hephaestanite",
           "price": 3303,
-          "stock": 372
+          "stock": 41
         },
         {
           "name": "Human Food Bars",
@@ -2727,7 +2727,7 @@
         {
           "name": "Stims",
           "price": 4467,
-          "stock": 823
+          "stock": 180
         }
       ],
       "sell": [
@@ -3432,7 +3432,7 @@
         {
           "name": "Agricium",
           "price": 6840,
-          "stock": 228
+          "stock": 48
         },
         {
           "name": "Human Food Bars",
@@ -3469,7 +3469,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 30000
+          "price": 29000
         },
         {
           "name": "Carbon-Silk",
@@ -3481,7 +3481,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 2000
+          "price": 2100
         },
         {
           "name": "E'tam",
@@ -3493,7 +3493,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4400
         },
         {
           "name": "Iron",
@@ -3509,7 +3509,7 @@
         },
         {
           "name": "Methane",
-          "price": 3300
+          "price": 3500
         },
         {
           "name": "Neon",
@@ -3517,7 +3517,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5700
+          "price": 4900
         },
         {
           "name": "Processed Food",
@@ -3549,7 +3549,7 @@
         },
         {
           "name": "Steel",
-          "price": 2500
+          "price": 1900
         },
         {
           "name": "Stims",
@@ -3565,7 +3565,7 @@
         },
         {
           "name": "Tritium",
-          "price": 35000
+          "price": 34000
         }
       ]
     },
@@ -4882,32 +4882,32 @@
         {
           "name": "Hephaestanite",
           "price": 3966,
-          "stock": 90
+          "stock": 681
         },
         {
           "name": "Hydrogen",
           "price": 782,
-          "stock": 12000
+          "stock": 11685
         },
         {
           "name": "Medical Supplies",
           "price": 3971,
-          "stock": 1050
+          "stock": 142
         },
         {
           "name": "Scrap",
           "price": 3172,
-          "stock": 1860
+          "stock": 1672
         },
         {
           "name": "Quartz",
           "price": 3891,
-          "stock": 193
+          "stock": 1050
         },
         {
           "name": "Agricultural Supplies",
           "price": 1031,
-          "stock": 6000
+          "stock": 439
         },
         {
           "name": "Quantum Fuel",
@@ -4978,7 +4978,7 @@
       "sell": [
         {
           "name": "Astatine",
-          "price": 3100
+          "price": 3700
         },
         {
           "name": "Chlorine",
@@ -5014,15 +5014,15 @@
         },
         {
           "name": "Aluminum",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Corundum",
-          "price": 3600
+          "price": 4100
         },
         {
           "name": "Silicon",
-          "price": 2400
+          "price": 2300
         },
         {
           "name": "Tungsten",
