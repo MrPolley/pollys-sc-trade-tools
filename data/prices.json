@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T09:44:31.146854+00:00",
+  "generated_at": "2026-11-07T16:10:02.347532+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -527,17 +527,17 @@
         {
           "name": "Astatine",
           "price": 2649,
-          "stock": 485
+          "stock": 780
         },
         {
           "name": "Gold",
           "price": 28928,
-          "stock": 49
+          "stock": 25
         },
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 2100
+          "stock": 1019
         }
       ],
       "sell": [
@@ -567,7 +567,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12739
         },
         {
           "name": "Thermalfoam",
