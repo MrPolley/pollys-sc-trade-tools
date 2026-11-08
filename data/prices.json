@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T19:24:23.766281+00:00",
+  "generated_at": "2026-11-08T23:29:01.183677+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -667,18 +667,18 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 384
+          "stock": 838
         },
         {
           "name": "Methane",
           "price": 3033,
-          "stock": 129
+          "stock": 123
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5400
+          "price": 5600
         },
         {
           "name": "Distilled Spirits",
@@ -1316,13 +1316,13 @@
         {
           "name": "Diamond",
           "price": 6269,
-          "stock": 220
+          "stock": 14
         }
       ],
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 5400
         },
         {
           "name": "Distilled Spirits",
@@ -1346,7 +1346,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 13100
         },
         {
           "name": "Marok Gem",
@@ -1354,7 +1354,7 @@
         },
         {
           "name": "Thermalfoam",
-          "price": 7000
+          "price": 6900
         },
         {
           "name": "Beryl",
@@ -1366,7 +1366,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3500
+          "price": 2900
         }
       ]
     },
@@ -4619,7 +4619,7 @@
         {
           "name": "Copper",
           "price": 3658,
-          "stock": 1665
+          "stock": 2050
         },
         {
           "name": "Fluorine",
@@ -4639,17 +4639,17 @@
         {
           "name": "Steel",
           "price": 1733,
-          "stock": 3000
+          "stock": 1392
         },
         {
           "name": "Aluminum",
           "price": 3441,
-          "stock": 6000
+          "stock": 4261
         },
         {
           "name": "Corundum",
           "price": 3159,
-          "stock": 843
+          "stock": 1050
         },
         {
           "name": "Tin",
