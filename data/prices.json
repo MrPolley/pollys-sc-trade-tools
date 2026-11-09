@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T23:29:01.183677+00:00",
+  "generated_at": "2026-11-09T05:19:33.371570+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -200,7 +200,7 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 385
+          "stock": 1050
         },
         {
           "name": "Quartz",
@@ -215,17 +215,17 @@
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 3000
+          "stock": 1391
         },
         {
           "name": "Ammonia",
           "price": 783,
-          "stock": 11308
+          "stock": 12000
         },
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 500
+          "stock": 848
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -291,7 +291,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5700
+          "price": 4700
         },
         {
           "name": "Dolivine",
@@ -299,7 +299,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1200
+          "price": 1000
         },
         {
           "name": "Aphorite",
@@ -335,7 +335,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 4200
+          "price": 3800
         },
         {
           "name": "Chlorine",
@@ -343,7 +343,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1500
+          "price": 1300
         },
         {
           "name": "Human Food Bars",
@@ -1882,7 +1882,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4600
+          "price": 5200
         },
         {
           "name": "Agricium",
@@ -1934,7 +1934,7 @@
         },
         {
           "name": "Taranite",
-          "price": 27000
+          "price": 28000
         },
         {
           "name": "Quantainium",
@@ -1942,7 +1942,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 5400
+          "price": 4500
         },
         {
           "name": "Bexalite",
@@ -2062,7 +2062,7 @@
         },
         {
           "name": "Carbon-Silk",
-          "price": 20000
+          "price": 19000
         },
         {
           "name": "Cobalt",
@@ -2142,7 +2142,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Beradom",
