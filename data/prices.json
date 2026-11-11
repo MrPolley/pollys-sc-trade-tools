@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:36:05.602192+00:00",
+  "generated_at": "2026-11-11T10:29:28.271224+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -140,7 +140,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 4100
+          "price": 3500
         },
         {
           "name": "Corundum",
@@ -200,17 +200,17 @@
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 1050
+          "stock": 8
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 1050
+          "stock": 105
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 6000
+          "stock": 5613
         },
         {
           "name": "DynaFlex",
@@ -225,7 +225,7 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 838
+          "stock": 176
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -299,7 +299,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 970
+          "price": 1200
         },
         {
           "name": "Aphorite",
@@ -315,7 +315,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Degnous Root",
@@ -335,7 +335,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3500
+          "price": 3900
         },
         {
           "name": "Chlorine",
@@ -343,7 +343,7 @@
         },
         {
           "name": "Fluorine",
-          "price": 1400
+          "price": 1500
         },
         {
           "name": "Human Food Bars",
@@ -667,7 +667,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 2100
+          "stock": 40
         },
         {
           "name": "Methane",
@@ -4510,7 +4510,7 @@
         },
         {
           "name": "Copper",
-          "price": 4400
+          "price": 3600
         },
         {
           "name": "Fluorine",
@@ -4594,7 +4594,7 @@
         },
         {
           "name": "Stims",
-          "price": 5600
+          "price": 5300
         },
         {
           "name": "Construction Materials",
