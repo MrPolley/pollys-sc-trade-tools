@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:52:30.295857+00:00",
+  "generated_at": "2026-11-17T21:33:32.488421+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,22 +7,22 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 174
+          "stock": 1458
         },
         {
           "name": "Steel",
           "price": 1376,
-          "stock": 414
+          "stock": 1666
         },
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 172
+          "stock": 1302
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 24000
+          "stock": 21675
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -87,13 +87,13 @@
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 172
+          "stock": 5680
         }
       ],
       "sell": [
         {
           "name": "Stims",
-          "price": 5500
+          "price": 5600
         },
         {
           "name": "Audio-Visual Equipment",
@@ -125,7 +125,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4600
+          "price": 4300
         },
         {
           "name": "Hydrogen",
@@ -137,7 +137,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 12000
+          "price": 13000
         },
         {
           "name": "Ammonia",
@@ -145,11 +145,11 @@
         },
         {
           "name": "Aluminum",
-          "price": 3600
+          "price": 4200
         },
         {
           "name": "Corundum",
-          "price": 4100
+          "price": 4000
         },
         {
           "name": "Fluorine",
@@ -189,8 +189,8 @@
       "buy": [
         {
           "name": "Scrap",
-          "price": 3106,
-          "stock": 838
+          "price": 3109,
+          "stock": 615
         },
         {
           "name": "Recycled Material Composite",
@@ -200,37 +200,37 @@
         {
           "name": "Waste",
           "price": 200,
-          "stock": 90000
+          "stock": 88320
         },
         {
           "name": "Copper",
           "price": 3198,
-          "stock": 747
+          "stock": 91
         },
         {
           "name": "Quartz",
           "price": 3563,
-          "stock": 332
+          "stock": 0
         },
         {
           "name": "Agricultural Supplies",
           "price": 1122,
-          "stock": 1695
+          "stock": 734
         },
         {
           "name": "DynaFlex",
           "price": 1716,
-          "stock": 2275
+          "stock": 742
         },
         {
           "name": "Ammonia",
           "price": 783,
-          "stock": 12000
+          "stock": 4884
         },
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 378
+          "stock": 54
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -296,7 +296,7 @@
       "sell": [
         {
           "name": "Stims",
-          "price": 5300
+          "price": 5700
         },
         {
           "name": "Dolivine",
@@ -304,7 +304,7 @@
         },
         {
           "name": "Hydrogen",
-          "price": 1200
+          "price": 1000
         },
         {
           "name": "Aphorite",
@@ -340,7 +340,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 4400
+          "price": 3500
         },
         {
           "name": "Chlorine",
@@ -348,11 +348,11 @@
         },
         {
           "name": "Fluorine",
-          "price": 1500
+          "price": 1400
         },
         {
           "name": "Human Food Bars",
-          "price": 480
+          "price": 490
         },
         {
           "name": "Tin",
@@ -1162,12 +1162,12 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1974
+          "stock": 122
         },
         {
           "name": "Agricium",
           "price": 8978,
-          "stock": 289
+          "stock": 11
         }
       ],
       "sell": [
@@ -1185,7 +1185,7 @@
         },
         {
           "name": "Stims",
-          "price": 4900
+          "price": 5600
         },
         {
           "name": "Dolivine",
@@ -1201,7 +1201,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4600
+          "price": 5500
         },
         {
           "name": "Marok Gem",
@@ -1213,7 +1213,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7100
+          "price": 7200
         },
         {
           "name": "Construction Materials",
@@ -1221,11 +1221,11 @@
         },
         {
           "name": "Laranite",
-          "price": 9800
+          "price": 8500
         },
         {
           "name": "Omnapoxy",
-          "price": 4500
+          "price": 5000
         },
         {
           "name": "Thermalfoam",
@@ -1327,7 +1327,7 @@
       "sell": [
         {
           "name": "Medical Supplies",
-          "price": 5300
+          "price": 5200
         },
         {
           "name": "Distilled Spirits",
@@ -1351,7 +1351,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 13000
+          "price": 12000
         },
         {
           "name": "Marok Gem",
@@ -1371,7 +1371,7 @@
         },
         {
           "name": "Nitrogen",
-          "price": 3500
+          "price": 3300
         }
       ]
     },
@@ -2196,12 +2196,12 @@
         {
           "name": "Agricium",
           "price": 8379,
-          "stock": 63
+          "stock": 7
         },
         {
           "name": "Construction Materials",
           "price": 8640,
-          "stock": 57
+          "stock": 35
         },
         {
           "name": "Corundum",
@@ -2266,12 +2266,12 @@
         {
           "name": "Beryl",
           "price": 15390,
-          "stock": 58
+          "stock": 1
         },
         {
           "name": "Iron",
           "price": 2349,
-          "stock": 117
+          "stock": 1
         }
       ],
       "sell": [
@@ -2305,7 +2305,7 @@
         },
         {
           "name": "Audio-Visual Equipment",
-          "price": 38000
+          "price": 39000
         },
         {
           "name": "Bexalite",
@@ -2313,7 +2313,7 @@
         },
         {
           "name": "Bioplastic",
-          "price": 8400
+          "price": 8200
         },
         {
           "name": "Borase",
@@ -2353,7 +2353,7 @@
         },
         {
           "name": "Diamond Laminate",
-          "price": 98000
+          "price": 99000
         },
         {
           "name": "Distilled Spirits",
@@ -2405,7 +2405,7 @@
         },
         {
           "name": "Iodine",
-          "price": 11000
+          "price": 13000
         },
         {
           "name": "Janalite",
@@ -2433,7 +2433,7 @@
         },
         {
           "name": "Methane",
-          "price": 3500
+          "price": 3600
         },
         {
           "name": "Nitrogen",
@@ -2477,15 +2477,15 @@
         },
         {
           "name": "Riccite",
-          "price": 71000
+          "price": 72000
         },
         {
           "name": "Recycled Material Composite",
-          "price": 6300
+          "price": 6500
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3700
         },
         {
           "name": "Silicon",
@@ -2505,7 +2505,7 @@
         },
         {
           "name": "Stims",
-          "price": 5300
+          "price": 5100
         },
         {
           "name": "Sunset Berries",
@@ -2569,7 +2569,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 46000
+          "price": 45000
         },
         {
           "name": "Hydrogen",
@@ -2717,7 +2717,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 77
+          "stock": 2
         },
         {
           "name": "Gold",
@@ -2727,12 +2727,12 @@
         {
           "name": "Hephaestanite",
           "price": 3303,
-          "stock": 382
+          "stock": 2
         },
         {
           "name": "Human Food Bars",
           "price": 416,
-          "stock": 6000
+          "stock": 4040
         },
         {
           "name": "Tungsten",
@@ -2742,13 +2742,13 @@
         {
           "name": "Stims",
           "price": 4467,
-          "stock": 392
+          "stock": 1
         }
       ],
       "sell": [
         {
           "name": "Altruciatoxin",
-          "price": 5700
+          "price": 6400
         },
         {
           "name": "Revenant Tree Pollen",
@@ -2756,7 +2756,7 @@
         },
         {
           "name": "Agricium",
-          "price": 11000
+          "price": 10000
         },
         {
           "name": "Carbon-Silk",
@@ -2764,7 +2764,7 @@
         },
         {
           "name": "Copper",
-          "price": 4200
+          "price": 4700
         },
         {
           "name": "Corundum",
@@ -2772,11 +2772,11 @@
         },
         {
           "name": "Diamond",
-          "price": 6800
+          "price": 8200
         },
         {
           "name": "Cobalt",
-          "price": 20000
+          "price": 22000
         },
         {
           "name": "Borase",
@@ -2784,11 +2784,11 @@
         },
         {
           "name": "Beryl",
-          "price": 19000
+          "price": 23000
         },
         {
           "name": "Bexalite",
-          "price": 29000
+          "price": 28000
         },
         {
           "name": "Distilled Spirits",
@@ -2808,7 +2808,7 @@
         },
         {
           "name": "Laranite",
-          "price": 9700
+          "price": 8100
         },
         {
           "name": "Medical Supplies",
@@ -2848,7 +2848,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 3500
         },
         {
           "name": "Silicon",
@@ -3099,7 +3099,7 @@
         {
           "name": "Helium",
           "price": 727,
-          "stock": 36000
+          "stock": 33731
         },
         {
           "name": "Potassium",
@@ -3109,12 +3109,12 @@
         {
           "name": "Pressurized Ice",
           "price": 4536,
-          "stock": 2366
+          "stock": 4302
         },
         {
           "name": "Silicon",
           "price": 1881,
-          "stock": 642
+          "stock": 241
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -3182,11 +3182,11 @@
         },
         {
           "name": "Borase",
-          "price": 27000
+          "price": 26000
         },
         {
           "name": "Agricium",
-          "price": 9100
+          "price": 9200
         },
         {
           "name": "Human Food Bars",
@@ -3294,7 +3294,7 @@
         },
         {
           "name": "Laranite",
-          "price": 8700
+          "price": 8100
         },
         {
           "name": "Inert Materials",
@@ -3354,7 +3354,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 46000
+          "price": 45000
         },
         {
           "name": "Aslarite",
@@ -3390,7 +3390,7 @@
         },
         {
           "name": "Construction Materials",
-          "price": 11000
+          "price": 12000
         },
         {
           "name": "Hephaestanite",
@@ -3644,7 +3644,7 @@
         {
           "name": "Agricultural Supplies",
           "price": 1015,
-          "stock": 199
+          "stock": 1148
         },
         {
           "name": "Human Food Bars",
@@ -3654,17 +3654,17 @@
         {
           "name": "Hydrogen",
           "price": 752,
-          "stock": 11939
+          "stock": 9307
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 186
+          "stock": 487
         },
         {
           "name": "Omnapoxy",
           "price": 3521,
-          "stock": 121
+          "stock": 154
         }
       ],
       "sell": [
@@ -3678,7 +3678,7 @@
         },
         {
           "name": "Aluminum",
-          "price": 3400
+          "price": 4000
         },
         {
           "name": "Beryl",
@@ -3686,7 +3686,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 28000
+          "price": 30000
         },
         {
           "name": "Carbon-Silk",
@@ -3710,7 +3710,7 @@
         },
         {
           "name": "Helium",
-          "price": 1200
+          "price": 1000
         },
         {
           "name": "Hephaestanite",
@@ -3718,11 +3718,11 @@
         },
         {
           "name": "Iron",
-          "price": 3600
+          "price": 3500
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 9700
         },
         {
           "name": "Medical Supplies",
@@ -3742,7 +3742,7 @@
         },
         {
           "name": "Pressurized Ice",
-          "price": 5200
+          "price": 4800
         },
         {
           "name": "Processed Food",
@@ -3762,7 +3762,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 3700
         },
         {
           "name": "Silicon",
@@ -3796,7 +3796,7 @@
         {
           "name": "Aluminum",
           "price": 2584,
-          "stock": 1056
+          "stock": 19
         },
         {
           "name": "Ammonia",
@@ -3811,17 +3811,17 @@
         {
           "name": "Copper",
           "price": 2660,
-          "stock": 197
+          "stock": 26
         },
         {
           "name": "Silicon",
           "price": 1777,
-          "stock": 447
+          "stock": 11
         },
         {
           "name": "WiDoW",
           "price": 5929,
-          "stock": 303
+          "stock": 255
         },
         {
           "name": "Ship Ammunition - Size 2",
@@ -3861,7 +3861,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 11840
         },
         {
           "name": "Ship Decoy Countermeasures",
@@ -3915,7 +3915,7 @@
         },
         {
           "name": "DynaFlex",
-          "price": 1800
+          "price": 1700
         },
         {
           "name": "Fluorine",
@@ -3923,11 +3923,11 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4500
+          "price": 4600
         },
         {
           "name": "Human Food Bars",
-          "price": 470
+          "price": 460
         },
         {
           "name": "Iron",
@@ -3955,11 +3955,11 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3400
         },
         {
           "name": "Stims",
-          "price": 4900
+          "price": 5000
         },
         {
           "name": "Tin",
@@ -3967,7 +3967,7 @@
         },
         {
           "name": "Titanium",
-          "price": 9800
+          "price": 7700
         },
         {
           "name": "Tungsten",
@@ -4190,27 +4190,27 @@
         {
           "name": "Cobalt",
           "price": 18050,
-          "stock": 24
+          "stock": 18
         },
         {
           "name": "DynaFlex",
           "price": 1350,
-          "stock": 1612
+          "stock": 24
         },
         {
           "name": "Human Food Bars",
           "price": 416,
-          "stock": 6000
+          "stock": 4720
         },
         {
           "name": "Nitrogen",
           "price": 2439,
-          "stock": 365
+          "stock": 1
         },
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 1050
+          "stock": 2
         },
         {
           "name": "Fluorine",
@@ -4257,7 +4257,7 @@
         },
         {
           "name": "Diamond",
-          "price": 7400
+          "price": 7300
         },
         {
           "name": "E'tam",
@@ -4285,7 +4285,7 @@
         },
         {
           "name": "Methane",
-          "price": 4200
+          "price": 3300
         },
         {
           "name": "Neon",
@@ -4309,7 +4309,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3700
+          "price": 3400
         },
         {
           "name": "Silicon",
@@ -4329,15 +4329,15 @@
         },
         {
           "name": "Titanium",
-          "price": 7700
+          "price": 8100
         },
         {
           "name": "WiDoW",
-          "price": 7600
+          "price": 7000
         },
         {
           "name": "Altruciatoxin",
-          "price": 6300
+          "price": 5400
         }
       ]
     },
@@ -4361,7 +4361,7 @@
         {
           "name": "Scrap",
           "price": 3265,
-          "stock": 121
+          "stock": 482
         },
         {
           "name": "Methane",
@@ -4391,7 +4391,7 @@
         {
           "name": "Recycled Material Composite",
           "price": 7587,
-          "stock": 12000
+          "stock": 11992
         },
         {
           "name": "Hydrogen Fuel",
@@ -4845,7 +4845,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3265
         },
         {
           "name": "Stims",
@@ -5078,7 +5078,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 11929
+          "stock": 12000
         },
         {
           "name": "Hydrogen Fuel",
@@ -5172,7 +5172,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 4800
+          "price": 5400
         },
         {
           "name": "Distilled Spirits",
@@ -5224,7 +5224,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 28000
+          "price": 29000
         },
         {
           "name": "Hephaestanite",
@@ -5360,7 +5360,7 @@
         },
         {
           "name": "Dymantium",
-          "price": 22000
+          "price": 23000
         },
         {
           "name": "Fresh Food",
@@ -5428,7 +5428,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3400
+          "price": 3500
         },
         {
           "name": "Neograph",
