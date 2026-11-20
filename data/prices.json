@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T20:12:01.952080+00:00",
+  "generated_at": "2026-11-20T02:05:30.113172+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -657,7 +657,7 @@
         {
           "name": "Scrap",
           "price": 2990,
-          "stock": 1778
+          "stock": 122
         },
         {
           "name": "Waste",
@@ -672,7 +672,7 @@
         {
           "name": "Nitrogen",
           "price": 2561,
-          "stock": 497
+          "stock": 281
         },
         {
           "name": "Methane",
@@ -719,11 +719,11 @@
         },
         {
           "name": "Astatine",
-          "price": 3300
+          "price": 3900
         },
         {
           "name": "Hephaestanite",
-          "price": 4700
+          "price": 4800
         },
         {
           "name": "Agricium",
