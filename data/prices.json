@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T01:15:20.309077+00:00",
+  "generated_at": "2026-11-28T09:55:46.268226+00:00",
   "source": "UEX API 2.0 (commodities_prices_all)",
   "stations": {
     "Everus Harbor": {
@@ -7,7 +7,7 @@
         {
           "name": "Scrap",
           "price": 2954,
-          "stock": 242
+          "stock": 1586
         },
         {
           "name": "Steel",
@@ -17,12 +17,12 @@
         {
           "name": "Titanium",
           "price": 7315,
-          "stock": 523
+          "stock": 518
         },
         {
           "name": "Carbon",
           "price": 269,
-          "stock": 14142
+          "stock": 24000
         },
         {
           "name": "Ship Ammunition - Size 1",
@@ -87,7 +87,7 @@
         {
           "name": "Iron",
           "price": 2760,
-          "stock": 520
+          "stock": 294
         }
       ],
       "sell": [
@@ -125,7 +125,7 @@
         },
         {
           "name": "Hephaestanite",
-          "price": 4300
+          "price": 4600
         },
         {
           "name": "Hydrogen",
@@ -141,15 +141,15 @@
         },
         {
           "name": "Ammonia",
-          "price": 1000
+          "price": 920
         },
         {
           "name": "Aluminum",
-          "price": 3600
+          "price": 4000
         },
         {
           "name": "Corundum",
-          "price": 3500
+          "price": 4100
         },
         {
           "name": "Fluorine",
@@ -1608,27 +1608,27 @@
         {
           "name": "Scrap",
           "price": 3109,
-          "stock": 884
+          "stock": 1992
         },
         {
           "name": "Waste",
           "price": 189,
-          "stock": 100000
+          "stock": 97840
         },
         {
           "name": "Hephaestanite",
           "price": 4453,
-          "stock": 221
+          "stock": 1050
         },
         {
           "name": "Silicon",
           "price": 1964,
-          "stock": 621
+          "stock": 9503
         },
         {
           "name": "Corundum",
           "price": 3015,
-          "stock": 89
+          "stock": 1769
         },
         {
           "name": "Titanium",
@@ -1887,7 +1887,7 @@
         },
         {
           "name": "Medical Supplies",
-          "price": 5500
+          "price": 4600
         },
         {
           "name": "Agricium",
@@ -1951,7 +1951,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 28000
+          "price": 29000
         },
         {
           "name": "Copper",
@@ -2147,7 +2147,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3500
+          "price": 3400
         },
         {
           "name": "Beradom",
@@ -2882,17 +2882,17 @@
         {
           "name": "Hydrogen",
           "price": 708,
-          "stock": 11136
+          "stock": 691
         },
         {
           "name": "Methane",
           "price": 2745,
-          "stock": 223
+          "stock": 163
         },
         {
           "name": "Nitrogen",
           "price": 2242,
-          "stock": 181
+          "stock": 256
         },
         {
           "name": "Fluorine",
@@ -2907,12 +2907,12 @@
         {
           "name": "Stims",
           "price": 3886,
-          "stock": 485
+          "stock": 1
         },
         {
           "name": "Xa'Pyen",
           "price": 3149,
-          "stock": 19
+          "stock": 9
         },
         {
           "name": "Quantum Fuel",
@@ -5073,7 +5073,7 @@
         {
           "name": "Processed Food",
           "price": 1202,
-          "stock": 11280
+          "stock": 12000
         },
         {
           "name": "Hydrogen Fuel",
@@ -5163,11 +5163,11 @@
         },
         {
           "name": "Laranite",
-          "price": 8500
+          "price": 8600
         },
         {
           "name": "Medical Supplies",
-          "price": 5200
+          "price": 5500
         },
         {
           "name": "Distilled Spirits",
@@ -5219,7 +5219,7 @@
         },
         {
           "name": "Bexalite",
-          "price": 29000
+          "price": 28000
         },
         {
           "name": "Hephaestanite",
@@ -5423,7 +5423,7 @@
         },
         {
           "name": "Scrap",
-          "price": 3600
+          "price": 3400
         },
         {
           "name": "Neograph",
@@ -5467,7 +5467,7 @@
         },
         {
           "name": "Ouratite",
-          "price": 42000
+          "price": 43000
         },
         {
           "name": "Sadaryx",
